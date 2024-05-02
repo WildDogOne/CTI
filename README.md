@@ -27,6 +27,23 @@ DeviceNetworkEvents
 | project DeviceName, RemoteIP, score
 ```
 
+Or being a bit recursive to try and weed out false positives from CDN
+```
+let indicators = (externaldata(ipv4:string, score:int)
+[@"https://raw.githubusercontent.com/WildDogOne/CTI/main/ipv4.csv"] with (format="csv", ignoreFirstRecord=true));
+let indicatorsv2 = DeviceNetworkEvents
+| where isnotempty(RemoteIP)
+| join kind=inner indicators on $left.RemoteIP == $right.ipv4
+//| project DeviceName, RemoteIP, RemoteUrl, score
+| summarize x = count_distinct(RemoteUrl) by RemoteIP
+| where x < 2;
+DeviceNetworkEvents
+| where isnotempty(RemoteIP)
+| join kind=inner indicatorsv2 on $left.RemoteIP == $right.RemoteIP
+| project DeviceName, RemoteIP, RemoteUrl
+
+```
+
 ### URLs
 
 ```
