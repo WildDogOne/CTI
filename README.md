@@ -42,8 +42,7 @@ Or plain ignore if it's http/s
 
 ```
 let indicators = (externaldata(url:string, score:int)
-[@"https://raw.githubusercontent.com/WildDogOne/CTI/main/urls.csv"] with (format="csv", ignoreFirstRecord=true));
-indicators
+[@"https://raw.githubusercontent.com/WildDogOne/CTI/main/urls.csv"] with (format="csv", ignoreFirstRecord=true))
 | extend url = replace_string(url, "http://","")
 | extend url = replace_string(url, "https://","");
 DeviceNetworkEvents
