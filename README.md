@@ -41,7 +41,7 @@ let indicatorsv2 = DeviceNetworkEvents
 DeviceNetworkEvents
 | where isnotempty(RemoteIP)
 | join kind=inner indicatorsv2 on $left.RemoteIP == $right.RemoteIP
-| project DeviceName, RemoteIP, RemoteUrl, description
+| project Timestamp, DeviceName, DeviceId, RemoteIP, RemoteUrl, description, ReportId
 ```
 
 ### URLs
