@@ -32,16 +32,28 @@ Or being a bit recursive to try and weed out false positives from CDN
 let indicators = (externaldata(ipv4:string, score:int, description:string)
 [@"https://raw.githubusercontent.com/WildDogOne/CTI/main/ipv4.csv"] with (format="csv", ignoreFirstRecord=true));
 let indicatorsv2 = DeviceNetworkEvents
+| where Timestamp > ago(1d)
 | where isnotempty(RemoteIP)
 | where ipv4_is_private(RemoteIP) == false
 | join kind=inner indicators on $left.RemoteIP == $right.ipv4
-//| project DeviceName, RemoteIP, RemoteUrl, score
+// Check if the Same IP has been seen with many Domains
+// This can indicate a CDN, which makes it nearly impossible to use IP IOCs
 | summarize x = count_distinct(RemoteUrl) by RemoteIP, description
 | where x < 2;
 DeviceNetworkEvents
+| where Timestamp > ago(1h)
 | where isnotempty(RemoteIP)
 | join kind=inner indicatorsv2 on $left.RemoteIP == $right.RemoteIP
-| project Timestamp, DeviceName, DeviceId, RemoteIP, RemoteUrl, description, ReportId
+| distinct Timestamp,
+    DeviceName,
+    DeviceId,
+    RemoteIP,
+    RemoteUrl,
+    description,
+    ReportId,
+    InitiatingProcessFileName,
+    InitiatingProcessAccountName,
+    InitiatingProcessParentFileName
 ```
 
 ### URLs
