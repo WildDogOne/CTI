@@ -2825,157 +2825,6678 @@ ipv4,score,description
 162.243.132.52,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:17+00:00
 165.154.120.223,100,Agressive IP known malicious on AbuseIPDB - countryCode: TH - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:17+00:00
 185.94.188.130,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:17+00:00
-217.211.156.125,100,Agressive IP known malicious on AbuseIPDB - countryCode: SE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:17+00:00
+217.211.156.125,50,"**ISP:** Telia Company AB
+
+**OS:** -
+
+--------------------------
+Services:
+
+**23:**
+```
+PBOC login:
+```
+HEARTBLEED: 2024/05/02 10:47:50 217.211.156.125:23 - ERROR: tls: oversized record received with length 65533
+
+------------------
+**80:**
+```
+HTTP/1.0 200 OK
+X-Powered-By: PHP/5.2.17
+Set-Cookie: PHPSESSID=7i0rjv75mbnlhmjr99m4st4982; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-type: text/html
+```
+------------------
+**8443:**
+```
+
+```
+HEARTBLEED: 2024/05/02 15:30:06 217.211.156.125:8443 - SAFE
+
+------------------"
 220.86.51.73,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:17+00:00
-14.39.149.249,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
+14.39.149.249,50,**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 Ftp firmware update utility
+```
+------------------
+**22:**
+```
+SSH-2.0-dropbear_2019.78
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDP93eQDjVRI/fOmLzIDCyy346/PMThkG69JYpt9+hCgFES
+1Yt0qVehNZJ+7HsHz40EKfEdF0KqS3Kik8hVxwTXxf370YABmtg3mvWyo5VAwhs+FWArJxnOsLz2
+qS07RHRa9M4DusHhPfUBFm+pb1/IlJRew93iytXA0OUs+0I07c+2LP4DGPnB5CH1xI4Hui33hgs3
+cpAy5Pkhsu8wytOk2oxKUiVknisHlLjirtTrvlfa6h6Lv3oX3N9u9Dh34zxnFaNGMJdW2GnSBxzr
+NiOARH7G0Gi5kng0EWLTY6qCkDcTF2A6ztvaUVsdrxhJL0hU0QcG7NELQ5dzZwuenqrF
+Fingerprint: ee:5d:66:7a:1a:12:db:a6:38:46:1d:ac:06:80:06:40
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ssh-rsa
+
+Encryption Algorithms:
+	aes128-ctr
+	aes256-ctr
+	aes128-cbc
+	aes256-cbc
+	3des-ctr
+	3des-cbc
+
+MAC Algorithms:
+	hmac-sha1-96
+	hmac-sha1
+	hmac-sha2-256
+
+Compression Algorithms:
+	none
+```
+------------------
+**23:**
+```
+BCM94908 Broadband Router
+Login:
+```
+HEARTBLEED: 2024/05/02 07:57:23 14.39.149.249:23 - ERROR: read tcp 14.39.149.249:23: connection reset by peer
+
+------------------
+**53:**
+```
+Recursion: enabled
+Resolver name: none
+```
+------------------
 23.90.165.35,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
 23.251.102.195,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-58.138.32.223,100,Agressive IP known malicious on AbuseIPDB - countryCode: JP - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-64.62.197.143,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-179.42.153.0,100,Agressive IP known malicious on AbuseIPDB - countryCode: BR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
+58.138.32.223,50,"**ISP:** Internet Initiative Japan Inc.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**500:**
+```
+VPN (IKE)
+
+Initiator SPI: 7639746966323239
+Responder SPI: 763477646e736863
+Next Payload: Notification (N)
+Version: 1.0
+Exchange Type: Informational
+Flags:
+    Encryption:     False
+    Commit:         False
+    Authentication: False
+Message ID: 00000000
+Length: 40
+```
+------------------
+**8085:**
+```
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Keep-Alive: timeout=20
+ETag: ""504-698-61404f28""
+Last-Modified: Tue, 14 Sep 2021 07:28:40 GMT
+Date: Thu, 25 Apr 2024 21:59:39 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html
+Content-Length: 1688
+```
+------------------
+**8086:**
+```
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Keep-Alive: timeout=20
+ETag: ""504-698-61404f28""
+Last-Modified: Tue, 14 Sep 2021 07:28:40 GMT
+Date: Wed, 01 May 2024 17:58:38 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html
+Content-Length: 1688
+```
+------------------
+**8087:**
+```
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Keep-Alive: timeout=20
+ETag: ""504-698-61404f28""
+Last-Modified: Tue, 14 Sep 2021 07:28:40 GMT
+Date: Fri, 19 Apr 2024 17:14:34 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html
+Content-Length: 1688
+```
+------------------"
+64.62.197.143,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1941436980""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 17:08:23 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+179.42.153.0,50,"**ISP:** Acess.Net Telecomunicacoes LTDA
+
+**OS:** -
+
+--------------------------
+Services:
+
+**161:**
+```
+SNMP:
+  Uptime: 1597252400
+  Description: RouterOS CCR1036-8G-2S+
+  Service: 78
+  Versions:
+    1
+    3
+  Name: CGNAT
+  Engineid Format: text
+  Engine Boots: 0
+  Engineid Data: 80003a8c04
+  Enterprise: 14988
+  Objectid: 1.3.6.1.4.1.14988.1
+  Engine Time: 0:00:00
+```
+------------------
+**3000:**
+```
+HTTP/1.1 200 OK
+Cache-Control: no-store
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Date: Thu, 04 Apr 2024 16:21:04 GMT
+Transfer-Encoding: chunked
+```
+------------------
+**8291:**
+```
+MikroTik Winbox:
+  index:
+    advtool.dll: 6.49.6
+    dhcp.dll: 6.49.6
+    gps.dll: 6.49.6
+    iot.dll: 6.49.6
+    ipv6.dll: 6.49.6
+    lora.dll: 6.49.6
+    ntp.dll: 6.49.6
+    oflow.dll: 6.49.6
+    pim.dll: 6.49.6
+    ppp.dll: 6.49.6
+    roteros.dll: 6.49.6
+    roting4.dll: 6.49.6
+    secure.dll: 6.49.6
+    system.dll: 6.49.6
+    tr069.dll: 6.49.6
+    ups.dll: 6.49.6
+  list:
+    advtool.jg: 6.49.6
+    dhcp.jg: 6.49.6
+    gps.jg: 6.49.6
+    icons.png: 6.49.6
+    icons24.png: 
+    icons32.png: 
+    iot.jg: 6.49.6
+    ipv6.jg: 6.49.6
+    lora.jg: 6.49.6
+    ntp.jg: 6.49.6
+    oflow.jg: 6.49.6
+    pim.jg: 6.49.6
+    ppp.jg: 6.49.6
+    roteros.jg: 6.49.6
+    roting4.jg: 6.49.6
+    secure.jg: 6.49.6
+    tr069.jg: 6.49.6
+    ups.jg: 6.49.6
+```
+------------------
+**9090:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 27 Apr 2024 03:35:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Last-Modified: Fri, 26 Aug 2022 00:03:26 GMT
+ETag: ""29af-5e719a4aa8ac5""
+Accept-Ranges: bytes
+Content-Length: 10671
+Vary: Accept-Encoding
+Content-Type: text/html
+```
+------------------"
 185.180.140.112,100,Agressive IP known malicious on AbuseIPDB - countryCode: BE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-190.115.5.17,100,Agressive IP known malicious on AbuseIPDB - countryCode: GT - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-192.241.226.56,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-193.163.125.71,100,Agressive IP known malicious on AbuseIPDB - countryCode: GB - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
+190.115.5.17,50,"**ISP:** UFINET PANAMA S.A.
+
+**OS:** MikroTik RouterOS 6.47.10
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 7064
+Content-Type: text/html
+Date: Mon, 29 Apr 2024 10:47:07 GMT
+Expires: 0
+
+
+MikroTik RouterOS:
+  Version: 6.47.10
+```
+------------------
+**1701:**
+```
+\xc8\x02\x00h\x00\x00\x00\x00\x00\x00\x00\x01\x80\x08\x00\x00\x00\x00\x00\x02\x80\x08\x00\x00\x00\x02\x01\x00\x80\n\x00\x00\x00\x03\x00\x00\x00\x01\x80\n\x00\x00\x00\x04\x00\x00\x00\x00\x00\x08\x00\x00\x00\x06\x00\x01\x80\x12\x00\x00\x00\x07Router Finca\x00\x0e\x00\x00\x00\x08MikroTik\x80\x08\x00\x00\x00\t\x01k\x80\x08\x00\x00\x00\n\x00\x04
+```
+------------------
+**2000:**
+```
+\x01\x00\x00\x00
+```
+------------------
+**8291:**
+```
+MikroTik Winbox:
+  index:
+    advtool.dll: 6.47.10
+    dhcp.dll: 6.47.10
+    hotspot.dll: 6.47.10
+    mpls.dll: 6.47.10
+    ppp.dll: 6.47.10
+    roteros.dll: 6.47.10
+    roting4.dll: 6.47.10
+    secure.dll: 6.47.10
+    system.dll: 6.47.10
+    wlan6.dll: 6.47.10
+  list:
+    advtool.jg: 6.47.10
+    dhcp.jg: 6.47.10
+    hotspot.jg: 6.47.10
+    icons.png: 6.47.10
+    icons24.png: 
+    icons32.png: 
+    mpls.jg: 6.47.10
+    ppp.jg: 6.47.10
+    roteros.jg: 6.47.10
+    roting4.jg: 6.47.10
+    secure.jg: 6.47.10
+    wlan6.jg: 6.47.10
+```
+------------------
+**8728:**
+```
+\x05!done%=ret=0cc073244e9c16e0cb573186d71d5472\x00
+```
+------------------"
+192.241.226.56,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDcJ7W/i3d8yO/VpKRJq/9EoKzo60PU7TJp/Y3W0CXAa09q
+j4FKu/++EP4pNT7WpRsx9dwfBNGQNKE9wjbz7yVSMAv8TgyuXwyfLGbgs8QdkM7PB6OMCRNjqVxe
+bqdZYQ93QKTNxHXrwRxxYgYXBRBLGyEADaX3+HHJMVfPIqvAga9Uze5vhZr2tVmd7Uf803bDm+7C
+w4EF3NQ2JvqOaxVQEglK0fak0GEpZrkzAKgsMkj2Z3VMz5Mh+4OLM22SFFbECqrLYSR2lgbE9gR8
+ysOHTEvone4ObFGKJS7f2RmgMelPBo1UisbZqsvdY7UBC3wXqyEzhrGVgJB2W5f5RtVv
+Fingerprint: 5b:db:74:c6:e1:99:c9:49:e6:9d:ee:90:00:88:25:48
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+193.163.125.71,50,"**ISP:** INTERNET MEASUREMENT
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=utf-8
+Location: https://internet-measurement.com/
+Date: Sun, 28 Apr 2024 08:15:18 GMT
+Content-Length: 56
+```
+------------------"
 223.15.10.54,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:18+00:00
-45.250.231.106,100,Agressive IP known malicious on AbuseIPDB - countryCode: BD - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
-47.97.110.75,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
-71.104.116.197,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
+45.250.231.106,50,"**ISP:** Md. Shariful Islam T/A BRISK SYSTEMS
+
+**OS:** Windows
+
+--------------------------
+Services:
+
+**53:**
+```
+Recursion: enabled
+```
+------------------
+**53:**
+```
+9.11.3-1ubuntu1.18-Ubuntu
+Recursion: enabled
+Resolver name: 06a9be42ada7
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 09 Apr 2022 08:36:46 GMT
+Accept-Ranges: bytes
+ETag: ""d131adf2ec4bd81:0""
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Tue, 30 Apr 2024 16:33:00 GMT
+Content-Length: 703
+```
+------------------
+**1433:**
+```
+MS-SQL NTLM Info:
+  OS: Windows 10 (version 1607)/Windows Server 2016 (version 1607)
+  OS Build: 10.0.14393
+  Target Name: WIN-LUQDNJ16E2A
+  NetBIOS Domain Name: WIN-LUQDNJ16E2A
+  NetBIOS Computer Name: WIN-LUQDNJ16E2A
+  DNS Domain Name: WIN-LUQDNJ16E2A
+  FQDN: WIN-LUQDNJ16E2A
+```
+------------------
+**1434:**
+```
+SQL Server Browser Service:
+  Instance #1:
+    Server Name: WIN-LUQDNJ16E2A
+    Instance Name: MSSQLSERVER
+    Is Clustered: False
+    Version: 12.0.2000.8
+    TCP Port: 1433
+    Version Name: MS-SQL Server 2014 RTM
+```
+------------------
+**5985:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Fri, 19 Apr 2024 17:19:00 GMT
+Connection: close
+Content-Length: 315
+
+
+WinRM NTLM Info:
+  OS: Windows Server 2016 (version 1607)
+  OS Build: 10.0.14393
+  Target Name: WIN-LUQDNJ16E2A
+  NetBIOS Domain Name: WIN-LUQDNJ16E2A
+  NetBIOS Computer Name: WIN-LUQDNJ16E2A
+  DNS Domain Name: WIN-LUQDNJ16E2A
+  FQDN: WIN-LUQDNJ16E2A
+```
+------------------"
+47.97.110.75,50,"**ISP:** Hangzhou Alibaba Advertising Co.,Ltd.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCpig+xWtwIgdW0PQkNozwKiKEFRL0T1jQtVUji8WARPp+b
+88POhTcIq6et5iZ3fTMZbAJ1H9LSFvcubW0BaEXR1vxvT3pzjf0ZB8zOI9QPIpeVrKbEdekbHKMS
+iaelK6tG5OhP2oRtLVde+9AlDcEaQ66lzBb+Z4UXwERbPvKssR9ecYIXsBJAsTf0A3YLQ4DFt1aw
+kh8yX3cWxRRY7+hdIsTQffwcfL4FzTODO+QL60R/Brjto7qZh5f5P/8S+iGufxCUHrp1Pn9c5nXg
+q8AliIYLUDOaVDmJBHRqvTh+hv5irQ3T4Bu8cSOYT6/u5u6eUkf7T1VWCddek0tXwok1
+Fingerprint: 4f:1a:b1:df:70:e9:df:24:54:a2:f0:23:9c:cb:36:a1
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.22.1
+Date: Wed, 01 May 2024 20:24:52 GMT
+Content-Type: text/html
+Content-Length: 786
+Last-Modified: Tue, 12 Mar 2024 08:57:32 GMT
+Connection: keep-alive
+ETag: ""65f018fc-312""
+Accept-Ranges: bytes
+```
+------------------
+**8080:**
+```
+HTTP/1.1 200 
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 01 May 2024 18:44:52 GMT
+```
+------------------
+**8085:**
+```
+HTTP/1.1 200 
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 26 Apr 2024 10:13:31 GMT
+
+7b
+{""code"":401,""message"":""暂未登录或token已经过期"",""data"":""Full authentication is required to access this resource""}
+
+0
+```
+------------------
+**9090:**
+```
+HTTP/1.1 307 Temporary Redirect
+Content-Type: text/html; charset=utf-8
+Location: http://47.97.110.75:9001
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Amz-Id-2: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
+X-Amz-Request-Id: 17C34DC1429CCC02
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Fri, 05 Apr 2024 06:16:15 GMT
+Content-Length: 60
+```
+------------------"
+71.104.116.197,50,**ISP:** Verizon Business
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-dropbear
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAAAgwCcPRgFrczSFEOgdo0+H/6D/uH+ZvRvc+fsZjEIYV7nDPCO
+clFaPActk84sWE67J4VTk5ARtLC8TO86r8nIyNGqk8QWcYHNoCKPvw9jpe2TcBUrQXubikytBCbB
+bmfjh10t24ay4L8v8XMuMwxoK1Q3uV+w2IaCs9vRTO8QAOLb6Pwf
+Fingerprint: e2:07:35:49:db:df:2b:4e:86:6e:5e:10:94:3b:b7:d6
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ssh-ed25519
+	ecdsa-sha2-nistp256
+	rsa-sha2-256
+	ssh-rsa
+	ssh-dss
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha1
+	hmac-sha2-256
+
+Compression Algorithms:
+	none
+```
+------------------
+**1194:**
+```
+@\xe6\x07\xd0\xb51\xc7\x1d\x7f\x00\x00\x00\x00\x00
+```
+------------------
 98.96.193.12,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
-103.42.183.57,100,Agressive IP known malicious on AbuseIPDB - countryCode: DE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
-111.89.77.59,100,Agressive IP known malicious on AbuseIPDB - countryCode: JP - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
+103.42.183.57,50,"**ISP:** HK GALAXY TELECOM HOLDING CO.,LIMITED
+
+**OS:** -
+
+--------------------------
+Services:
+
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------"
+111.89.77.59,50,"**ISP:** NTT PC Communications, Inc.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**443:**
+```
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Type: text/plain
+Transfer-Encoding: chunked
+```
+HEARTBLEED: 2024/04/30 18:22:47 111.89.77.59:443 - SAFE
+
+------------------"
 164.92.194.208,100,Agressive IP known malicious on AbuseIPDB - countryCode: DE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:19+00:00
 39.96.50.246,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-49.51.252.120,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-64.226.98.14,100,Agressive IP known malicious on AbuseIPDB - countryCode: DE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-65.49.20.123,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-80.184.84.118,100,Agressive IP known malicious on AbuseIPDB - countryCode: KW - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-121.62.63.176,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-121.166.2.253,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
+49.51.252.120,50,"**ISP:** Tencent Building, Kejizhongyi Avenue
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDMnop6+hpSayDNBt3cRlJ7Xm55HryP3jhYaW0VOtFRXqrW
+CnbHtfpmpLliX4MOulplFCUxXmbj1h1Le8/BWqrQn8iZ3Snneli4Os1CthBdCFt3l0O2dS1TJLfr
+hSj4Eg1Qms8kRXtGPR5NYcbyopRwqW6yp7UWlrqOGTpOk0oMlkzId2HgIcTtl0JlMrEnlsqB0GvF
+NyRu0WiehL963LZSOQZMQb5cm7DrbL3nrywrNbLSCB787wlqfPxs5eEAcl4w4kg2FVE4wHnrtApA
+9gRjAJ9NHjebrv/LbraCXgo1hLl2rX4ekSwOQagb5JhiyTCo9e6x6bhm/beVgACc3iNt
+Fingerprint: 2c:7d:ce:72:5c:65:a9:c9:bc:8d:e4:e2:18:03:2b:43
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 3
+leap: 0
+precision: -24
+rootdelay: 0.138000488281
+rootdisp: 0.0746917724609
+refid: 2851995728
+reftime: 3923633729.72
+poll: 3
+```
+------------------
+**443:**
+```
+HTTP/1.1 202 OK
+Connection: Keep-Alive
+Content-Length: 1999
+Content-Type: text/html
+Keep-Alive: timeout=15; max=19
+```
+HEARTBLEED: 2024/04/25 12:30:36 49.51.252.120:443 - ERROR: EOF
+
+------------------
+**1194:**
+```
+@\x85T\xba3P=K\xbe\x01\x00\x00\x00\x00\xd9\xce:\xbe\xf6\x98\xa5m\x00\x00\x00\x00
+```
+------------------
+**5555:**
+```
+
+```
+------------------"
+64.226.98.14,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDHAhjnJkh+XqUFrApi/5M8S
+CGx5h6OJ2A/wvFdbaASEPwE1x6xjx77Qb9fxzHsh+mhFDgmsA5/xGmJlsFFjQ/4=
+Fingerprint: ab:ce:4d:54:31:55:4a:48:7e:b2:4f:bf:a8:85:a2:87
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+65.49.20.123,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1886354207""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Thu, 02 May 2024 15:07:22 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+80.184.84.118,50,"**ISP:** KEMS Block-A, Floor 7, Souq Al-Kabeer Kuwait City, State of Kuwait P O Box 3623, Safat 13037 KW
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Location: https://80.184.84.118:443/
+Connection: close
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Connection: close
+ETag: ""7e1-c06-609c5e1d""
+Last-Modified: Wed, 12 May 2021 23:00:45 GMT
+Date: Fri, 03 May 2024 03:59:18 GMT
+Content-Type: text/html
+Content-Length: 3078
+```
+HEARTBLEED: 2024/05/03 03:59:46 80.184.84.118:443 - SAFE
+
+------------------"
+121.62.63.176,50,"**ISP:** China Telecom
+
+**OS:** Windows Server 2012 R2 (build 6.3.9600)
+
+--------------------------
+Services:
+
+**5985:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Mon, 22 Apr 2024 18:27:24 GMT
+Connection: close
+Content-Length: 315
+
+
+WinRM NTLM Info:
+  OS: Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: zrtwwr1046313
+  NetBIOS Domain Name: zrtwwr1046313
+  NetBIOS Computer Name: zrtwwr1046313
+  DNS Domain Name: zrtwwr1046313
+  FQDN: zrtwwr1046313
+```
+------------------"
+121.166.2.253,50,**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**7547:**
+```
+
+```
+------------------
 152.32.141.86,100,Agressive IP known malicious on AbuseIPDB - countryCode: NG - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-159.203.58.24,100,Agressive IP known malicious on AbuseIPDB - countryCode: CA - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-168.126.179.21,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
+159.203.58.24,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCvy83aaMNDkcqReutwQPbNf5EYOVEC4f2AAzwVSeFHn+OH
++YywzqOL2YVbnjwdlMWL6Vm3AJxA3LetAcvzHGny1hzKEpy0mx0RAPkAmSHQfevJhTHqc65j9i8A
++Pu2fqBHiXsSDW3PNdRnW/LCXJusZQfOysCTWFOekAUXfEcLFAdQ8/1UVpZwhaHAtxgX5VPCPeE0
+sw17a1kKtBsk5gqrPpcbkOqFrqZd2CmJSeqasIdwRrG3JwSzDfyRQtSj1x5DsOBMaiF8ct+EV85M
+4XDoJeME/xDAD67F6ghnWq7r97i9QvapY8TXJFvJPuKvTqgPQAtWi4cOolsiUzYQHoAlblODfsHj
+ythLoN7SBF9kz6I7kzagelSaDIYIXmtZpCfk59Yg8fBznnjHyfEObbcr0ZnUySVTbRNpodRGdwJP
+o/0ltbhB8+pW1UvXCAlbYTUPbl7OayB5WLD4dobZFGoqEDWc68Am84IgzFAVyeBPY51Ca7qnxyx3
+0diDybBGkK0=
+Fingerprint: 03:61:18:2d:66:e0:d5:2e:9c:b7:61:b9:4f:88:7a:29
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Apr 2024 16:15:44 GMT
+Content-Type: text/html
+Content-Length: 635
+Last-Modified: Thu, 11 Nov 2021 16:19:57 GMT
+Connection: keep-alive
+ETag: ""618d42ad-27b""
+Accept-Ranges: bytes
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 02 May 2024 19:17:26 GMT
+Content-Type: text/html
+Content-Length: 635
+Last-Modified: Thu, 11 Nov 2021 16:19:57 GMT
+Connection: keep-alive
+ETag: ""618d42ad-27b""
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/05/02 19:17:47 159.203.58.24:443 - SAFE
+
+------------------
+**3306:**
+```
+MariaDB:
+  Error Message: Host '224.191.255.68' is not allowed to connect to this MariaDB server
+  Error Code: 1130
+```
+------------------
+**6379:**
+```
+-NOAUTH Authentication required.
+```
+------------------"
+168.126.179.21,50,"**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Tue, 30 Apr 2024 02:02:06 GMT
+Server: Boa/0.94.14rc19
+Accept-Ranges: bytes
+Connection: Keep-Alive
+Keep-Alive: timeout=10, max=1000
+Content-Length: 7554
+Last-Modified: Tue, 30 Apr 2024 02:02:06 GMT
+Content-Type: text/html
+```
+------------------"
 185.180.143.89,100,Agressive IP known malicious on AbuseIPDB - countryCode: BE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-185.245.86.226,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
+185.245.86.226,50,**ISP:** M247 Europe SRL
+
+**OS:** -
+
+--------------------------
+Services:
+
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 3
+leap: 0
+precision: -24
+rootdelay: 0.0568695068359
+rootdisp: 0.0991058349609
+refid: 3638887490
+reftime: 3923144507.59
+poll: 3
+```
+------------------
 191.202.230.170,100,Agressive IP known malicious on AbuseIPDB - countryCode: BR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:20+00:00
-14.136.187.236,100,Agressive IP known malicious on AbuseIPDB - countryCode: HK - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
+14.136.187.236,50,"**ISP:** Hong Kong Broadband Network Ltd.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Location: https://14.136.187.236:443/
+Connection: close
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Connection: close
+ETag: ""c21-b6a-638994c1""
+Last-Modified: Fri, 02 Dec 2022 06:01:37 GMT
+Date: Fri, 26 Apr 2024 10:53:47 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html
+Content-Length: 2922
+```
+HEARTBLEED: 2024/04/26 10:54:05 14.136.187.236:443 - SAFE
+
+------------------"
 43.129.43.35,100,Agressive IP known malicious on AbuseIPDB - countryCode: ID - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-43.226.238.184,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-46.33.237.132,100,Agressive IP known malicious on AbuseIPDB - countryCode: UA - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-49.72.165.129,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-64.62.197.26,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
+43.226.238.184,50,**ISP:** China Networks Inter-Exchange
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+
+```
+------------------
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 0
+leap: 3
+precision: -20
+rootdelay: 0.0
+rootdisp: 147.544754028
+refid: 1229867348
+reftime: 0.0
+poll: 0
+```
+------------------
+**1701:**
+```
+\xc8\x02\x00d\x00\x00\x00\x00\x00\x00\x00\x01\x80\x08\x00\x00\x00\x00\x00\x02\x80\x08\x00\x00\x00\x02\x01\x00\x80\n\x00\x00\x00\x03\x00\x00\x00\x01\x80\n\x00\x00\x00\x04\x00\x00\x00\x00\x00\x08\x00\x00\x00\x06\x00\x01\x80\x0e\x00\x00\x00\x07MikroTik\x00\x0e\x00\x00\x00\x08MikroTik\x80\x08\x00\x00\x00\t\x0b\x19\x80\x08\x00\x00\x00\n\x00\x04
+```
+------------------
+**1723:**
+```
+PPTP:
+  Firmware: 1
+  Hostname: MikroTik
+  Vendor: MikroTik
+```
+------------------
+**2000:**
+```
+\x01\x00\x00\x00
+```
+------------------
+**8291:**
+```
+MikroTik Winbox:
+  list:
+    advtool.jg: 7.0.5
+    dhcp.jg: 7.0.5
+    hotspot.jg: 7.0.5
+    icons.png: 7.0.5
+    icons24.png: 
+    icons32.png: 
+    ipv6.jg: 7.0.5
+    ppp.jg: 7.0.5
+    roteros.jg: 7.0.5
+    secure.jg: 7.0.5
+    wlan6.jg: 7.0.5
+```
+------------------
+**8728:**
+```
+\x05!done%=ret=b8af00b387893bb5db2f244efb609f44\x00
+```
+------------------
+46.33.237.132,50,"**ISP:** WildPark Co
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 15 Apr 2024 00:21:08 GMT
+Server: Boa/0.94.14rc21
+Accept-Ranges: bytes
+Content-encoding: gzip
+Connection: Keep-Alive
+Keep-Alive: timeout=10, max=1000
+Content-Length: 5885
+Content-Type: text/html
+```
+------------------"
+49.72.165.129,50,**ISP:** CHINATELECOM Jiangsu province Suzhou 5G network
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 Welcome to virtual FTP service.
+530 Login incorrect.
+530 Please login with USER and PASS.
+211-Features:
+ EPRT
+ EPSV
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+ UTF8
+211 End
+```
+------------------
+64.62.197.26,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""4088920637""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Mon, 29 Apr 2024 16:37:53 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
 88.255.35.98,100,Agressive IP known malicious on AbuseIPDB - countryCode: TR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-124.234.182.84,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
+124.234.182.84,50,**ISP:** CHINANET-BACKBONE
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 bftpd 2.2 at 124.234.182.84 ready.
+530 Login incorrect.
+530 Login incorrect.
+503 USER expected.
+```
+------------------
+**137:**
+```
+NetBIOS Response:
+  Server Name: SMBSHARE
+  MAC Address: 00:00:00:00:00:00
+  Names:
+    SMBSHARE <0x0>
+    SMBSHARE <0x3>
+    SMBSHARE <0x20>
+    \x01\x02__MSBROWSE__\x02 <0x1>
+    WORKGROUP <0x1d>
+    WORKGROUP <0x1e>
+    WORKGROUP <0x0>
+  Additional Interfaces:
+    192.168.1.1
+```
+------------------
+**1701:**
+```
+\xc8\x02\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x01
+```
+------------------
 172.212.61.129,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-179.42.153.13,100,Agressive IP known malicious on AbuseIPDB - countryCode: BR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
+179.42.153.13,50,**ISP:** Acess.Net Telecomunicacoes LTDA
+
+**OS:** -
+
+--------------------------
+Services:
+
+**161:**
+```
+SNMP:
+  Uptime: 1629425000
+  Description: RouterOS CCR1036-8G-2S+
+  Service: 78
+  Versions:
+    1
+    3
+  Name: CGNAT
+  Engineid Format: text
+  Engine Boots: 0
+  Engineid Data: 80003a8c04
+  Enterprise: 14988
+  Objectid: 1.3.6.1.4.1.14988.1
+  Engine Time: 0:00:00
+```
+------------------
+**8291:**
+```
+MikroTik Winbox:
+  index:
+    advtool.dll: 6.49.6
+    dhcp.dll: 6.49.6
+    gps.dll: 6.49.6
+    iot.dll: 6.49.6
+    ipv6.dll: 6.49.6
+    lora.dll: 6.49.6
+    ntp.dll: 6.49.6
+    oflow.dll: 6.49.6
+    pim.dll: 6.49.6
+    ppp.dll: 6.49.6
+    roteros.dll: 6.49.6
+    roting4.dll: 6.49.6
+    secure.dll: 6.49.6
+    system.dll: 6.49.6
+    tr069.dll: 6.49.6
+    ups.dll: 6.49.6
+  list:
+    advtool.jg: 6.49.6
+    dhcp.jg: 6.49.6
+    gps.jg: 6.49.6
+    icons.png: 6.49.6
+    icons24.png: 
+    icons32.png: 
+    iot.jg: 6.49.6
+    ipv6.jg: 6.49.6
+    lora.jg: 6.49.6
+    ntp.jg: 6.49.6
+    oflow.jg: 6.49.6
+    pim.jg: 6.49.6
+    ppp.jg: 6.49.6
+    roteros.jg: 6.49.6
+    roting4.jg: 6.49.6
+    secure.jg: 6.49.6
+    tr069.jg: 6.49.6
+    ups.jg: 6.49.6
+```
+------------------
 180.11.83.239,100,Agressive IP known malicious on AbuseIPDB - countryCode: JP - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-216.218.206.73,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-218.149.41.60,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
+216.218.206.73,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1886354207""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Tue, 30 Apr 2024 00:05:03 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+218.149.41.60,50,**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 Operation successful
+```
+------------------
+**23:**
+```
+\r\r\nPBOC login:
+```
+------------------
 223.8.50.47,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:21+00:00
-64.62.197.173,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-65.49.1.114,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-65.49.20.96,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-79.110.62.71,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-159.203.240.10,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-183.91.4.228,100,Agressive IP known malicious on AbuseIPDB - countryCode: VN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-184.105.139.76,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-184.105.247.232,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
+64.62.197.173,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1404566076""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Wed, 01 May 2024 07:27:14 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.1.114,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Thu, 02 May 2024 21:37:50 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.20.96,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1886349459""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Fri, 26 Apr 2024 06:22:04 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+79.110.62.71,50,**ISP:** Emanuel Hosting Ltd.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC+y42zdyni/3lSBUhy1B/VbB+RLDoxUpbSQtDL0exKjEpX
+nEHBOBW5hXaWS3hoTHv9d5+I8947C9waZsOLHeCEd1Xa4b7+2Lam1029cakjkN6/SLvnv9CrZz0q
+qRE1aUILuggsuSu7HNmxeyOMUSRKOqi9FKeB1sRU0unrC/Wz1TKsQOTCTJfIVfWUcyq9GX3b2l+C
+2jo5M6HAUbjqCA/QPHHWXyhAh4CGc1M58vII1VSUXNMd8k5t2drTlc7cRZouSYgxsuSk+qPBDF0f
+ntVbhWaeNlEO/WlO5hr8YbEdcFkryF9wv0Q9wBi12Zb19Xxp13Z4EC1xcuvgGqeoRZXd
+Fingerprint: d5:df:e6:94:91:bf:74:96:d0:e4:5c:2a:84:29:44:df
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+159.203.240.10,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDroOn3XzLho32GugCG/QLM6ViQMos9X0sSQ3+LxbzBtNlw
+ZYs9a/4l0LiL516xELlYVlEFZrA0wyz/Vivdu7s3sBAUr5kNwjvY4i9IjO1kz18WR4QXgtnYxnvm
+lrV9FBi64V7rctWcxOQBwZ3G6rhcHCmsgccLq/cru5nd15fZm36qi9ylOdkuRR/g6mWEbc75Ude9
+Tf1nWWNmH0/7Zvpv+0sL00Npxg/83kS/WI/q/HbKv+eHuPjBqbY+5wjdW+suaDeqU1g+fGzTsUzX
+SHh358B5JewZR9KJjQY5SBOvMJN/HHPUpLiqTca1JhKi4k+qXbQiuEDd1lE7jBEmuDah
+Fingerprint: de:dc:d4:29:c6:60:e3:3c:2e:01:f8:67:e5:a3:62:fd
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+183.91.4.228,50,"**ISP:** CMC Telecom Infrastructure Company
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Fri, 03 May 2024 03:25:56 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Sat, 24 Feb 2018 07:50:32 GMT
+Connection: keep-alive
+ETag: ""5a911948-264""
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/05/03 03:26:30 183.91.4.228:443 - SAFE
+
+------------------
+**5601:**
+```
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 03 Apr 2024 23:13:38 GMT
+Content-Type: text/html
+Content-Length: 606
+Connection: keep-alive
+WWW-Authenticate: Basic realm=""closed site""
+```
+------------------"
+184.105.139.76,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""4033833102""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 23:39:41 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+184.105.247.232,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""3496966535""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 05:58:43 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
 185.180.143.141,100,Agressive IP known malicious on AbuseIPDB - countryCode: BE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
 185.180.143.176,100,Agressive IP known malicious on AbuseIPDB - countryCode: BE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:22+00:00
-8.140.23.141,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-23.95.122.91,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
+8.140.23.141,50,"**ISP:** Hangzhou Alibaba Advertising Co.,Ltd.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCi+MhqXlx2HqhVhSAOPvah64g1YEQf9rDAcDIjMqWBQk9+
+R4hz46725dK7ZqYB9DpxjPbSYU9ttwWXbKBWDTYUqqE3/Z0OK+BF2/WqDfuScfBPDGjJIPor5gNJ
++35KQFPTMPK6YZCVOef49rE6WVhb4YE2ZVsz9La7d/53yCb49C/badOl/CKaGyDzWjNRjY8y/s+z
+bcho2WboJJ7kCq0BQ3lWZrHdIyhxum/fLEhU4bOpRVy+uyP90fBWSW1NWXF7wLMsru+Jd+Py3aZL
+o+pFzDAOVvASNSZHaXSnrocWCD19ri299gQa86Vqt5o+3nVvDJZ1p4FLoT/KxEPuXJn5
+Fingerprint: 3a:3c:a2:a1:c4:86:b3:6c:91:b3:d7:67:ab:14:d0:a8
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 30 Apr 2024 20:29:55 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://8.140.23.141/
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 30 Apr 2024 23:07:12 GMT
+Content-Type: text/html
+Content-Length: 6109
+Last-Modified: Tue, 02 Apr 2024 07:32:30 GMT
+Connection: keep-alive
+ETag: ""660bb48e-17dd""
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/04/30 23:08:04 8.140.23.141:443 - SAFE
+
+------------------
+**6379:**
+```
+-NOAUTH Authentication required.
+```
+------------------
+**8082:**
+```
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Fri, 03 May 2024 01:13:10 GMT
+
+79
+{""timestamp"":""2024-05-03T01:13:10.540+0000"",""status"":404,""error"":""Not Found"",""message"":""No message available"",""path"":""/""}
+0
+```
+------------------
+**8083:**
+```
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 May 2024 17:54:03 GMT
+
+7b
+{""code"":401,""data"":""Full authentication is required to access this resource"",""message"":""暂未登录或token已经过期""}
+
+0
+```
+------------------
+**8181:**
+```
+HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 23 Apr 2024 23:59:27 GMT
+
+2000
+
+
+
+<!DOCTYPE html>
+<html lang=""en"">
+    <head>
+        <meta charset=""UTF-8"" />
+        <title>Apache Tomcat/8.5.78</title>
+        <link href=""favicon.ico"" rel=""icon"" type=""image/x-icon"" />
+        <link href=""tomcat.css"" rel=""stylesheet"" type=""text/css"" />
+    </head>
+
+    <body>
+        <div id=""wrapper"">
+            <div id=""navigation"" class=""curved container"">
+                <span id=""nav-home""><a href=""https://tomcat.apache.org/"">Home</a></span>
+                <span id=""nav-hosts""><a href=""/docs/"">Documentation</a></span>
+                <span id=""nav-config""><a href=""/docs/config/"">Configuration</a></span>
+                <span id=""nav-examples""><a href=""/examples/"">Examples</a></span>
+                <span id=""nav-wiki""><a href=""https://wiki.apache.org/tomcat/FrontPage"">Wiki</a></span>
+                <span id=""nav-lists""><a href=""https://tomcat.apache.org/lists.html"">Mailing Lists</a></span>
+                <span id=""nav-help""><a href=""https://tomcat.apache.org/findhelp.html"">Find Help</a></span>
+                <br class=""separator"" />
+            </div>
+            <div id=""asf-box"">
+                <h1>Apache Tomcat/8.5.78</h1>
+            </div>
+            <div id=""upper"" class=""curved container"">
+                <div id=""congrats"" class=""curved container"">
+                    <h2>If you're seeing this, you've successfully installed Tomcat. Congratulations!</h2>
+                </div>
+                <div id=""notice"">
+                    <img id=""tomcat-logo"" src=""tomcat.svg"" alt=""[tomcat logo]"" />
+                    <div id=""tasks"">
+                        <h3>Recommended Reading:</h3>
+                        <h4><a href=""/docs/security-howto.html"">Security Considerations How-To</a></h4>
+                        <h4><a href=""/docs/manager-howto.html"">Manager Application How-To</a></h4>
+                        <h4><a href=""/docs/cluster-howto.html"">Clustering/Session Replication How-To</a></h4>
+                    </div>
+                </div>
+                <div id=""actions"">
+                    <div class=""button"">
+                        <a class=""container shadow"" href=""/manager/status""><span>Server Status</span></a>
+                    </div>
+                    <div class=""button"">
+                        <a class=""container shadow"" href=""/manager/html""><span>Manager App</span></a>
+                    </div>
+                    <div class=""button"">
+                        <a class=""container shadow"" href=""/host-manager/html""><span>Host Manager</span></a>
+                    </div>
+                </div>
+                <br class=""separator"" />
+            </div>
+            <div id=""middle"" class=""curved container"">
+                <h3>Developer Quick Start</h3>
+                <div class=""col25"">
+                    <div class=""container"">
+                        <p><a href=""/docs/setup.html"">Tomcat Setup</a></p>
+                        <p><a href=""/docs/appdev/"">First Web Application</a></p>
+                    </div>
+                </div>
+                <div class=""col25"">
+                    <div class=""container"">
+                        <p><a href=""/docs/realm-howto.html"">Realms &amp; AAA</a></p>
+                        <p><a href=""/docs/jndi-datasource-examples-howto.html"">JDBC DataSources</a></p>
+                    </div>
+                </div>
+                <div class=""col25"">
+                    <div class=""container"">
+                        <p><a href=""/examples/"">Examples</a></p>
+                    </div>
+                </div>
+                <div class=""col25"">
+                    <div class=""container"">
+                        <p><a href=""https://wiki.apache.org/tomcat/Specifications"">Servlet Specifications</a></p>
+                        <p><a href=""https://wiki.apache.org/tomcat/TomcatVersions"">Tomcat Versions</a></p>
+                    </div>
+                </div>
+                <br class=""separator"" />
+            </div>
+            <div id=""lower"">
+                <div id=""low-manage"" class="""">
+                    <div class=""curved container"">
+                        <h3>Managing Tomcat</h3>
+                        <p>For security, access to the <a href=""/manager/html"">manager webapp</a> is restricted.
+                        Users are defined in:</p>
+                        <pre>$CATALINA_HOME/conf/tomcat-users.xml</pre>
+                        <p>In Tomcat 8.5 access to the manager application is split between
+                           different users. &nbsp; <a href=""/docs/manager-howto.html"">Read more...</a></p>
+                        <br />
+                        <h4><a href=""/docs/RELEASE-NOTES.txt"">Release Notes</a></h4>
+                        <h4><a href=""/docs/changelog.html"">Changelog</a></h4>
+                        <h4><a href=""https://tomcat.apache.org/migration.html"">Migration Guide</a></h4>
+                        <h4><a href=""https://tomcat.apache.org/security.html"">Security Notices</a></h4>
+                    </div>
+```
+------------------
+**9001:**
+```
+HTTP/1.1 404 
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 431
+Date: Sun, 28 Apr 2024 04:38:03 GMT
+
+<!doctype html><html lang=""en""><head><title>HTTP Status 404 – Not Found</title><style type=""text/css"">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1></body></html>
+```
+------------------"
+23.95.122.91,50,**ISP:** HostPapa
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCwY6ZzZEqvDtlIzL3PjrUmQAdjjn6h+PfZPn0C+b8RCrNG
+3uoylCbdUGOBcSh85FqqvLuOhODvvBW73G/TqVCM6IeWJLk5QixBYTWjUca9RN7sk4XnzzQUFvyM
+hf1Yml+9ZljVIxQLpIjJkod1C9dgHgVbLQynQBJMo/lDaCuVD+ygIX9Bc6yUh54rzDLOT9ZJkoMT
+Qy7lvzt2W0Yb4u4A/3Etk63V+QjPdoq8kXkEKiRRW/Lpf4TQgsTAUrJ3hZqa47sQ1OQoMsxwV/zf
+B6+RjsE0WUwVorlvUBFFtbIIo0rSIYUEXkfgrLpuWD3ybYuUG5K74ISyfEIBJGe8PfTbofOswJSX
+ng8ObxhE4uiVVgSyMNjMifKTOv0W5g/Im3WsFMnHg09yxxHT0G2drwKZMblfkcnOH3IY8EcH2ziY
+jHoCXFgicq9yf60em+iUurYA6IfXEGN/ihLpjrmfxH1XqsRJubr38duQQodHEuSA9G42QoqzqFwr
+NmktWse6vNc=
+Fingerprint: 51:3d:62:41:ab:45:f3:03:61:f2:d4:c5:3a:8a:8e:6b
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
 34.91.10.254,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-64.62.156.104,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-64.62.197.148,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
+64.62.156.104,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 23:49:41 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+64.62.197.148,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1941436980""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Mon, 29 Apr 2024 15:52:59 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
 71.6.231.86,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-112.159.23.192,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
+112.159.23.192,50,"**ISP:** LG POWERCOMM
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 20 Apr 2024 19:03:49 GMT
+Server: 
+Accept-Ranges: bytes
+Connection: Keep-Alive
+Keep-Alive: timeout=10, max=1000
+Content-Length: 289
+Last-Modified: Fri, 29 May 2020 01:06:32 GMT
+Content-Type: text/html
+```
+------------------"
 113.142.73.214,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-121.202.205.222,100,Agressive IP known malicious on AbuseIPDB - countryCode: HK - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-125.21.146.174,100,Agressive IP known malicious on AbuseIPDB - countryCode: IN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-143.42.164.204,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-156.236.72.120,100,Agressive IP known malicious on AbuseIPDB - countryCode: HK - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
+121.202.205.222,50,"**ISP:** SmarTone Mobile Communications Ltd
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-dropbear_2016.74
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCRNZ9JG+Gapg5XNlk0/eeeooCUwnrwrDe22KThtZ4Amte9
+fW1KMveeOnB1vmwJLyJZRI4oiFimMa9vmzdCNfqkd9jFuML9XtC16zs0GekWFd4zdJrxtiGbzC/s
+MolF/If4oYX0Ad121elmM3ndvrLVTdJJoVFGyZZfv/CCT9BJBUFkB/EI75O9PwLEvYaOJ+D59nve
+uaWLNjXspCiUge8WRGRW9zpVDhL/92P81pCYhlGEAsapVuw59sqnhD0P34k0iJAAydWaHcWPBl5/
+zHk3XYnZagyPVaeGKn8Yc7BfAhGIxvyGXG60eYKl2r6ir3rQoeZwpt6u6cx//u2gLQNh
+Fingerprint: cd:7f:8b:d7:42:11:97:08:f4:1e:8f:3c:d0:9a:37:70
+
+Kex Algorithms:
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ecdsa-sha2-nistp521
+	ssh-rsa
+	ssh-dss
+
+Encryption Algorithms:
+	aes128-ctr
+	aes256-ctr
+	aes128-cbc
+	aes256-cbc
+	3des-ctr
+	3des-cbc
+
+MAC Algorithms:
+	hmac-sha1-96
+	hmac-sha1
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-md5
+
+Compression Algorithms:
+	none
+```
+------------------
+**69:**
+```
+\x00\x05\x00\x04Illegal TFTP operation\x00
+```
+------------------
+**81:**
+```
+HTTP/1.1 200 OK
+CONNECTION: close
+Date: Tue, 30 Apr 2024 13:14:35 GMT
+Last-Modified: Sat, 21 Oct 2023 03:44:59 GMT
+Etag: ""1697859899:9c86""
+CONTENT-LENGTH: 40070
+CACHE-CONTROL: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=604800; includeSubDomains
+X-XSS-Protection: 1;mode=block
+Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'
+X-Content-Type-Options: nosniff
+CONTENT-TYPE: text/html
+```
+------------------
+**82:**
+```
+HTTP/1.1 200 OK
+CACHE-CONTROL: no-cache
+Content-Length: 39330
+Content-Type: text/html
+```
+------------------"
+125.21.146.174,50,"**ISP:** BHARTI Airtel Ltd.
+
+**OS:** Windows
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDg9zJOXyeafS8+E65YzDK81S8n57EUX9W2fqVALcPFMkd6
+3UndkWLaoKr8JmivdNDtM7TJAkg5+iVTWeiffH4dnwbx3TnzkyK7Yc2m3ZcUKMbYThupln+i48Hh
+MTKJIxMXPEYuhv/Tj+C8m2cGTixCZM5MNeQq+fUglJZ7ryHOoxjviZ/siINyGkeINoKSc0yc1KtK
+oBdVQiqg39GMcLy2o4mIb7Dgr6heQceDqkKO5n63bZJJij6Bs90MVuXPMhYoejPxDhUSAEX7W8rS
+2ELXsM1AWTW//RhkR37xCHLh+iJHUJV2kePdDkR8Je6zfOUZenE08afLvEBR063d8NNr
+Fingerprint: bb:24:a9:04:2d:11:c6:aa:42:ad:26:e6:97:f1:b4:ba
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha1
+	umac-64@openssh.com
+	hmac-ripemd160
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**443:**
+```
+HTTP/1.1 403 Forbidden
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Sat, 27 Apr 2024 00:54:21 GMT
+Content-Length: 58
+```
+HEARTBLEED: 2024/04/27 00:54:57 125.21.146.174:443 - ERROR: write tcp 125.21.146.174:443: broken pipe
+
+------------------"
+143.42.164.204,50,**ISP:** Akamai Connected Cloud
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKmxBvUwPGbyeb6XGFN5Y9YV
+HD7tAFyZjEU4pOGlHMNYjJVBt1DjqH1siea7HSSF8EUIqVoj2QFGsb9Mzu2jXbg=
+Fingerprint: 02:6d:dd:13:9f:d7:b1:5f:ec:96:40:1e:aa:1d:96:78
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+156.236.72.120,50,**ISP:** YISU CLOUD LTD
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDMkRcEbgH3xig+RTUS40UJDg1J4xCN3KqWiX8Oww7Li9dG
+Bob5EYbBzAY2BqtCkgnmQnTpbZBjwDVTh0slqgrpAWe+SrRPK8/S5s4gc/ReUZge9vjEtPkZDkRL
+NOzoqJ/340eRCVWPrJaNp5WG9XuC9cdrYH+GlMdvcM9JASev5nws16z/8qSVUZY8T6b16cnPW3Ii
+mGamu9yJ2TdkhtfXNJX6eWAcsGKjvlY4hn2Ek68mMTbKQiYkPA6cMINMI9CvCYjaBhV95xnQL+54
+TKPk14KM1XtVKTRtJR9sTYlQCixU32jgGg/5Js8Pjslijip3vjA4Hxld1zyM4wna6htp
+Fingerprint: fb:6d:4b:d0:0f:37:77:ac:e0:52:47:8c:d3:86:db:49
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
 165.154.173.74,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-185.224.128.57,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
-187.32.197.165,100,Agressive IP known malicious on AbuseIPDB - countryCode: BR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
+185.224.128.57,50,**ISP:** Alsycon B.V.
+
+**OS:** Windows Server 2012 R2
+
+--------------------------
+Services:
+
+**3389:**
+```
+Remote Desktop Protocol
+\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x0f\x08\x00\x02\x00\x00\x00
+Remote Desktop Protocol NTLM Info:
+  OS: Windows 8.1/Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: MYHOSTNAME
+  NetBIOS Domain Name: MYHOSTNAME
+  NetBIOS Computer Name: MYHOSTNAME
+  DNS Domain Name: myhostname
+  FQDN: myhostname
+
+Administrator
+ERE
+am Windows Server 2012R2
+```
+------------------
+187.32.197.165,50,"**ISP:** ALGAR TELECOM S/A
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 Microsoft FTP Service
+530 User cannot log in.
+214-The following commands are recognized (* ==>'s unimplemented).
+    ABOR 
+    ACCT 
+    ADAT *
+    ALLO 
+    APPE 
+    AUTH 
+    CCC 
+    CDUP 
+    CWD 
+    DELE 
+    ENC *
+    EPRT 
+    EPSV 
+    FEAT 
+    HELP 
+    HOST 
+    LANG 
+    LIST 
+    MDTM 
+    MIC *
+    MKD 
+    MODE 
+    NLST 
+    NOOP 
+    OPTS 
+    PASS 
+    PASV 
+    PBSZ 
+    PORT 
+    PROT 
+    PWD 
+    QUIT 
+    REIN 
+    REST 
+    RETR 
+    RMD 
+    RNFR 
+    RNTO 
+    SITE 
+    SIZE 
+    SMNT 
+    STAT 
+    STOR 
+    STOU 
+    STRU 
+    SYST 
+    TYPE 
+    USER 
+    XCUP 
+    XCWD 
+    XMKD 
+    XPWD 
+    XRMD 
+214 HELP command successful.
+211-Extended features supported:
+ LANG EN*
+ UTF8
+ AUTH TLS;TLS-C;SSL;TLS-P;
+ PBSZ
+ PROT C;P;
+ CCC
+ HOST
+ SIZE
+ MDTM
+ REST STREAM
+211 END
+```
+------------------
+**53:**
+```
+Recursion: enabled
+```
+------------------
+**53:**
+```
+Recursion: enabled
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+Set-Cookie: ASP.NET_SessionId=5xmftesq14zpndr1xt4opdui; path=/; HttpOnly; SameSite=Lax
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 25 Apr 2024 12:09:52 GMT
+Content-Length: 3192
+```
+------------------
+**88:**
+```
+Microsoft Windows Kerberos
+Server Time: 2024-04-30 07:56:10Z
+```
+------------------
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 4
+leap: 0
+precision: -6
+rootdelay: 0.142440795898
+rootdisp: 0.0744934082031
+refid: 678889188
+reftime: 3923641070.12
+poll: 0
+```
+------------------
+**137:**
+```
+NetBIOS Response:
+  Server Name: SASWSERVER
+  MAC Address: 00:1A:3F:D1:B5:7C
+  Names:
+    SASWSERVER <0x0>
+    SASW <0x1c>
+    SASW <0x0>
+    SASWSERVER <0x20>
+    SASW <0x1b>
+```
+------------------
+**389:**
+```
+0\x84\x00\x00\x0b\x9a\x02\x01\x02d\x84\x00\x00\x0b\x91\x04\x000\x84\x00\x00\x0b\x890\x84\x00\x00\x00&\x04\x0bcurrentTime1\x84\x00\x00\x00\x13\x04\x1120240503053505.0Z0\x84\x00\x00\x00S\x04\x11subschemaSubentry1\x84\x00\x00\x00:\x048CN=Aggregate,CN=Schema,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00\x86\x04\rdsServiceName1\x84\x00\x00\x00q\x04oCN=NTDS Settings,CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00\xc0\x04\x0enamingContexts1\x84\x00\x00\x00\xaa\x04\x10DC=SASW,DC=local\x04!CN=Configuration,DC=SASW,DC=local\x04+CN=Schema,CN=Configuration,DC=SASW,DC=local\x04""DC=DomainDnsZones,DC=SASW,DC=local\x04""DC=ForestDnsZones,DC=SASW,DC=local0\x84\x00\x00\x00.\x04\x14defaultNamingContext1\x84\x00\x00\x00\x12\x04\x10DC=SASW,DC=local0\x84\x00\x00\x00H\x04\x13schemaNamingContext1\x84\x00\x00\x00-\x04+CN=Schema,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00E\x04\x1aconfigurationNamingContext1\x84\x00\x00\x00#\x04!CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x001\x04\x17rootDomainNamingContext1\x84\x00\x00\x00\x12\x04\x10DC=SASW,DC=local0\x84\x00\x00\x03\xa9\x04\x10supportedControl1\x84\x00\x00\x03\x91\x04\x161.2.840.113556.1.4.319\x04\x161.2.840.113556.1.4.801\x04\x161.2.840.113556.1.4.473\x04\x161.2.840.113556.1.4.528\x04\x161.2.840.113556.1.4.417\x04\x161.2.840.113556.1.4.619\x04\x161.2.840.113556.1.4.841\x04\x161.2.840.113556.1.4.529\x04\x161.2.840.113556.1.4.805\x04\x161.2.840.113556.1.4.521\x04\x161.2.840.113556.1.4.970\x04\x171.2.840.113556.1.4.1338\x04\x161.2.840.113556.1.4.474\x04\x171.2.840.113556.1.4.1339\x04\x171.2.840.113556.1.4.1340\x04\x171.2.840.113556.1.4.1413\x04\x172.16.840.1.113730.3.4.9\x04\x182.16.840.1.113730.3.4.10\x04\x171.2.840.113556.1.4.1504\x04\x171.2.840.113556.1.4.1852\x04\x161.2.840.113556.1.4.802\x04\x171.2.840.113556.1.4.1907\x04\x171.2.840.113556.1.4.1948\x04\x171.2.840.113556.1.4.1974\x04\x171.2.840.113556.1.4.1341\x04\x171.2.840.113556.1.4.2026\x04\x171.2.840.113556.1
+```
+------------------
+**389:**
+```
+0\x84\x00\x00\x0b)\x02\x01\x07d\x84\x00\x00\x0b \x04\x000\x84\x00\x00\x0b\x180\x84\x00\x00\x00&\x04\x0bcurrentTime1\x84\x00\x00\x00\x13\x04\x1120240427214804.0Z0\x84\x00\x00\x00S\x04\x11subschemaSubentry1\x84\x00\x00\x00:\x048CN=Aggregate,CN=Schema,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00\x86\x04\rdsServiceName1\x84\x00\x00\x00q\x04oCN=NTDS Settings,CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00\xc0\x04\x0enamingContexts1\x84\x00\x00\x00\xaa\x04\x10DC=SASW,DC=local\x04!CN=Configuration,DC=SASW,DC=local\x04+CN=Schema,CN=Configuration,DC=SASW,DC=local\x04""DC=DomainDnsZones,DC=SASW,DC=local\x04""DC=ForestDnsZones,DC=SASW,DC=local0\x84\x00\x00\x00.\x04\x14defaultNamingContext1\x84\x00\x00\x00\x12\x04\x10DC=SASW,DC=local0\x84\x00\x00\x00H\x04\x13schemaNamingContext1\x84\x00\x00\x00-\x04+CN=Schema,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00E\x04\x1aconfigurationNamingContext1\x84\x00\x00\x00#\x04!CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x001\x04\x17rootDomainNamingContext1\x84\x00\x00\x00\x12\x04\x10DC=SASW,DC=local0\x84\x00\x00\x03\xa9\x04\x10supportedControl1\x84\x00\x00\x03\x91\x04\x161.2.840.113556.1.4.319\x04\x161.2.840.113556.1.4.801\x04\x161.2.840.113556.1.4.473\x04\x161.2.840.113556.1.4.528\x04\x161.2.840.113556.1.4.417\x04\x161.2.840.113556.1.4.619\x04\x161.2.840.113556.1.4.841\x04\x161.2.840.113556.1.4.529\x04\x161.2.840.113556.1.4.805\x04\x161.2.840.113556.1.4.521\x04\x161.2.840.113556.1.4.970\x04\x171.2.840.113556.1.4.1338\x04\x161.2.840.113556.1.4.474\x04\x171.2.840.113556.1.4.1339\x04\x171.2.840.113556.1.4.1340\x04\x171.2.840.113556.1.4.1413\x04\x172.16.840.1.113730.3.4.9\x04\x182.16.840.1.113730.3.4.10\x04\x171.2.840.113556.1.4.1504\x04\x171.2.840.113556.1.4.1852\x04\x161.2.840.113556.1.4.802\x04\x171.2.840.113556.1.4.1907\x04\x171.2.840.113556.1.4.1948\x04\x171.2.840.113556.1.4.1974\x04\x171.2.840.113556.1.4.1341\x04\x171.2.840.113556.1.4.2026\x04\x171.2.840.113556.1.4.2064\x04\x171.2.840.113556.1.4.2065\x00\x06\x00\x00\x94r-f]p\x08+\xa7\x05\x00\x00\xa7\x05\x00\x00\x01\x00\x00 V\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\x00\x08\x00\x04\x00\x00\x00\x01\x00\x00\x06\xa06\x9f\xdeq&\x08\x00EH\x004?\xc2@\x00\xf4\x06\x14\x1d+\xf8CD\xcfZ$n\x96\x16R\x98\xa06\x9f\xdeq&\x08\x00E(\x05\x99jG\x00\xb9w\x11\x8f\x05\xbb \xc5\xa5\xcfZ\xf4\x05\x04\x171.2.840.113556.1.4.2066\x04\x171.2.840.113556.1.4.2090\x04\x171.2.840.113556.1.4.2205\x04\x171.2.840.113556.1.4.2204\x04\x171.2.840.113556.1.4.2206\x04\x171.2.840.113556.1.4.2211\x04\x171.2.840.113556.1.4.2239\x04\x171.2.840.113556.1.4.2255\x04\x171.2.840.113556.1.4.22560\x84\x00\x00\x00""\x04\x14supportedLDAPVersion1\x84\x00\x00\x00\x06\x04\x013\x04\x0120\x84\x00\x00\x01\x86\x04\x15supportedLDAPPolicies1\x84\x00\x00\x01i\x04\x0eMaxPoolThreads\x04\x19MaxPercentDirSyncRequests\x04\x0fMaxDatagramRecv\x04\x10MaxReceiveBuffer\x04\x0fInitRecvTimeout\x04\x0eMaxConnections\x04\x0fMaxConnIdleTime\x04\x0bMaxPageSize\x04\x16MaxBatchReturnMessages\x04\x10MaxQueryDuration\x04\x10MaxTempTableSize\x04\x10MaxResultSetSize\x04\rMinResultSets\x04\x14MaxResultSetsPerConn\x04\x16MaxNotificationPerConn\x04\x0bMaxValRange\x04\x15MaxValRangeTransitive\x04\x11ThreadMemoryLimit\x04\x18SystemMemoryLimitPercent0\x84\x00\x00\x00%\x04\x13highestCommittedUSN1\x84\x00\x00\x00\n\x04\x08322459980\x84\x00\x00\x00I\x04\x17supportedSASLMechanisms1\x84\x00\x00\x00*\x04\x06GSSAPI\x04\nGSS-SPNEGO\x04\x08EXTERNAL\x04\nDIGEST-MD50\x84\x00\x00\x00*\x04\x0bdnsHostName1\x84\x00\x00\x00\x17\x04\x15SASWServer.SASW.local0\x84\x00\x00\x00:\x04\x0fldapServiceName1\x84\x00\x00\x00#\x04!SASW.local:saswserver$@SASW.LOCAL0\x84\x00\x00\x00r\x04\nserverName1\x84\x00\x00\x00`\x04^CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local0\x84\x00\x00\x00\xb2\x04\x15supportedCapabilities1\x84\x00\x00\x00\x95\x04\x161.2.840.113556.1.4.800\x04\x171.2.840.113556.1.4.1670\x04\x171.2.840.113556.1.4.1791\x04\x171.2.840.113556.1.4.1935\x04\x171.2.840.113556.1.4.2080\x04\x171.2.840.113556.1.4.22370\x84\x00\x00\x00\x1c\x04\x0eisSynchronized1\x84\x00\x00\x00\x06\x04\x04TRUE0\x84\x00\x00\x00""\x04\x14isGlobalCatalogReady1\x84\x00\x00\x00\x06\x04\x04TRUE0\x84\x00\x00\x00\x1e\x04\x13domainFuncti
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+Set-Cookie: ASP.NET_SessionId=tlgyfskfxzzdzfrluoiylwgi; path=/; HttpOnly; SameSite=Lax
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 01 May 2024 07:35:05 GMT
+Content-Length: 3192
+```
+HEARTBLEED: 2024/05/01 07:35:34 187.32.197.165:443 - ERROR: write tcp 187.32.197.165:443: broken pipe
+
+------------------
+**593:**
+```
+ncacn_http/1.0
+
+Microsoft RPC Endpoint Mapper over HTTP
+
+d95afe70-a6d5-4259-822e-2c84da1ddb0d
+  version: v1.0
+  protocol: [MS-RSP]: Remote Shutdown Protocol
+  provider: wininit.exe
+  ncacn_ip_tcp: 187.32.197.165:49152
+  ncalrpc: WindowsShutdown
+  ncacn_np: \\SASWSERVER\PIPE\InitShutdown
+  ncalrpc: WMsgKRpc075F80
+
+76f226c3-ec14-4325-8a99-6a46348418af
+  version: v1.0
+  provider: winlogon.exe
+  ncalrpc: WindowsShutdown
+  ncacn_np: \\SASWSERVER\PIPE\InitShutdown
+  ncalrpc: WMsgKRpc075F80
+  ncalrpc: WMsgKRpc07CF01
+
+9b008953-f195-4bf9-bde0-4471971e58ed
+  version: v1.0
+  ncalrpc: dabrpc
+  ncalrpc: LRPC-05bbd54b334b99d28f
+  ncacn_np: \\SASWSERVER\pipe\LSM_API_service
+  ncalrpc: LSMApi
+  ncalrpc: LRPC-5a41b9a4e32b6d78b9
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+  version: v1.0
+  ncalrpc: LRPC-05bbd54b334b99d28f
+  ncacn_np: \\SASWSERVER\pipe\LSM_API_service
+  ncalrpc: LSMApi
+  ncalrpc: LRPC-5a41b9a4e32b6d78b9
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+  version: v1.0
+  annotation: Impl friendly name
+  provider: sysntfy.dll
+  ncalrpc: LRPC-5a41b9a4e32b6d78b9
+  ncalrpc: actkernel
+  ncalrpc: umpo
+  ncalrpc: LRPC-893946a1df705f60ca
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+  ncalrpc: IUserProfile2
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+2d98a740-581d-41b9-aa0d-a88b9d5ce938
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+bdaa0970-413b-4a3e-9e5d-f6dc9d7e0760
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+3b338d89-6cfa-44b8-847e-531531bc9992
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+8782d3b9-ebbd-4644-a3d8-e8725381919b
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+085b0334-e454-4d91-9b8c-4134f9e793f3
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+b2507c30-b126-494a-92ac-ee32b6eeb039
+  version: v1.0
+  ncalrpc: LRPC-1e5463b088cb4a0c62
+
+3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+  version: v1.0
+  annotation: DHCP Client LRPC Endpoint
+  provider: dhcpcsvc.dll
+  ncalrpc: dhcpcsvc
+  ncalrpc: dhcpcsvc6
+  ncalrpc: LRPC-a28502d48be7020ff0
+  ncacn_ip_tcp: 187.32.197.165:49153
+  ncacn_np: \\SASWSERVER\pipe\eventlog
+  ncalrpc: eventlog
+
+3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+  version: v1.0
+  annotation: DHCPv6 Client LRPC Endpoint
+  provider: dhcpcsvc6.dll
+  ncalrpc: dhcpcsvc6
+  ncalrpc: LRPC-a28502d48be7020ff0
+  ncacn_ip_tcp: 187.32.197.165:49153
+  ncacn_np: \\SASWSERVER\pipe\eventlog
+  ncalrpc: eventlog
+
+abfb6ca3-0c5e-4734-9285-0aee72fe8d1c
+  version: v1.0
+  annotation: Wcm Service
+  ncalrpc: LRPC-a28502d48be7020ff0
+  ncacn_ip_tcp: 187.32.197.165:49153
+  ncacn_np: \\SASWSERVER\pipe\eventlog
+  ncalrpc: eventlog
+
+30adc50c-5cbc-46ce-9a0e-91914789e23c
+  version: v1.0
+  annotation: NRP server endpoint
+  provider: nrpsrv.dll
+  ncalrpc: LRPC-a28502d48be7020ff0
+  ncacn_ip_tcp: 187.32.197.165:49153
+  ncacn_np: \\SASWSERVER\pipe\eventlog
+  ncalrpc: eventlog
+
+f6beaff7-1e19-4fbb-9f8f-b89e2018337c
+  version: v1.0
+  annotation: Event log TCPIP
+  protocol: [MS-EVEN6]: EventLog Remoting Protocol
+  provider: wevtsvc.dll
+  ncacn_ip_tcp: 187.32.197.165:49153
+  ncacn_np: \\SASWSERVER\pipe\eventlog
+  ncalrpc: eventlog
+
+58e604e8-9adb-4d2e-a464-3b0683fb1480
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncacn_np: \\SASWSERVER\pipe\SessEnvPublicRpc
+  ncalrpc: SessEnvPrivateRpc
+  ncalrpc: LRPC-893946a1df705f60ca
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+fd7a0523-dc70-43dd-9b2e-9c5ed48225b1
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncacn_np: \\SASWSERVER\pipe\SessEnvPublicRpc
+  ncalrpc: SessEnvPrivateRpc
+  ncalrpc: LRPC-893946a1df705f60ca
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+5f54ce7d-5b79-4175-8584-cb65313a0e98
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncacn_np: \\SASWSERVER\pipe\SessEnvPublicRpc
+  ncalrpc: SessEnvPrivateRpc
+  ncalrpc: LRPC-893946a1df705f60ca
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+201ef99a-7fa0-444c-9399-19ba84f12a1a
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncacn_np: \\SASWSERVER\pipe\SessEnvPublicRpc
+  ncalrpc: SessEnvPrivateRpc
+  ncalrpc: LRPC-893946a1df705f60ca
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+30b044a5-a225-43f0-b3a4-e060df91f9c1
+  version: v1.0
+  provider: certprop.dll
+  ncalrpc: LRPC-893946a1df705f60ca
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+  version: v1.0
+  annotation: Adh APIs
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+c36be077-e14b-4fe9-8abc-e856ef4f048b
+  version: v1.0
+  annotation: Proxy Manager client server endpoint
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+2e6035b2-e8f1-41a7-a044-656b439c4c34
+  version: v1.0
+  annotation: Proxy Manager provider server endpoint
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+552d076a-cb29-4e44-8b6a-d15e59e2c0af
+  version: v1.0
+  annotation: IP Transition Configuration endpoint
+  provider: iphlpsvc.dll
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+a398e520-d59a-4bdd-aa7a-3c1e0303a511
+  version: v1.0
+  annotation: IKE/Authip API
+  provider: IKEEXT.DLL
+  ncacn_np: \\SASWSERVER\PIPE\srvsvc
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+1a0d010f-1c33-432c-b0f5-8cf4e8053099
+  version: v1.0
+  annotation: IdSegSrv service
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+98716d03-89ac-44c7-bb8c-285824e51c4a
+  version: v1.0
+  annotation: XactSrv service
+  provider: srvsvc.dll
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+3a9ef155-691d-4449-8d05-09ad57031823
+  version: v1.0
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+86d35949-83c9-4044-b424-db363231fd0c
+  version: v1.0
+  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
+  provider: schedsvc.dll
+  ncacn_ip_tcp: 187.32.197.165:49154
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+378e52b0-c0a9-11cf-822d-00aa0051e40f
+  version: v1.0
+  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
+  provider: taskcomp.dll
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+1ff70682-0a51-30e8-076d-740be8cee98b
+  version: v1.0
+  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
+  provider: taskcomp.dll
+  ncacn_np: \\SASWSERVER\PIPE\atsvc
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+  version: v1.0
+  provider: schedsvc.dll
+  ncalrpc: senssvc
+  ncalrpc: OLE790B78599CE3A5743BFCE36A4FD0
+  ncalrpc: IUserProfile2
+
+2eb08e3e-639f-4fba-97b1-14f878961076
+  version: v1.0
+  annotation: Group Policy RPC Interface
+  provider: gpsvc.dll
+  ncalrpc: LRPC-348ad56e033cf25360
+
+3473dd4d-2e88-4006-9cba-22570909dd10
+  version: v5.256
+  annotation: WinHttp Auto-Proxy Service
+  ncacn_np: \\SASWSERVER\PIPE\W32TIME_ALT
+  ncalrpc: W32TIME_ALT
+  ncalrpc: LRPC-1315cfca4a60d3cb35
+  ncalrpc: OLE2DCF492732DB63A4BD8EA279E581
+
+7ea70bcf-48af-4f6a-8968-6a440754d5fa
+  version: v1.0
+  annotation: NSI server endpoint
+  provider: nsisvc.dll
+  ncalrpc: LRPC-1315cfca4a60d3cb35
+  ncalrpc: OLE2DCF492732DB63A4BD8EA279E581
+
+b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+  version: v2.0
+  annotation: KeyIso
+  ncalrpc: efslrpc
+  ncacn_np: \\SASWSERVER\pipe\efsrpc
+  ncalrpc: NETLOGON_LRPC
+  ncacn_np: \\SASWSERVER\pipe\61dff8ba381ac752
+  ncacn_ip_http: 187.32.197.165:49157
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+12345678-1234-abcd-ef00-01234567cffb
+  version: v1.0
+  protocol: [MS-NRPC]: Netlogon Remote Protocol
+  provider: netlogon.dll
+  ncalrpc: NETLOGON_LRPC
+  ncacn_np: \\SASWSERVER\pipe\61dff8ba381ac752
+  ncacn_ip_http: 187.32.197.165:49157
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+0b1c2170-5732-4e0e-8cd3-d9b16f3b84d7
+  version: v0.0
+  annotation: RemoteAccessCheck
+  protocol: [MS-RAA]: Remote Authorization API Protocol
+  ncalrpc: NETLOGON_LRPC
+  ncacn_np: \\SASWSERVER\pipe\61dff8ba381ac752
+  ncacn_ip_http: 187.32.197.165:49157
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+  ncalrpc: NETLOGON_LRPC
+  ncacn_np: \\SASWSERVER\pipe\61dff8ba381ac752
+  ncacn_ip_http: 187.32.197.165:49157
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+12345778-1234-abcd-ef00-0123456789ab
+  version: v0.0
+  protocol: [MS-LSAT]: Local Security Authority (Translation Methods) Remote
+  provider: lsasrv.dll
+  ncacn_np: \\SASWSERVER\pipe\61dff8ba381ac752
+  ncacn_ip_http: 187.32.197.165:49157
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+e3514235-4b06-11d1-ab04-00c04fc2dcd2
+  version: v4.0
+  annotation: MS NT Directory DRS Interface
+  protocol: [MS-DRSR]: Directory Replication Service (DRS) Remote Protocol
+  provider: ntdsai.dll
+  ncacn_np: \\SASWSERVER\pipe\61dff8ba381ac752
+  ncacn_ip_http: 187.32.197.165:49157
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+12345778-1234-abcd-ef00-0123456789ac
+  version: v1.0
+  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol
+  provider: samsrv.dll
+  ncacn_ip_tcp: 187.32.197.165:49158
+  ncalrpc: NTDS_LPC
+  ncacn_ip_tcp: 187.32.197.165:49156
+  ncalrpc: OLEF4447D7071C78840CB535E14FE36
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\SASWSERVER\pipe\lsass
+
+2fb92682-6599-42dc-ae13-bd2ca89bd11c
+  version: v1.0
+  annotation: Fw APIs
+  provider: MPSSVC.dll
+  ncalrpc: LRPC-ce0188337e587b90b8
+  ncalrpc: LRPC-c1bea9fff0bea6043a
+
+f47433c3-3e9d-4157-aad4-83aa1f5c2d4c
+  version: v1.0
+  annotation: Fw APIs
+  ncalrpc: LRPC-ce0188337e587b90b8
+  ncalrpc: LRPC-c1bea9fff0bea6043a
+
+7f9d11bf-7fb9-436b-a812-b2d50c5d4c03
+  version: v1.0
+  annotation: Fw APIs
+  provider: MPSSVC.dll
+  ncalrpc: LRPC-ce0188337e587b90b8
+  ncalrpc: LRPC-c1bea9fff0bea6043a
+
+dd490425-5325-4565-b774-7e27d6c09c24
+  version: v1.0
+  annotation: Base Firewall Engine API
+  provider: BFE.DLL
+  ncalrpc: LRPC-c1bea9fff0bea6043a
+
+7f1343fe-50a9-4927-a778-0c5859517bac
+  version: v1.0
+  annotation: DfsDs service
+  ncacn_np: \\SASWSERVER\PIPE\wkssvc
+  ncalrpc: LRPC-ce4178de9d5e7f26d4
+  ncalrpc: DNSResolver
+
+eb081a0d-10ee-478a-a1dd-50995283e7a8
+  version: v3.0
+  annotation: Witness Client Test Interface
+  ncalrpc: LRPC-ce4178de9d5e7f26d4
+  ncalrpc: DNSResolver
+
+f2c9b409-c1c9-4100-8639-d8ab1486694a
+  version: v1.0
+  annotation: Witness Client Upcall Server
+  ncalrpc: LRPC-ce4178de9d5e7f26d4
+  ncalrpc: DNSResolver
+
+76f03f96-cdfd-44fc-a22c-64950a001209
+  version: v1.0
+  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol
+  provider: spoolsv.exe
+  ncacn_ip_tcp: 187.32.197.165:49161
+  ncalrpc: LRPC-a442b150d67779216f
+
+4a452661-8290-4b36-8fbe-7f4093a94978
+  version: v1.0
+  provider: spoolsv.exe
+  ncacn_ip_tcp: 187.32.197.165:49161
+  ncalrpc: LRPC-a442b150d67779216f
+
+ae33069b-a2a8-46ee-a235-ddfd339be281
+  version: v1.0
+  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol
+  provider: spoolsv.exe
+  ncacn_ip_tcp: 187.32.197.165:49161
+  ncalrpc: LRPC-a442b150d67779216f
+
+0b6edbfa-4a24-4fc6-8a23-942b1eca65d1
+  version: v1.0
+  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol
+  provider: spoolsv.exe
+  ncacn_ip_tcp: 187.32.197.165:49161
+  ncalrpc: LRPC-a442b150d67779216f
+
+12345678-1234-abcd-ef00-0123456789ab
+  version: v1.0
+  protocol: [MS-RPRN]: Print System Remote Protocol
+  provider: spoolsv.exe
+  ncacn_ip_tcp: 187.32.197.165:49161
+  ncalrpc: LRPC-a442b150d67779216f
+
+50abc2a4-574d-40b3-9d66-ee4fd5fba076
+  version: v5.0
+  protocol: [MS-DNSP]: Domain Name Service (DNS) Server Management
+  provider: dns.exe
+  ncacn_ip_tcp: 187.32.197.165:49176
+
+91ae6020-9e3c-11cf-8d7c-00aa00c091be
+  version: v0.0
+  protocol: [MS-ICPR]: ICertPassage Remote Protocol
+  provider: certsrv.exe
+  ncacn_ip_tcp: 187.32.197.165:49188
+  ncacn_np: \\SASWSERVER\pipe\cert
+  ncalrpc: OLE3156BF710E3F7CE3CB7A1AF76956
+
+15cd3850-28ca-11ce-a4e8-00aa006116cb
+  version: v1.0
+  provider: PeerDistSvc.dll
+  ncalrpc: LRPC-1005350baeffcacfa9
+
+9d5f40ff-f1c2-4394-8671-9e56427fcd70
+  version: v1.0
+  ncalrpc: LRPC-13a60223172b99e2ac
+
+367abb81-9844-35f1-ad32-98f038001003
+  version: v2.0
+  protocol: [MS-SCMR]: Service Control Manager Remote Protocol
+  provider: services.exe
+  ncacn_ip_tcp: 187.32.197.165:49729
+
+897e2e5f-93f3-4376-9c9c-fd2277495c27
+  version: v1.0
+  annotation: Frs2 Service
+  protocol: [MS-FRS2]: Distributed File System Replication Protocol
+  provider: dfsrmig.exe
+  ncacn_ip_tcp: 187.32.197.165:51328
+  ncalrpc: OLEBAAE55C1DEC3E2E1914FDF89A94E
+
+906b0ce0-c70b-1067-b317-00dd010662da
+  version: v1.0
+  protocol: [MS-CMPO]: MSDTC Connection Manager:
+  provider: msdtcprx.dll
+  ncalrpc: LRPC-21c28a1e4d0b5a4232
+  ncalrpc: LRPC-21c28a1e4d0b5a4232
+  ncalrpc: LRPC-21c28a1e4d0b5a4232
+```
+------------------
+**636:**
+```
+LDAP:
+  CurrentTime: 20240422041744.0Z
+  SubschemaSubentry: CN=Aggregate,CN=Schema,CN=Configuration,DC=SASW,DC=local
+  DsServiceName: CN=NTDS Settings,CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local
+  NamingContexts:
+    CN=Configuration,DC=SASW,DC=local
+    CN=Schema,CN=Configuration,DC=SASW,DC=local
+    DC=DomainDnsZones,DC=SASW,DC=local
+    DC=ForestDnsZones,DC=SASW,DC=local
+    DC=SASW,DC=local
+  DefaultNamingContext: DC=SASW,DC=local
+  SchemaNamingContext: CN=Schema,CN=Configuration,DC=SASW,DC=local
+  ConfigurationNamingContext: CN=Configuration,DC=SASW,DC=local
+  RootDomainNamingContext: DC=SASW,DC=local
+  SupportedControl:
+    1.2.840.113556.1.4.1338
+    1.2.840.113556.1.4.1339
+    1.2.840.113556.1.4.1340
+    1.2.840.113556.1.4.1341
+    1.2.840.113556.1.4.1413
+    1.2.840.113556.1.4.1504
+    1.2.840.113556.1.4.1852
+    1.2.840.113556.1.4.1907
+    1.2.840.113556.1.4.1948
+    1.2.840.113556.1.4.1974
+    1.2.840.113556.1.4.2026
+    1.2.840.113556.1.4.2064
+    1.2.840.113556.1.4.2065
+    1.2.840.113556.1.4.2066
+    1.2.840.113556.1.4.2090
+    1.2.840.113556.1.4.2204
+    1.2.840.113556.1.4.2205
+    1.2.840.113556.1.4.2206
+    1.2.840.113556.1.4.2211
+    1.2.840.113556.1.4.2239
+    1.2.840.113556.1.4.2255
+    1.2.840.113556.1.4.2256
+    1.2.840.113556.1.4.319
+    1.2.840.113556.1.4.417
+    1.2.840.113556.1.4.473
+    1.2.840.113556.1.4.474
+    1.2.840.113556.1.4.521
+    1.2.840.113556.1.4.528
+    1.2.840.113556.1.4.529
+    1.2.840.113556.1.4.619
+    1.2.840.113556.1.4.801
+    1.2.840.113556.1.4.802
+    1.2.840.113556.1.4.805
+    1.2.840.113556.1.4.841
+    1.2.840.113556.1.4.970
+    2.16.840.1.113730.3.4.10
+    2.16.840.1.113730.3.4.9
+  SupportedLDAPVersion:
+    2
+    3
+  SupportedLDAPPolicies:
+    InitRecvTimeout
+    MaxBatchReturnMessages
+    MaxConnIdleTime
+    MaxConnections
+    MaxDatagramRecv
+    MaxNotificationPerConn
+    MaxPageSize
+    MaxPercentDirSyncRequests
+    MaxPoolThreads
+    MaxQueryDuration
+    MaxReceiveBuffer
+    MaxResultSetSize
+    MaxResultSetsPerConn
+    MaxTempTableSize
+    MaxValRange
+    MaxValRangeTransitive
+    MinResultSets
+    SystemMemoryLimitPercent
+    ThreadMemoryLimit
+  HighestCommittedUSN: 32046515
+  SupportedSASLMechanisms:
+    DIGEST-MD5
+    EXTERNAL
+    GSS-SPNEGO
+    GSSAPI
+  DnsHostName: SASWServer.SASW.local
+  LdapServiceName: SASW.local:saswserver$@SASW.LOCAL
+  ServerName: CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local
+  SupportedCapabilities:
+    1.2.840.113556.1.4.1670
+    1.2.840.113556.1.4.1791
+    1.2.840.113556.1.4.1935
+    1.2.840.113556.1.4.2080
+    1.2.840.113556.1.4.2237
+    1.2.840.113556.1.4.800
+  IsSynchronized: TRUE
+  IsGlobalCatalogReady: TRUE
+  SupportedExtension:
+    1.2.840.113556.1.4.1781
+    1.2.840.113556.1.4.2212
+    1.3.6.1.4.1.1466.101.119.1
+    1.3.6.1.4.1.1466.20037
+    1.3.6.1.4.1.4203.1.11.3
+  DomainFunctionality: 6
+  ForestFunctionality: 6
+```
+------------------
+**3268:**
+```
+LDAP:
+  CurrentTime: 20240425122733.0Z
+  SubschemaSubentry: CN=Aggregate,CN=Schema,CN=Configuration,DC=SASW,DC=local
+  DsServiceName: CN=NTDS Settings,CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local
+  NamingContexts:
+    CN=Configuration,DC=SASW,DC=local
+    CN=Schema,CN=Configuration,DC=SASW,DC=local
+    DC=DomainDnsZones,DC=SASW,DC=local
+    DC=ForestDnsZones,DC=SASW,DC=local
+    DC=SASW,DC=local
+  DefaultNamingContext: DC=SASW,DC=local
+  SchemaNamingContext: CN=Schema,CN=Configuration,DC=SASW,DC=local
+  ConfigurationNamingContext: CN=Configuration,DC=SASW,DC=local
+  RootDomainNamingContext: DC=SASW,DC=local
+  SupportedControl:
+    1.2.840.113556.1.4.1338
+    1.2.840.113556.1.4.1339
+    1.2.840.113556.1.4.1340
+    1.2.840.113556.1.4.1341
+    1.2.840.113556.1.4.1413
+    1.2.840.113556.1.4.1504
+    1.2.840.113556.1.4.1852
+    1.2.840.113556.1.4.1907
+    1.2.840.113556.1.4.1948
+    1.2.840.113556.1.4.1974
+    1.2.840.113556.1.4.2026
+    1.2.840.113556.1.4.2064
+    1.2.840.113556.1.4.2065
+    1.2.840.113556.1.4.2066
+    1.2.840.113556.1.4.2090
+    1.2.840.113556.1.4.2204
+    1.2.840.113556.1.4.2205
+    1.2.840.113556.1.4.2206
+    1.2.840.113556.1.4.2211
+    1.2.840.113556.1.4.2239
+    1.2.840.113556.1.4.2255
+    1.2.840.113556.1.4.2256
+    1.2.840.113556.1.4.319
+    1.2.840.113556.1.4.417
+    1.2.840.113556.1.4.473
+    1.2.840.113556.1.4.474
+    1.2.840.113556.1.4.521
+    1.2.840.113556.1.4.528
+    1.2.840.113556.1.4.529
+    1.2.840.113556.1.4.619
+    1.2.840.113556.1.4.801
+    1.2.840.113556.1.4.802
+    1.2.840.113556.1.4.805
+    1.2.840.113556.1.4.841
+    1.2.840.113556.1.4.970
+    2.16.840.1.113730.3.4.10
+    2.16.840.1.113730.3.4.9
+  SupportedLDAPVersion:
+    2
+    3
+  SupportedLDAPPolicies:
+    InitRecvTimeout
+    MaxBatchReturnMessages
+    MaxConnIdleTime
+    MaxConnections
+    MaxDatagramRecv
+    MaxNotificationPerConn
+    MaxPageSize
+    MaxPercentDirSyncRequests
+    MaxPoolThreads
+    MaxQueryDuration
+    MaxReceiveBuffer
+    MaxResultSetSize
+    MaxResultSetsPerConn
+    MaxTempTableSize
+    MaxValRange
+    MaxValRangeTransitive
+    MinResultSets
+    SystemMemoryLimitPercent
+    ThreadMemoryLimit
+  HighestCommittedUSN: 32184874
+  SupportedSASLMechanisms:
+    DIGEST-MD5
+    EXTERNAL
+    GSS-SPNEGO
+    GSSAPI
+  DnsHostName: SASWServer.SASW.local
+  LdapServiceName: SASW.local:saswserver$@SASW.LOCAL
+  ServerName: CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local
+  SupportedCapabilities:
+    1.2.840.113556.1.4.1670
+    1.2.840.113556.1.4.1791
+    1.2.840.113556.1.4.1935
+    1.2.840.113556.1.4.2080
+    1.2.840.113556.1.4.2237
+    1.2.840.113556.1.4.800
+  IsSynchronized: TRUE
+  IsGlobalCatalogReady: TRUE
+  SupportedExtension:
+    1.2.840.113556.1.4.1781
+    1.2.840.113556.1.4.2212
+    1.3.6.1.4.1.1466.101.119.1
+    1.3.6.1.4.1.1466.20037
+    1.3.6.1.4.1.4203.1.11.3
+  DomainFunctionality: 6
+  ForestFunctionality: 6
+```
+------------------
+**3269:**
+```
+LDAP:
+  CurrentTime: 20240428095109.0Z
+  SubschemaSubentry: CN=Aggregate,CN=Schema,CN=Configuration,DC=SASW,DC=local
+  DsServiceName: CN=NTDS Settings,CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local
+  NamingContexts:
+    CN=Configuration,DC=SASW,DC=local
+    CN=Schema,CN=Configuration,DC=SASW,DC=local
+    DC=DomainDnsZones,DC=SASW,DC=local
+    DC=ForestDnsZones,DC=SASW,DC=local
+    DC=SASW,DC=local
+  DefaultNamingContext: DC=SASW,DC=local
+  SchemaNamingContext: CN=Schema,CN=Configuration,DC=SASW,DC=local
+  ConfigurationNamingContext: CN=Configuration,DC=SASW,DC=local
+  RootDomainNamingContext: DC=SASW,DC=local
+  SupportedControl:
+    1.2.840.113556.1.4.1338
+    1.2.840.113556.1.4.1339
+    1.2.840.113556.1.4.1340
+    1.2.840.113556.1.4.1341
+    1.2.840.113556.1.4.1413
+    1.2.840.113556.1.4.1504
+    1.2.840.113556.1.4.1852
+    1.2.840.113556.1.4.1907
+    1.2.840.113556.1.4.1948
+    1.2.840.113556.1.4.1974
+    1.2.840.113556.1.4.2026
+    1.2.840.113556.1.4.2064
+    1.2.840.113556.1.4.2065
+    1.2.840.113556.1.4.2066
+    1.2.840.113556.1.4.2090
+    1.2.840.113556.1.4.2204
+    1.2.840.113556.1.4.2205
+    1.2.840.113556.1.4.2206
+    1.2.840.113556.1.4.2211
+    1.2.840.113556.1.4.2239
+    1.2.840.113556.1.4.2255
+    1.2.840.113556.1.4.2256
+    1.2.840.113556.1.4.319
+    1.2.840.113556.1.4.417
+    1.2.840.113556.1.4.473
+    1.2.840.113556.1.4.474
+    1.2.840.113556.1.4.521
+    1.2.840.113556.1.4.528
+    1.2.840.113556.1.4.529
+    1.2.840.113556.1.4.619
+    1.2.840.113556.1.4.801
+    1.2.840.113556.1.4.802
+    1.2.840.113556.1.4.805
+    1.2.840.113556.1.4.841
+    1.2.840.113556.1.4.970
+    2.16.840.1.113730.3.4.10
+    2.16.840.1.113730.3.4.9
+  SupportedLDAPVersion:
+    2
+    3
+  SupportedLDAPPolicies:
+    InitRecvTimeout
+    MaxBatchReturnMessages
+    MaxConnIdleTime
+    MaxConnections
+    MaxDatagramRecv
+    MaxNotificationPerConn
+    MaxPageSize
+    MaxPercentDirSyncRequests
+    MaxPoolThreads
+    MaxQueryDuration
+    MaxReceiveBuffer
+    MaxResultSetSize
+    MaxResultSetsPerConn
+    MaxTempTableSize
+    MaxValRange
+    MaxValRangeTransitive
+    MinResultSets
+    SystemMemoryLimitPercent
+    ThreadMemoryLimit
+  HighestCommittedUSN: 32260909
+  SupportedSASLMechanisms:
+    DIGEST-MD5
+    EXTERNAL
+    GSS-SPNEGO
+    GSSAPI
+  DnsHostName: SASWServer.SASW.local
+  LdapServiceName: SASW.local:saswserver$@SASW.LOCAL
+  ServerName: CN=SASWSERVER,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=SASW,DC=local
+  SupportedCapabilities:
+    1.2.840.113556.1.4.1670
+    1.2.840.113556.1.4.1791
+    1.2.840.113556.1.4.1935
+    1.2.840.113556.1.4.2080
+    1.2.840.113556.1.4.2237
+    1.2.840.113556.1.4.800
+  IsSynchronized: TRUE
+  IsGlobalCatalogReady: TRUE
+  SupportedExtension:
+    1.2.840.113556.1.4.1781
+    1.2.840.113556.1.4.2212
+    1.3.6.1.4.1.1466.101.119.1
+    1.3.6.1.4.1.1466.20037
+    1.3.6.1.4.1.4203.1.11.3
+  DomainFunctionality: 6
+  ForestFunctionality: 6
+```
+------------------
+**3306:**
+```
+MySQL:
+  Protocol Version: 10
+  Version: 5.6.23-enterprise-commercial-advanced-log
+  Capabilities: 63487
+  Server Language: 33
+  Server Status: 2
+  Extended Server Capabilities: 32895
+  Authentication Plugin: mysql_native_password
+```
+------------------
+**3389:**
+```
+Remote Desktop Protocol
+\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x0f\x08\x00\x02\x00\x00\x00
+Remote Desktop Protocol NTLM Info:
+  OS: Windows 8.1/Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: SASW
+  NetBIOS Domain Name: SASW
+  NetBIOS Computer Name: SASWSERVER
+  DNS Domain Name: SASW.local
+  DNS Tree Name: SASW.local
+  FQDN: SASWServer.SASW.local
+
+Administrator Outro utilizador
+SASWAadministrator
+Windows Update
+Estdo disponiveis atualizagdes importantes. Va para
+Definigdes do PC para instala-las.
+gm Windows Server 2012 R2 ENG
+```
+------------------
+**5985:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 01 May 2024 21:49:00 GMT
+Connection: close
+Content-Length: 315
+
+
+WinRM NTLM Info:
+  OS: Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: SASW
+  NetBIOS Domain Name: SASW
+  NetBIOS Computer Name: SASWSERVER
+  DNS Domain Name: SASW.local
+  DNS Tree Name: SASW.local
+  FQDN: SASWServer.SASW.local
+```
+------------------"
 190.217.48.58,100,Agressive IP known malicious on AbuseIPDB - countryCode: CO - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:23+00:00
 23.251.108.102,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-45.178.128.86,100,Agressive IP known malicious on AbuseIPDB - countryCode: BR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-49.207.0.145,100,Agressive IP known malicious on AbuseIPDB - countryCode: IN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-74.82.47.58,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-95.214.106.99,100,Agressive IP known malicious on AbuseIPDB - countryCode: BG - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-125.133.4.97,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-165.227.47.218,100,Agressive IP known malicious on AbuseIPDB - countryCode: CA - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-184.105.139.96,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-184.105.247.248,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-186.23.209.47,100,Agressive IP known malicious on AbuseIPDB - countryCode: AR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-192.241.193.55,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-198.199.109.7,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
+45.178.128.86,50,**ISP:** GmaX Telecomunicaçao
+
+**OS:** -
+
+--------------------------
+Services:
+
+**2000:**
+```
+\x01\x00\x00\x00
+```
+------------------
+**8291:**
+```
+MikroTik Winbox:
+  index:
+    advtool.dll: 6.49.7
+    dhcp.dll: 6.49.7
+    ipv6.dll: 6.49.7
+    mpls.dll: 6.49.7
+    ppp.dll: 6.49.7
+    roteros.dll: 6.49.7
+    roting4.dll: 6.49.7
+    secure.dll: 6.49.7
+    system.dll: 6.49.7
+  list:
+    advtool.jg: 6.49.7
+    dhcp.jg: 6.49.7
+    icons.png: 6.49.7
+    icons24.png: 
+    icons32.png: 
+    ipv6.jg: 6.49.7
+    mpls.jg: 6.49.7
+    ppp.jg: 6.49.7
+    roteros.jg: 6.49.7
+    roting4.jg: 6.49.7
+    secure.jg: 6.49.7
+```
+------------------
+49.207.0.145,50,**ISP:** Atria Convergence Technologies pvt ltd
+
+**OS:** -
+
+--------------------------
+Services:
+
+**23:**
+```
+\r\r\nralink login:
+```
+------------------
+**53:**
+```
+dnsmasq-2.40
+```
+------------------
+**53:**
+```
+dnsmasq-2.40
+Recursion: enabled
+```
+------------------
+**8888:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Connection: close
+Content-Length: 134
+Server: SDK 4.0.0.0 UPnP/1.0 MiniUPnPd/1.6
+```
+------------------
+74.82.47.58,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""275736971""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Thu, 02 May 2024 07:26:11 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+95.214.106.99,50,"**ISP:** I NET BULGARIA EOOD
+
+**OS:** -
+
+--------------------------
+Services:
+
+**443:**
+```
+HTTP/1.1 200 OK
+Connection: close
+ETag: ""930-b85-620d0e97""
+Last-Modified: Wed, 16 Feb 2022 14:47:51 GMT
+Date: Sat, 20 Apr 2024 13:34:41 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html
+Content-Length: 2949
+```
+HEARTBLEED: 2024/04/20 13:34:57 95.214.106.99:443 - SAFE
+
+------------------
+**8080:**
+```
+HTTP/1.1 302 Found
+Location: https://95.214.106.99:443/
+Connection: close
+```
+------------------"
+125.133.4.97,50,"**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sun, 21 Apr 2024 07:16:02 GMT
+Server: Boa/0.94.14rc19
+Accept-Ranges: bytes
+Connection: Keep-Alive
+Keep-Alive: timeout=10, max=1000
+Content-Length: 7554
+Last-Modified: Sun, 21 Apr 2024 07:16:02 GMT
+Content-Type: text/html
+```
+------------------"
+165.227.47.218,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGydlECRrV9FWcNXxxLIlwEU
+POIblpiMXSGF0+O1fA1AhE/vnXM75ukaUTt0C8Nyor0L+wSzPQyx0rXw0NsTGOE=
+Fingerprint: e6:31:48:dc:a8:e3:16:60:1d:4e:cb:2e:02:0e:b6:b5
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+184.105.139.96,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""4033833102""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Thu, 02 May 2024 00:33:09 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+184.105.247.248,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""3496966535""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Wed, 01 May 2024 03:18:51 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+186.23.209.47,50,"**ISP:** Telecentro S.A.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-dropbear_2016.74
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC5QE5g1ob/XBiNTxeDCnrYMqH78j2/piIhizp1qcFwcryn
+Jpn2N0sXTJvFiOC9wex0mWswbTSDtJsmuodJO+T9x+132uaGq8h0CTNv0Tw4RUT9jDAwDYx1O74e
+zZBtyyElB5zXxWOpEwcZNPni0JcHGeOBfCVuIb+nH0qrg3cKq8EJUs60x+1lKpRv+21JjTKFBoqV
+q3fu89Bp52a+HpiESLRgXHF0MovPlIXDCvCHxpRo6NePMgizfkmghVzlSWzdGwzTDsl1U7NgntTg
+bDv/lnK5BcZUD8aqFJDJ6V6Jg73gCwOGXomg3JKRbWNUneQNBQ1472Zd6ehAPePGqoPF
+Fingerprint: 77:27:12:01:37:5a:8c:60:c8:c3:cc:f8:96:77:27:db
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ecdsa-sha2-nistp521
+	ssh-rsa
+	ssh-dss
+
+Encryption Algorithms:
+	aes128-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha1
+	hmac-sha2-256
+	hmac-sha2-512
+
+Compression Algorithms:
+	zlib@openssh.com
+	none
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sun, 28 Apr 2024 16:24:07 GMT
+Server: webserver
+X-Frame-Options: SAMEORIGIN
+ETag: ""386-1e1-5a586ee2""
+Content-Length: 481
+Content-Type: text/html
+Connection: close
+Last-Modified: Fri, 12 Jan 2018 08:16:34 GMT
+
+
+Hikvision IP Camera:
+  Web Version: 4.0.1 build 180112
+  Plugin Version: 3.0.6.33
+  ActiveX Files:
+    AudioIntercom.dll: 1.4.0.5
+    NetStream.dll: 1.0.5.42
+    npWebVideoPlugin.dll: 3.0.6.33
+    PlayCtrl.dll: 7.3.3.65
+    StreamTransClient.dll: 1.1.3.8
+    SystemTransform.dll: 2.5.2.10
+    WebVideoActiveX.ocx: 3.0.6.33
+```
+------------------
+**554:**
+```
+RTSP/1.0 200 OK
+CSeq: 1
+Public: OPTIONS, DESCRIBE, PLAY, PAUSE, SETUP, TEARDOWN, SET_PARAMETER, GET_PARAMETER
+Date:  Wed, May 01 2024 19:04:41 GMT
+```
+------------------"
+192.241.193.55,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDPq3UeiVR3yDaqqBrTaO45tXiSF1xZSyWlLidLPh59WuUZ
+iXCSbcgr9yRpjVJ859xsmeZEVQhm86J3SbbIaPDATwTXDn3k9Su8QWkJNow2C5UE+TnX22kuv0rH
+Jt6sSozSVHF+QNlQR0Q6UVt5X0Hysxa5FRWj/Z0LrzKwouyw7nknjZjmXNSs9z0c4gnFGp5QsCrH
+nyhxuXDKhMHJqsUpS3s5N69eGcxTX7OjA12cktDnYhUgzkrs8Bn2W+e2sHFfDLsiyPE042cZ7wRX
+2cL4adhXW5HVKPJsSoTbdCdAhdDfbY13dErmWOcc0ly+970TdW7U4YRmmNequTDJDdCF
+Fingerprint: 72:d4:83:68:80:0b:68:73:95:34:b6:67:be:3f:08:66
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+198.199.109.7,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDHAqiFaKPJGtQgMBCZ/2zkEnAbvBRY2QQjJ0dfAR5yEBpI
+XU9TvKVSkFmUphE5AAd7xfWrxVnNToDN4Fs1tD2zXFY2u3j10rvLOi68imH/zmH8g6zgRom+Zwfk
+f4DX4yoxc5ASkrFYKjcJ6/c4IOlTfvpZKfuoomgKj4jdey4OKbZs0MXbnzjzrjQuoWyUSN2znPGu
+tlqACjxLiTEXKlho+KxKfU8ggdS6P2YjYJGtVzWmIasVBYS1t0A8apmf2jR82OvFgUAIXZntP5wd
+ty/RZ7vDXgq1+CC2jRoDqrckOAiTYgujTGvBCPJXoe8CDWsYqb0sx2KFtk1eUP02xLHP
+Fingerprint: d4:9a:55:cf:d8:ad:3f:b9:fe:18:29:c2:cc:a0:43:d8
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
 203.146.129.235,100,Agressive IP known malicious on AbuseIPDB - countryCode: TH - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-216.218.206.108,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:24+00:00
-2.42.204.187,100,Agressive IP known malicious on AbuseIPDB - countryCode: IT - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-64.62.197.83,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-64.62.197.201,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-65.49.1.60,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-82.1.243.251,100,Agressive IP known malicious on AbuseIPDB - countryCode: GB - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-82.200.154.210,100,Agressive IP known malicious on AbuseIPDB - countryCode: KZ - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
+216.218.206.108,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1886349459""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Mon, 29 Apr 2024 03:24:09 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+2.42.204.187,50,**ISP:** Vodafone Italia S.p.A.
+
+**OS:** Debian
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u3
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC8dEy+MOIU8e6nI/lHBgKCFLfvvg6Jjf/1GusovHbXN2ux
+hamA2WocwsBTMcKf9JoYi9j/3yfdOGrgnbvKNUrBFXsd1D9iqE8BVk1AdGvn7kmPd8GTgXVGmkgH
+oHKxk8hjlIw0ffPCieGXz5KheXyFfj6LgYG72sTe8alFgNPFj1QOVfdu2wiOblFT2mc2M3Wt5Dia
+LbK2PQRpnFDILkGs2vAOWsfn2LNjTgwQMz4YC3e2Z1SaeHlvcG0ffryxtuek4bOBMEvlMsTUa3Ha
+DoFy+CA1kYX0bLSLBpJAsdbgIKmmoZQI+ElS9xmOsKiWFrY2MfeucojNNbcvdqb33/Y3
+Fingerprint: d5:a6:d1:8e:28:d2:be:46:2c:7a:ce:f4:de:0b:38:7b
+
+Kex Algorithms:
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	ssh-dss
+	ecdsa-sha2-nistp256
+
+Encryption Algorithms:
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	arcfour256
+	arcfour128
+	aes128-cbc
+	3des-cbc
+	blowfish-cbc
+	cast128-cbc
+	aes192-cbc
+	aes256-cbc
+	arcfour
+	rijndael-cbc@lysator.liu.se
+
+MAC Algorithms:
+	hmac-md5
+	hmac-sha1
+	umac-64@openssh.com
+	hmac-sha2-256
+	hmac-sha2-256-96
+	hmac-sha2-512
+	hmac-sha2-512-96
+	hmac-ripemd160
+	hmac-ripemd160@openssh.com
+	hmac-sha1-96
+	hmac-md5-96
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+64.62.197.83,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2577922100""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 28 Apr 2024 22:16:15 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+64.62.197.201,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1941436981""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Mon, 22 Apr 2024 23:57:54 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.1.60,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Wed, 01 May 2024 21:55:14 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+82.1.243.251,50,"**ISP:** Virgin Media Limited
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-dropbear
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCI8qist5eyT7+J4j7psLuQRgfIFk3fcGgWj22xsqwELUq4
+ZFgO09QzK6c6RCH/m6tWjoRFEcOH6nnY3bds7ZystH+c6gi89FlMzfahbolJLnHiNruY7rSOVOx0
+6yDkZ0Pw0TXOd205ah7oktEzgdNTeB9d93TRkjS+016i2zEhX6FEu+jUiXOhxf91GlpB0AJxSqkr
+31GFKmWPNFyA+zvNcIoVWU237l6APszC83fDe2u3mVNUlIreQqmyxhwCxDNmKlWHuzPkYg0QZDUc
+cOdMPS20ZeMCudceQ88RPxcHoUvaxRA/bSJsdQomX1kYdpHbMbVWFFZPxK4wCspQqr41
+Fingerprint: a2:dd:b7:47:5d:94:c5:85:f2:3a:ce:2d:bb:64:a4:7d
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ssh-ed25519
+	ecdsa-sha2-nistp256
+	rsa-sha2-256
+	ssh-rsa
+	ssh-dss
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha1
+	hmac-sha2-256
+
+Compression Algorithms:
+	none
+```
+------------------
+**443:**
+```
+HTTP/1.1 401 Unauthorized
+Content-Type: text/html
+Content-Length: 11431
+X-Frame-Options: SAMEORIGIN
+Date: Mon, 22 Apr 2024 05:33:49 GMT
+Server: lighttpd/1.4.39
+```
+HEARTBLEED: 2024/04/22 05:34:05 82.1.243.251:443 - SAFE
+
+------------------
+**7788:**
+```
+
+```
+------------------"
+82.200.154.210,50,"**ISP:** JSC Kazakhtelecom
+
+**OS:** Windows Server 2012 R2 (build 6.3.9600)
+
+--------------------------
+Services:
+
+**1433:**
+```
+MS-SQL NTLM Info:
+  OS: Windows 8.1/Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: BARSSERVER
+  NetBIOS Domain Name: BARSSERVER
+  NetBIOS Computer Name: BARSSERVER
+  DNS Domain Name: BarsServer
+  FQDN: BarsServer
+```
+------------------
+**5985:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Fri, 26 Apr 2024 00:53:54 GMT
+Connection: close
+Content-Length: 315
+
+
+WinRM NTLM Info:
+  OS: Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: BARSSERVER
+  NetBIOS Domain Name: BARSSERVER
+  NetBIOS Computer Name: BARSSERVER
+  DNS Domain Name: BarsServer
+  FQDN: BarsServer
+```
+------------------"
 93.71.9.21,100,Agressive IP known malicious on AbuseIPDB - countryCode: IT - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
 94.253.41.115,100,Agressive IP known malicious on AbuseIPDB - countryCode: RU - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-101.43.240.23,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-118.200.73.90,100,Agressive IP known malicious on AbuseIPDB - countryCode: SG - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-119.205.92.81,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
+101.43.240.23,50,"**ISP:** Shenzhen Tencent Computer Systems Company Limited
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 1 of 50 allowed.
+220-Local time is now 23:22. Server port: 21.
+220-This is a private system - No anonymous login
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 15 minutes of inactivity.
+421 Unable to read the indexed puredb file (or old format detected) - Try pure-pw mkdb
+211-Extensions supported:
+ UTF8
+ EPRT
+ IDLE
+ MDTM
+ SIZE
+ MFMT
+ REST STREAM
+ MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+ MLSD
+ PRET
+ AUTH TLS
+ PBSZ
+ PROT
+ TVFS
+ ESTA
+ PASV
+ EPSV
+ SPSV
+ ESTP
+211 End.
+```
+------------------
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC6c2xMHfzRRxACNH1QNZuH+VCDqCjLoTJp+AAqymUl+BjH
+y4ph19z/Agk2vw1jA9dcI7K3VCW5PK9YDxS1L2MDDbZefSmhHSfpgeoTNI2xjz/JNw7N010q0a3i
+csqqOrmnxnWnVBM6T5EeMXvRbJsvwO++bc6kqyH3UQUiJdR0p4Id2OCTayQO//tZVUUt47zYS9OJ
+yC4nWkguf+QEw4GOSQa6sbTW4H+8JFAQjmQEnxZNiVvzA7IycOoAz593VeBkPtlS1TO8lk4cAQAl
+5+58FiWpmNNYTfImPQu1Zxgk6M2XEsonMDPX89o9r4ETGJTW5z+gZ/1Fgbr9skycvhUX
+Fingerprint: 46:54:c4:84:66:43:be:bb:42:76:d6:42:76:19:87:c7
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**3306:**
+```
+MySQL:
+  Protocol Version: 10
+  Version: 5.6.50-log
+  Capabilities: 63487
+  Server Language: 45
+  Server Status: 2
+  Extended Server Capabilities: 32895
+  Authentication Plugin: mysql_native_password
+```
+------------------
+**8888:**
+```
+HTTP/1.1 404 NOT FOUND
+Content-Type: text/plain; charset=utf-8
+Server: nginx
+Connection: keep-alive
+Content-Length: 0
+Date: Fri, 26 Apr 2024 21:17:41 GMT
+```
+------------------"
+118.200.73.90,50,**ISP:** Singtel Fibre Broadband
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.0 200 OK
+Server: SonicWALL
+Expires: -1
+Cache-Control: no-cache
+Content-type: text/html; charset=UTF-8;
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: ws: wss: sonicwall.com *.sonicwall.com;
+```
+------------------
+**443:**
+```
+HTTP/1.0 200 OK
+Server: SonicWALL
+Expires: -1
+Cache-Control: no-cache
+Content-type: text/html; charset=UTF-8;
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: ws: wss: sonicwall.com *.sonicwall.com;
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+```
+HEARTBLEED: 2024/04/13 01:25:04 118.200.73.90:443 - SAFE
+
+------------------
+119.205.92.81,50,"**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-dropbear_2015.67
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDcTPoEVdtuP30RB3TmyNevHp17649gck6sS6KmoyeX2eS0
+vjtAbrNXq+CvneiIkQzHf70iTMu8yRruASHnfPxfz0/xsuAQ72Iq1Sl3PKWxekyGH2eO93oAIw8B
+z6HuZlhxQzpmysS0njUdTifDmSdMCw9f6LYkLTWYtrpEX4J+7n3Hi70ZedKRM7mRCa4wP8B8gk+b
+tihUvA/INvCueCWAb0vQMK+7+VY19BrckShMU2Vt0T+1Yk26U9/BL5edLalflpINr3vFl/V5lnOY
+IxWmKfowBYssSGNl6LyF5QYTMbFU84EtZ/JXGD4yaBB4mU43Ub7LyeMCCS5Bxh1bqwTb
+Fingerprint: 1e:37:c6:28:67:3d:09:18:35:97:5a:22:b9:06:d6:88
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ssh-rsa
+
+Encryption Algorithms:
+	aes128-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	zlib@openssh.com
+	none
+```
+------------------
+**53:**
+```
+
+```
+------------------
+**80:**
+```
+HTTP/1.0 302 Redirect
+Server: GoAhead-Webs
+Date: Mon Oct 16 00:06:07 2023
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html
+Set-Cookie: sid=0; path=/; HttpOnly;
+Location: https://119.205.92.81/
+```
+------------------
+**161:**
+```
+SNMP:
+  Description: Ruckus Wireless Inc (C) 2006
+  Versions:
+    1
+    3
+  Engine Boots: 1
+  Engineid Data: 80001f8880771abe8c612db45d
+  Enterprise: 8072
+  Engine Time: 773 days, 8:41:39
+```
+------------------
+**443:**
+```
+HTTP/1.0 200 OK
+Date: Mon Oct 16 00:06:16 2023
+Server: GoAhead-Webs
+Pragma: no-cache
+Cache-Control: no-cache
+Content-type: text/html
+```
+HEARTBLEED: 2024/04/26 20:54:48 119.205.92.81:443 - SAFE
+
+------------------
+**777:**
+```
+
+```
+------------------"
 152.32.205.193,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-180.44.74.13,100,Agressive IP known malicious on AbuseIPDB - countryCode: JP - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-184.105.139.86,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-192.241.215.24,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-193.163.125.65,100,Agressive IP known malicious on AbuseIPDB - countryCode: GB - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-193.163.125.159,100,Agressive IP known malicious on AbuseIPDB - countryCode: GB - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-211.197.45.55,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-223.8.220.189,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:25+00:00
-58.97.171.115,100,Agressive IP known malicious on AbuseIPDB - countryCode: PH - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-59.9.37.223,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-64.62.156.25,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-64.62.156.43,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-64.62.156.56,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-64.62.197.117,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-66.240.236.116,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-74.82.47.48,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-94.156.71.18,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-103.203.59.0,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
+180.44.74.13,50,"**ISP:** NTT Communications Corporation
+
+**OS:** -
+
+--------------------------
+Services:
+
+**17000:**
+```
+HTTP/1.1 401 Unauthorized
+Server: PDR-M800/1.0
+Date: Wed May  1 23:12:24 2024
+Content-Type: text/plain
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Expires: -1
+Transfer-Encoding: chunked
+WWW-Authenticate: Digest realm=""Control"", domain=""PDVR M800"", nonce=""80a17a4ff01bb461f4850c16ad934102"", algorithm=MD5, qop=""auth""
+Connection: Keep-Alive
+```
+------------------"
+184.105.139.86,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""3496966535""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 28 Apr 2024 04:27:38 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+192.241.215.24,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDGsOJSAWcpbt6fdW/qRt76n8vInJWLhZOs6i+WvhBbkmOp
+UFePJZbr9Y2gNfBv8+5bmng9Kg2wYmaXHI6KJtk3Rvevhhtj/00IweoO3Xva5DVyoimnAM3rPSrK
+aVg1fg5qkv1Ngxojk+FHYrux28F4qwnYYB+c0MdxMTTgJQhSrfzTBKpQsW6tEOkKUequJ/oSvpwA
+m4xeQwHkQryRWdEaIm7maIg7XcLUjQbQ1fGWIuMhvHKzJ3qnousp2FLBVrdURZ1WSYoG6DuyGKQV
+ininnxtvglD9MvIOg1XYxJ3dgwlYwFYJh2n0VE9SKCvtqUQLKBZSTgCo2FgeWVry1Wkh
+Fingerprint: 33:52:75:4c:1a:e9:92:dc:3a:53:f6:00:b2:95:46:1c
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+193.163.125.65,50,"**ISP:** INTERNET MEASUREMENT
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=utf-8
+Location: https://internet-measurement.com/
+Date: Wed, 01 May 2024 18:57:01 GMT
+Content-Length: 56
+```
+------------------"
+193.163.125.159,50,"**ISP:** INTERNET MEASUREMENT
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=utf-8
+Location: https://internet-measurement.com/
+Date: Sun, 28 Apr 2024 12:13:56 GMT
+Content-Length: 56
+```
+------------------"
+211.197.45.55,50,"**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**23:**
+```
+(none) login:
+```
+HEARTBLEED: 2024/05/02 00:16:04 211.197.45.55:23 - ERROR: tls: oversized record received with length 65533
+
+------------------
+**554:**
+```
+RTSP/1.0 200 OK
+CSeq: 1
+Public: OPTIONS, DESCRIBE, SETUP, PLAY, TEARDOWN, SET_PARAMETER
+```
+------------------"
+223.8.220.189,50,**ISP:** CHINANET-BACKBONE
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 Welcome to virtual FTP service.
+530 Login incorrect.
+530 Please login with USER and PASS.
+211-Features:
+ EPRT
+ EPSV
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+ UTF8
+211 End
+```
+------------------
+58.97.171.115,50,**ISP:** A Multihomed ISP Company
+
+**OS:** Windows Server 2003 (build 5.2.3790)
+
+--------------------------
+Services:
+
+**137:**
+```
+NetBIOS Response:
+  Server Name: TLSCWS001
+  MAC Address: 00:80:AD:7B:C0:CC
+  Names:
+    TLSCWS001 <0x0>
+    TLSCWS001 <0x20>
+    FITSERV.ORG <0x0>
+  Additional Interfaces:
+    192.168.200.4
+```
+------------------
+**1433:**
+```
+MS-SQL NTLM Info:
+  OS: Windows Server 2003
+  OS Build: 5.2.3790
+```
+------------------
+**1434:**
+```
+SQL Server Browser Service:
+  Instance #1:
+    Server Name: TLSCWS001
+    Instance Name: MSSQLSERVER
+    Is Clustered: False
+    Version: 8.00.194
+    TCP Port: 1433
+    Named Pipe: \\TLSCWS001\pipe\sql\query
+    Version Name: MS-SQL Server 2000 RTM
+```
+------------------
+**1723:**
+```
+PPTP:
+  Firmware: 3790
+  Hostname: 
+  Vendor: Microsoft
+```
+------------------
+**3389:**
+```
+Remote Desktop Protocol
+\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x03\x00\x08\x00\x02\x00\x00\x00
+```
+------------------
+59.9.37.223,50,"**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 11
+leap: 0
+precision: -19
+rootdelay: 0.0
+rootdisp: 0.0114898681641
+refid: 2139029760
+reftime: 3922450804.22
+poll: 3
+```
+------------------
+**8602:**
+```
+HTTP/1.0 200 OK
+Content-type: text/html
+Date: Fri, 12 Apr 2024 19:36:23 GMT
+Connection: close
+Accept-Ranges: bytes
+Last-Modified: Mon, 23 Mar 2020 12:45:07 GMT
+Content-length: 812
+```
+------------------"
+64.62.156.25,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Mon, 29 Apr 2024 10:35:08 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+64.62.156.43,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Tue, 30 Apr 2024 22:05:28 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+64.62.156.56,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 28 Apr 2024 14:34:35 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+64.62.197.117,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1404566076""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 21:16:07 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+66.240.236.116,50,"**ISP:** CariNet, Inc.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC96QfNAL57cFCuqdrB9aTYLBCRB8ByP/vv57leNy6smUzO
+HtEWxO2jbwzJnxjFZggl8JWFX9GxYLh5SizkI+waE4/g2YMFRMRtbFYNHJhBgIBxkyepCDCUqOxx
+MbuKQTZaHx7alopXN+SdISSaKvmHAQdKzZZEOjaCN+X9KDgC973xOXeakJUhzNDiPD+hy7c4GPby
+tkmX+/mS6BP4MJT9ITNgdNOIPjvO8tZf/y7MoHj2N5wpMY7lX7LkMvF5ajqHZhgVSFUv0KUj6zfl
+JLJvuqHjyPuhBUBVEzUWcQg2fCULgrfZat1nwxkZoldNXajjMjylomJmXaFYPT/trU54epMgjkzn
+q2FBn3m3wLouo4wnAmfRC/7OFbmqVIAK/wCZ3/Oe266UjMcxW0ybj+rOBQEc9UK1BdaR5aQQ/+Jp
+uumh4Ou24JJf4ZbNeqdq9L659mGYtVUj3pq0+EoTChH3fFP7UStRa4XaVu1WOiYMpAFJ6u7BpL6Y
+tTvWk9/M0L0=
+Fingerprint: 15:18:d2:b2:97:1b:88:ce:10:e3:d8:5e:ef:b3:68:dc
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+74.82.47.48,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""812608387""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 28 Apr 2024 14:06:20 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+94.156.71.18,50,**ISP:** Limenet
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDbslBxp0ztaeYTw5mX5UJpYkAGxuEnMsSMKTiJWsvEwvnJ
+QvL9tYTz/oJpJO5m0mJ6ZSiukVhSaf29kYW1RirC56lbbHzzGAwQ8JkyTkBKN4HrSvklNojzDhDx
+KgGipGdfF06gKH0XO9nc4+qdW94Bhym+ic/FNWxZxKaykGdQr5hzfOvYG4smuJboZ9LczNdwOQ7Y
+y+TfYUyIMyfqdYvPUfnklufbfw/n/23PDJJPPhwi+SQIxUEK9v43kyCwHQKT00thfXh/KKvg0hkN
+iKdtIJef3txtRzH2FDRnIsB66p0hxawfsRBaP13ojL3jwJi9Zoa0xgEvD3tLewXcCioYIkDIUaAg
+GTZlo/tag/11khELK0gfJvYTl5DIWTjP55bFeykomzdyhvP4HqskcNKxxeBnhDOcGLdFLzrPKZvl
+Hp/e7WW6ybIHqnpVSC0J76YpwAAG0kddK3tenTSg3VZ6SIwxJsJIJwPwrn5pc6axFPe2kEGnbwEY
+RpSZwCsJ3eU=
+Fingerprint: c9:0b:32:24:85:0b:62:1e:b4:37:91:2a:4f:54:6a:e7
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+103.203.59.0,50,"**ISP:** Beijing Tiantexin Tech. Co., Ltd.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDbHQ/0BWQauN0KfVZC0dQ6v77VPWhf+lkLrBcWF81/xO5F
+XUof6+Z3DM3fMTMGTYE+hU1SQ/D5n368hny1MbN1qx6x24e8KB4eGHYC0QQJ9pkDN30nzzKtGBDw
+cdg2EDeQSlpOrJVw22O2sCxggRtTCOMcCbhxSfbEn+CQV3EM9dlia2XUUAmU3hGQnlh+dW7Kcs9k
++7eNzALYtp/gHpPSq+5qV8YzwWyhDdDD7n6dJoB97VXScSTl/0IBbW8yrkb3xH97D/4YYr7DlEVI
+9wfFDWjIPz0TwAa1MoXyQvLDiXV550cMd7FOjWJm37og2BwzdQchsVxw+3sSOlFWYqUD
+Fingerprint: 0d:26:d2:6a:b6:ee:b2:6f:8a:2b:82:0e:37:01:f1:12
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group-exchange-sha256
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes256-gcm@openssh.com
+	aes128-gcm@openssh.com
+	aes256-ctr
+	aes192-ctr
+	aes128-ctr
+
+MAC Algorithms:
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-512
+	hmac-sha2-256
+	umac-128@openssh.com
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------"
 111.11.95.70,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-112.145.84.61,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
+112.145.84.61,50,"**ISP:** LG POWERCOMM
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Tue, 23 Apr 2024 19:44:53 GMT
+Server: Boa/0.94.14rc21
+Accept-Ranges: bytes
+Connection: Keep-Alive
+Keep-Alive: timeout=10, max=1000
+Content-Length: 289
+Last-Modified: Tue, 08 Aug 2017 00:39:55 GMT
+Content-Type: text/html
+```
+------------------
+**81:**
+```
+HTTP/1.1 200 OK
+Date: Sun, 14 Apr 2024 02:18:44 GMT
+Server: DNVRS-Webs
+ETag: ""0-72c-1e0""
+Content-Length: 480
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=60, max=99
+Last-Modified: Wed, 18 Jan 2017 10:56:45 GMT
+
+
+Hikvision IP Camera:
+  Web Version: 4.0.1 build 170118
+  Plugin Version: 3.0.6.6
+  ActiveX Files:
+    AudioIntercom.dll: 1.2.0.1
+    NetStream.dll: 1.0.5.39
+    npWebVideoPlugin.dll: 3.0.6.6
+    PlayCtrl.dll: 7.3.0.0
+    StreamTransClient.dll: 1.1.3.4
+    SystemTransform.dll: 2.5.1.4
+    WebVideoActiveX.ocx: 3.0.6.6
+```
+------------------
+**3306:**
+```
+MariaDB:
+  Protocol Version: 10
+  Version: 10.1.11-MariaDB
+  Capabilities: 63487
+  Server Language: 19
+  Server Status: 2
+  Extended Server Capabilities: 41023
+  Authentication Plugin: mysql_native_password
+```
+------------------"
 117.92.147.145,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-162.243.136.71,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-162.243.143.60,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-175.203.118.149,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-178.128.18.34,100,Agressive IP known malicious on AbuseIPDB - countryCode: SG - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-184.105.139.106,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
+162.243.136.71,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDMIYqM3H8iG6kfLjIHs3k7wiqO9EaMGvu46nyeCat3jBTn
+hwWbFl89Gn2EaSKarCDv5Y4htqWMvHrngIcfhFZ/LB/1yAvd+S3lJWZoC4XvGNg/cKczZbWKdSSx
+iBJx9dx0u6n/FEKTTpCMPU/FCP3sYOgCJanKm2Wepq2reagMF6vgHyzzGw2mwmjGtIENGUxv80DI
+Bk27kPPL8Ir3fcYThk5xsfMHUvOfVAEDYvUc+8lcnoNrNz1s5qfcnI3yn6BRe4BPIpo8C+YI3nN9
+h/zEsQ9KOylIpqGgqYQg9XvP5SDwmygoYDcJrzPEjvgaVh4kPC9Qk9aMPxARwLmwy+jf
+Fingerprint: ca:c6:54:5a:71:91:63:68:22:39:08:ee:be:41:d1:a4
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+162.243.143.60,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDue8bexhi27UI+nffW84IdFVb/UOANWjAP37CGWfuy0+L+
+gzcEaPZoGxlWU8mtYWk3HyJB0cmUdyDxHZ/Ole3Hn8AZy9ypVfBniTghhmNzfUeUQZc+MhnUr3d8
+I3XnQ8QHQjEb9KBedyG0y6kid1+BiwrKArU/opstO+XLkMqNw/EfvGIQRTPcGyeSC7oEjXW/HyK9
+OT4GKmiWv5zH3ibF8AtMQxAzTqWJWUa4eo6ia8udlE9xHtVGgboFS7Un768UUOThwggDKr8uB76s
+aiRP1xoSiGjl98b8DkvaJvEKvpqPOHIOtHbXgh7zeF6aeCLAZ2eywnL36KSHQ+BN5YfN
+Fingerprint: 21:2f:79:1f:13:44:8c:07:ee:08:58:30:11:01:1d:94
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+175.203.118.149,50,**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**23:**
+```
+(none) login:
+```
+HEARTBLEED: 2024/05/01 10:51:52 175.203.118.149:23 - ERROR: tls: oversized record received with length 65533
+
+------------------
+178.128.18.34,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**135:**
+```
+Microsoft RPC Endpoint Mapper
+
+51a227ae-825b-41f2-b4a9-1ac9557a1018
+  version: v1.0
+  annotation: Ngc Pop Key Service
+  ncacn_ip_tcp: 178.128.18.34:49664
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: LSA_IDPEXT_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\WIN-8I0GM46ODBH\pipe\lsass
+
+8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+  version: v1.0
+  annotation: Ngc Pop Key Service
+  ncacn_ip_tcp: 178.128.18.34:49664
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: LSA_IDPEXT_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\WIN-8I0GM46ODBH\pipe\lsass
+
+b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+  version: v2.0
+  annotation: KeyIso
+  ncacn_ip_tcp: 178.128.18.34:49664
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: LSA_IDPEXT_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\WIN-8I0GM46ODBH\pipe\lsass
+
+12345778-1234-abcd-ef00-0123456789ac
+  version: v1.0
+  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol
+  provider: samsrv.dll
+  ncacn_ip_tcp: 178.128.18.34:49664
+  ncalrpc: samss lpc
+  ncalrpc: SidKey Local End Point
+  ncalrpc: protected_storage
+  ncalrpc: lsasspirpc
+  ncalrpc: lsapolicylookup
+  ncalrpc: LSA_EAS_ENDPOINT
+  ncalrpc: LSA_IDPEXT_ENDPOINT
+  ncalrpc: lsacap
+  ncalrpc: LSARPC_ENDPOINT
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\WIN-8I0GM46ODBH\pipe\lsass
+
+d95afe70-a6d5-4259-822e-2c84da1ddb0d
+  version: v1.0
+  protocol: [MS-RSP]: Remote Shutdown Protocol
+  provider: wininit.exe
+  ncacn_ip_tcp: 178.128.18.34:49665
+  ncalrpc: WindowsShutdown
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\InitShutdown
+  ncalrpc: WMsgKRpc055A80
+
+76f226c3-ec14-4325-8a99-6a46348418af
+  version: v1.0
+  provider: winlogon.exe
+  ncalrpc: WindowsShutdown
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\InitShutdown
+  ncalrpc: WMsgKRpc055A80
+  ncalrpc: WMsgKRpc0585F1
+  ncalrpc: WMsgKRpc03DB959C03
+  ncalrpc: WMsgKRpc03DCFBD284
+
+fc48cd89-98d6-4628-9839-86f7a3e4161a
+  version: v1.0
+  ncalrpc: dabrpc
+  ncalrpc: csebpub
+  ncalrpc: LRPC-4adb54019a3bc9d812
+  ncalrpc: LRPC-d0c02f15b6261ced16
+  ncalrpc: LRPC-ee5821fbdd2810da7b
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+d09bdeb5-6171-4a34-bfe2-06fa82652568
+  version: v1.0
+  ncalrpc: csebpub
+  ncalrpc: LRPC-4adb54019a3bc9d812
+  ncalrpc: LRPC-d0c02f15b6261ced16
+  ncalrpc: LRPC-ee5821fbdd2810da7b
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+  ncalrpc: LRPC-d0c02f15b6261ced16
+  ncalrpc: LRPC-ee5821fbdd2810da7b
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+  ncalrpc: LRPC-ee5821fbdd2810da7b
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+  ncalrpc: LRPC-19b96ad43d3fb7fb9f
+  ncalrpc: LRPC-b301b3b75d804279c1
+  ncalrpc: LRPC-659c6c4e13f078500a
+  ncalrpc: OLEFDF1D4DB92D8689373CAB95FD132
+  ncalrpc: LRPC-659c6c4e13f078500a
+  ncalrpc: OLEFDF1D4DB92D8689373CAB95FD132
+
+697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+  version: v1.0
+  ncalrpc: LRPC-4adb54019a3bc9d812
+  ncalrpc: LRPC-d0c02f15b6261ced16
+  ncalrpc: LRPC-ee5821fbdd2810da7b
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+9b008953-f195-4bf9-bde0-4471971e58ed
+  version: v1.0
+  ncalrpc: LRPC-d0c02f15b6261ced16
+  ncalrpc: LRPC-ee5821fbdd2810da7b
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+0d47017b-b33b-46ad-9e18-fe96456c5078
+  version: v1.0
+  ncalrpc: umpo
+
+95406f0b-b239-4318-91bb-cea3a46ff0dc
+  version: v1.0
+  ncalrpc: umpo
+
+4ed8abcc-f1e2-438b-981f-bb0e8abc010c
+  version: v1.0
+  ncalrpc: umpo
+
+0ff1f646-13bb-400a-ab50-9a78f2b7a85a
+  version: v1.0
+  ncalrpc: umpo
+
+6982a06e-5fe2-46b1-b39c-a2c545bfa069
+  version: v1.0
+  ncalrpc: umpo
+
+082a3471-31b6-422a-b931-a54401960c62
+  version: v1.0
+  ncalrpc: umpo
+
+fae436b0-b864-4a87-9eda-298547cd82f2
+  version: v1.0
+  ncalrpc: umpo
+
+e53d94ca-7464-4839-b044-09a2fb8b3ae5
+  version: v1.0
+  ncalrpc: umpo
+
+178d84be-9291-4994-82c6-3f909aca5a03
+  version: v1.0
+  ncalrpc: umpo
+
+4dace966-a243-4450-ae3f-9b7bcb5315b8
+  version: v2.0
+  ncalrpc: umpo
+
+1832bcf6-cab8-41d4-85d2-c9410764f75a
+  version: v1.0
+  ncalrpc: umpo
+
+c521facf-09a9-42c5-b155-72388595cbf0
+  version: v0.0
+  ncalrpc: umpo
+
+2c7fd9ce-e706-4b40-b412-953107ef9bb0
+  version: v0.0
+  ncalrpc: umpo
+
+88abcbc3-34ea-76ae-8215-767520655a23
+  version: v0.0
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+76c217bc-c8b4-4201-a745-373ad9032b1a
+  version: v1.0
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+55e6b932-1979-45d6-90c5-7f6270724112
+  version: v1.0
+  ncalrpc: LRPC-fc3bc966ff64b1a03a
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+  version: v1.0
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+20c40295-8dba-48e6-aebf-3e78ef3bb144
+  version: v2.0
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+2513bcbe-6cd4-4348-855e-7efb3c336dd3
+  version: v2.0
+  ncalrpc: OLE66036A1A78177A07E9168A9FEFD3
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+  version: v1.0
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+  version: v1.0
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+  version: v1.0
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+  version: v1.0
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+2d98a740-581d-41b9-aa0d-a88b9d5ce938
+  version: v1.0
+  ncalrpc: LRPC-241a8a32af29f1d266
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+dd59071b-3215-4c59-8481-972edadc0f6a
+  version: v1.0
+  ncalrpc: actkernel
+  ncalrpc: umpo
+
+0361ae94-0316-4c6c-8ad8-c594375800e2
+  version: v1.0
+  ncalrpc: umpo
+
+5824833b-3c1a-4ad2-bdfd-c31d19e23ed2
+  version: v1.0
+  ncalrpc: umpo
+
+bdaa0970-413b-4a3e-9e5d-f6dc9d7e0760
+  version: v1.0
+  ncalrpc: umpo
+
+3b338d89-6cfa-44b8-847e-531531bc9992
+  version: v1.0
+  ncalrpc: umpo
+
+8782d3b9-ebbd-4644-a3d8-e8725381919b
+  version: v1.0
+  ncalrpc: umpo
+
+085b0334-e454-4d91-9b8c-4134f9e793f3
+  version: v1.0
+  ncalrpc: umpo
+
+4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9
+  version: v1.0
+  ncalrpc: umpo
+
+c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+  version: v1.0
+  annotation: Impl friendly name
+  provider: sysntfy.dll
+  ncalrpc: LRPC-ce81d90f9370586e64
+  ncalrpc: IUserProfile2
+  ncalrpc: LRPC-e421b8a2ecc51a240a
+  ncalrpc: LRPC-953c3b05c60f1a25c9
+
+f3f09ffd-fbcf-4291-944d-70ad6e0e73bb
+  version: v1.0
+  ncalrpc: LRPC-77fa462ee22d7a4bba
+  ncalrpc: LRPC-5e5bbf6c97fc27cc9c
+  ncalrpc: LRPC-62f33730dcdebaafc6
+
+a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+  version: v1.0
+  ncalrpc: LRPC-002e3806181b326bf0
+  ncalrpc: LRPC-19b96ad43d3fb7fb9f
+
+e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
+  version: v1.0
+  ncalrpc: LRPC-9b7a00e8c9e9999bfe
+
+880fd55e-43b9-11e0-b1a8-cf4edfd72085
+  version: v1.0
+  annotation: KAPI Service endpoint
+  ncalrpc: LRPC-dddd2a6faaecec9624
+  ncalrpc: OLE1E0C3737F97601CB7E5451BBDDB2
+  ncalrpc: LRPC-b301b3b75d804279c1
+
+5222821f-d5e2-4885-84f1-5f6185a0ec41
+  version: v1.0
+  ncalrpc: LRPC-082818233a7a0fb19f
+
+3a9ef155-691d-4449-8d05-09ad57031823
+  version: v1.0
+  ncacn_ip_tcp: 178.128.18.34:49667
+  ncalrpc: LRPC-dce7f5c9c3461daeea
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\atsvc
+  ncalrpc: LRPC-80c967c95794d9920f
+
+86d35949-83c9-4044-b424-db363231fd0c
+  version: v1.0
+  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
+  provider: schedsvc.dll
+  ncacn_ip_tcp: 178.128.18.34:49667
+  ncalrpc: LRPC-dce7f5c9c3461daeea
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\atsvc
+  ncalrpc: LRPC-80c967c95794d9920f
+
+33d84484-3626-47ee-8c6f-e7e98b113be1
+  version: v2.0
+  ncalrpc: LRPC-dce7f5c9c3461daeea
+  ncalrpc: ubpmtaskhostchannel
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\atsvc
+  ncalrpc: LRPC-80c967c95794d9920f
+
+378e52b0-c0a9-11cf-822d-00aa0051e40f
+  version: v1.0
+  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
+  provider: taskcomp.dll
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\atsvc
+  ncalrpc: LRPC-80c967c95794d9920f
+
+1ff70682-0a51-30e8-076d-740be8cee98b
+  version: v1.0
+  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
+  provider: taskcomp.dll
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\atsvc
+  ncalrpc: LRPC-80c967c95794d9920f
+
+0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+  version: v1.0
+  provider: schedsvc.dll
+  ncalrpc: LRPC-80c967c95794d9920f
+
+f6beaff7-1e19-4fbb-9f8f-b89e2018337c
+  version: v1.0
+  annotation: Event log TCPIP
+  protocol: [MS-EVEN6]: EventLog Remoting Protocol
+  provider: wevtsvc.dll
+  ncacn_ip_tcp: 178.128.18.34:49666
+  ncacn_np: \\WIN-8I0GM46ODBH\pipe\eventlog
+  ncalrpc: eventlog
+
+7ea70bcf-48af-4f6a-8968-6a440754d5fa
+  version: v1.0
+  annotation: NSI server endpoint
+  provider: nsisvc.dll
+  ncalrpc: LRPC-d8934c2659c41bb279
+
+0d3c7f20-1c8d-4654-a1b3-51563b298bda
+  version: v1.0
+  annotation: UserMgrCli
+  ncalrpc: LRPC-cc9f76694b556bac4a
+  ncalrpc: OLE5B8800889C89F1B30373ACD6D9E5
+
+b18fbab6-56f8-4702-84e0-41053293a869
+  version: v1.0
+  annotation: UserMgrCli
+  ncalrpc: LRPC-cc9f76694b556bac4a
+  ncalrpc: OLE5B8800889C89F1B30373ACD6D9E5
+
+3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+  version: v1.0
+  annotation: DHCP Client LRPC Endpoint
+  provider: dhcpcsvc.dll
+  ncalrpc: dhcpcsvc
+  ncalrpc: dhcpcsvc6
+
+3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+  version: v1.0
+  annotation: DHCPv6 Client LRPC Endpoint
+  provider: dhcpcsvc6.dll
+  ncalrpc: dhcpcsvc6
+
+509bc7ae-77be-4ee8-b07c-0d096bb44345
+  version: v1.0
+  ncalrpc: LRPC-2eb902774b787df3e8
+  ncalrpc: OLE091303827F0041A8953AAA4B6F0C
+
+30b044a5-a225-43f0-b3a4-e060df91f9c1
+  version: v1.0
+  provider: certprop.dll
+  ncalrpc: LRPC-132522bb2a1e59b7a1
+
+7f1343fe-50a9-4927-a778-0c5859517bac
+  version: v1.0
+  annotation: DfsDs service
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\wkssvc
+  ncalrpc: LRPC-8bd78b2ef6e6010994
+
+eb081a0d-10ee-478a-a1dd-50995283e7a8
+  version: v3.0
+  annotation: Witness Client Test Interface
+  ncalrpc: LRPC-8bd78b2ef6e6010994
+
+f2c9b409-c1c9-4100-8639-d8ab1486694a
+  version: v1.0
+  annotation: Witness Client Upcall Server
+  ncalrpc: LRPC-8bd78b2ef6e6010994
+
+4c8d0bef-d7f1-49f0-9102-caa05f58d114
+  version: v1.0
+  ncalrpc: nlaapi
+  ncalrpc: nlaplg
+
+29770a8f-829b-4158-90a2-78cd488501f7
+  version: v1.0
+  ncacn_ip_tcp: 178.128.18.34:49668
+  ncacn_np: \\WIN-8I0GM46ODBH\pipe\SessEnvPublicRpc
+  ncalrpc: SessEnvPrivateRpc
+  ncalrpc: LRPC-e421b8a2ecc51a240a
+
+30adc50c-5cbc-46ce-9a0e-91914789e23c
+  version: v1.0
+  annotation: NRP server endpoint
+  provider: nrpsrv.dll
+  ncalrpc: LRPC-7b1bd86612f370379f
+  ncalrpc: DNSResolver
+
+c2d1b5dd-fa81-4460-9dd6-e7658b85454b
+  version: v1.0
+  ncalrpc: LRPC-cffb8b1fdca7f0d35b
+  ncalrpc: OLECEFDBBF3F886FC59270AEE22C8A0
+
+f44e62af-dab1-44c2-8013-049a9de417d6
+  version: v1.0
+  ncalrpc: LRPC-cffb8b1fdca7f0d35b
+  ncalrpc: OLECEFDBBF3F886FC59270AEE22C8A0
+
+7aeb6705-3ae6-471a-882d-f39c109edc12
+  version: v1.0
+  ncalrpc: LRPC-cffb8b1fdca7f0d35b
+  ncalrpc: OLECEFDBBF3F886FC59270AEE22C8A0
+
+e7f76134-9ef5-4949-a2d6-3368cc0988f3
+  version: v1.0
+  ncalrpc: LRPC-cffb8b1fdca7f0d35b
+  ncalrpc: OLECEFDBBF3F886FC59270AEE22C8A0
+
+b37f900a-eae4-4304-a2ab-12bb668c0188
+  version: v1.0
+  ncalrpc: LRPC-cffb8b1fdca7f0d35b
+  ncalrpc: OLECEFDBBF3F886FC59270AEE22C8A0
+
+abfb6ca3-0c5e-4734-9285-0aee72fe8d1c
+  version: v1.0
+  ncalrpc: LRPC-cffb8b1fdca7f0d35b
+  ncalrpc: OLECEFDBBF3F886FC59270AEE22C8A0
+
+2fb92682-6599-42dc-ae13-bd2ca89bd11c
+  version: v1.0
+  annotation: Fw APIs
+  provider: MPSSVC.dll
+  ncalrpc: LRPC-61a8534eaafe777582
+  ncalrpc: LRPC-47fc726957fd8da274
+  ncalrpc: LRPC-2d82b7bb981e87d570
+  ncalrpc: LRPC-b65525aad6521bc7be
+
+f47433c3-3e9d-4157-aad4-83aa1f5c2d4c
+  version: v1.0
+  annotation: Fw APIs
+  ncalrpc: LRPC-47fc726957fd8da274
+  ncalrpc: LRPC-2d82b7bb981e87d570
+  ncalrpc: LRPC-b65525aad6521bc7be
+
+7f9d11bf-7fb9-436b-a812-b2d50c5d4c03
+  version: v1.0
+  annotation: Fw APIs
+  provider: MPSSVC.dll
+  ncalrpc: LRPC-2d82b7bb981e87d570
+  ncalrpc: LRPC-b65525aad6521bc7be
+
+dd490425-5325-4565-b774-7e27d6c09c24
+  version: v1.0
+  annotation: Base Firewall Engine API
+  provider: BFE.DLL
+  ncalrpc: LRPC-b65525aad6521bc7be
+
+b58aa02e-2884-4e97-8176-4ee06d794184
+  version: v1.0
+  provider: sysmain.dll
+  ncalrpc: LRPC-aed2aaca877732e983
+
+c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+  version: v1.0
+  annotation: Adh APIs
+  ncalrpc: OLE28DC73274FC5C1EB25FC7861E376
+  ncalrpc: TeredoControl
+  ncalrpc: TeredoDiagnostics
+  ncalrpc: LRPC-6c796cd66c5edb9331
+
+c36be077-e14b-4fe9-8abc-e856ef4f048b
+  version: v1.0
+  annotation: Proxy Manager client server endpoint
+  ncalrpc: TeredoControl
+  ncalrpc: TeredoDiagnostics
+  ncalrpc: LRPC-6c796cd66c5edb9331
+
+2e6035b2-e8f1-41a7-a044-656b439c4c34
+  version: v1.0
+  annotation: Proxy Manager provider server endpoint
+  ncalrpc: TeredoControl
+  ncalrpc: TeredoDiagnostics
+  ncalrpc: LRPC-6c796cd66c5edb9331
+
+552d076a-cb29-4e44-8b6a-d15e59e2c0af
+  version: v1.0
+  annotation: IP Transition Configuration endpoint
+  provider: iphlpsvc.dll
+  ncalrpc: LRPC-6c796cd66c5edb9331
+
+1a0d010f-1c33-432c-b0f5-8cf4e8053099
+  version: v1.0
+  annotation: IdSegSrv service
+  ncalrpc: LRPC-3c7ff4faffc0e98324
+
+98716d03-89ac-44c7-bb8c-285824e51c4a
+  version: v1.0
+  annotation: XactSrv service
+  provider: srvsvc.dll
+  ncalrpc: LRPC-3c7ff4faffc0e98324
+
+a398e520-d59a-4bdd-aa7a-3c1e0303a511
+  version: v1.0
+  annotation: IKE/Authip API
+  provider: IKEEXT.DLL
+  ncalrpc: LRPC-a38fd667ee3714d320
+
+367abb81-9844-35f1-ad32-98f038001003
+  version: v2.0
+  protocol: [MS-SCMR]: Service Control Manager Remote Protocol
+  provider: services.exe
+  ncacn_ip_tcp: 178.128.18.34:49669
+
+650a7e26-eab8-5533-ce43-9c1dfce11511
+  version: v1.0
+  annotation: Vpn APIs
+  ncalrpc: LRPC-f3979fdac430511491
+  ncalrpc: VpnikeRpc
+  ncalrpc: RasmanLrpc
+  ncacn_np: \\WIN-8I0GM46ODBH\PIPE\ROUTER
+
+0767a036-0d22-48aa-ba69-b619480f38cb
+  version: v1.0
+  annotation: PcaSvc
+  provider: pcasvc.dll
+  ncalrpc: LRPC-5e8016fcdde99a3ae1
+
+c27f3c08-92ba-478c-b446-b419c4cef0e2
+  version: v1.0
+  ncalrpc: LRPC-f7fa0ce1493927610f
+
+54b4c689-969a-476f-8dc2-990885e9f562
+  version: v0.0
+  ncalrpc: LRPC-32c179e7e1ebf4b48b
+
+be6293d3-2827-4dda-8057-8588240124c9
+  version: v0.0
+  ncalrpc: LRPC-32c179e7e1ebf4b48b
+
+06bba54a-be05-49f9-b0a0-30f790261023
+  version: v1.0
+  annotation: Security Center
+  provider: wscsvc.dll
+  ncalrpc: LRPC-73cc186742e1be62ea
+  ncalrpc: OLEAEA4EB67EBD4A756AC7882AC4333
+
+bf4dc912-e52f-4904-8ebe-9317c1bdd497
+  version: v1.0
+  ncalrpc: LRPC-fac2aa7647ea6bb971
+  ncalrpc: OLEDE780890543D15A02AA3C0E5A653
+
+4b112204-0e19-11d3-b42b-0000f81feb9f
+  version: v1.0
+  provider: ssdpsrv.dll
+  ncalrpc: LRPC-16af5f30e159256630
+
+12e65dd8-887f-41ef-91bf-8d816c42c2e7
+  version: v1.0
+  annotation: Secure Desktop LRPC interface
+  provider: winlogon.exe
+  ncalrpc: WMsgKRpc03DB959C03
+  ncalrpc: WMsgKRpc03DCFBD284
+
+b1ef227e-dfa5-421e-82bb-67a6a129c496
+  version: v0.0
+  ncalrpc: LRPC-005faa7c3a3cc56dcf
+  ncalrpc: OLE3B03CD666CA4057C4EE6C4BBA744
+  ncalrpc: LRPC-7543096788f2a1cf09
+  ncalrpc: OLE7E6AF6DA950DE2EB4B52BBA474EE
+
+0fc77b1a-95d8-4a2e-a0c0-cff54237462b
+  version: v0.0
+  ncalrpc: LRPC-005faa7c3a3cc56dcf
+  ncalrpc: OLE3B03CD666CA4057C4EE6C4BBA744
+  ncalrpc: LRPC-7543096788f2a1cf09
+  ncalrpc: OLE7E6AF6DA950DE2EB4B52BBA474EE
+
+8ec21e98-b5ce-4916-a3d6-449fa428a007
+  version: v0.0
+  ncalrpc: LRPC-005faa7c3a3cc56dcf
+  ncalrpc: OLE3B03CD666CA4057C4EE6C4BBA744
+  ncalrpc: LRPC-7543096788f2a1cf09
+  ncalrpc: OLE7E6AF6DA950DE2EB4B52BBA474EE
+
+923c9623-db7f-4b34-9e6d-e86580f8ca2a
+  version: v1.0
+  ncalrpc: LRPC-e0d6e5a061241ae313
+  ncalrpc: OLE199B05A2E4C9171952960FC4679F
+  ncalrpc: LRPC-2e6f60851eb84cf441
+  ncalrpc: OLE89D5C9551CCA3203643DA72BEDDC
+
+0c53aa2e-fb1c-49c5-bfb6-c54f8e5857cd
+  version: v1.0
+  ncalrpc: LRPC-e0d6e5a061241ae313
+  ncalrpc: OLE199B05A2E4C9171952960FC4679F
+  ncalrpc: LRPC-2e6f60851eb84cf441
+  ncalrpc: OLE89D5C9551CCA3203643DA72BEDDC
+
+d2716e94-25cb-4820-bc15-537866578562
+  version: v1.0
+  ncalrpc: LRPC-e0d6e5a061241ae313
+  ncalrpc: OLE199B05A2E4C9171952960FC4679F
+  ncalrpc: LRPC-2e6f60851eb84cf441
+  ncalrpc: OLE89D5C9551CCA3203643DA72BEDDC
+
+a4b8d482-80ce-40d6-934d-b22a01a44fe7
+  version: v1.0
+  annotation: LicenseManager
+  ncalrpc: LicenseServiceEndpoint
+
+58e604e8-9adb-4d2e-a464-3b0683fb1480
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncalrpc: LRPC-60b947c2689113d4ae
+
+fd7a0523-dc70-43dd-9b2e-9c5ed48225b1
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncalrpc: LRPC-60b947c2689113d4ae
+
+5f54ce7d-5b79-4175-8584-cb65313a0e98
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncalrpc: LRPC-60b947c2689113d4ae
+
+201ef99a-7fa0-444c-9399-19ba84f12a1a
+  version: v1.0
+  annotation: AppInfo
+  provider: appinfo.dll
+  ncalrpc: LRPC-60b947c2689113d4ae
+
+0497b57d-2e66-424f-a0c6-157cd5d41700
+  version: v1.0
+  annotation: AppInfo
+  ncalrpc: LRPC-60b947c2689113d4ae
+
+8c7daf44-b6dc-11d1-9a4c-0020af6e7c57
+  version: v1.0
+  annotation: Group Policy RPC Interface
+  provider: appmgmts.dll
+  ncalrpc: LRPC-500a4a7c9498ee52d0
+
+2eb08e3e-639f-4fba-97b1-14f878961076
+  version: v1.0
+  annotation: Group Policy RPC Interface
+  provider: gpsvc.dll
+  ncalrpc: LRPC-3fed97c0d14411bd41
+```
+------------------
+**139:**
+```
+\x83\x00\x00\x01\x8f
+```
+------------------
+**445:**
+```
+SMB Status:
+  Authentication: enabled
+  SMB Version: 2
+  Capabilities: raw-mode
+```
+------------------
+**5357:**
+```
+HTTP/1.1 503 Service Unavailable
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 24 Apr 2024 18:08:57 GMT
+Connection: close
+Content-Length: 326
+```
+------------------"
+184.105.139.106,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""3496966535""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 28 Apr 2024 03:08:50 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
 191.179.137.166,100,Agressive IP known malicious on AbuseIPDB - countryCode: BR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-192.241.194.23,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
+192.241.194.23,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDdlKsVTr+Th8gfMqNZc1Kt5AQVHLatCkF8p+Qo9edMkzmT
+ziBQZcHlKjVlKwsTmwCXGkZW4xZ6VoyFal2LWYZbsFyXSbSA2Cd+LVJmadx/QWaesJ+EPqCeFMr1
+QAcsfNG63vq9Bw1cGfHAYqwtIkzevOMPDg0mtYHtp284NG4weTtQhNHf4FmPqTyZN3eXvKwfH6IK
+vmse2nCbSYt9htqXkxtygewYfL3fmbpFuIENPZ78kWKUOAcs+iguVH/yIIyerQVl1xfLaV7RjWEt
+KfQDEAvlZSE0UKTJpIUe53d+fdBFZkSO8PNtg1qE3NDO8MhIq3zqXjGrEWIpbqrDQZP3
+Fingerprint: fc:cb:84:40:97:fb:86:2b:0e:8d:66:74:ff:3a:21:64
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
 193.118.51.130,100,Agressive IP known malicious on AbuseIPDB - countryCode: NL - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-193.163.125.97,100,Agressive IP known malicious on AbuseIPDB - countryCode: GB - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-193.163.125.210,100,Agressive IP known malicious on AbuseIPDB - countryCode: GB - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
-218.245.5.178,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
+193.163.125.97,50,"**ISP:** INTERNET MEASUREMENT
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=utf-8
+Location: https://internet-measurement.com/
+Date: Tue, 30 Apr 2024 08:17:55 GMT
+Content-Length: 56
+```
+------------------"
+193.163.125.210,50,"**ISP:** INTERNET MEASUREMENT
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=utf-8
+Location: https://internet-measurement.com/
+Date: Thu, 02 May 2024 12:59:20 GMT
+Content-Length: 56
+```
+------------------"
+218.245.5.178,50,"**ISP:** China Networks Inter-Exchange
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCV4j0pVxRVg/Qbgj8/ILhcfkfeCe4Cq1SGhrh+MLMNrDAs
+SLIQO/zUNY5no1Pre2lugGShE8ufr6+KBtply9cHsfiH8ms8ahb+GcZgXsh0aW4VVykXYxCP8SAL
+23Aa4b/3ClJWmZwWuVoowYGYq5koKjGhBYGc/ngIDj+Bqh+fy/17BJOr+3SAtqEtHVjqLwlNOuP2
+szp0yvfhUUJsED9Yw78tE0CH4uzDj2hrHk8S+Ci1WW3d2LVPBuE+BMLv3m2nVoWCMcS41Ypw30hv
+k4q8EEl+uDt62qa7kzcI1fWhdFOse1EyUDYw3tpwiQgFhyzdZwa9XajDMn6ohalYr30D
+Fingerprint: 5f:89:04:99:a3:d3:23:77:dc:cc:ec:41:d7:54:7f:73
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Apr 2024 10:27:45 GMT
+Content-Type: text/html
+Content-Length: 138
+Last-Modified: Mon, 28 Aug 2023 07:37:18 GMT
+Connection: keep-alive
+ETag: ""64ec4eae-8a""
+Accept-Ranges: bytes
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 13 Apr 2024 23:37:14 GMT
+Content-Type: text/html
+Content-Length: 427
+Last-Modified: Mon, 04 Sep 2023 08:33:50 GMT
+Connection: keep-alive
+ETag: ""64f5966e-1ab""
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/04/13 23:37:35 218.245.5.178:443 - ERROR: dial tcp 218.245.5.178:443: i/o timeout
+
+------------------
+**3306:**
+```
+MySQL:
+  Protocol Version: 10
+  Version: 8.0.24
+  Capabilities: 65535
+  Server Language: 45
+  Server Status: 2
+  Extended Server Capabilities: 53247
+  Authentication Plugin: mysql_native_password
+```
+------------------
+**6379:**
+```
+-NOAUTH Authentication required.
+```
+------------------
+**8080:**
+```
+HTTP/1.1 403 Forbidden
+Date: Wed, 01 May 2024 08:01:04 GMT
+X-Content-Type-Options: nosniff
+Set-Cookie: JSESSIONID.3501a613=node01wni5c2yki601srrfm4zffnax24856.node0; Path=/; HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=utf-8
+X-Hudson: 1.395
+X-Jenkins: 2.426.2
+X-Jenkins-Session: 572da16f
+Content-Length: 541
+Server: Jetty(10.0.18)
+```
+------------------
+**8888:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 146
+Server: nginx
+Connection: keep-alive
+Date: Wed, 24 Apr 2024 22:14:14 GMT
+```
+------------------"
 223.151.225.232,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:26+00:00
 1.70.15.12,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-23.106.53.182,100,Agressive IP known malicious on AbuseIPDB - countryCode: SG - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-64.62.156.16,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-64.62.197.45,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-65.49.1.98,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-65.49.1.120,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-65.49.20.81,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-65.49.20.95,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-65.246.55.3,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
+23.106.53.182,50,"**ISP:** Leaseweb Asia Pacific pte. ltd.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 01 May 2024 20:22:03 GMT
+Content-Type: text/html
+Content-Length: 1033
+Last-Modified: Mon, 14 Aug 2023 23:13:21 GMT
+Connection: keep-alive
+ETag: ""64dab511-409""
+Accept-Ranges: bytes
+```
+------------------
+**81:**
+```
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 25 Apr 2024 12:17:07 GMT
+Content-Type: text/html
+Content-Length: 1655
+Last-Modified: Mon, 14 Aug 2023 23:14:43 GMT
+Connection: keep-alive
+ETag: ""64dab563-677""
+Accept-Ranges: bytes
+```
+------------------
+**443:**
+```
+SSL Error: TLSV1_UNRECOGNIZED_NAME
+```
+------------------
+**3000:**
+```
+HTTP/1.1 200 OK
+Cache-Control: no-store
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Date: Mon, 29 Apr 2024 19:08:52 GMT
+Transfer-Encoding: chunked
+```
+------------------
+**8080:**
+```
+HTTP/1.1 200 OK
+Date: Wed, 01 May 2024 03:22:35 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+```
+------------------
+**8081:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/plain; charset=utf-8
+X-Content-Type-Options: nosniff
+Date: Thu, 02 May 2024 11:45:57 GMT
+Content-Length: 19
+
+404 page not found
+```
+------------------
+**9090:**
+```
+HTTP/1.1 200 OK
+Date: Wed, 01 May 2024 05:58:35 GMT
+Content-Length: 734
+Content-Type: text/html; charset=utf-8
+```
+------------------"
+64.62.156.16,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Thu, 02 May 2024 14:42:50 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+64.62.197.45,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""4042770561""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 28 Apr 2024 12:09:38 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.1.98,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Thu, 02 May 2024 15:16:26 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.1.120,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""2477250825""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 20:39:32 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.20.81,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""3496966535""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sun, 21 Apr 2024 06:35:44 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.49.20.95,50,"**ISP:** Hurricane Electric LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Accept-Ranges: bytes
+ETag: ""1886354207""
+Last-Modified: Wed, 15 Feb 2023 18:09:40 GMT
+Content-Length: 2933
+Date: Sat, 27 Apr 2024 00:26:13 GMT
+Server: lighttpd/1.4.55
+```
+------------------"
+65.246.55.3,50,"**ISP:** Labyrinth Solutions Inc
+
+**OS:** -
+
+--------------------------
+Services:
+
+**443:**
+```
+HTTP/1.1 200 OK
+Connection: close
+ETag: ""376-b6a-6080c7d8""
+Last-Modified: Thu, 22 Apr 2021 00:48:24 GMT
+Date: Thu, 25 Apr 2024 19:45:15 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html
+Content-Length: 2922
+```
+HEARTBLEED: 2024/04/25 19:45:25 65.246.55.3:443 - SAFE
+
+------------------
+**8080:**
+```
+HTTP/1.1 302 Found
+Location: https://65.246.55.3:443/
+Connection: close
+```
+------------------"
 152.32.235.69,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
 175.207.215.47,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-185.73.23.133,100,Agressive IP known malicious on AbuseIPDB - countryCode: DE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
+185.73.23.133,50,"**ISP:** Ruhr-Universitaet Bochum
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.22.1
+Date: Wed, 10 Apr 2024 14:23:27 GMT
+Content-Type: text/html
+Content-Length: 2920
+Last-Modified: Sat, 21 Oct 2023 15:41:45 GMT
+Connection: keep-alive
+ETag: ""6533f139-b68""
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/04/10 14:23:38 185.73.23.133:443 - SAFE
+
+------------------
+**2222:**
+```
+SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2\r\n
+```
+------------------"
 185.161.248.199,100,Agressive IP known malicious on AbuseIPDB - countryCode: RU - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-190.107.216.3,100,Agressive IP known malicious on AbuseIPDB - countryCode: AR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-192.241.218.58,100,Agressive IP known malicious on AbuseIPDB - countryCode: US - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-203.189.156.70,100,Agressive IP known malicious on AbuseIPDB - countryCode: KH - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-211.222.47.228,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:27+00:00
-14.47.233.204,100,Agressive IP known malicious on AbuseIPDB - countryCode: KR - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:28+00:00
+190.107.216.3,50,"**ISP:** Lima Video Cable S.A. (Cabletel)
+
+**OS:** -
+
+--------------------------
+Services:
+
+**1723:**
+```
+PPTP:
+  Firmware: 0
+  Hostname: 
+  Vendor: Microsoft
+```
+------------------
+**5985:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Sun, 28 Apr 2024 16:53:08 GMT
+Connection: close
+Content-Length: 315
+
+
+WinRM NTLM Info:
+  OS: Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: SERVERTVA
+  NetBIOS Domain Name: SERVERTVA
+  NetBIOS Computer Name: SERVERTVA
+  DNS Domain Name: servertva
+  FQDN: servertva
+```
+------------------"
+192.241.218.58,50,"**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDUMjubYtnEklPL3keseV/5vgq7Q6CWc4Vv1kQpfJ33goQG
+mhet+bmKTtlKHyEzHu35m6T9D15espYxxepyoKs8uX1K3urozpXtZIB9ZI/LoCdZex2tuSXTuVSl
+AY4PU5eoo0fwhg4a1k2bsJjV2FkEbF7a91cvE3RP+/7pM0HKljOC8+h+tisIo7/TKrVzZAEsYESD
+YyjRIVtORgQS+i4SAmE5hCdzXptGua4nvyYXC6npPRrMfH414yX3yx8RPGiN/KY26Jm7ka9441eW
+bEewo47zORW8feCYYd6Mk8sOihL6wjs5wObmNYQCy98ETZDnjyYTe+Rq6rIbr1O+bdOD
+Fingerprint: f5:49:39:f0:59:36:fc:6e:e1:39:44:20:56:28:9a:07
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------"
+203.189.156.70,50,"**ISP:** Cogetel Online, Cambodia, ISP
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 302 Found
+Location: https://203.189.156.70:2023/
+Connection: close
+```
+------------------
+**2023:**
+```
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: text/plain
+Transfer-Encoding: chunked
+```
+------------------"
+211.222.47.228,50,**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**23:**
+```
+(none) login:
+```
+------------------
+**1723:**
+```
+PPTP:
+  Firmware: 1
+  Hostname: local
+  Vendor: linux
+```
+------------------
+14.47.233.204,50,"**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**7000:**
+```
+HTTP/1.1 403 Forbidden
+Content-Length: 0
+Server: AirTunes/670.6.2
+
+
+AirPlay:
+  Name: 서원림의 MacBook Pro
+  Device Model: MacBookPro18,2
+  AirPlay Version: 670.6.2
+  Device ID: BC:D0:74:0C:20:24
+  MAC Address: BC:D0:74:0C:20:24
+  Protocol Version: 1.1
+```
+------------------"
 45.156.128.28,100,Agressive IP known malicious on AbuseIPDB - countryCode: BE - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:28+00:00
-46.20.93.62,100,Agressive IP known malicious on AbuseIPDB - countryCode: IT - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:28+00:00
+46.20.93.62,50,"**ISP:** Fiberwide S.p.a.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 Ok
+Server: micro_httpd
+Cache-Control: no-cache
+Date: Tue, 30 Apr 2024 01:04:17 GMT
+Content-Type: text/html
+Connection: close
+```
+------------------"
 47.101.185.128,100,Agressive IP known malicious on AbuseIPDB - countryCode: CN - abuseConfidenceScore: 100 - lastReportedAt: 2024-05-03T06:04:28+00:00
 49.231.146.68,50,"**ISP:** SBN-ISP/AWN-ISP and SBN-NIX/AWN-NIX
 
