@@ -81,3 +81,23 @@ DeviceNetworkEvents
 | extend lowerURL = replace_string(lowerURL,"https://","")
 | join kind=inner indicators on $left.lowerURL == $right.url
 ```
+
+### Hashes
+#### MD5
+```
+let indicators = (externaldata(md5:string,sha1:string,sha256:string,score:int,description:string,name:string,additional_names:string)
+[@"https://raw.githubusercontent.com/WildDogOne/CTI/main/hashes.csv"] with (format="csv", ignoreFirstRecord=true));
+DeviceFileEvents
+| where Timestamp > ago(24h)
+| where isnotempty(MD5)
+| join kind=inner indicators on $left.MD5 == $right.md5
+```
+#### SHA256
+```
+let indicators = (externaldata(md5:string,sha1:string,sha256:string,score:int,description:string,name:string,additional_names:string)
+[@"https://raw.githubusercontent.com/WildDogOne/CTI/main/hashes.csv"] with (format="csv", ignoreFirstRecord=true));
+DeviceFileEvents
+| where Timestamp > ago(24h)
+| where isnotempty(SHA256)
+| join kind=inner indicators on $left.SHA256 == $right.sha256
+```
