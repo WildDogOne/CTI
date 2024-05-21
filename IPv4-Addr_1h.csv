@@ -1,18 +1,18 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-05-21T14:38:13.699Z","IPv4-Addr","","TLP:GREEN","124.220.53.223","2024-05-21T14:38:20.167Z","124.220.53.223","**ISP:** Shenzhen Tencent Computer Systems Company Limited
+"2024-05-21T15:45:08.555Z","IPv4-Addr","apt,influence,disinformation,eol-product","TLP:CLEAR","195.85.115.36","2024-05-21T15:45:18.191Z","195.85.115.36","**ISP:** BL Networks
 
-**OS:** -
+**OS:** Ubuntu
 
 --------------------------
 Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.4
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
 Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGlB5OjvCi7JXM26uBSXBPOW
-Gyfs4A1Q/FqeoV4u3qLkK2BT8Aot1psvwUdZVY/w43ITvw5pV4vHV3oOmiJEyDo=
-Fingerprint: 5a:a8:47:f3:fe:27:4c:47:9e:56:d7:41:3c:20:61:b1
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMLKg3T6p/LL0qiUXV0iVQRg
+ixDVb8LYhKwo69IRDrQ5Vd/bJrBJ/ywSoKrVQ0KOcsSnO7aX8rza+3tm42Y80Xo=
+Fingerprint: 07:02:2e:5f:a3:d2:43:73:74:30:dc:3a:18:0c:9f:6f
 
 Kex Algorithms:
 	curve25519-sha256
@@ -25,6 +25,7 @@ Kex Algorithms:
 	diffie-hellman-group16-sha512
 	diffie-hellman-group18-sha512
 	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
 
 Server Host Key Algorithms:
 	rsa-sha2-512
@@ -60,125 +61,34 @@ Compression Algorithms:
 **80:**
 ```
 HTTP/1.1 404 Not Found
-Content-Type: text/plain; charset=utf-8
-Vary: Accept-Encoding
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 20 May 2024 17:24:14 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 139
+Connection: keep-alive
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
 X-Content-Type-Options: nosniff
-Date: Sat, 11 May 2024 06:30:07 GMT
-Content-Length: 19
 ```
 ------------------
-**8080:**
+**3000:**
 ```
-HTTP/1.1 200 
-Content-Type: text/html;charset=UTF-8
-Content-Language: en
-Transfer-Encoding: chunked
-Date: Mon, 06 May 2024 02:21:04 GMT
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 139
+Date: Mon, 13 May 2024 21:56:58 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
 ```
 ------------------","50"
-"2024-05-21T14:39:12.429Z","IPv4-Addr","phishing","TLP:GREEN","103.157.142.154","2024-05-21T14:39:20.394Z","103.157.142.154","**ISP:** ChangLian Network Technology Co., Limited
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_7.4
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCwsNZ7DebvxUfKvkmtE30alVhvKgG3xtLdRxZCMKecjP5G
-hhXHyCWApf8N4gv0Kzu1mS9It+sk3pnNaXa1e6umfJFNMoUyrbpUi1vTfM9psroGLAWtgITe3nFY
-CMKCPnHlvjXW1I729Jf2QKYfmDbmocOlZCVnEanci50wq7i2x/lb1fhw1MJu6jT437/q3C53S7fP
-iW+0Xu1tWgrEmByfDLZXtRt9SicD7qCkl6KXzf5Wp7EXyrFUXcySnl5LWCgJYAf+MUUZo/Hv/U2M
-io8pbcukzjgPI82CcQer8+S2SrkWtkbEBxMzeDZq5WDvHgb0dgeVvCR0gnUmomN7ufQX
-Fingerprint: fd:46:39:fd:13:5e:48:ac:91:c9:b0:2a:eb:77:84:3b
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group-exchange-sha1
-	diffie-hellman-group14-sha256
-	diffie-hellman-group14-sha1
-	diffie-hellman-group1-sha1
-
-Server Host Key Algorithms:
-	ssh-rsa
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-	aes128-cbc
-	aes192-cbc
-	aes256-cbc
-	blowfish-cbc
-	cast128-cbc
-	3des-cbc
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**80:**
-```
-HTTP/1.1 200 OK
-Server: nginx
-Date: Mon, 13 May 2024 18:02:32 GMT
-Content-Type: text/html
-Content-Length: 58277
-Last-Modified: Fri, 19 Apr 2024 07:55:52 GMT
-Connection: keep-alive
-Vary: Accept-Encoding
-ETag: ""66222388-e3a5""
-Accept-Ranges: bytes
-```
-------------------
-**443:**
-```
-HTTP/1.1 302 Found
-Server: nginx
-Date: Mon, 13 May 2024 17:33:26 GMT
-Content-Type: text/html; charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Set-Cookie: PHPSESSID=n8733sd9i5gmoggns17csa05uh; path=/
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Cache-Control: no-store, no-cache, must-revalidate
-Pragma: no-cache
-Location: http://localhost/
-Strict-Transport-Security: max-age=31536000
-```
-HEARTBLEED: 2024/05/13 17:35:49 103.157.142.154:443 - SAFE
-
-------------------","50"
-"2024-05-21T14:49:49.046Z","IPv4-Addr","phishing,cloud","TLP:GREEN","206.189.81.200","2024-05-21T14:49:56.507Z","206.189.81.200","**ISP:** DigitalOcean, LLC
+"2024-05-21T15:45:08.577Z","IPv4-Addr","apt,influence,disinformation,eol-product","TLP:CLEAR","206.188.197.116","2024-05-21T15:45:36.536Z","206.188.197.116","**ISP:** BL Networks
 
 **OS:** -
 
@@ -189,9 +99,9 @@ Services:
 ```
 SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
 Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHB9z6ukl3qUemDcgJk9nkld
-Gf+TmPrZ3rZrQVHB7TGUPFeJ6bvfw3hYW7KwiBm3Ygyp/maJn8WgZE3E29hry5Y=
-Fingerprint: b0:26:3f:54:71:dc:e6:c4:f1:07:ec:5d:5b:72:c5:d6
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNU2wtohKMwZQonKTUvalPgO
+ZTE2E35MGzg+aqO1ZNkcZfxBnn3RvIlLo+812esFh+ADDXTaQ4+A0d0FnDmTsMg=
+Fingerprint: 28:f0:00:a1:dc:d2:e4:ae:58:14:85:4c:9d:6a:4f:c1
 
 Kex Algorithms:
 	curve25519-sha256
@@ -239,172 +149,35 @@ Compression Algorithms:
 ------------------
 **80:**
 ```
-HTTP/1.1 200 OK
-Date: Mon, 20 May 2024 21:55:50 GMT
-Server: Apache
-Upgrade: h2
-Connection: Upgrade, close
-Last-Modified: Mon, 20 May 2024 10:17:14 GMT
-ETag: ""27e-618e00155160d""
-Accept-Ranges: bytes
-Content-Length: 638
-Vary: Accept-Encoding
-Content-Type: text/html
-```
-------------------
-**443:**
-```
-HTTP/1.1 403 Forbidden
-Server: nginx
-Date: Sat, 27 Apr 2024 19:24:43 GMT
-Content-Type: text/html
-Content-Length: 342
-Connection: keep-alive
-Vary: Accept-Encoding
-ETag: ""661f9c6b-156""
-```
-HEARTBLEED: 2024/04/27 19:25:28 206.189.81.200:443 - SAFE
-
-------------------","50"
-"2024-05-21T15:00:33.500Z","IPv4-Addr","phishing,starttls,self-signed","TLP:GREEN","45.11.94.33","2024-05-21T15:00:46.911Z","45.11.94.33","**ISP:** CGI GLOBAL LIMITED
-
-**OS:** -
-
---------------------------
-Services:
-
-**21:**
-```
-220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
-220-You are user number 1 of 50 allowed.
-220-Local time is now 19:27. Server port: 21.
-220-This is a private system - No anonymous login
-220-IPv6 connections are also welcome on this server.
-220 You will be disconnected after 15 minutes of inactivity.
-421 Unable to read the indexed puredb file (or old format detected) - Try pure-pw mkdb
-211-Extensions supported:
- UTF8
- EPRT
- IDLE
- MDTM
- SIZE
- MFMT
- REST STREAM
- MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
- MLSD
- PRET
- AUTH TLS
- PBSZ
- PROT
- TVFS
- ESTA
- PASV
- EPSV
- SPSV
- ESTP
-211 End.
-```
-------------------
-**22:**
-```
-SSH-2.0-OpenSSH_7.4
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDAMSCyHVNpaTJ43IJgajfm0kU8GAdjjUXUWMS9IH8ZDdXy
-RhGrzx15esVYXL/PkN4FWFTKhOJMSrY/JGVHZZ741sCyyh4bJ26iUvsOo0inV4QcDCmt81sZnIJU
-ZcLT7qMUYSu+Vn7nwEJe5ta5Rx127Siy00uUUpnjBxx07PZfG24xDk0k3wpdtDdzPoGfVKJHLuyG
-XbYkmX5w0fPx9rjc8uT898d3oPxkJQGkS/YCgRXekbg0gH/VoLMDkmXzaioLPpkkrR4wyU2zVBJZ
-t2QWvDzkXbDmFSgKmuMk1TobOmdI2A0z1wGkVtFUkPAs+afgl6N3uW9vbkFzhSfv+FAR
-Fingerprint: 3a:51:87:03:19:a5:82:8d:5e:61:07:e7:12:e1:3a:f7
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group-exchange-sha1
-	diffie-hellman-group14-sha256
-	diffie-hellman-group14-sha1
-	diffie-hellman-group1-sha1
-
-Server Host Key Algorithms:
-	ssh-rsa
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-	aes128-cbc
-	aes192-cbc
-	aes256-cbc
-	blowfish-cbc
-	cast128-cbc
-	3des-cbc
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**80:**
-```
-HTTP/1.1 200 OK
-Date: Wed, 15 May 2024 01:19:00 GMT
-Server: Apache
-Upgrade: h2
-Connection: Upgrade, close
-Last-Modified: Wed, 26 Apr 2017 08:03:47 GMT
-ETag: ""52e-54e0d47a39ec0""
-Accept-Ranges: bytes
-Content-Length: 1326
-Vary: Accept-Encoding
-Content-Type: text/html
-```
-------------------
-**888:**
-```
-HTTP/1.1 403 Forbidden
-Date: Wed, 08 May 2024 09:20:14 GMT
-Server: Apache
-Content-Length: 260
-Connection: close
-Content-Type: text/html; charset=iso-8859-1
-```
-------------------
-**8888:**
-```
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 16 May 2024 21:39:19 GMT
 Content-Type: text/html; charset=utf-8
-Content-Length: 725
-Server: nginx
+Content-Length: 139
 Connection: keep-alive
-X-Frame-Options: SAMEORIGIN
-Date: Thu, 16 May 2024 04:55:51 GMT
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+```
+------------------
+**3000:**
+```
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 139
+Date: Thu, 16 May 2024 16:12:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
 ```
 ------------------","50"
-"2024-05-21T15:06:21.563Z","IPv4-Addr","phishing","TLP:GREEN","162.43.30.164","2024-05-21T15:06:29.083Z","162.43.30.164","**ISP:** Xserver Inc.
+"2024-05-21T15:45:10.559Z","IPv4-Addr","apt,influence,disinformation","TLP:CLEAR","206.188.197.119","2024-05-21T15:45:51.683Z","206.188.197.119","**ISP:** BL Networks
 
 **OS:** -
 
@@ -415,9 +188,9 @@ Services:
 ```
 SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
 Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPdZPAbOxvCDotINYDrCB4+S
-Z4yffFM+XhO4sY+FOrWsV7VgdzAQLBQebR9cmiF3e4HNqr1Vs/MdbyuwWDVSvuE=
-Fingerprint: 11:e1:a6:f1:db:a4:3a:94:c5:d1:54:59:89:dd:3c:6e
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCqPujStSZyzmn3F5YxeVk5P
+bBsdiZ3daLPTwnbFGq0RMZLC46H8D/8DbIWlifUVnhtH1LelJ4EuJFL02F9hw2I=
+Fingerprint: 57:68:c7:80:1b:1d:ca:1c:fe:c5:4a:7d:0c:4e:d3:51
 
 Kex Algorithms:
 	curve25519-sha256
@@ -462,29 +235,36 @@ Compression Algorithms:
 	none
 	zlib@openssh.com
 ```
-------------------","50"
-"2024-05-21T15:16:55.177Z","IPv4-Addr","","TLP:GREEN","45.207.58.79","2024-05-21T15:17:03.082Z","45.207.58.79","**ISP:** SonderCloud Limited
+------------------
+**8443:**
+```
+HTTP/1.1 404 Not Found
+Date: Wed, 15 May 2024 02:26:34 GMT
+Content-Type: text/html
+Content-Length: 548
+Connection: keep-alive
+Server: Apache
+```
+HEARTBLEED: 2024/05/15 02:26:38 206.188.197.119:8443 - SAFE
 
-**OS:** -
+------------------","50"
+"2024-05-21T15:45:12.156Z","IPv4-Addr","apt,influence,disinformation,eol-product","TLP:CLEAR","206.71.148.217","2024-05-21T15:46:04.630Z","206.71.148.217","**ISP:** BL Networks
+
+**OS:** Linux
 
 --------------------------
 Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDgNh6sGIBqVHzq1XDLmr8XG8yQ42+p/0dMDRVmTruDTgbM
-mwvPRs6Vmik8UZKe0XsLp26Pr1XHfirJdgInXSiYHIz6oUir5UnWcgVRzWjD9wui3pggO4biqx6U
-CFZRWYfsVQEhaX54TkYyyq7LC7wOnPJqd8fheBvCi+TvTPgXHkrtu1TSp0vABcbuheRpe/8v2Aok
-DIGPmsz7i4m7sXLFwqkHCD1gVysRspWjibyU7XJEZqpF9FZYlA9J03STNCLIiHgv5TVG0uiw2tVd
-DQ0Mzk1n4f6JmVpBiwZUVT8BVxNkK+ABkAqR6z/1DRzHQyxXpQaXE15Uf7Cqon3JGPVdd8jDI1cT
-oarLp8b6c6G+yfKawRM74xt7QNT4MHoYtSkcX0bl4YDQwEIIX0T6h1I7sxJAF93N6TwXTeUW80fT
-3YgaMG2o0Jb8CrIXzA/exs0P/gv0Hwi9Xb++mRaPkydN7DeXbvB/KrCE+wKpqBeLN+mu57iLZTML
-LTdatI/cMA0=
-Fingerprint: 8e:44:eb:cf:c0:b6:ad:83:2c:fc:05:36:12:e9:aa:63
+SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAReACaXoV13P6VXOFsZHWzf
+h0BcBCdIgObeHmspcE5eyvy9e0Qklqij4wgfUlNmtRKwDOJZgL3+Pw+t6o1nz/c=
+Fingerprint: 2d:3d:bf:16:07:f7:bd:80:4a:58:28:7f:36:ef:c4:76
 
 Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
 	curve25519-sha256
 	curve25519-sha256@libssh.org
 	ecdh-sha2-nistp256
@@ -499,7 +279,6 @@ Kex Algorithms:
 Server Host Key Algorithms:
 	rsa-sha2-512
 	rsa-sha2-256
-	ssh-rsa
 	ecdsa-sha2-nistp256
 	ssh-ed25519
 
@@ -530,683 +309,64 @@ Compression Algorithms:
 ------------------
 **80:**
 ```
-HTTP/1.1 400 Bad Request
-Server: nginx
-Date: Wed, 15 May 2024 14:58:05 GMT
+HTTP/1.1 200 OK
+Date: Sun, 19 May 2024 11:22:53 GMT
+Server: Apache/2.4.59 (Debian)
+Last-Modified: Sat, 22 Jul 2023 09:56:48 GMT
+ETag: ""29cd-60110665f65f3""
+Accept-Ranges: bytes
+Content-Length: 10701
+Vary: Accept-Encoding
 Content-Type: text/html
-Content-Length: 650
-Connection: close
 ```
 ------------------
 **443:**
-```
-HTTP/1.1 302 Moved Temporarily
-Server: nginx
-Date: Wed, 15 May 2024 14:42:26 GMT
-Content-Type: text/html
-Content-Length: 138
-Connection: keep-alive
-Location: https://aws.amazon.com/
-Server: Server
-Referrer-Policy: no-referrer
-```
-HEARTBLEED: 2024/05/15 14:43:04 45.207.58.79:443 - SAFE
-
-------------------","50"
-"2024-05-21T15:17:26.294Z","IPv4-Addr","","TLP:GREEN","124.70.99.70","2024-05-21T15:17:33.743Z","124.70.99.70","**ISP:** Huawei Cloud Service data center
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_7.4\r\n
-```
-------------------","50"
-"2024-05-21T15:17:42.131Z","IPv4-Addr","self-signed","TLP:GREEN","31.172.83.236","2024-05-21T15:17:50.095Z","31.172.83.236","**ISP:** firstcolo GmbH
-
-**OS:** Windows (build 10.0.19041)
-
---------------------------
-Services:
-
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows 10 (version 2004)/Windows Server (version 2004)
-  OS Build: 10.0.19041
-  Target Name: SRV02922798
-  NetBIOS Domain Name: SRV02922798
-  NetBIOS Computer Name: SRV02922798
-  DNS Domain Name: srv02922798
-  FQDN: srv02922798
-```
-------------------","50"
-"2024-05-21T15:18:19.093Z","IPv4-Addr","","TLP:GREEN","80.211.203.249","2024-05-21T15:18:19.142Z","80.211.203.249","TWEETFEED IOC 80.211.203.249","15"
-"2024-05-21T15:20:57.315Z","IPv4-Addr","self-signed","TLP:GREEN","94.156.68.219","2024-05-21T15:21:05.139Z","94.156.68.219","**ISP:** Limenet
-
-**OS:** Windows Server 2022 (build 10.0.20348)
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDjbkUx8spACnNBWILwWCYv7XrjQ1TuL99pzzb4YrXEChn0
-NX5TPNhjO0xkbXC88i/UugZNBYICC/MqxG8FJHoyR6MIMy4EAomYPRUui+j2N1yUdW66BgnHVMRm
-bTqV7cqXpg7Xp1FUFNq1I11q6L+AzZp8gMhwWh+sbPHChEeOIKqJpYOiOVVV2+W62Jt6khnXItQu
-trJxvQu/5p04I4rZDGc5R8NVq4JMUV0Vro2f/mqj8sZhU98+ankiDKzrNGhei2yZ3HFb/NJoqGnG
-vYqH+/ALYZHuK6WUHxDy2siUvN8XhpsgZZhrkNFZ5HN/ZztV+/wVQ9DzEhunruHOvZGWjih3yERN
-p5bbfKouC6OxME+g0h0gdcwqjspFAR0vhd3z0Knsd6FdfZcz2N1MBZsDrTbQDzVWs0eAvzGX/Kut
-/4tjq56c3RRHlHdo0vNDUILPwwpUBfk6hON6QS+WB0Ok+Y1IZVrlDDd3b55yw6OT2XUfzipmWk5E
-qlV1HORe9nk=
-Fingerprint: ed:c6:f4:e3:9c:df:e6:22:1a:d9:19:d0:ec:06:71:7c
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows Server 2022
-  OS Build: 10.0.20348
-  Target Name: WIN-ADPD7O8E49E
-  NetBIOS Domain Name: WIN-ADPD7O8E49E
-  NetBIOS Computer Name: WIN-ADPD7O8E49E
-  DNS Domain Name: WIN-ADPD7O8E49E
-  FQDN: WIN-ADPD7O8E49E
-
-; Administrator
-SES
-```
-------------------","50"
-"2024-05-21T15:26:00.807Z","IPv4-Addr","phishing","TLP:GREEN","43.133.203.190","2024-05-21T15:26:07.461Z","43.133.203.190","TWEETFEED IOC 43.133.203.190","15"
-"2024-05-21T15:26:12.515Z","IPv4-Addr","opendir","TLP:GREEN","91.92.253.182","2024-05-21T15:26:16.765Z","91.92.253.182","**ISP:** Limenet
-
-**OS:** Windows Server 2022 (build 10.0.20348)
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_7.6p1 Ubuntu-4
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDIqhvftN0hFZO4sqF70Cw3/l+ahz1q/wjisWeSdNMp8RqX
-IdTj7vh69cMneOTbeNRSoKerdGdeGrj7C8JU2Z1ytZg4NqxaoeT5vhZkcU9ijsiWJ3uppQqhecwS
-1CGdNBkebUPuOcsf4lHcCVYE+3rvxUh3KjsbPccrMCaf8rFUU4cwa2ObZ0ZV5hJQgjezJ0NCzWiM
-tnWNvVu77ipnJ+MLLPf/qQfQ6gMA8UtKCBNO+Ogfq8C0I+EJ4L2z/3YT238E7n+5R7iQdvL8uzM4
-Ikb3Sq1Xrr0Jjp7mZffQflu4MfOwzunJYrH/BqMHwGYjGxEfv/BpOhY0XOaRrYkuVrFE5Z5U9XMX
-vq7fKiZaCl7euW+rd/ubJ3FyP/XHVEFjED+/9B1WfLA2Atb/LJwJNJeEJ+QYzPQRSmKh8QTJCmC5
-WUVzCau9DAlAcXOVAc6ylgvFM4Anv63TPOcCJF+MbxuPUQPNVvYefui7nEv/P0b/rlcGAn+HIYHF
-oCgE19UUc6c=
-Fingerprint: 7a:28:02:ed:e9:5c:08:54:51:06:ff:e4:d9:35:bb:f0
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	diffie-hellman-group14-sha1
-
-Server Host Key Algorithms:
-	ssh-rsa
-	rsa-sha2-512
-	rsa-sha2-256
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**80:**
-```
-
-```
-------------------
-**443:**
-```
-SSL Error: TLSV1_UNRECOGNIZED_NAME
-```
-------------------
-**5985:**
 ```
 HTTP/1.1 404 Not Found
-Content-Type: text/html; charset=us-ascii
-Server: Microsoft-HTTPAPI/2.0
-Date: Tue, 21 May 2024 00:23:21 GMT
-Connection: close
-Content-Length: 315
-
-
-WinRM NTLM Info:
-  OS: Windows Server 2022
-  OS Build: 10.0.20348
-  Target Name: WIN-ADPD7O8E49E
-  NetBIOS Domain Name: WIN-ADPD7O8E49E
-  NetBIOS Computer Name: WIN-ADPD7O8E49E
-  DNS Domain Name: WIN-ADPD7O8E49E
-  FQDN: WIN-ADPD7O8E49E
-```
-------------------","50"
-"2024-05-21T15:26:47.307Z","IPv4-Addr","self-signed","TLP:GREEN","141.11.109.151","2024-05-21T15:26:57.668Z","141.11.109.151","**ISP:** Yusuf Kemal TURKMENOGLU
-
-**OS:** -
-
---------------------------
-Services:
-
-**25:**
-```
-220 snowbirdscroll.life ESMTP Postfix
-250-snowbirdscroll.life
-250-PIPELINING
-250-SIZE 10240000
-250-VRFY
-250-ETRN
-250-ENHANCEDSTATUSCODES
-250-8BITMIME
-250 DSN
-```
-------------------
-**53:**
-```
-PowerDNS Authoritative Server 4.8.3 (built Oct  5 2023 09:38:27 by root@localhost)
-Resolver ID: RDP8.hostname.com
-```
-------------------
-**80:**
-```
-HTTP/1.1 200 OK
-Server: nginx
-Date: Tue, 30 Apr 2024 18:07:39 GMT
-Content-Type: text/html
+Server: nginx/1.22.1
+Date: Mon, 13 May 2024 22:46:07 GMT
 Transfer-Encoding: chunked
 Connection: keep-alive
-Vary: Accept-Encoding
-X-Powered-By: PHP/5.4.16
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+CF-Cache-Status: DYNAMIC
+Report-To: {""endpoints"":[{""url"":""https:\/\/a.nel.cloudflare.com\/report\/v4?s=caY6ddJVzYVlYV8u4in%2BCuJJUn0lPyFZcHUQCajvLfU6F7VAGpaYiEQeuPvXyi%2FiYgks5tUX2F48WmNrulIQWRGFxVFYh1JnTnwjByR5JM1xgwMh0QS8%2B%2FkYQg%3D%3D""}],""group"":""cf-nel"",""max_age"":604800}
+NEL: {""success_fraction"":0,""report_to"":""cf-nel"",""max_age"":604800}
+CF-RAY: 88362ec45f42386e-LHR
 ```
+HEARTBLEED: 2024/05/13 22:46:20 206.71.148.217:443 - SAFE
+
 ------------------
-**3389:**
+**3000:**
 ```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x0f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows 11 (version 21H2)
-  OS Build: 10.0.22000
-  Target Name: KEYUBUWIN11
-  NetBIOS Domain Name: KEYUBUWIN11
-  NetBIOS Computer Name: KEYUBUWIN11
-  DNS Domain Name: KEYUBUWIN11
-  FQDN: KEYUBUWIN11
-```
-------------------
-**8000:**
-```
-HTTP/1.0 200 OK
-Server: SimpleHTTP/0.6 Python/3.12.3
-Date: Tue, 21 May 2024 10:11:57 GMT
-Content-type: text/html; charset=utf-8
-Content-Length: 2371
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 139
+Date: Sun, 28 Apr 2024 00:30:31 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
 ```
 ------------------","50"
-"2024-05-21T15:33:35.756Z","IPv4-Addr","self-signed","TLP:GREEN","139.159.203.44","2024-05-21T15:35:02.112Z","139.159.203.44","**ISP:** Huawei Cloud Service data center
+"2024-05-21T15:45:13.208Z","IPv4-Addr","apt,influence,disinformation,eol-product","TLP:CLEAR","64.190.113.45","2024-05-21T15:46:21.335Z","64.190.113.45","**ISP:** BL Networks
 
-**OS:** -
+**OS:** Ubuntu
 
 --------------------------
 Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCnQG+W/L+jbtCgWuswHCOz7GtWIn+Om61OJh/axIMdzNHW
-h0lBcnAZ1EZoSTAd/yVtkn3iB2618AvmMnEx7Ag8jWEWqmeh9Uapc/tHIEfcR9hHlfk3Hz29JKD2
-wYgzf8d1husvZAugVEBV6bn8x1Exq2qKO50XvuVJNKD40uLMLWdmJ/nwsAwLf9GzFC0ZVdUhPwEW
-rqMr4ZGaEcjU7hLJX1pA7vyd+Proxb0wWnBhd5R3Znh3HMCU+WWWwwA7pHTMdmv3cDFAbYR0Z6xZ
-EgjW8cNB+m1HTKm6ox2ahpJhaiMioGHMvlaNx3Aaalp8eYz3yFtQbsvD/FZAV2lePf8Z
-Fingerprint: 58:95:43:61:57:f4:93:90:31:01:66:7d:4c:88:f6:04
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	diffie-hellman-group14-sha1
-
-Server Host Key Algorithms:
-	ssh-rsa
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**443:**
-```
-HTTP/1.1 404 Not Found
-Date: Tue, 21 May 2024 03:08:49 GMT
-Content-Type: text/plain
-Content-Length: 0
-
-
-Cobalt Strike Beacon:
-  x86:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 139.159.203.44,/match
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 5313635c043bc2d64b6bbb52610d651d
-    sleeptime: 60000
-    useragent_header: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
-    uses_cookies: 1
-    watermark: 987654321
-  x64:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 139.159.203.44,/en_US/all.js
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 5313635c043bc2d64b6bbb52610d651d
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; MDDCJS)
-    uses_cookies: 1
-    watermark: 987654321
-```
-HEARTBLEED: 2024/05/21 03:09:08 139.159.203.44:443 - SAFE
-
-------------------
-**8010:**
-```
-HTTP/1.1 404 Not Found
-Date: Mon, 20 May 2024 23:26:43 GMT
-Content-Type: text/plain
-Content-Length: 0
-
-
-Cobalt Strike Beacon:
-  x86:
-    beacon_type: HTTP
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 139.159.203.44,/pixel.gif
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 8010
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 5313635c043bc2d64b6bbb52610d651d
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; MDDCJS)
-    uses_cookies: 1
-    watermark: 987654321
-  x64:
-    beacon_type: HTTP
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 139.159.203.44,/cx
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 8010
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 5313635c043bc2d64b6bbb52610d651d
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MATM)
-    uses_cookies: 1
-    watermark: 987654321
-```
-------------------
-**8099:**
-```
-HTTP/1.1 404 Not Found
-Date: Tue, 21 May 2024 07:29:12 GMT
-Content-Type: text/plain
-Content-Length: 0
-```
-------------------
-**10000:**
-```
-HTTP/1.1 404 Not Found
-Content-Type: text/plain
-Date: Tue, 21 May 2024 02:07:41 GMT
-Content-Length: 18
-
-404 page not found
-```
-------------------","50"
-"2024-05-21T15:33:43.119Z","IPv4-Addr","","TLP:GREEN","91.224.92.27","2024-05-21T15:35:19.239Z","91.224.92.27","**ISP:** UAB Host Baltic
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.0
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDKM04aw7G+a+umTS+ggnEQeaYbh1uQnxqNoCqC2OWhFBoB
-88uqIjQW4hIxE8QDAIzTeBVSGunjRZz2oObxz62E4uQXxqtFxYeOMvOmg7oa4jJw3tSsxeUxGW2i
-CUrXEO5jCprD8rAwQVxhbY1SAD31YoXmdNN5t8MbCZhwOYQsJ5RusWhKXmo0AU7KkvDDV+y/ZvPy
-O286KsTzMcbSuqcy8+QgAIUjJ9wCYtDHLO+o0hSsBO0nO3EIt9FRuzO4Anj20BK+Rth0mpcqy6Jq
-JHBB8qJebdJZaZZkxY95v0LDttVXfsCkqpt5gctrq6nRLqpjv9scS+WUc15V9Z+nSlmjcRD81jKI
-ePiTf33krLlP56A7QE+snR7xQGh82A30VRSoJ7y/PxCi/OXXfXSdcZzC8DFAbGDTtUgsE7KpR7Iq
-PAdBxpTSAgeUT6YW79wsE5ttEHtbxS/9C0BmurxOTEFWiG+MsEafUR/QzXZe5VJRRe6zGLkVsgn/
-NLK/vcBLHbU=
-Fingerprint: 81:eb:88:a7:c1:4d:3e:63:94:b8:21:41:67:94:17:12
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group14-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group-exchange-sha1
-	diffie-hellman-group14-sha1
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	aes256-gcm@openssh.com
-	chacha20-poly1305@openssh.com
-	aes256-ctr
-	aes256-cbc
-	aes128-gcm@openssh.com
-	aes128-ctr
-	aes128-cbc
-
-MAC Algorithms:
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha2-256
-	hmac-sha1
-	umac-128@openssh.com
-	hmac-sha2-512
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**80:**
-```
-HTTP/1.1 404 Not Found
-Date: Tue, 21 May 2024 08:07:32 GMT
-Content-Type: text/plain
-Content-Length: 0
-
-
-Cobalt Strike Beacon:
-  x86:
-    beacon_type: HTTP
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 91.224.92.27,/cm
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 80
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: cc4ba01c076d925ce1fc333d59ba83db
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 7a0e4c52b979ae5863aa32e71c7fdbbc
-    sleeptime: 60000
-    useragent_header: Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-    uses_cookies: 1
-    watermark: 987654321
-  x64:
-    beacon_type: HTTP
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 91.224.92.27,/cx
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 80
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: cc4ba01c076d925ce1fc333d59ba83db
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 7a0e4c52b979ae5863aa32e71c7fdbbc
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; BOIE9;ENUS)
-    uses_cookies: 1
-    watermark: 987654321
-```
-------------------","50"
-"2024-05-21T15:34:04.384Z","IPv4-Addr","self-signed","TLP:GREEN","64.7.199.165","2024-05-21T15:35:54.821Z","64.7.199.165","**ISP:** BL Networks
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
 Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHYFHHj9Fv9rvpVsRCBTPAbT
-Xon0gmUa5HuFVrm2qzz0xURcOmYSiwCRPxVSJQ6D4vUpjdBggai44QYV0pxVjjE=
-Fingerprint: 25:38:c5:99:fc:59:8d:11:7d:45:04:da:53:d6:09:1c
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBF1lOkcRfnE8jl9K5pRdAfom
+JOJFPmHdnnkPLnJDyyoEOVUtDe54mATlY8luE1qMnLHw5ez4ABUZgbwiyiI+2tc=
+Fingerprint: c5:2c:9f:c0:1e:de:75:0c:ae:ff:75:45:07:d2:5c:31
 
 Kex Algorithms:
 	curve25519-sha256
@@ -1252,282 +412,33 @@ Compression Algorithms:
 	zlib@openssh.com
 ```
 ------------------
-**443:**
-```
-HTTP/1.1 404 Not Found
-Date: Mon, 20 May 2024 13:13:13 GMT
-Content-Type: text/plain
-Content-Length: 0
-
-
-Cobalt Strike Beacon:
-  x86:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 64.7.199.165,/dpixel
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: c54eed2fbdc9655c0c13550f04c72c28
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: a43af6f92cc90f73dd387804d850192e
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MDDRJS)
-    uses_cookies: 1
-    watermark: 674054486
-  x64:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 64.7.199.165,/dpixel
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: c54eed2fbdc9655c0c13550f04c72c28
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: a43af6f92cc90f73dd387804d850192e
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MASP)
-    uses_cookies: 1
-    watermark: 674054486
-```
-HEARTBLEED: 2024/05/20 13:13:33 64.7.199.165:443 - SAFE
-
-------------------","50"
-"2024-05-21T15:34:10.462Z","IPv4-Addr","cloud,self-signed","TLP:GREEN","150.158.43.153","2024-05-21T15:36:10.449Z","150.158.43.153","**ISP:** Shenzhen Tencent Computer Systems Company Limited
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDCvqEm9DQ+wwCaop3hw1mg/rNxZ6cXNSz7NZLCKmQZsgeC
-BXlhNw50dDX8TqSIkxCTnayvQWhIf5YqfMpcIaMxRwL3nAkuPUjDBC9jnx4sRzN3pyb1aagb/Ocq
-yUUQnldgTCqZrKSyHT8Sxdm87vPbvJ04x9S848q52z0X7UX4jBvdQPF7hwmPUI1Al2vH0VwksNHx
-GdPwKoSqkEkGkZBPpTXm1akNfZtxzt8bLUuqh8kMxX07fhXdOiRnE212xkzrxRvR/uSkN6MKEESf
-oSpeoGEIIm/j5jqdgWd/wwOA9ofS4PscV2KDpYqje5vGY0uUIQJScMngULEx/clcjCO4W2MnO8qV
-BuVJLTQqvAac8ePA8wMM4+LJcaGO7UCQ1zZeAIZFkYVm4kf5S8nG6TZGvmYbcUC+m+l4tqCjAp0Y
-qP2KNOJvnG3u3mCcw+z7qM/lbEd5ToPKfSj9GTo+sM6Vttqs/4jByR3L2ZOZ92v4l+yZQU9cT2h1
-GX2gtIQDYIM=
-Fingerprint: 87:1b:9a:2b:18:3d:ab:16:c6:3c:91:c0:4e:d2:b8:2f
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
 **80:**
 ```
 HTTP/1.1 404 Not Found
-```
-------------------
-**82:**
-```
-HTTP/1.1 404 Not Found
-Date: Tue, 21 May 2024 07:52:44 GMT
-Content-Type: text/plain
-Content-Length: 0
-```
-------------------
-**111:**
-```
-Portmap
-Program	Version	Protocol	Port
-portmapper	4	tcp	111
-portmapper	3	tcp	111
-portmapper	2	tcp	111
-portmapper	4	udp	111
-portmapper	3	udp	111
-portmapper	2	udp	111
-```
-------------------
-**111:**
-```
-Portmap
-Program	Version	Protocol	Port
-portmapper	4	tcp	111
-portmapper	3	tcp	111
-portmapper	2	tcp	111
-portmapper	4	udp	111
-portmapper	3	udp	111
-portmapper	2	udp	111
-```
-------------------
-**123:**
-```
-NTP
-protocolversion: 3
-stratum: 3
-leap: 0
-precision: -24
-rootdelay: 0.000381469726562
-rootdisp: 0.0628204345703
-refid: 2851995650
-reftime: 3925242656.16
-poll: 3
-```
-------------------
-**4443:**
-```
-HTTP/1.1 404 Not Found
-Date: Fri, 17 May 2024 03:51:50 GMT
-Content-Type: text/plain
-Content-Length: 0
-
-
-Cobalt Strike Beacon:
-  x86:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 150.158.43.153,/cm
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 4443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: f850e33c086fa421d53c60c15c4a7614
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; BO1IE8_v1;ENUS)
-    uses_cookies: 1
-    watermark: 987654321
-  x64:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 150.158.43.153,/ptj
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 4443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: f850e33c086fa421d53c60c15c4a7614
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; BOIE9;ENAU)
-    uses_cookies: 1
-    watermark: 987654321
-```
-HEARTBLEED: 2024/05/17 03:52:08 150.158.43.153:4443 - SAFE
-
-------------------
-**8080:**
-```
-HTTP/1.1 200 OK
-Content-Length: 3617
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 20 May 2024 13:09:43 GMT
 Content-Type: text/html; charset=utf-8
-Server: beegoServer:1.12.0
-Set-Cookie: beegosessionID=c73e054cd1cf6f790ae4c069dee49e4d; Path=/; HttpOnly
-Date: Tue, 21 May 2024 07:07:04 GMT
+Content-Length: 139
+Connection: keep-alive
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+```
+------------------
+**3000:**
+```
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 139
+Date: Sun, 12 May 2024 13:44:03 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
 ```
 ------------------","50"
