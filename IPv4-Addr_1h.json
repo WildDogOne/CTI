@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-05-25T12:14:52.587Z",
+        "updated_at": "2024-05-25T12:14:52.619Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            }
+        ],
+        "observable_value": "65.109.242.59",
+        "x_opencti_description": "Malicious SSL connections",
+        "x_opencti_score": null,
+        "value": "65.109.242.59"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-05-25T12:14:52.597Z",
+        "updated_at": "2024-05-25T12:14:55.852Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "78.46.237.77",
+        "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Wed, 22 May 2024 09:15:36 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: keep-alive\r\nLocation: https://google.com\n```\n------------------\n**443:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Sat, 25 May 2024 05:58:36 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: keep-alive\r\nLocation: https://google.com\n```\nHEARTBLEED: 2024/05/25 05:58:57 78.46.237.77:443 - SAFE\n\n------------------\n**5432:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: nginx\r\nDate: Sat, 25 May 2024 01:07:46 GMT\r\nContent-Type: text/html\r\nContent-Length: 650\r\nConnection: close\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "78.46.237.77"
+    }
+]
