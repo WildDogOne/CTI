@@ -1,1 +1,63 @@
-[]
+[
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-05-30T22:09:19.539Z",
+        "updated_at": "2024-05-30T22:09:22.061Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "93405f37-1740-4912-bdab-a6c6c07e6bf6",
+                "value": "database",
+                "color": "#7b11a9",
+                "createdById": null
+            }
+        ],
+        "observable_value": "50.87.235.85",
+        "x_opencti_description": "**ISP:** Unified Layer\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 2 of 150 allowed.\n220-Local time is now 20:56. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\r\n421 Can't change directory to /var/ftp/ [/]\r\n211-Extensions supported:\n UTF8\n EPRT\n IDLE\n MDTM\n SIZE\n MFMT\n REST STREAM\n MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;\n MLSD\n PRET\n AUTH TLS\n PBSZ\n PROT\n TVFS\n ESTA\n PASV\n EPSV\n ESTP\n211 End.\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCY4RKCZPznX6gsvdo4u+xA2FdIKZn5CzPKgcKSwlXGLrSy\nxH3550p0Lm92oS6Lh9lF6JkDrM6rJFmCfpFfk0hcN0oQMOGiGA/HtqTzR6mv+XfsBxl9YKVsQ6+o\nKrZdtV6hPKQJ1A1brbW9ooxRx30XNkQbQsqFDecoYnGLz7qpdcxrEv4Xpneldfeb9izK0vJDy/iB\n8B4A1qlT0p9oCATzCxM8nosQMiSMgXgBrUVOloHsjTmz0O0iKp6l4XCXOJ1Vgu+fVve0Y17Elxqd\nxgjNr7drdfEK4IDZbw4Soz03aUyWD4TZk5UllK0SLj7JJKH4bWHHRvbpqt1d7d/8uqW1\nFingerprint: 52:e7:ef:24:c6:0c:6e:ef:4e:01:58:fc:53:51:6e:73\n\nKex Algorithms:\n\tdiffie-hellman-group-exchange-sha256\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-dss\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\taes256-ctr\n\taes192-ctr\n\taes128-ctr\n\nMAC Algorithms:\n\thmac-sha2-512\n\thmac-sha2-256\n\thmac-ripemd160\n\thmac-ripemd160@openssh.com\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**26:**\n```\n220-box2419.bluehost.com ESMTP Exim 4.96.2 #2 Thu, 16 May 2024 21:10:18 -0600 \\r\\n220-We do not authorize the use of this system to transport unsolicited, \\r\\n220 and/or bulk e-mail.\\r\\n\n```\n------------------\n**53:**\n```\n9.11.4-P2-RedHat-9.11.4-16.P2.el7_8.6\nResolver name: box2419.bluehost.com\n```\n------------------\n**53:**\n```\n9.11.4-P2-RedHat-9.11.4-16.P2.el7_8.6\nResolver name: box2419.bluehost.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 301 Moved Permanently\r\nDate: Thu, 30 May 2024 15:36:38 GMT\r\nServer: Apache\r\nLocation: https://jbintegritypaintingllc.com/\r\nContent-Length: 243\r\nContent-Type: text/html; charset=iso-8859-1\n```\n------------------\n**110:**\n```\n+OK Dovecot ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nSTLS\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\n------------------\n**143:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 30 May 2024 20:51:07 GMT\r\nServer: Apache\r\nX-Frame-Options: DENY\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nUpgrade: h2,h2c\r\nConnection: Upgrade\r\nCache-Control: no-store, no-cache, must-revalidate, max-age=0\r\nExpires: Thu, 30 May 2024 20:51:07 GMT\r\nVary: Accept-Encoding\r\nhost-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nReferrer-Policy: no-referrer\r\nStrict-Transport-Security: max-age=31536000;includeSubDomains;\r\nPragma: no-cache\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=UTF-8\n```\n------------------\n**465:**\n```\n220-box2419.bluehost.com ESMTP Exim 4.96.2 #2 Wed, 22 May 2024 19:59:56 -0600 \r\n220-We do not authorize the use of this system to transport unsolicited, \r\n220 and/or bulk e-mail.\r\n250-box2419.bluehost.com Hello 224.27.135.152 [224.27.135.152]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-PIPECONNECT\r\n250-AUTH PLAIN LOGIN\r\n250 HELP\n```\nHEARTBLEED: 2024/05/23 02:00:05 50.87.235.85:465 - SAFE\n\n------------------\n**587:**\n```\n220-box2419.bluehost.com ESMTP Exim 4.96.2 #2 Mon, 20 May 2024 03:08:17 -0600 \r\n220-We do not authorize the use of this system to transport unsolicited, \r\n220 and/or bulk e-mail.\r\n250-box2419.bluehost.com Hello 224.242.128.22 [224.242.128.22]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-PIPECONNECT\r\n250-AUTH PLAIN LOGIN\r\n250-STARTTLS\r\n250 HELP\n```\n------------------\n**993:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\nHEARTBLEED: 2024/05/23 15:19:03 50.87.235.85:993 - SAFE\n\n------------------\n**995:**\n```\n+OK Dovecot ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\nHEARTBLEED: 2024/05/25 19:25:15 50.87.235.85:995 - SAFE\n\n------------------\n**2082:**\n```\nHTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: text/html; charset=\"utf-8\"\r\nDate: Fri, 17 May 2024 01:56:51 GMT\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nPragma: no-cache\r\nSet-Cookie: cprelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082\r\nSet-Cookie: cpsession=%3acxWKUAzbGQcLTCA8%2cbc039b830e20c17e7469010639ca891c; HttpOnly; path=/; port=2082\r\nSet-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082\r\nSet-Cookie: roundcube_sessauth=expired; HttpOnly; domain=50.87.235.85; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082\r\nSet-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nContent-Length: 37037\n```\n------------------\n**2083:**\n```\nHTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: text/html; charset=\"utf-8\"\r\nDate: Sat, 25 May 2024 04:42:16 GMT\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nPragma: no-cache\r\nSet-Cookie: cprelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure\r\nSet-Cookie: cpsession=%3as5VSxK3gZA0XVuw2%2c1100e47ff5d30d5916f5daf3879eef77; HttpOnly; path=/; port=2083; secure\r\nSet-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure\r\nSet-Cookie: roundcube_sessauth=expired; HttpOnly; domain=50.87.235.85; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure\r\nSet-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nContent-Length: 37037\n```\nHEARTBLEED: 2024/05/25 04:42:23 50.87.235.85:2083 - SAFE\n\n------------------\n**2086:**\n```\nHTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: text/html; charset=\"utf-8\"\r\nDate: Sun, 26 May 2024 14:03:19 GMT\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nPragma: no-cache\r\nSet-Cookie: whostmgrrelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2086\r\nSet-Cookie: whostmgrsession=%3amw7d8KAeuhMeh3sh%2ce876f4159ca91b202886dea73380e0f3; HttpOnly; path=/; port=2086\r\nSet-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2086\r\nSet-Cookie: roundcube_sessauth=expired; HttpOnly; domain=50.87.235.85; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2086\r\nSet-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2086\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nContent-Length: 37032\n```\n------------------\n**2087:**\n```\nHTTP/1.1 301 Moved\r\nContent-length: 117\r\nLocation: https://box2419.bluehost.com:2087\r\nContent-type: text/html; charset=\"utf-8\"\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nPragma: no-cache\r\n\r\n<html><head><META HTTP-EQUIV=\"refresh\" CONTENT=\"2;URL=https://box2419.bluehost.com:2087\"></head><body></body></html>\n```\n------------------\n**2096:**\n```\nHTTP/1.1 301 Moved\r\nContent-length: 117\r\nLocation: https://box2419.bluehost.com:2096\r\nContent-type: text/html; charset=\"utf-8\"\r\nCache-Control: no-cache, no-store, must-revalidate, private\r\nPragma: no-cache\n```\n------------------\n**2222:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCY4RKCZPznX6gsvdo4u+xA2FdIKZn5CzPKgcKSwlXGLrSy\nxH3550p0Lm92oS6Lh9lF6JkDrM6rJFmCfpFfk0hcN0oQMOGiGA/HtqTzR6mv+XfsBxl9YKVsQ6+o\nKrZdtV6hPKQJ1A1brbW9ooxRx30XNkQbQsqFDecoYnGLz7qpdcxrEv4Xpneldfeb9izK0vJDy/iB\n8B4A1qlT0p9oCATzCxM8nosQMiSMgXgBrUVOloHsjTmz0O0iKp6l4XCXOJ1Vgu+fVve0Y17Elxqd\nxgjNr7drdfEK4IDZbw4Soz03aUyWD4TZk5UllK0SLj7JJKH4bWHHRvbpqt1d7d/8uqW1\nFingerprint: 52:e7:ef:24:c6:0c:6e:ef:4e:01:58:fc:53:51:6e:73\n\nKex Algorithms:\n\tdiffie-hellman-group-exchange-sha256\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-dss\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\taes256-ctr\n\taes192-ctr\n\taes128-ctr\n\nMAC Algorithms:\n\thmac-sha2-512\n\thmac-sha2-256\n\thmac-ripemd160\n\thmac-ripemd160@openssh.com\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**3306:**\n```\nMySQL:\n  Error Message: Host '224.233.51.222' is not allowed to connect to this MySQL server\n  Error Code: 1130\n```\n------------------\n**5432:**\n```\nPostgreSQL\nFATAL:  no pg_hba.conf entry for host \"224.73.84.99\", user \"postgres\", database \"template0\", SSL off\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "50.87.235.85"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-05-30T22:13:45.089Z",
+        "updated_at": "2024-05-30T22:13:45.124Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "192.168.100.60",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "192.168.100.60"
+    }
+]
