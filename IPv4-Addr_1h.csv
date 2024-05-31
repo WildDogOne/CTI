@@ -1,147 +1,88 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-05-31T16:06:07.142Z","IPv4-Addr","starttls,self-signed,eol-product,database","TLP:CLEAR","93.89.225.40","2024-05-31T16:06:12.489Z","93.89.225.40","**ISP:** Isimtescil Bilisim A.S.
+"2024-05-31T17:15:35.270Z","IPv4-Addr","self-signed","TLP:CLEAR","31.14.12.234","2024-05-31T17:15:37.853Z","31.14.12.234","**ISP:** Cyber_Folks SRL
 
-**OS:** Windows
+**OS:** -
 
 --------------------------
 Services:
 
-**21:**
-```
-220 Microsoft FTP Service
-530 User cannot log in.
-214-The following commands are recognized (* ==>'s unimplemented).
-    ABOR 
-    ACCT 
-    ADAT *
-    ALLO 
-    APPE 
-    AUTH 
-    CCC 
-    CDUP 
-    CWD 
-    DELE 
-    ENC *
-    EPRT 
-    EPSV 
-    FEAT 
-    HELP 
-    HOST 
-    LANG 
-    LIST 
-    MDTM 
-    MIC *
-    MKD 
-    MODE 
-    NLST 
-    NOOP 
-    OPTS 
-    PASS 
-    PASV 
-    PBSZ 
-    PORT 
-    PROT 
-    PWD 
-    QUIT 
-    REIN 
-    REST 
-    RETR 
-    RMD 
-    RNFR 
-    RNTO 
-    SITE 
-    SIZE 
-    SMNT 
-    STAT 
-    STOR 
-    STOU 
-    STRU 
-    SYST 
-    TYPE 
-    USER 
-    XCUP 
-    XCWD 
-    XMKD 
-    XPWD 
-    XRMD 
-214 HELP command successful.
-211-Extended features supported:
- LANG EN*
- UTF8
- AUTH TLS;TLS-C;SSL;TLS-P;
- PBSZ
- PROT C;P;
- CCC
- HOST
- SIZE
- MDTM
- REST STREAM
-211 END
-```
-------------------
-**53:**
-```
-
-```
-------------------
-**53:**
-```
-
-```
-------------------
-**3306:**
-```
-MySQL:
-  Protocol Version: 10
-  Version: 5.6.36
-  Capabilities: 63487
-  Server Language: 8
-  Server Status: 2
-  Extended Server Capabilities: 32895
-  Authentication Plugin: mysql_native_password
-```
-------------------
-**8443:**
+**443:**
 ```
 HTTP/1.1 200 OK
-Cache-Control: no-store, no-cache, must-revalidate,post-check=0, pre-check=0
-Pragma: no-cache
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=UTF-8
-Expires: Fri, 28 May 1999 00:00:00 GMT
-Last-Modified: Thu, 30 May 2024 19:42:01 GMT
-Server: Microsoft-IIS/8.5
-P3P: CP=""NON COR CURa ADMa OUR NOR UNI COM NAV STA""
-X-Powered-By: ASP.NET
-Date: Thu, 30 May 2024 19:42:01 GMT
+Date: Sat, 25 May 2024 16:35:22 GMT
+Content-Length: 1530
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Cache-Control: no-store, max-age=0
+Server: imunify360-webshield/1.21
 ```
-HEARTBLEED: 2024/05/30 19:42:22 93.89.225.40:8443 - ERROR: write tcp 93.89.225.40:8443: broken pipe
+HEARTBLEED: 2024/05/25 16:35:28 31.14.12.234:443 - SAFE
 
 ------------------
-**8880:**
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/05/29 08:46:54 31.14.12.234:993 - SAFE
+
+------------------
+**995:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/05/23 05:32:28 31.14.12.234:995 - SAFE
+
+------------------
+**2079:**
+```
+HTTP/1.1 302 Moved
+Date: Tue, 07 May 2024 16:21:16 GMT
+Server: cPanel
+Persistent-Auth: false
+Host: 31.14.12.234:2079
+Connection: close
+Location: https://cl83.namebox.ro:2080/
+X-Redirect-Reason: requiressl
+```
+------------------
+**2086:**
 ```
 HTTP/1.1 200 OK
-Cache-Control: no-store, no-cache, must-revalidate,post-check=0, pre-check=0
-Pragma: no-cache
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=UTF-8
-Expires: Fri, 28 May 1999 00:00:00 GMT
-Last-Modified: Thu, 23 May 2024 12:42:27 GMT
-Server: Microsoft-IIS/8.5
-P3P: CP=""NON COR CURa ADMa OUR NOR UNI COM NAV STA""
-X-Powered-By: ASP.NET
-Date: Thu, 23 May 2024 12:42:27 GMT
-
-5a0
-
-        <html><head>
-        <meta charset=""utf-8"">
-        <meta http-equiv=""X-UA-Compatible"" content=""IE=edge,chrome=1"">
-        <meta name=""plesk-build"" content=""20170317.15"">
-        <title>Plesk Onyx 17.5.3</title>
-        <script language=""javascript"" type=""text/javascript"" src=""/javascript/common.js?1489755188""/></script>
-        <script language=""javascript"" type=""text/javascript"" src=""/javascript/prototype.js?1489755188""/></script>
-        
-        </head><body onLoad="";top.location='/login.php?success_redirect_url=http%3A%2F%2F93.89.225.40%2F';""></body><noscript>15 saniye içinde yeni adrese yönlendirileceksiniz... Otomatik olarak yeni konuma götürülmüyorsanız, lütfen javascript&#039;i etkinleştirin veya <a href=""/login.php?success_redirect_url=http%3A%2F%2F93.89.225.40%2F"" target=""top"">/login.php?success_redirect_url=http%3A%2F%2F93.89.225.40%2F</a> bağlantısını tıklatın.</noscript></html><!--______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________IE error page size limitation______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->
+Date: Thu, 09 May 2024 12:10:20 GMT
+Content-Length: 1596
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Cache-Control: no-store, max-age=0
+Server: imunify360-webshield/1.21
 ```
+------------------
+**2087:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 04 May 2024 13:12:17 GMT
+Content-Length: 1511
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Cache-Control: no-store, max-age=0
+Server: imunify360-webshield/1.21
+```
+HEARTBLEED: 2024/05/04 13:12:32 31.14.12.234:2087 - SAFE
+
 ------------------","50"
