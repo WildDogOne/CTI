@@ -1,155 +1,147 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-05-31T14:32:18.001Z","IPv4-Addr","headlace,bluedelta","TLP:CLEAR","68.76.150.97","2024-05-31T14:32:18.093Z","68.76.150.97","","50"
-"2024-05-31T14:32:18.646Z","IPv4-Addr","headlace,bluedelta","TLP:CLEAR","174.53.242.108","2024-05-31T14:32:18.712Z","174.53.242.108","","50"
-"2024-05-31T14:32:18.779Z","IPv4-Addr","headlace,bluedelta,self-signed","TLP:CLEAR","37.191.122.186","2024-05-31T14:32:24.080Z","37.191.122.186","**ISP:** M247 UK Ltd
+"2024-05-31T16:06:07.142Z","IPv4-Addr","starttls,self-signed,eol-product,database","TLP:CLEAR","93.89.225.40","2024-05-31T16:06:12.489Z","93.89.225.40","**ISP:** Isimtescil Bilisim A.S.
 
-**OS:** -
+**OS:** Windows
 
 --------------------------
 Services:
 
-**80:**
+**21:**
 ```
-HTTP/1.1 301 Moved Permanently
-Location: https://37.191.122.186:443/
-Content-Length: 0
-Date: Thu, 23 May 2024 14:39:10 GMT
-Server: Server
+220 Microsoft FTP Service
+530 User cannot log in.
+214-The following commands are recognized (* ==>'s unimplemented).
+    ABOR 
+    ACCT 
+    ADAT *
+    ALLO 
+    APPE 
+    AUTH 
+    CCC 
+    CDUP 
+    CWD 
+    DELE 
+    ENC *
+    EPRT 
+    EPSV 
+    FEAT 
+    HELP 
+    HOST 
+    LANG 
+    LIST 
+    MDTM 
+    MIC *
+    MKD 
+    MODE 
+    NLST 
+    NOOP 
+    OPTS 
+    PASS 
+    PASV 
+    PBSZ 
+    PORT 
+    PROT 
+    PWD 
+    QUIT 
+    REIN 
+    REST 
+    RETR 
+    RMD 
+    RNFR 
+    RNTO 
+    SITE 
+    SIZE 
+    SMNT 
+    STAT 
+    STOR 
+    STOU 
+    STRU 
+    SYST 
+    TYPE 
+    USER 
+    XCUP 
+    XCWD 
+    XMKD 
+    XPWD 
+    XRMD 
+214 HELP command successful.
+211-Extended features supported:
+ LANG EN*
+ UTF8
+ AUTH TLS;TLS-C;SSL;TLS-P;
+ PBSZ
+ PROT C;P;
+ CCC
+ HOST
+ SIZE
+ MDTM
+ REST STREAM
+211 END
 ```
 ------------------
-**443:**
+**53:**
+```
+
+```
+------------------
+**53:**
+```
+
+```
+------------------
+**3306:**
+```
+MySQL:
+  Protocol Version: 10
+  Version: 5.6.36
+  Capabilities: 63487
+  Server Language: 8
+  Server Status: 2
+  Extended Server Capabilities: 32895
+  Authentication Plugin: mysql_native_password
+```
+------------------
+**8443:**
 ```
 HTTP/1.1 200 OK
-X-Frame-Options: SAMEORIGIN
-X-Xss-Protection: 1; mode=block
-Content-Length: 8495
-X-Content-Type-Options: nosniff
+Cache-Control: no-store, no-cache, must-revalidate,post-check=0, pre-check=0
+Pragma: no-cache
+Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 31 May 2024 06:44:22 GMT
-Server: Server
+Expires: Fri, 28 May 1999 00:00:00 GMT
+Last-Modified: Thu, 30 May 2024 19:42:01 GMT
+Server: Microsoft-IIS/8.5
+P3P: CP=""NON COR CURa ADMa OUR NOR UNI COM NAV STA""
+X-Powered-By: ASP.NET
+Date: Thu, 30 May 2024 19:42:01 GMT
 ```
-HEARTBLEED: 2024/05/31 06:44:35 37.191.122.186:443 - SAFE
+HEARTBLEED: 2024/05/30 19:42:22 93.89.225.40:8443 - ERROR: write tcp 93.89.225.40:8443: broken pipe
 
 ------------------
-**2222:**
-```
-SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCxv1F/8++omt4p7qcY4ytO6391eyfAyBa0sPCQso6eZgeB
-e0gYmZ2Dd0jinDj4I3/ZCMAfkBX1AbW5btoC6EgB4zJpwUJ8Lx7uD7sNzpUjvnWxgEpdIUvI8l45
-XsDhF6LSecEFPz9MndOcFrOxypMJaFknbV+sIou1SldXPxwC1qM36jGfocXWxcEcXny8a1lC8bBa
-BA1M11Wmj1Kao9EHxPqayFlMr2WqOyAaZJswUGGtiFt5vyKoH5BQWcoYu2QzPZt83y09zv7Fa69j
-fmd3980/ksGtDsH4LICBMB3jDMgpleP3LeqxCSCxyFQEMocd4pJzfOpbJ9hAaklAMPsV
-Fingerprint: 41:2d:2e:79:c6:7d:91:94:64:12:17:f1:c4:6f:a0:13
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	diffie-hellman-group14-sha1
-
-Server Host Key Algorithms:
-	ssh-rsa
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------","50"
-"2024-05-31T14:32:19.881Z","IPv4-Addr","headlace,bluedelta","TLP:CLEAR","73.80.9.137","2024-05-31T14:32:19.925Z","73.80.9.137","","50"
-"2024-05-31T15:02:35.832Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","191.233.241.96","2024-05-31T15:02:35.933Z","191.233.241.96","","50"
-"2024-05-31T15:02:35.833Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","104.41.51.80","2024-05-31T15:02:35.938Z","104.41.51.80","","50"
-"2024-05-31T15:02:36.403Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay,cloud","TLP:CLEAR","191.233.248.170","2024-05-31T15:02:40.440Z","191.233.248.170","**ISP:** Microsoft Corporation
-
-**OS:** -
-
---------------------------
-Services:
-
-**80:**
+**8880:**
 ```
 HTTP/1.1 200 OK
-Date: Wed, 08 May 2024 15:58:34 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Last-Modified: Thu, 18 Apr 2024 20:25:26 GMT
-ETag: ""29af-61664c5868f07""
-Accept-Ranges: bytes
-Content-Length: 10671
-Vary: Accept-Encoding
-Content-Type: text/html
+Cache-Control: no-store, no-cache, must-revalidate,post-check=0, pre-check=0
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Expires: Fri, 28 May 1999 00:00:00 GMT
+Last-Modified: Thu, 23 May 2024 12:42:27 GMT
+Server: Microsoft-IIS/8.5
+P3P: CP=""NON COR CURa ADMa OUR NOR UNI COM NAV STA""
+X-Powered-By: ASP.NET
+Date: Thu, 23 May 2024 12:42:27 GMT
+
+5a0
+
+        <html><head>
+        <meta charset=""utf-8"">
+        <meta http-equiv=""X-UA-Compatible"" content=""IE=edge,chrome=1"">
+        <meta name=""plesk-build"" content=""20170317.15"">
+        <title>Plesk Onyx 17.5.3</title>
+        <script language=""javascript"" type=""text/javascript"" src=""/javascript/common.js?1489755188""/></script>
+        <script language=""javascript"" type=""text/javascript"" src=""/javascript/prototype.js?1489755188""/></script>
+        
+        </head><body onLoad="";top.location='/login.php?success_redirect_url=http%3A%2F%2F93.89.225.40%2F';""></body><noscript>15 saniye içinde yeni adrese yönlendirileceksiniz... Otomatik olarak yeni konuma götürülmüyorsanız, lütfen javascript&#039;i etkinleştirin veya <a href=""/login.php?success_redirect_url=http%3A%2F%2F93.89.225.40%2F"" target=""top"">/login.php?success_redirect_url=http%3A%2F%2F93.89.225.40%2F</a> bağlantısını tıklatın.</noscript></html><!--______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________IE error page size limitation______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->
 ```
 ------------------","50"
-"2024-05-31T15:02:37.209Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","191.234.212.140","2024-05-31T15:02:37.407Z","191.234.212.140","","50"
-"2024-05-31T15:02:37.210Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","191.235.233.246","2024-05-31T15:02:37.403Z","191.235.233.246","","50"
-"2024-05-31T15:02:37.234Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay,cloud,self-signed,eol-os","TLP:CLEAR","191.235.87.229","2024-05-31T15:03:19.950Z","191.235.87.229","**ISP:** Microsoft Corporation
-
-**OS:** -
-
---------------------------
-Services:
-
-**443:**
-```
-HTTP/1.1 200 OK
-Date: Sun, 19 May 2024 18:11:23 GMT
-Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.1.33
-Content-Length: 481
-Content-Type: text/html;charset=ISO-8859-1
-```
-HEARTBLEED: 2024/05/19 18:11:49 191.235.87.229:443 - SAFE
-
-------------------
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x0f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows 8.1/Windows Server 2012 R2
-  OS Build: 6.3.9600
-  Target Name: ps-016
-  NetBIOS Domain Name: ps-016
-  NetBIOS Computer Name: ps-016
-  DNS Domain Name: ps-016
-  FQDN: ps-016
-```
-------------------
-**50000:**
-```
-P2S Business Framework
-v.0.2
-Login Sequence:
-```
-------------------","50"
-"2024-05-31T15:02:38.150Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","191.239.116.217","2024-05-31T15:02:38.211Z","191.239.116.217","","50"
-"2024-05-31T15:02:38.341Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","191.239.123.241","2024-05-31T15:02:38.761Z","191.239.123.241","","50"
-"2024-05-31T15:02:38.846Z","IPv4-Addr","trojan,banking,brazil,keylogging,access_pc_client.dll,carnavalheist,overlay","TLP:CLEAR","4.203.105.118","2024-05-31T15:02:38.946Z","4.203.105.118","","50"
