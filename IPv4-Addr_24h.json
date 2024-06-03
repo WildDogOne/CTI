@@ -4866,5 +4866,48 @@
         "x_opencti_description": "Anyrun Malware Trends",
         "x_opencti_score": null,
         "value": "192.168.100.145"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-03T08:57:04.647Z",
+        "updated_at": "2024-06-03T08:57:05.407Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "88.99.127.107",
+        "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDtePrWkW3ad3pInMkvhSbo9\n4uq+/X7NOUwq7pvu6Xg7UXRkBXbvup041+8SjSOG95Zcem8jM/r4XXCegq73BMY=\nFingerprint: 00:53:bd:ad:cb:a7:d1:e6:58:00:74:c6:86:cf:86:ac\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 403 Forbidden\r\nServer: nginx\r\nDate: Sun, 02 Jun 2024 22:10:32 GMT\r\nContent-Type: text/html\r\nContent-Length: 548\r\nConnection: keep-alive\n```\n------------------\n**443:**\n```\nHTTP/1.1 403 Forbidden\r\nServer: nginx\r\nDate: Sun, 02 Jun 2024 22:50:36 GMT\r\nContent-Type: text/html\r\nContent-Length: 548\r\nConnection: keep-alive\n```\nHEARTBLEED: 2024/06/02 22:51:00 88.99.127.107:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
+        "value": "88.99.127.107"
     }
 ]
