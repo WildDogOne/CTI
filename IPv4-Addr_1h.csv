@@ -1,1 +1,223 @@
+"created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
+"2024-06-05T16:35:07.874Z","IPv4-Addr","starttls,self-signed","TLP:CLEAR","5.42.65.63","2024-06-05T16:35:11.101Z","5.42.65.63","**ISP:** AEZA Group LLC
 
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 ProFTPD Server (Debian) [::ffff:5.42.65.63]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+214-EPRT    EPSV    ALLO    RNFR    RNTO    DELE    MDTM    RMD     
+214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+214-NOOP    FEAT    OPTS    HOST    CLNT    AUTH*   CCC*    CONF*   
+214-ENC*    MIC*    PBSZ*   PROT*   TYPE    STRU    MODE    RETR    
+214-STOR    STOU    APPE    REST    ABOR    RANG    USER    PASS    
+214-ACCT*   REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@0.0.0.0
+211-Features:
+211-CLNT
+211-EPRT
+211-EPSV
+211-HOST
+211-LANG en-US.UTF-8*;en-US
+211-MDTM
+211-MFF modify;UNIX.group;UNIX.mode;
+211-MFMT
+211-MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+211-RANG STREAM
+211-REST STREAM
+211-SITE COPY
+211-SITE MKDIR
+211-SITE RMDIR
+211-SITE SYMLINK
+211-SITE UTIME
+211-SIZE
+211-TVFS
+211-UTF8
+211 End
+```
+------------------
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIyFO4OfsBoaRzrWgyBlUMdB
+T7k+SXOWmUyby9+w7xw0BdfSw3Sxs6maWp/M/sncd1C02BSQRKvcKYEV0U0MUTQ=
+Fingerprint: fe:c1:90:f6:34:d5:0a:91:4b:1e:c9:aa:88:33:44:38
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**25:**
+```
+220 VPS-4811.lethost.network ESMTP Exim 4.95 Ubuntu Sat, 11 May 2024 10:35:39 +0000
+250-VPS-4811.lethost.network Hello 224.49.163.71 [224.49.163.71]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPE_CONNECT
+250-AUTH LOGIN PLAIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.26.0
+Date: Sat, 18 May 2024 07:52:53 GMT
+Content-Type: text/html
+Content-Length: 15793
+Last-Modified: Mon, 22 Apr 2024 08:58:06 GMT
+Connection: keep-alive
+ETag: ""6626269e-3db1""
+Accept-Ranges: bytes
+```
+------------------
+**143:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.26.0
+Date: Fri, 24 May 2024 04:56:25 GMT
+Content-Type: text/html
+Content-Length: 15793
+Last-Modified: Mon, 22 Apr 2024 08:58:06 GMT
+Connection: keep-alive
+ETag: ""6626269e-3db1""
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/05/24 04:56:47 5.42.65.63:443 - SAFE
+
+------------------
+**465:**
+```
+220 VPS-4811.lethost.network ESMTP Exim 4.95 Ubuntu Mon, 20 May 2024 05:44:25 +0000
+250-VPS-4811.lethost.network Hello hfg5v6kxfqx754o.net [224.72.173.222]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPE_CONNECT
+250-AUTH LOGIN PLAIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+```
+HEARTBLEED: 2024/05/20 05:44:33 5.42.65.63:465 - SAFE
+
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/05/30 00:38:23 5.42.65.63:993 - SAFE
+
+------------------
+**995:**
+```
++OK Dovecot (Ubuntu) ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/05/23 12:31:48 5.42.65.63:995 - SAFE
+
+------------------
+**7777:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 25 May 2024 20:09:50 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Mon, 06 May 2024 12:09:17 GMT
+Connection: keep-alive
+ETag: ""6638c86d-264""
+Accept-Ranges: bytes
+```
+------------------
+**8888:**
+```
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Tue, 21 May 2024 07:57:41 GMT
+Content-Type: text/html
+Content-Length: 138
+Connection: close
+Location: https://5.42.65.63:8888/
+```
+------------------","50"
+"2024-06-05T16:36:18.239Z","IPv4-Addr","","TLP:CLEAR","81.217.198.4","2024-06-05T16:36:18.289Z","81.217.198.4","Anyrun Malware Trends",""

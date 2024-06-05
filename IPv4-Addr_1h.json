@@ -1,1 +1,63 @@
-[]
+[
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-05T16:35:07.874Z",
+        "updated_at": "2024-06-05T16:35:11.101Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "5.42.65.63",
+        "x_opencti_description": "**ISP:** AEZA Group LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 ProFTPD Server (Debian) [::ffff:5.42.65.63]\r\n530 Login incorrect.\r\n214-The following commands are recognized (* =>'s unimplemented):\n214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    \n214-EPRT    EPSV    ALLO    RNFR    RNTO    DELE    MDTM    RMD     \n214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    \n214-NOOP    FEAT    OPTS    HOST    CLNT    AUTH*   CCC*    CONF*   \n214-ENC*    MIC*    PBSZ*   PROT*   TYPE    STRU    MODE    RETR    \n214-STOR    STOU    APPE    REST    ABOR    RANG    USER    PASS    \n214-ACCT*   REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    \n214 Direct comments to root@0.0.0.0\r\n211-Features:\n211-CLNT\n211-EPRT\n211-EPSV\n211-HOST\n211-LANG en-US.UTF-8*;en-US\n211-MDTM\n211-MFF modify;UNIX.group;UNIX.mode;\n211-MFMT\n211-MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;\n211-RANG STREAM\n211-REST STREAM\n211-SITE COPY\n211-SITE MKDIR\n211-SITE RMDIR\n211-SITE SYMLINK\n211-SITE UTIME\n211-SIZE\n211-TVFS\n211-UTF8\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIyFO4OfsBoaRzrWgyBlUMdB\nT7k+SXOWmUyby9+w7xw0BdfSw3Sxs6maWp/M/sncd1C02BSQRKvcKYEV0U0MUTQ=\nFingerprint: fe:c1:90:f6:34:d5:0a:91:4b:1e:c9:aa:88:33:44:38\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**25:**\n```\n220 VPS-4811.lethost.network ESMTP Exim 4.95 Ubuntu Sat, 11 May 2024 10:35:39 +0000\r\n250-VPS-4811.lethost.network Hello 224.49.163.71 [224.49.163.71]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-PIPE_CONNECT\r\n250-AUTH LOGIN PLAIN\r\n250-CHUNKING\r\n250-STARTTLS\r\n250-SMTPUTF8\r\n250 HELP\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.0\r\nDate: Sat, 18 May 2024 07:52:53 GMT\r\nContent-Type: text/html\r\nContent-Length: 15793\r\nLast-Modified: Mon, 22 Apr 2024 08:58:06 GMT\r\nConnection: keep-alive\r\nETag: \"6626269e-3db1\"\r\nAccept-Ranges: bytes\n```\n------------------\n**143:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.0\r\nDate: Fri, 24 May 2024 04:56:25 GMT\r\nContent-Type: text/html\r\nContent-Length: 15793\r\nLast-Modified: Mon, 22 Apr 2024 08:58:06 GMT\r\nConnection: keep-alive\r\nETag: \"6626269e-3db1\"\r\nAccept-Ranges: bytes\n```\nHEARTBLEED: 2024/05/24 04:56:47 5.42.65.63:443 - SAFE\n\n------------------\n**465:**\n```\n220 VPS-4811.lethost.network ESMTP Exim 4.95 Ubuntu Mon, 20 May 2024 05:44:25 +0000\r\n250-VPS-4811.lethost.network Hello hfg5v6kxfqx754o.net [224.72.173.222]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-PIPE_CONNECT\r\n250-AUTH LOGIN PLAIN\r\n250-CHUNKING\r\n250-SMTPUTF8\r\n250 HELP\n```\nHEARTBLEED: 2024/05/20 05:44:33 5.42.65.63:465 - SAFE\n\n------------------\n**993:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\nHEARTBLEED: 2024/05/30 00:38:23 5.42.65.63:993 - SAFE\n\n------------------\n**995:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\nHEARTBLEED: 2024/05/23 12:31:48 5.42.65.63:995 - SAFE\n\n------------------\n**7777:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Sat, 25 May 2024 20:09:50 GMT\r\nContent-Type: text/html\r\nContent-Length: 612\r\nLast-Modified: Mon, 06 May 2024 12:09:17 GMT\r\nConnection: keep-alive\r\nETag: \"6638c86d-264\"\r\nAccept-Ranges: bytes\n```\n------------------\n**8888:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Tue, 21 May 2024 07:57:41 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: close\r\nLocation: https://5.42.65.63:8888/\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "5.42.65.63"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-05T16:36:18.239Z",
+        "updated_at": "2024-06-05T16:36:18.289Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "81.217.198.4",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "81.217.198.4"
+    }
+]
