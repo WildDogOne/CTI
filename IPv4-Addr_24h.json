@@ -8734,5 +8734,283 @@
         "x_opencti_description": "Anyrun Malware Trends",
         "x_opencti_score": null,
         "value": "185.157.120.4"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:32.935Z",
+        "updated_at": "2024-06-10T15:58:34.269Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "119.28.32.143",
+        "x_opencti_description": "**ISP:** Tencent Building, Kejizhongyi Avenue\n\n**OS:** Windows\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 5084\r\nAccept-Ranges: bytes\r\nServer: HFS 2.3m\r\nSet-Cookie: HFS_SID_=0.452618476003408; path=/; HttpOnly\r\nCache-Control: no-cache, no-store, must-revalidate, max-age=-1\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: 10_0_0_15\n  NetBIOS Domain Name: 10_0_0_15\n  NetBIOS Computer Name: 10_0_0_15\n  DNS Domain Name: 10_0_0_15\n  FQDN: 10_0_0_15\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "119.28.32.143"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:33.016Z",
+        "updated_at": "2024-06-10T15:58:37.604Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            },
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "119.28.41.143",
+        "x_opencti_description": "**ISP:** Tencent Building, Kejizhongyi Avenue\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDEJ5BG55YzzVYZJ1SKapb7ZEXAvILFTYlFfPgjJgWiicCo\nayQRl/02Jk+NuNgd1fwdFQPbV4C9rZuskJ6Ig534G1HKHbtTWienBNvLpN0GUPl+d4KMqV4kUlNh\nYTCwAfF/NjfRi4DQ4WnP4hCJmVnHxUVEBoRDrjhlzi+ggD/tO2cAmTY0yp/QDIENEhUmTphngqLZ\nJd9bCKCItfVSjWo9dDXTYZchZCT3Rwy9pckDLC9DLaDsIblhYpMNhRo8fPu+LUXYedLAXAaoLTeU\nNhoEO/1P4NOfzYyTJ+LZ+7vX3Hkkq4C9Yc7UsvyOGUXXUk5X7I9fY2XXABleJ4XhnB5p\nFingerprint: 7d:6f:1c:88:62:82:35:5c:94:84:f5:d4:77:2c:1a:2d\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**1723:**\n```\nPPTP:\n  Firmware: 1\n  Hostname: local\n  Vendor: linux\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "119.28.41.143"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:35.523Z",
+        "updated_at": "2024-06-10T15:58:35.738Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            }
+        ],
+        "observable_value": "101.33.117.200",
+        "x_opencti_description": null,
+        "x_opencti_score": 50,
+        "value": "101.33.117.200"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:35.770Z",
+        "updated_at": "2024-06-10T15:58:35.887Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            }
+        ],
+        "observable_value": "124.156.134.223",
+        "x_opencti_description": null,
+        "x_opencti_score": 50,
+        "value": "124.156.134.223"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:36.014Z",
+        "updated_at": "2024-06-10T15:58:36.062Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            }
+        ],
+        "observable_value": "43.129.233.146",
+        "x_opencti_description": null,
+        "x_opencti_score": 50,
+        "value": "43.129.233.146"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:36.102Z",
+        "updated_at": "2024-06-10T15:58:46.728Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "43.129.233.99",
+        "x_opencti_description": "**ISP:** Tencent Building, Kejizhongyi Avenue\n\n**OS:** Windows\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 5082\r\nAccept-Ranges: bytes\r\nServer: HFS 2.3m\r\nSet-Cookie: HFS_SID_=0.369911797577515; path=/; HttpOnly\r\nCache-Control: no-cache, no-store, must-revalidate, max-age=-1\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: 10_0_0_9\n  NetBIOS Domain Name: 10_0_0_9\n  NetBIOS Computer Name: 10_0_0_9\n  DNS Domain Name: 10_0_0_9\n  FQDN: 10_0_0_9\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "43.129.233.99"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:36.199Z",
+        "updated_at": "2024-06-10T15:58:48.251Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "43.132.212.111",
+        "x_opencti_description": "**ISP:** Tencent Building, Kejizhongyi Avenue\n\n**OS:** Windows Server 2022 (build 10.0.20348)\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 3661\r\nAccept-Ranges: bytes\r\nServer: HFS 2.3m\r\nSet-Cookie: HFS_SID_=0.239804766373709; path=/; HttpOnly\r\nCache-Control: no-cache, no-store, must-revalidate, max-age=-1\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: 10_0_4_10\n  NetBIOS Domain Name: 10_0_4_10\n  NetBIOS Computer Name: 10_0_4_10\n  DNS Domain Name: 10_0_4_10\n  FQDN: 10_0_4_10\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "43.132.212.111"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T15:58:36.389Z",
+        "updated_at": "2024-06-10T15:58:50.537Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c9b4759b-f80f-4d6f-8ae3-6d1f94c14e8d",
+                "value": "valleyrat",
+                "color": "#668c11",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "43.132.235.4",
+        "x_opencti_description": "**ISP:** Tencent Building, Kejizhongyi Avenue\n\n**OS:** Windows Server 2022 (build 10.0.20348)\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 5082\r\nAccept-Ranges: bytes\r\nServer: HFS 2.3m\r\nSet-Cookie: HFS_SID_=0.242364540230483; path=/; HttpOnly\r\nCache-Control: no-cache, no-store, must-revalidate, max-age=-1\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: 10_0_4_2\n  NetBIOS Domain Name: 10_0_4_2\n  NetBIOS Computer Name: 10_0_4_2\n  DNS Domain Name: 10_0_4_2\n  FQDN: 10_0_4_2\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "43.132.235.4"
     }
 ]
