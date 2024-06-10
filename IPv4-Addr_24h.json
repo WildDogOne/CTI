@@ -7927,5 +7927,788 @@
         "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMJZs7d0AfDv60rocy9Bi/iA\nkJiZz27LBCHzm476EHnwwwUbsCFbHLqFHtJUXnCBAcYulHNm6+lZfP4x5hDS9Ag=\nFingerprint: 20:58:58:52:f8:80:91:3e:57:63:07:e6:f6:11:f7:2a\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
         "x_opencti_score": 50,
         "value": "49.13.235.244"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:01.622Z",
+        "updated_at": "2024-06-10T11:27:07.901Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
+        "observable_value": "217.23.12.8",
+        "x_opencti_description": "**ISP:** WorldStream B.V.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.22.1\r\nDate: Tue, 04 Jun 2024 15:17:38 GMT\r\nContent-Type: text/html\r\nContent-Length: 615\r\nLast-Modified: Thu, 11 Apr 2024 15:33:54 GMT\r\nConnection: keep-alive\r\nETag: \"661802e2-267\"\r\nAccept-Ranges: bytes\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "217.23.12.8"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:01.692Z",
+        "updated_at": "2024-06-10T11:27:17.541Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            }
+        ],
+        "observable_value": "77.105.142.135",
+        "x_opencti_description": "**ISP:** SERVERS TECH FZCO\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOT11fuYGfnkOO1dzaMwwTbc\nuyx5gMjKA3zuk8IlVFivxsU7MhYqpIigR8aVZp4Ope7VuKqKMQd6QvLYqvkK2d0=\nFingerprint: e6:77:b9:15:4b:0a:92:a7:6e:f8:c4:8c:0f:e6:0f:e2\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "77.105.142.135"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:02.574Z",
+        "updated_at": "2024-06-10T11:27:25.725Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            }
+        ],
+        "observable_value": "85.209.11.48",
+        "x_opencti_description": "**ISP:** Chang Way Technologies Co. Limited\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 (vsFTPd 3.0.5)\r\n530 Login incorrect.\r\n530 Please login with USER and PASS.\r\n211-Features:\n EPRT\n EPSV\n MDTM\n PASV\n REST STREAM\n SIZE\n TVFS\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGMNxJqdoHdFnuOgQjPg0B1g\nxJLdqP9yQ2+6Evemvpw0FkRu90bpCPtz7aWCqKe+xq6r8aDMZzNwAfsjfOcaddo=\nFingerprint: 61:07:9d:f2:ae:37:b8:2d:1b:bd:be:9d:22:47:6f:00\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "85.209.11.48"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:15.280Z",
+        "updated_at": "2024-06-10T11:27:15.336Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            }
+        ],
+        "observable_value": "109.236.80.191",
+        "x_opencti_description": null,
+        "x_opencti_score": 50,
+        "value": "109.236.80.191"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:15.293Z",
+        "updated_at": "2024-06-10T11:27:28.958Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            }
+        ],
+        "observable_value": "212.18.104.12",
+        "x_opencti_description": "**ISP:** GLOBAL INTERNET SOLUTIONS LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQCsTTbeLG0y4Vk2J3dk/oBhJLH9+IffXan9P1mewWcQAQzO\ni5T79vyxFM0IShXdIG7MsAikoN+Yrxij24CZn8o5VLMY+HAvzmxl0dfU/uITKmQ8TsNF/JeyIGEM\nUshX+zZLSFO1Ogmx0Z1o242uf8tBLLXYcuByb9AF45z+QUVo4XgFBY7+bxEKh9EybGQas0Q4Uo/w\nxfpeuV4ZvhmzCqFwaa5xV8flM+zdg/XzLAmUmkWfATev6r0W7j3Em8PfkdRxp0upQuecSz7x3Pqw\n3oI1x2YLjgQF32VDWLwpFMWQMtdd4qiBL/tOlEDKgO0LHVw9C8WwSiL1Cz/472hnLXvWkyoCBRRR\nFlGT2aO1RTavDMCbQPTVIbRxshzZpbqq8hXSf/c1FtW7jiJEM9IvVc3N7JKhWbPwWiP0wqeLAPJS\nZ8v7s+KAugqdfmKJ1c4CsWMSrcmAGvENWtnvP0SJI88YMdpqp1PNSgnWDHkxM/trTT1cz5gD8G6S\nq+/jLlTmfqM=\nFingerprint: 75:cb:5e:e7:05:45:81:c8:36:a7:c3:91:b8:60:42:1f\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 301 Moved Permanently\r\nServer: nginx\r\nDate: Fri, 31 May 2024 17:11:46 GMT\r\nContent-Type: text/html\r\nContent-Length: 162\r\nConnection: keep-alive\r\nLocation: https://212.18.104.12/\n```\n------------------\n**443:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Sat, 01 Jun 2024 17:57:39 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: keep-alive\r\nLocation: https://saturn.tech\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\n```\nHEARTBLEED: 2024/06/01 17:57:56 212.18.104.12:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
+        "value": "212.18.104.12"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:15.293Z",
+        "updated_at": "2024-06-10T11:27:38.374Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "173.255.204.62",
+        "x_opencti_description": "**ISP:** Akamai Connected Cloud\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFBmmpvrKOWjDNk7/bnSUvh2\nCG8B9BJaOC6I3TP1eLNxRUdqDT58ytDZKaNppFMAVXXNSjOxBgW6zDbcg5ZcgY4=\nFingerprint: 51:93:98:06:28:5c:e6:a6:ef:63:6b:89:64:16:25:72\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "173.255.204.62"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:18.321Z",
+        "updated_at": "2024-06-10T11:27:19.312Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            }
+        ],
+        "observable_value": "77.105.140.181",
+        "x_opencti_description": null,
+        "x_opencti_score": 50,
+        "value": "77.105.140.181"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:18.322Z",
+        "updated_at": "2024-06-10T11:28:21.215Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
+        "observable_value": "92.118.112.113",
+        "x_opencti_description": "**ISP:** GLOBAL INTERNET SOLUTIONS LLC\n\n**OS:** Debian\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCbQT0iAVLaKJCCNCoCXsG8gvz00gOBgy9ihFyXFVuzvN1I\n2oppL6AjMWmz2DPdMoc8o+DEPsDzSGRiMzbCHAAhf72Ivt1eKYRZ2GfnVHfkqTlK/TywghsNhKLj\nibscaiEdasCdXKqrPd/xuhGexHAdCFSr5LdnxmrbDYFJZlB/CpjJRMCxLsMnrExqOd43Grd585G4\n7nz3Gs32q4f9rEeIsjhDm4egKQx0eIQCOk35X1dgBh8gycFq3eB+VvVx5hQlX7zFD70WoICxPbZf\nrsJZCJMTlwXrpPMXCzhSvWDFKRirI1klhwGzyHnSeHb4ilqiGhhsi7e7FJ4Vdxg32Rkl\nFingerprint: 3e:7d:17:24:d2:78:62:6a:ca:e0:e3:fa:d7:ea:9f:f9\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**123:**\n```\nNTP\nprotocolversion: 3\nstratum: 2\nleap: 0\nprecision: -24\nrootdelay: 0.0243225097656\nrootdisp: 0.0199127197266\nrefid: 852310310\nreftime: 3924948603.93\npoll: 3\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.14.2\r\nDate: Fri, 24 May 2024 13:27:10 GMT\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 14\r\nConnection: keep-alive\n```\nHEARTBLEED: 2024/05/24 13:27:22 92.118.112.113:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
+        "value": "92.118.112.113"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-10T11:27:19.399Z",
+        "updated_at": "2024-06-10T11:28:48.105Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "af07b960-28c7-4fc0-b941-d9ffc27b9d10",
+                "value": "backdoor",
+                "color": "#155d72",
+                "createdById": null
+            },
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "d123b915-6988-4914-9f45-0e42c501196d",
+                "value": "exfiltration",
+                "color": "#011c06",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "7d0db096-a9a7-4ab0-b5cf-bccf52d5058c",
+                "value": "alphv",
+                "color": "#73b189",
+                "createdById": null
+            },
+            {
+                "id": "ab256b82-d014-4499-9d30-c8f8444d52cf",
+                "value": "blackcat",
+                "color": "#777b7f",
+                "createdById": null
+            },
+            {
+                "id": "00f3fb9a-6e74-487c-bcf8-7efc5e985be3",
+                "value": "csharp streamer",
+                "color": "#c66a4c",
+                "createdById": null
+            },
+            {
+                "id": "76f47dc6-bad8-4225-b97c-b055805dc04c",
+                "value": "noberus",
+                "color": "#4c06ec",
+                "createdById": null
+            }
+        ],
+        "observable_value": "94.232.46.27",
+        "x_opencti_description": "**ISP:** XHOST INTERNET SOLUTIONS LP\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDkgO1I6JPLJOZtVhFDCQ2DI+tZIQUPLbgxoJno9vIaFJap\n7HPhwaWPoL/+K/yY/PzOXOMCvYhNMc9XV2DFW3lQZF7tZ0YbU5fHctzMtGcP8/8uljkopeItsWFv\njAxqEEo2kcCTamra3TOAU6aKXpx13cX6YUEbazPQWeZIic1uU7am0mnzmBdtuqQz+WQTbNBb9+/t\nOjFbc6ArwhIaIr2RcwECnsrZmDpbNeBDQefvO9khlCA0lfT6B8rWsQk0EqUNXVJ8a4Nhu0tdUeJe\n9rpNqwH2wT6oBeBbPCzghqzsFf3DLU4I14e+xwcMdyYE/ocmg+aOE5Xb7UaKNu5bqZSB\nFingerprint: dc:df:a9:be:39:51:f9:2b:12:cc:da:29:8f:dd:a8:c8\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\taes128-cbc\n\taes192-cbc\n\taes256-cbc\n\tblowfish-cbc\n\tcast128-cbc\n\t3des-cbc\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "94.232.46.27"
     }
 ]
