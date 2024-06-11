@@ -1,8 +1,8 @@
 [
     {
         "entity_type": "Artifact",
-        "created_at": "2024-06-11T04:29:57.455Z",
-        "updated_at": "2024-06-11T04:30:11.073Z",
+        "created_at": "2024-06-11T06:10:25.617Z",
+        "updated_at": "2024-06-11T06:10:47.977Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -25,19 +25,31 @@
                 "createdById": null
             },
             {
-                "id": "7f76967c-83f7-4fc6-b722-9b4fc90ce96a",
-                "value": "cve-2017-11882",
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
                 "color": "#54483b",
                 "createdById": null
             },
             {
-                "id": "fd487ecd-3c18-459d-8d4c-181fc172c783",
-                "value": "rtf",
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "95940aa3-f156-466d-88e5-2ef8cb4759bd",
+                "value": "intel",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
                 "color": "#54483b",
                 "createdById": null
             }
         ],
-        "observable_value": "1bf507ad57b2a46f6a7c87c1908087c1bb8190febb9bf33be17d5092786b4c8c42da0d70db0a4716e79823e418cc0ae432315b15bbcb0530b8b2302ded28fa71",
+        "observable_value": "2811ccd1f7f35378eeb46b0eaa108774e810520e136ea2b0e6bcacb8720dceac616f818e3abefb5b6a00895e5af4506d09f1c317329585bd11eb9a86b7918343",
         "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
         "x_opencti_score": null,
         "payload_bin": null,
@@ -47,19 +59,609 @@
         "hashes": [
             {
                 "algorithm": "MD5",
-                "hash": "699e5528b3c511cc6caea58d5582e61a"
+                "hash": "1fd526aa5aead93a315a8367b198d753"
             },
             {
                 "algorithm": "SHA-1",
-                "hash": "14791bbb4bdbe3fa25be286d9011ed61b56ae109"
+                "hash": "a1b25206a00bbca54a9cb20ad53437423cb8ef56"
             },
             {
                 "algorithm": "SHA-256",
-                "hash": "cb41e7a822c92e38f090d90807f57bb1bf68c347fdbc34abd8a8df53eae4eb33"
+                "hash": "d26f2b696a5da973a8809414703091170e940e738e5471fec5f80f0c9ae3f26c"
             },
             {
                 "algorithm": "SHA-512",
-                "hash": "1bf507ad57b2a46f6a7c87c1908087c1bb8190febb9bf33be17d5092786b4c8c42da0d70db0a4716e79823e418cc0ae432315b15bbcb0530b8b2302ded28fa71"
+                "hash": "2811ccd1f7f35378eeb46b0eaa108774e810520e136ea2b0e6bcacb8720dceac616f818e3abefb5b6a00895e5af4506d09f1c317329585bd11eb9a86b7918343"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:10:49.995Z",
+        "updated_at": "2024-06-11T06:11:03.207Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "91381197-cc87-488a-b8a8-493691ca833f",
+                "value": "arm",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "c749046b98fe666515c65d1f1b76a3beae0ab5498b15e694cfdbd70c57c98ce5714720460bd10f621360327193795829b8478ad08632f88d47b5b40ea4d6ee96",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "ba28069faf2b9dbb4345c5db40ede71f"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "9e48423e3893dc5c000b8b99ec3cd6e03377913b"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "6845e34952a416113dbc6fbffae8245d708c9bab6dc801c16f34a84744a3b7cc"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "c749046b98fe666515c65d1f1b76a3beae0ab5498b15e694cfdbd70c57c98ce5714720460bd10f621360327193795829b8478ad08632f88d47b5b40ea4d6ee96"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:11:04.298Z",
+        "updated_at": "2024-06-11T06:11:16.696Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "91381197-cc87-488a-b8a8-493691ca833f",
+                "value": "arm",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "29faacf2c96d0d619060ff6f83e1259ae674747607c23ebcfb98168ebf713d6efa750dcab962dfe9f09c1e5c871c62a61ac889198d7475cdb90e7f2cc089852c",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "e010ef511bf5539ee6b966df738ae6af"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "0e8139a0dbf8ac40b9fe803d24d7dfa30b44ca23"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "361cd32a750b89857322f54b665f7f8849407ba09074e6303be0f26a351f39b5"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "29faacf2c96d0d619060ff6f83e1259ae674747607c23ebcfb98168ebf713d6efa750dcab962dfe9f09c1e5c871c62a61ac889198d7475cdb90e7f2cc089852c"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:11:19.732Z",
+        "updated_at": "2024-06-11T06:11:44.043Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "91381197-cc87-488a-b8a8-493691ca833f",
+                "value": "arm",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "5b0e8676a228d5218a695fe921f1662d49a06c45d39a0442a293486e2e2656eb464fc7483579e2463c67921648946b3193dece73317b96fe90cf77f7256d3fdf",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "ab6223b2d2691dd382f7e130d594db5e"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "684f533882356f6d790d136d936312ca67d87102"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "13966994581adf90c88d36fff75eb33c4a79557cf55fd616124a8c77f883e983"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "5b0e8676a228d5218a695fe921f1662d49a06c45d39a0442a293486e2e2656eb464fc7483579e2463c67921648946b3193dece73317b96fe90cf77f7256d3fdf"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:11:46.966Z",
+        "updated_at": "2024-06-11T06:12:03.572Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "43655f63-7948-4453-a556-492806ed8b91",
+                "value": "64",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "7e69b4a4563d1427af29e0d809576c087ff557b0bc237c7f3f1ec516088806cd2b85cd0839a0d7ae2032b4d381b33c84e0bb7a330178d761cd07acf828dddb92",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "0318047cf2a8c026fbbe1fad5487dc58"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "b2572295881ea60c7996ba742264472e9d059073"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "8ed5281c024dc7cf99273c32faa92e358392272a01898958399e324e666c4fd4"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "7e69b4a4563d1427af29e0d809576c087ff557b0bc237c7f3f1ec516088806cd2b85cd0839a0d7ae2032b4d381b33c84e0bb7a330178d761cd07acf828dddb92"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:12:07.132Z",
+        "updated_at": "2024-06-11T06:12:30.314Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "91381197-cc87-488a-b8a8-493691ca833f",
+                "value": "arm",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "8b662eb5ac2f64484d9fec041f2e059f4279e09f9afda885ccaffa1b40c9a3385bfeeff420946cbc67fcba6bc6fb860e6b31068d716d0e9d914fd5069b9377d0",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "ffbe7ac1d066ab472b50a629acc54db8"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "308c96dd98b9a29c6c9d40f47d4ce15a51f297c0"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "60be4a7179ddc4d9f12fba876443b3d782508b26fd3a93f89c4d128396abcb3e"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "8b662eb5ac2f64484d9fec041f2e059f4279e09f9afda885ccaffa1b40c9a3385bfeeff420946cbc67fcba6bc6fb860e6b31068d716d0e9d914fd5069b9377d0"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:12:32.126Z",
+        "updated_at": "2024-06-11T06:12:48.987Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "95940aa3-f156-466d-88e5-2ef8cb4759bd",
+                "value": "intel",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "7f45c3dd9a560f05df510ec03c988940a09fe897738335031d30ff1e7d02341a1d1df479b348fb4bc1605a7b63c2e22db383e3375a876f336c153432d89b27b4",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "6aec8134adf6a15aa80c393af04bab49"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "81d7e8a5f53e4f3d780219ee47eb85de54c404cc"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "819e3765d5c40a66951c194f67cdb783e1a711cc3499dd44a43d1cfdec06af4d"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "7f45c3dd9a560f05df510ec03c988940a09fe897738335031d30ff1e7d02341a1d1df479b348fb4bc1605a7b63c2e22db383e3375a876f336c153432d89b27b4"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:12:51.941Z",
+        "updated_at": "2024-06-11T06:13:11.439Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "47eb1f92-dcac-4ce0-83b3-823a67563151",
+                "value": "32",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "e4a92462-e164-4f69-876e-3adaac17421c",
+                "value": "elf",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "be78f3d5-2a77-4607-a1b7-d4c7c6dabedb",
+                "value": "mips",
+                "color": "#9f2433",
+                "createdById": null
+            },
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "6779bb9fc003cff73e298eaa3fcda0f708eae7f5812f5675d6543ea8cd42b6a6e264001dbff3ff6268499cd8bf0e1d70355e332991807e3663bf6c0d0e152fc8",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: zbetcheckin.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "c2ffbcbd2cd0b5c07cb931e8688efadc"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "5bfab037c71b59ec823b964e1f55f9d4c0e20c82"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "6fdf5b4b08a5894339c26249e190ce627b9585af846573098bed2c050d0ae80b"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "6779bb9fc003cff73e298eaa3fcda0f708eae7f5812f5675d6543ea8cd42b6a6e264001dbff3ff6268499cd8bf0e1d70355e332991807e3663bf6c0d0e152fc8"
+            }
+        ]
+    },
+    {
+        "entity_type": "Artifact",
+        "created_at": "2024-06-11T06:18:16.149Z",
+        "updated_at": "2024-06-11T06:18:26.714Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "9e3508f9-aa82-463e-8cb5-27b73fddf0ef",
+                "value": "malware-bazaar",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "70c2c268-c32d-48be-9836-c2310d9ba844",
+                "value": "exe",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "10d4c13f-780d-4d4b-89a8-905e338669ea",
+                "value": "socks5systemz",
+                "color": "#8504d4",
+                "createdById": null
+            }
+        ],
+        "observable_value": "70a454e8dfa2ee462f4983c89a726ec8bf1d77a97546cc3f48392c6a31e7588cccab7eb591630443b12e5feb351a79cc682edc81e9ac481b530f426383bf11c1",
+        "x_opencti_description": "Uploaded to MalwareBazaar by Twitter user: abuse_ch.",
+        "x_opencti_score": null,
+        "payload_bin": null,
+        "url": null,
+        "encryption_algorithm": null,
+        "decryption_key": null,
+        "hashes": [
+            {
+                "algorithm": "MD5",
+                "hash": "d30043dfaa42f25de126e50c5e9ed047"
+            },
+            {
+                "algorithm": "SHA-1",
+                "hash": "c80d749438fe7d51b92c6fa6b3274681347419a5"
+            },
+            {
+                "algorithm": "SHA-256",
+                "hash": "18753a0cb65d2b75bd60b82de5ac799c5bc39eab29014c5a57fc04685da72076"
+            },
+            {
+                "algorithm": "SHA-512",
+                "hash": "70a454e8dfa2ee462f4983c89a726ec8bf1d77a97546cc3f48392c6a31e7588cccab7eb591630443b12e5feb351a79cc682edc81e9ac481b530f426383bf11c1"
             }
         ]
     }
