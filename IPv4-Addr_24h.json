@@ -35707,5 +35707,36 @@
         "x_opencti_description": "**ISP:** Host Sailor Ltd\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCdeZDHrqYztToTnrdD8gz7i/AdZ+/0FdvAZzT+tZy8t0Ps\nmloU05aXBDxIrwtxSrjs9YGT0LE0fgUEqeDw/0k56T98DnjOl/jh79HwjUu2nZgiA9atumZNCFQ0\nDU8jEx9B0KOiT9marpgHpJxETQSkybZ1C+kqb55Qfk+2uGr1uAP3VnRTzuCKkyeltX6dkJbhIM41\nR4l1oKQOOYvM5TjJfhANRDcXv5uVdLZTYYEewik/DgRW+gPVv6vGwq2/a0i0fNOuwrP3oy+SaFFZ\nKVJihABvTzNX0xc1ietUjT5fGjaryVgWXWMNpYoocMlhu0KKFSvOCXyPzLqOPy0Cupa3\nFingerprint: 41:41:cc:a6:21:ee:31:53:b2:f4:46:e9:9a:62:ba:cd\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 403 Forbidden\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Sat, 25 May 2024 08:37:31 GMT\r\nContent-Type: text/html\r\nContent-Length: 564\r\nConnection: keep-alive\n```\n------------------\n**8080:**\n```\n\n```\n------------------",
         "x_opencti_score": 50,
         "value": "194.36.190.118"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-20T15:48:53.823Z",
+        "updated_at": "2024-06-20T15:49:01.171Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "77.91.77.6",
+        "x_opencti_description": "**ISP:** CHROMIS IT LTD\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 404 Not Found\r\ndate: Thu, 13 Jun 2024 06:24:21 GMT\r\nserver: uvicorn\r\ncontent-length: 22\r\ncontent-type: application/json\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 1607)/Windows Server 2016 (version 1607)\n  OS Build: 10.0.14393\n  Target Name: WIN-1RGHSU7FDCK\n  NetBIOS Domain Name: WIN-1RGHSU7FDCK\n  NetBIOS Computer Name: WIN-1RGHSU7FDCK\n  DNS Domain Name: WIN-1RGHSU7FDCK\n  FQDN: WIN-1RGHSU7FDCK\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "77.91.77.6"
     }
 ]
