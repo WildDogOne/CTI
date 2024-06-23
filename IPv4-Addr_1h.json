@@ -1,8 +1,8 @@
 [
     {
         "entity_type": "IPv4-Addr",
-        "created_at": "2024-06-23T12:00:48.434Z",
-        "updated_at": "2024-06-23T12:00:48.506Z",
+        "created_at": "2024-06-23T12:55:13.833Z",
+        "updated_at": "2024-06-23T12:55:31.642Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -17,10 +17,462 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
-        "observable_value": "45.147.198.7",
-        "x_opencti_description": "Anyrun Malware Trends",
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            },
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "111.108.7.210",
+        "x_opencti_description": "**ISP:** KDDI CORPORATION\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQC31QkFVX8alOcfP9rCeAsREtj7CS2DmFkCKEP93WH8MaJV\n7wfA2ne6AaNpQ1lA+ECnS9MhvdVzUctnJgMv6ITp/I2qkyktOeQdxT+D/7391NYtZOA3UGKRoZiZ\nYfB4z6r81ibCzOWUEfKE83N7joVlFyHTS8d61GMNvhhWhWK2lylW0MvE4CUdV6hY3DLtvh4Fl3te\now4k9/vvg5PFAn8LEBRAKpJ1z7mHDvcqIWYySZG/l9pMVLhIGcvVJHP0e0ZUbd7NqZBVzdXiJKm2\nkYU/uS04iwiuVpIx1nTnfB7tCDUWZ7vIUTaYSZSVBSlEwRmSmho64e2jUqq8Kqs79GAv\nFingerprint: e2:92:52:e5:94:a6:7d:a0:93:97:c0:48:df:5b:08:2a\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**161:**\n```\nSNMP:\n  Versions:\n    3\n  Engine Boots: 1\n  Engineid Data: 80001f8880636ac4758e5b5d6600000000\n  Enterprise: 8072\n  Engine Time: 19 days, 20:34:41\n```\n------------------\n**179:**\n```\n\n```\n------------------\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 3030616c63673674\nResponder SPI: 3177706f3677776e\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "111.108.7.210"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:13.834Z",
+        "updated_at": "2024-06-23T12:55:22.802Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            },
+            {
+                "id": "ff66825f-f034-4e05-88c4-c48bc00d2d14",
+                "value": "scanner",
+                "color": "#fef5e6",
+                "createdById": null
+            }
+        ],
+        "observable_value": "103.136.186.73",
+        "x_opencti_description": "**ISP:** TGs4 Networks Inc.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQClOZVA+D2C2WV0AdBc0VFXqr9kZjiZjXLjv+SAznsjiMf+\nPvRWqni+97BgT6P2tk8dC+JRWjB7PMSmHOywPz/G4J11HOAKM91qb8zEaTimeXfyBBlRWFAPbQC4\nDbqtQ9Mq1fChlNo4SOPM+ekK8f89iovileMlea9DTr8heU7Hpjo3nXHdF+feYsnBcXU0gRTntRag\nZo/nUAMkeciei/dI7/dMroLLwbLnTg+HjiuXejAyZolGaa/BI3i6wQ0vmMmrvlJw9/h0iQvxsm6M\nI7K6z1T+0MTBBWFC9oZTbANS/ICtoRhHmJrBzJZMYGxGX62YsMipMI51ek3vjAoaItLhzjXogZB8\nFCKjy+NZffjCuFcRu4/oxim3uauAdX1KL1h89DcYMKigo5VSKTYruqEO4Kb5L65eKpjr6yB4SXlJ\nnEA32Dfj0F9x/Hei/AJneyaNlNEGND5oChCzN5zrQoxIbQ7nsZSEYrH0JHifLKZxz+xAb5gkVxqe\nfXQo01RTrTs=\nFingerprint: 71:e4:c4:f9:66:d2:74:2e:9a:02:27:4f:7b:4a:75:e7\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "103.136.186.73"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:14.889Z",
+        "updated_at": "2024-06-23T12:55:42.215Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "116.98.168.4",
+        "x_opencti_description": "**ISP:** Viettel Corporation\n\n**OS:** -\n\n--------------------------\nServices:\n\n**2000:**\n```\n\\x01\\x00\\x00\\x00\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "116.98.168.4"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:17.775Z",
+        "updated_at": "2024-06-23T12:55:17.865Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "170.64.168.77",
+        "x_opencti_description": "Proofpoint Emerging Threat IP",
         "x_opencti_score": null,
-        "value": "45.147.198.7"
+        "value": "170.64.168.77"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:17.790Z",
+        "updated_at": "2024-06-23T12:55:54.553Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "165.232.176.202",
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIZZso+FftqABI98NJnQMXmE\nfVXWAhnt7T0X6dpJLr3VjIw2wTeDmilG0EnYWMqI91b2d+4rtlI14yL3Ya5XDw8=\nFingerprint: fa:cc:f6:47:39:a5:71:7f:ac:a5:cb:1f:24:c4:74:65\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\text-info-s\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.24.0 (Ubuntu)\r\nDate: Sun, 16 Jun 2024 06:35:27 GMT\r\nContent-Type: text/html\r\nContent-Length: 615\r\nLast-Modified: Thu, 30 May 2024 06:06:32 GMT\r\nConnection: keep-alive\r\nETag: \"66581768-267\"\r\nAccept-Ranges: bytes\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.24.0 (Ubuntu)\r\nDate: Wed, 19 Jun 2024 17:40:52 GMT\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nContent-Security-Policy: connect-src 'self' https:;img-src 'self' data: blob: dl.airtable.com undefined;media-src 'self' data: blob: dl.airtable.com undefined;default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'\r\nX-DNS-Prefetch-Control: off\r\nExpect-CT: max-age=0\r\nX-Frame-Options: SAMEORIGIN\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nX-Download-Options: noopen\r\nX-Content-Type-Options: nosniff\r\nX-Permitted-Cross-Domain-Policies: none\r\nReferrer-Policy: no-referrer\r\nVary: Origin\r\nX-Powered-By: Strapi <strapi.io>\n```\nHEARTBLEED: 2024/06/19 17:41:13 165.232.176.202:443 - SAFE\n\n------------------\n**3000:**\n```\nHTTP/1.1 200 OK\r\nContent-Security-Policy: connect-src 'self' https:;img-src 'self' data: blob: dl.airtable.com undefined;media-src 'self' data: blob: dl.airtable.com undefined;default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'\r\nX-DNS-Prefetch-Control: off\r\nExpect-CT: max-age=0\r\nX-Frame-Options: SAMEORIGIN\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nX-Download-Options: noopen\r\nX-Content-Type-Options: nosniff\r\nX-Permitted-Cross-Domain-Policies: none\r\nReferrer-Policy: no-referrer\r\nVary: Origin\r\nContent-Type: text/html; charset=utf-8\r\nX-Powered-By: Strapi <strapi.io>\r\nDate: Tue, 18 Jun 2024 19:49:58 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nTransfer-Encoding: chunked\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "165.232.176.202"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:18.438Z",
+        "updated_at": "2024-06-23T12:55:18.470Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "170.64.206.41",
+        "x_opencti_description": "Proofpoint Emerging Threat IP",
+        "x_opencti_score": null,
+        "value": "170.64.206.41"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:19.339Z",
+        "updated_at": "2024-06-23T12:56:12.050Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "170.64.226.25",
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJfw+E0bP4Q2uCfGULYsMJmm\nO9PlV0keskMWB3wAbnblW+bcUJR/pkNTTIWEpA9ZGLSGuCznNdfTQixjFhM8R+g=\nFingerprint: 61:7b:8e:a6:4f:4b:94:44:76:c9:16:72:3b:ed:cd:c0\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "170.64.226.25"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:19.870Z",
+        "updated_at": "2024-06-23T12:56:19.759Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "178.62.192.41",
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQC712foGTJ0lm8ZMfb+PfPu+Ia68odcVw/5vNRP3KJNV1Y3\nAXW126/3oDz4f0uhAeFQv/kYcXhxJrb9wNfdxtyg3TWzDbQjvRpcuYQSWvCI3seHH4m1WkEGIQba\nc3m5FzB7yGscbye4eihjvtO4QWIfLGYky1826KJdxBhoM1a1//aOQhamvYGxUjeLzMMhl7z0HDGS\n8VfIatiWAwunOUEdsLjIAsSR9Ph8dWULCU8AOfqDcQI0eqflWlVtk5kPz85yNWgbjRrM8QV3s+Un\nb94v6j147I+p+aoixDcU2bumYKRhGcnGmk2RqKpqHDL0WocCmzfGbmF698r1yTZsrYLIuUhJ/Sk6\n4WDEEFnMWBDDYEXsseCioAbQqyIn4HXihgQzlW/Lxio71cay5IKznt3Z84UWZ1ewJmPslJrG+1d0\nzNKSCn1Rpyf2xqT+COHT1lpiF66y4D5bDVeKORPXJUKF9STx4IeJq9eAgegRRHHEyVhrPBv/q/a9\n/eAvN/4iVt8=\nFingerprint: 85:e5:ae:1c:46:20:99:45:36:8e:c2:70:a6:f6:f9:e0\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\n\n```\n------------------\n**111:**\n```\n\n```\n------------------\n**135:**\n```\n\n```\n------------------\n**427:**\n```\n\n```\n------------------\n**443:**\n```\nHTTP/1.1 403 Forbidden\r\nServer: nginx\r\nDate: Sat, 08 Jun 2024 15:43:07 GMT\r\nContent-Type: text/html\r\nContent-Length: 342\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"66545b87-156\"\n```\nHEARTBLEED: 2024/06/08 15:43:16 178.62.192.41:443 - SAFE\n\n------------------\n**1311:**\n```\n\n```\n------------------\n**1400:**\n```\n\n```\n------------------\n**1515:**\n```\n\n```\n------------------\n**1521:**\n```\n\n```\n------------------\n**1723:**\n```\n\n```\n------------------\n**1741:**\n```\n\n```\n------------------\n**1800:**\n```\n\n```\n------------------\n**1801:**\n```\n\n```\n------------------\n**1925:**\n```\n\n```\n------------------\n**2000:**\n```\n\n```\n------------------\n**2404:**\n```\n\n```\n------------------\n**3542:**\n```\n\n```\n------------------\n**4000:**\n```\n\n```\n------------------\n**4040:**\n```\n\n```\n------------------\n**4242:**\n```\n\n```\n------------------\n**5000:**\n```\n\n```\n------------------\n**5005:**\n```\n\n```\n------------------\n**5009:**\n```\n\n```\n------------------\n**5201:**\n```\n\n```\n------------------\n**5222:**\n```\n\n```\n------------------\n**5601:**\n```\n\n```\n------------------\n**5800:**\n```\n\n```\n------------------\n**5801:**\n```\n\n```\n------------------\n**5900:**\n```\n\n```\n------------------\n**5901:**\n```\n\n```\n------------------\n**6000:**\n```\n\n```\n------------------\n**6001:**\n```\n\n```\n------------------\n**7415:**\n```\n\n```\n------------------\n**7900:**\n```\n\n```\n------------------\n**8000:**\n```\n\n```\n------------------\n**8008:**\n```\n\n```\n------------------\n**8010:**\n```\n\n```\n------------------\n**8080:**\n```\n\n```\n------------------\n**8112:**\n```\n\n```\n------------------\n**8123:**\n```\n\n```\n------------------\n**8200:**\n```\n\n```\n------------------\n**8334:**\n```\n\n```\n------------------\n**9000:**\n```\n\n```\n------------------\n**9009:**\n```\n\n```\n------------------\n**9100:**\n```\n\n```\n------------------\n**9200:**\n```\n\n```\n------------------\n**9600:**\n```\n\n```\n------------------\n**9633:**\n```\n\n```\n------------------\n**9800:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "178.62.192.41"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:20.281Z",
+        "updated_at": "2024-06-23T12:56:33.002Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "204.236.140.203",
+        "x_opencti_description": "**ISP:** Amazon.com, Inc.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**19:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 18 Jun 2024 16:53:47 GMT\r\nContent-Length: 4680\r\nContent-Type: text/html\n```\n------------------\n**82:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 18 Jun 2024 15:41:09 GMT\r\nServer: Apache\r\nExpires: Tue, 18 Jun 2024 15:41:09 GMT\r\nCache-Control: no-store, no-cache, must-revalidate\r\nPragma: no-cache\r\nSet-Cookie: kboxid=tiv9e2e6pnmzoktlfktzrjmzr11brarv; path=/; secure; HttpOnly; SameSite=Lax\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: sameorigin\r\nX-XSS-Protection: 1; mode=block\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nAccess-Control-Allow-Headers: x-kace-auth-timestamp, x-kace-auth-key, x-kace-auth-signature, accept, origin, content-type\r\nAccess-Control-Allow-Methods: PUT, DELETE, POST, GET, OPTIONS\r\nX-Kace-Appliance: K1000\r\nX-Ua-Compatible: IE=9,EDGE\r\nContent-Length: 8986\r\nContent-Type: text/html\n```\n------------------\n**587:**\n```\n220 ec2-204-236-140-203.us-west-1.compute.amazonaws.com ESMTP Exim 4.89 Tue, 18 Jun 2024 15:32:15 +0000\r\n250-ip-172-16-2-18.us-west-1.compute.internal Hello 224.34.52.110, nice to meet you\r\n250 AUTH LOGIN PLAIN\n```\n------------------\n**2083:**\n```\nHTTP/1.1 404 Not Found\r\nDate: Thu, 13 Jun 2024 04:55:00 GMT\r\nServer: WebLogic Server 10.3.6.0.0\r\nContent-Type: text/html\r\nConnection: close\r\nContent-Length: 1766\n```\nHEARTBLEED: 2024/06/13 04:55:22 204.236.140.203:2083 - SAFE\n\n------------------\n**2086:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 18 Jun 2024 15:57:36 GMT\r\nServer: Python/3.11 aiohttp/3.9.5\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 446\n```\n------------------\n**2087:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 18 Jun 2024 16:18:12 GMT\r\nServer: nginx\r\nContent-Type: text/html\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1\r\nExpires: Thu, 01 Jan 1970 00:00:00 UTC\r\nCache-Control: no-cache\r\nSet-Cookie: JSESSIONID=node01u2pj8lkkg17nfiylgz5bfka673ezq3v2z873xls.node0; Path=/; Secure; HttpOnly\r\nContent-Length: 13222\n```\nHEARTBLEED: 2024/06/18 16:18:34 204.236.140.203:2087 - SAFE\n\n------------------\n**3790:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 13 Jun 2024 04:38:15 GMT\r\nServer: Apache\r\nConnection: close\r\nContent-Length: 0\n```\nHEARTBLEED: 2024/06/13 04:38:35 204.236.140.203:3790 - SAFE\n\n------------------\n**4911:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 18 Jun 2024 16:15:10 GMT\r\nServer: Apache\r\nConnection: close\r\nContent-Length: 0\n```\n------------------\n**5006:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 13 Jun 2024 05:42:31 GMT\r\nServer: nginx\r\nContent-Type: text/html\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1\r\nExpires: Thu, 01 Jan 1970 00:00:00 UTC\r\nCache-Control: no-cache\r\nSet-Cookie: JSESSIONID=node0k7y918sn7zsg7gkio7zdugyvbs9o7y6mi4iiteai.node0; Path=/; Secure; HttpOnly\r\nContent-Length: 13222\n```\nHEARTBLEED: 2024/06/13 05:42:51 204.236.140.203:5006 - SAFE\n\n------------------\n**5858:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 18 Jun 2024 16:50:57 GMT\r\nServer: Python/3.11 aiohttp/3.9.5\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 446\n```\n------------------\n**11300:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 13 Jun 2024 04:45:30 GMT\r\nServer: Apache\r\nExpires: Thu, 13 Jun 2024 04:45:30 GMT\r\nCache-Control: no-store, no-cache, must-revalidate\r\nPragma: no-cache\r\nSet-Cookie: kboxid=5jfpdfld3ot1g3ldvwzs1fyk1uxlei8d; path=/; secure; HttpOnly; SameSite=Lax\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: sameorigin\r\nX-XSS-Protection: 1; mode=block\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nAccess-Control-Allow-Headers: x-kace-auth-timestamp, x-kace-auth-key, x-kace-auth-signature, accept, origin, content-type\r\nAccess-Control-Allow-Methods: PUT, DELETE, POST, GET, OPTIONS\r\nX-Kace-Appliance: K1000\r\nX-Ua-Compatible: IE=9,EDGE\r\nContent-Length: 8986\r\nContent-Type: text/html\n```\n------------------\n**16010:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 13 Jun 2024 05:43:40 GMT\r\nServer: Apache\r\nConnection: close\r\nContent-Length: 0\n```\n------------------\n**16030:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 13 Jun 2024 04:31:36 GMT\r\nServer: Python/3.11 aiohttp/3.9.5\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 446\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "204.236.140.203"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:23.768Z",
+        "updated_at": "2024-06-23T12:55:23.802Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "206.189.139.30",
+        "x_opencti_description": "Proofpoint Emerging Threat IP",
+        "x_opencti_score": null,
+        "value": "206.189.139.30"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:24.398Z",
+        "updated_at": "2024-06-23T12:57:31.767Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "209.38.26.208",
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN6LVPeuVkrQ6riXyewY7cQd\n93DIj5dS2zMYHXsGfUhKi57hEmysNN01g2VAJnkuWCIGEVf1seu7UENnShFN8Qc=\nFingerprint: 3d:5d:c5:02:cc:e0:4e:01:32:db:ff:b7:d5:2b:78:b8\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "209.38.26.208"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:24.468Z",
+        "updated_at": "2024-06-23T12:55:25.335Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "34.221.58.2",
+        "x_opencti_description": "Proofpoint Emerging Threat IP",
+        "x_opencti_score": null,
+        "value": "34.221.58.2"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:25.306Z",
+        "updated_at": "2024-06-23T12:55:25.402Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "35.89.70.124",
+        "x_opencti_description": "Proofpoint Emerging Threat IP",
+        "x_opencti_score": null,
+        "value": "35.89.70.124"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-23T12:55:29.636Z",
+        "updated_at": "2024-06-23T12:55:29.669Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "c505b2f4-6a86-423c-b451-45cc0b85d2b8",
+                "value": "emergingthreat",
+                "color": "#0a611a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "95.214.27.139",
+        "x_opencti_description": "Proofpoint Emerging Threat IP",
+        "x_opencti_score": null,
+        "value": "95.214.27.139"
     }
 ]
