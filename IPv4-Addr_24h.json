@@ -5776,5 +5776,60 @@
         "x_opencti_description": "**ISP:** Limenet\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Sun, 23 Jun 2024 03:26:25 GMT\r\nServer: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12\r\nLast-Modified: Sun, 19 Nov 2023 11:10:25 GMT\r\nETag: \"1443-60a7f6a8cca40\"\r\nAccept-Ranges: bytes\r\nContent-Length: 5187\r\nContent-Type: text/html\n```\n------------------\n**137:**\n```\nNetBIOS Response:\n  MAC Address: 00:16:3E:E7:A2:1A\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 1809)/Windows Server 2019 (version 1809)\n  OS Build: 10.0.17763\n  Target Name: WIN-HM6FI4VOIEP\n  NetBIOS Domain Name: WIN-HM6FI4VOIEP\n  NetBIOS Computer Name: WIN-HM6FI4VOIEP\n  DNS Domain Name: WIN-HM6FI4VOIEP\n  FQDN: WIN-HM6FI4VOIEP\n\n; Administrator\nSES\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Wed, 19 Jun 2024 20:40:32 GMT\r\nConnection: close\r\nContent-Length: 315\r\n\r\n\nWinRM NTLM Info:\n  OS: Windows Server 2019 (version 1809)\n  OS Build: 10.0.17763\n  Target Name: WIN-HM6FI4VOIEP\n  NetBIOS Domain Name: WIN-HM6FI4VOIEP\n  NetBIOS Computer Name: WIN-HM6FI4VOIEP\n  DNS Domain Name: WIN-HM6FI4VOIEP\n  FQDN: WIN-HM6FI4VOIEP\n```\n------------------",
         "x_opencti_score": 50,
         "value": "91.92.242.80"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-25T13:29:28.007Z",
+        "updated_at": "2024-06-25T13:29:35.386Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "2100b436-7807-4886-b731-871136213075",
+                "value": "stealer",
+                "color": "#3cc61b",
+                "createdById": null
+            },
+            {
+                "id": "ac1f9efa-ba4c-46cb-a6f3-035ae3e04ac1",
+                "value": "obfuscation",
+                "color": "#832a5e",
+                "createdById": null
+            },
+            {
+                "id": "391280e5-dfce-4b2f-a7b9-00cc26613177",
+                "value": "javascript",
+                "color": "#6dd943",
+                "createdById": null
+            },
+            {
+                "id": "c39bcc75-1cf0-415e-9a92-2c3047eea6e2",
+                "value": "strelastealer",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
+        "observable_value": "45.9.74.176",
+        "x_opencti_description": "**ISP:** Komskov Vadim Aleksandrovich\n\n**OS:** -\n\n--------------------------\nServices:\n\n**53:**\n```\n\n```\n------------------\n**80:**\n```\nHTTP/1.1 403 Forbidden\r\nServer: nginx/1.18.0\r\nDate: Tue, 25 Jun 2024 04:01:06 GMT\r\nContent-Type: text/html\r\nContent-Length: 555\r\nConnection: keep-alive\n```\n------------------\n**4001:**\n```\n\\x13/multistream/1.0.0\\n\n```\n------------------\n**9100:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "45.9.74.176"
     }
 ]
