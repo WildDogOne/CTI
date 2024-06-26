@@ -2355,5 +2355,96 @@
         "x_opencti_description": "**ISP:** Data Communication Business Group\n\n**OS:** -\n\n--------------------------\nServices:\n\n**23:**\n```\ntc login:\n```\nHEARTBLEED: 2024/06/10 17:14:10 220.143.212.235:23 - ERROR: tls: oversized record received with length 65533\n\n------------------\n**443:**\n```\nHTTP/1.1 404 Not Found\r\nDate: Mon, 24 Jun 2024 08:34:45 GMT\r\nServer: Apache/2.4.52 (Ubuntu)\r\nContent-Length: 278\r\nContent-Type: text/html; charset=iso-8859-1\n```\nHEARTBLEED: 2024/06/24 08:35:40 220.143.212.235:443 - SAFE\n\n------------------\n**10000:**\n```\nHTTP/1.0 200 Document follows\r\nDate: Tue, 25 Jun 2024 02:12:45 GMT\r\nServer: MiniServ\r\nConnection: close\r\nAuth-type: auth-required=1\r\nSet-Cookie: redirect=1; path=/; secure; httpOnly\r\nSet-Cookie: testing=1; path=/; secure; httpOnly\r\nStrict-Transport-Security: max-age=31536000;\r\nX-Frame-Options: SAMEORIGIN\r\nContent-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src 'self'; child-src 'self'\r\nX-Content-Type-Options: nosniff\r\nX-no-links: 1\r\nContent-type: text/html; Charset=UTF-8\n```\nHEARTBLEED: 2024/06/25 02:13:19 220.143.212.235:10000 - SAFE\n\n------------------\n**49152:**\n```\nHTTP/1.1 404 Not Found\r\nSERVER: Linux/2.4.20, UPnP/1.0, Intel SDK for UPnP devices /1.2\r\nCONNECTION: close\r\nCONTENT-LENGTH: 48\r\nCONTENT-TYPE: text/html\n```\n------------------",
         "x_opencti_score": 50,
         "value": "220.143.212.235"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-26T18:03:57.685Z",
+        "updated_at": "2024-06-26T18:04:05.681Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "80033eba-b65d-4cb3-b703-25bebf91fa4d",
+                "value": "ransomware",
+                "color": "0c1c54",
+                "createdById": null
+            },
+            {
+                "id": "f295445a-5721-4eb7-b72c-7a61fca9214c",
+                "value": "cobalt strike",
+                "color": "#ff7396",
+                "createdById": null
+            },
+            {
+                "id": "9fdad350-2963-4a11-b304-12617c1808fd",
+                "value": "icedid",
+                "color": "#145ecf",
+                "createdById": null
+            },
+            {
+                "id": "b2d168dc-27e7-43e1-bab7-a7c3c31abd5f",
+                "value": "bitlocker",
+                "color": "#65f276",
+                "createdById": null
+            },
+            {
+                "id": "f86f4265-ddd0-457a-bcc2-9c92bf0c6980",
+                "value": "chamelgang",
+                "color": "#cbbf08",
+                "createdById": null
+            },
+            {
+                "id": "ad51c31c-9076-40de-88e0-2bf25ce239cd",
+                "value": "bestcrypt",
+                "color": "#0ab610",
+                "createdById": null
+            },
+            {
+                "id": "c6a28707-9426-455e-96bd-c62ba7773073",
+                "value": "beaconloader",
+                "color": "#57b9ab",
+                "createdById": null
+            },
+            {
+                "id": "4f6aa039-74b3-478d-9be3-38c1cfd1e482",
+                "value": "china chopper",
+                "color": "#8e0018",
+                "createdById": null
+            },
+            {
+                "id": "1b24cacc-d3c3-41c2-985c-bdef70ab96f3",
+                "value": "wiper",
+                "color": "#0b59be",
+                "createdById": null
+            },
+            {
+                "id": "1b62c430-639e-4ee4-a791-11a731f5a94a",
+                "value": "conti",
+                "color": "#7737a7",
+                "createdById": null
+            },
+            {
+                "id": "dc907028-0aa1-44b9-9050-e69a6f006412",
+                "value": "silver sparrow",
+                "color": "#b9e96b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "185.225.19.61",
+        "x_opencti_description": "**ISP:** MivoCloud SRL\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCehLTIJNCbue7D8DuOayN/BbrRJSJnelgpETy/T7aDpcqy\nDpT14FnVytp0RnU/EHBBhmvniFdUmeXEI+sKHaYvrK4/jXTBb3VHBUmILinQaJg/b6zgntGvmPKt\nNpDTwfGJaHKnDGOxwXWxRkWKi2s9Echod/yFt/XrgvrlNIw7nUF63uEMyS20NoosYkPG7N0mnctO\n6qwGCCdRgnXoo0ed+CpWfP4vqh8wkmHxQNEmu4cgt0yhn0pMJdSN8PuPN0ZBeXSkWoTFEQpVK5DS\n795bdGSMlyHJ9EKGAx/iTHbfU5P2MsM5QcjxU42SOmtGjPN5cieekyHapKfPlDeoGBph\nFingerprint: 95:85:9a:a8:18:98:d3:c8:ca:b8:d2:27:cd:db:57:2a\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\taes128-cbc\n\taes192-cbc\n\taes256-cbc\n\tblowfish-cbc\n\tcast128-cbc\n\t3des-cbc\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "185.225.19.61"
     }
 ]
