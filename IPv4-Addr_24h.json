@@ -12060,5 +12060,73 @@
         "x_opencti_description": "Anyrun Malware Trends",
         "x_opencti_score": null,
         "value": "64.23.249.117"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-30T03:32:41.277Z",
+        "updated_at": "2024-06-30T03:33:09.232Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "4.185.56.82",
+        "x_opencti_description": "**ISP:** Microsoft Corporation\n\n**OS:** Windows (build 10.0.19041)\n\n--------------------------\nServices:\n\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 2004)/Windows Server (version 2004)\n  OS Build: 10.0.19041\n  Target Name: DE\n  NetBIOS Domain Name: DE\n  NetBIOS Computer Name: DE\n  DNS Domain Name: DE\n  FQDN: DE\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "4.185.56.82"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-06-30T03:33:01.477Z",
+        "updated_at": "2024-06-30T03:33:19.396Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "93405f37-1740-4912-bdab-a6c6c07e6bf6",
+                "value": "database",
+                "color": "#7b11a9",
+                "createdById": null
+            }
+        ],
+        "observable_value": "154.197.69.131",
+        "x_opencti_description": "**ISP:** NZ Network Enterprise Co., Ltd.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**3306:**\n```\nMariaDB:\n  Error Message: Host '224.32.61.146' is not allowed to connect to this MariaDB server\n  Error Code: 1130\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\n```\n------------------\n**8080:**\n```\nHTTP/1.1 415 Unsupported Media Type\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Headers: *\r\nAccess-Control-Allow-Methods: GET, POST, OPTIONS, HEAD\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Expose-Headers: *\r\nAccess-Control-Max-Age: 600\r\nAccess-Control-Request-Headers: *\r\nAccess-Control-Request-Method: GET\r\nCache-Control: no-cache, no-store, must-revalidate\r\nContent-Length: 185\r\nExpires: 0\r\nPragma: no-cache\r\nServer: MistServer/2.18.1-Pro\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "154.197.69.131"
     }
 ]
