@@ -7988,5 +7988,42 @@
         "x_opencti_description": "**ISP:** M247 Europe SRL\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQCyhdVaOwSiR8Eo20H21aZ91MJ6Mi1/j+PahU/NJOg9FJmr\nePkjTwDurZ/irqcT+jM7lZxKYGZKdtwqqIUHdhBUI+FL4H/GrciCBMJr5BLmPu9ivR3NKaQAv813\nAk3u7G9ZSU7iQX6te22MIeWBfn3+LiBykM/Q6I74JDvI7LA9FYHGDs753pSivoPsJnL+VDQjBrGC\nZkmgCTScXePzIXflqR+uRnZc4cI1k9SJaKk7eGXKGLlXUxL/mifzcnAiUOLh3Hcp6nnpSD9oT/4A\n64dK4aOMz62tSawANscnidw+jTxjAsaCoYkipW3N75TPViebM/55yRARCjploFjPJeB5I7ViJI6Y\nOIKPSg40i/ezDpYaVA1l++zeWQo0FKqEjes4SoPSYYulIdMlKd/h4c+Be0tcDxMnHKj9ngSFzg28\noUk4JYmGxTkEL3GbTBDUjBKT6q/V9XjYHUiYPSmhPSJdPbXaM+uTN9rJJNPA1OLpxVvPdzD2Lart\nfsuaHk/jLrs=\nFingerprint: b8:59:c8:1e:b9:f6:2c:2b:66:39:88:e5:23:d4:1a:92\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 404 Not Found\n```\n------------------\n**8080:**\n```\nHTTP/1.1 200 OK\r\nContent-Length: 3617\r\nContent-Type: text/html; charset=utf-8\r\nServer: beegoServer:1.12.0\r\nSet-Cookie: beegosessionID=422521ea510be61b9ea804000c0e33f7; Path=/; HttpOnly\r\nDate: Mon, 01 Jul 2024 08:39:21 GMT\n```\n------------------",
         "x_opencti_score": 50,
         "value": "188.116.22.65"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-03T13:51:38.540Z",
+        "updated_at": "2024-07-03T13:51:47.037Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "d8fc44bc-08d4-4800-bbba-f21a1eada8c3",
+                "value": "eol-os",
+                "color": "#8f76a7",
+                "createdById": null
+            }
+        ],
+        "observable_value": "64.188.18.137",
+        "x_opencti_description": "**ISP:** QuadraNet Enterprises LLC\n\n**OS:** Windows Server 2012 R2\n\n--------------------------\nServices:\n\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x0f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 8.1/Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: WIN-P9NRMH5G6M8\n  NetBIOS Domain Name: WIN-P9NRMH5G6M8\n  NetBIOS Computer Name: WIN-P9NRMH5G6M8\n  DNS Domain Name: WIN-P9NRMH5G6M8\n  FQDN: WIN-P9NRMH5G6M8\n\nam Windows Server 2012R2\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "64.188.18.137"
     }
 ]
