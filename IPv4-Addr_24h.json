@@ -1362,7 +1362,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-07-09T16:58:10.823Z",
-        "updated_at": "2024-07-09T17:05:27.388Z",
+        "updated_at": "2024-07-10T08:03:06.311Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -1395,10 +1395,22 @@
                 "value": "self-signed",
                 "color": "#bd7cfa",
                 "createdById": null
+            },
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
             }
         ],
         "observable_value": "195.201.89.97",
-        "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPh7cSs1Ui0MHGxZAZXpEUH9\nxwqHgvp+3t+FWE1FLBIYIfOmTogw4hzbNOtAD/5KJz9IBpk9q+jOPhZWC5nWymI=\nFingerprint: c7:bd:1a:11:51:e0:17:88:71:c5:d2:df:39:27:a6:d7\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**443:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Mon, 08 Jul 2024 11:55:58 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: keep-alive\r\nLocation: https://google.com\n```\nHEARTBLEED: 2024/07/08 11:56:14 195.201.89.97:443 - SAFE\n\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: WIN-MT48OPHJ6CN\n  NetBIOS Domain Name: WIN-MT48OPHJ6CN\n  NetBIOS Computer Name: WIN-MT48OPHJ6CN\n  DNS Domain Name: WIN-MT48OPHJ6CN\n  FQDN: WIN-MT48OPHJ6CN\n```\n------------------",
+        "x_opencti_description": "Malicious SSL connections",
         "x_opencti_score": 50,
         "value": "195.201.89.97"
     },
@@ -1559,7 +1571,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-07-09T16:58:21.329Z",
-        "updated_at": "2024-07-09T17:06:12.525Z",
+        "updated_at": "2024-07-10T08:03:02.204Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -1592,10 +1604,22 @@
                 "value": "self-signed",
                 "color": "#bd7cfa",
                 "createdById": null
+            },
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
             }
         ],
         "observable_value": "95.217.27.167",
-        "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 09 Jul 2024 08:00:20 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\n```\nHEARTBLEED: 2024/07/09 08:00:31 95.217.27.167:443 - SAFE\n\n------------------",
+        "x_opencti_description": "Malicious SSL connections",
         "x_opencti_score": 50,
         "value": "95.217.27.167"
     },
@@ -6545,7 +6569,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-07-09T17:07:40.653Z",
-        "updated_at": "2024-07-09T18:17:08.901Z",
+        "updated_at": "2024-07-10T08:03:02.206Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -6584,10 +6608,22 @@
                 "value": "eol-os",
                 "color": "#8f76a7",
                 "createdById": null
+            },
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
             }
         ],
         "observable_value": "93.115.10.211",
-        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_description": "Malicious SSL connections",
         "x_opencti_score": 50,
         "value": "93.115.10.211"
     },
@@ -11694,5 +11730,29 @@
         "x_opencti_description": "**ISP:** AEZA INTERNATIONAL LTD\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 ProFTPD Server (Debian) [::ffff:95.181.173.153]\r\n530 Login incorrect.\r\n214-The following commands are recognized (* =>'s unimplemented):\n214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    \n214-EPRT    EPSV    ALLO    RNFR    RNTO    DELE    MDTM    RMD     \n214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    \n214-NOOP    FEAT    OPTS    HOST    CLNT    AUTH*   CCC*    CONF*   \n214-ENC*    MIC*    PBSZ*   PROT*   TYPE    STRU    MODE    RETR    \n214-STOR    STOU    APPE    REST    ABOR    RANG    USER    PASS    \n214-ACCT*   REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    \n214 Direct comments to root@0.0.0.0\r\n211-Features:\n211-CLNT\n211-EPRT\n211-EPSV\n211-HOST\n211-LANG en-US.UTF-8*;en-US\n211-MDTM\n211-MFF modify;UNIX.group;UNIX.mode;\n211-MFMT\n211-MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;\n211-RANG STREAM\n211-REST STREAM\n211-SITE COPY\n211-SITE MKDIR\n211-SITE RMDIR\n211-SITE SYMLINK\n211-SITE UTIME\n211-SIZE\n211-TVFS\n211-UTF8\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOfNaphVtCOXIMA5umptcJP/\n5/hlb5wQjDOj/zLex9czV0+f3KB2c3B8mTdfgQNuxVDlnkSwMdxZmbZ09/7qhC8=\nFingerprint: 03:53:9b:cc:54:2e:27:50:ab:db:dd:04:6d:9b:70:ec\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.1\r\nDate: Fri, 21 Jun 2024 03:03:03 GMT\r\nContent-Type: text/html\r\nContent-Length: 15793\r\nLast-Modified: Mon, 10 Jun 2024 10:17:21 GMT\r\nConnection: keep-alive\r\nETag: \"6666d2b1-3db1\"\r\nAccept-Ranges: bytes\n```\n------------------\n**110:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nSTLS\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\n------------------\n**143:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.1\r\nDate: Tue, 09 Jul 2024 17:10:41 GMT\r\nContent-Type: text/html\r\nContent-Length: 15793\r\nLast-Modified: Mon, 10 Jun 2024 10:17:21 GMT\r\nConnection: keep-alive\r\nETag: \"6666d2b1-3db1\"\r\nAccept-Ranges: bytes\n```\nHEARTBLEED: 2024/07/09 17:10:53 95.181.173.153:443 - SAFE\n\n------------------\n**465:**\n```\n220 mirthful-request.aeza.network ESMTP Exim 4.95 Ubuntu Thu, 04 Jul 2024 20:31:09 -0700\r\n250-mirthful-request.aeza.network Hello brocggonqug.com [224.197.110.20]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-PIPE_CONNECT\r\n250-AUTH LOGIN PLAIN\r\n250-CHUNKING\r\n250-SMTPUTF8\r\n250 HELP\n```\nHEARTBLEED: 2024/07/05 03:31:16 95.181.173.153:465 - SAFE\n\n------------------\n**587:**\n```\n220 mirthful-request.aeza.network ESMTP Exim 4.95 Ubuntu Tue, 25 Jun 2024 07:24:42 -0700\r\n250-mirthful-request.aeza.network Hello 224.75.211.186 [224.75.211.186]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-PIPE_CONNECT\r\n250-AUTH LOGIN PLAIN\r\n250-CHUNKING\r\n250-STARTTLS\r\n250-SMTPUTF8\r\n250 HELP\n```\n------------------\n**993:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\nHEARTBLEED: 2024/06/29 05:42:23 95.181.173.153:993 - SAFE\n\n------------------\n**995:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\nHEARTBLEED: 2024/07/03 04:24:28 95.181.173.153:995 - SAFE\n\n------------------\n**7777:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 02 Jul 2024 22:05:17 GMT\r\nContent-Type: text/html\r\nContent-Length: 612\r\nLast-Modified: Mon, 24 Jun 2024 08:43:39 GMT\r\nConnection: keep-alive\r\nETag: \"667931bb-264\"\r\nAccept-Ranges: bytes\n```\n------------------\n**8888:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Sat, 06 Jul 2024 07:28:51 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: close\r\nLocation: https://95.181.173.153:8888/\n```\n------------------",
         "x_opencti_score": 50,
         "value": "95.181.173.153"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-10T07:58:37.590Z",
+        "updated_at": "2024-07-10T07:58:47.558Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "5.42.92.51",
+        "x_opencti_description": "**ISP:** Daniil Yevchenko\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEwkhIPatZKRUBwGGOmeoOdW\nEfhUTEGVJweCrz3YYLeE0mj8xt7t1/qJKWFJ78YzFKABF5U38//p9erZWXmTc2o=\nFingerprint: 0d:ba:2b:e4:2a:05:78:11:d6:33:ae:34:63:52:6b:67\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "5.42.92.51"
     }
 ]
