@@ -5122,5 +5122,78 @@
         "x_opencti_description": "**ISP:** Simple Carrier LLC\n\n**OS:** Windows Server 2022 (build 10.0.20348)\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Sun, 23 Jun 2024 20:56:05 GMT\r\nAccept-Ranges: bytes\r\nETag: \"757e7c3afc5da1:0\"\r\nServer: Microsoft-IIS/10.0\r\nX-Powered-By: ASP.NET\r\nDate: Wed, 26 Jun 2024 04:45:43 GMT\r\nContent-Length: 703\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: WIN-8OA3CCQAE4D\n  NetBIOS Domain Name: WIN-8OA3CCQAE4D\n  NetBIOS Computer Name: WIN-8OA3CCQAE4D\n  DNS Domain Name: WIN-8OA3CCQAE4D\n  FQDN: WIN-8OA3CCQAE4D\n\n; Administrator\nSES\n```\n------------------",
         "x_opencti_score": 50,
         "value": "185.196.9.78"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-12T18:53:04.664Z",
+        "updated_at": "2024-07-12T18:53:11.014Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "2100b436-7807-4886-b731-871136213075",
+                "value": "stealer",
+                "color": "#3cc61b",
+                "createdById": null
+            },
+            {
+                "id": "5da64d0f-4757-41b7-a4b6-4566aa2572f2",
+                "value": "atomic stealer",
+                "color": "#47dda6",
+                "createdById": null
+            },
+            {
+                "id": "db9c3dba-720e-499f-8d51-e23b79db50e5",
+                "value": "macos",
+                "color": "#739b2d",
+                "createdById": null
+            },
+            {
+                "id": "870931e2-89f6-426f-9b96-37a1dff8692f",
+                "value": "adware",
+                "color": "#20d53e",
+                "createdById": null
+            },
+            {
+                "id": "f4be8257-3f87-44f6-868c-77c138230cc1",
+                "value": "malvertising",
+                "color": "#8fc91e",
+                "createdById": null
+            },
+            {
+                "id": "013f2a93-9be1-4b80-a0b7-e45f5b6bfc99",
+                "value": "data theft",
+                "color": "#099111",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
+        "observable_value": "147.45.43.136",
+        "x_opencti_description": "**ISP:** AEZA INTERNATIONAL LTD\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC08leg6t5FQd+6mby6HKlfC\nbVIYiV06XPH4w3EFebFu5aMTv5DVsVRsINfboAb4+FgxJOBAJ9E/4It4UkIt5L8=\nFingerprint: 97:d8:5e:95:db:46:fb:ca:7e:ee:d8:40:ac:2a:95:9c\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 404 Not Found\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Thu, 11 Jul 2024 03:38:14 GMT\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 19\r\nConnection: keep-alive\r\nX-Content-Type-Options: nosniff\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nDate: Fri, 14 Jun 2024 16:45:20 GMT\r\nServer: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.1.33\r\nContent-Length: 481\r\nContent-Type: text/html;charset=ISO-8859-1\n```\nHEARTBLEED: 2024/06/14 16:45:28 147.45.43.136:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
+        "value": "147.45.43.136"
     }
 ]
