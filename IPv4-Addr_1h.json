@@ -1,1 +1,39 @@
-[]
+[
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-13T19:19:54.164Z",
+        "updated_at": "2024-07-13T19:20:01.168Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
+        "observable_value": "91.92.245.105",
+        "x_opencti_description": "**ISP:** Limenet\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 ProFTPD Server (Debian) [::ffff:91.92.245.105]\r\n530 Login incorrect.\r\n214-The following commands are recognized (* =>'s unimplemented):\n214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    \n214-EPRT    EPSV    ALLO    RNFR    RNTO    DELE    MDTM    RMD     \n214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    \n214-NOOP    FEAT    OPTS    HOST    CLNT    AUTH*   CCC*    CONF*   \n214-ENC*    MIC*    PBSZ*   PROT*   TYPE    STRU    MODE    RETR    \n214-STOR    STOU    APPE    REST    ABOR    RANG    USER    PASS    \n214-ACCT*   REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    \n214 Direct comments to root@0.0.0.0\r\n211-Features:\n211-CLNT\n211-EPRT\n211-EPSV\n211-HOST\n211-LANG en-US.UTF-8*;en-US\n211-MDTM\n211-MFF modify;UNIX.group;UNIX.mode;\n211-MFMT\n211-MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;\n211-RANG STREAM\n211-REST STREAM\n211-SITE COPY\n211-SITE MKDIR\n211-SITE RMDIR\n211-SITE SYMLINK\n211-SITE UTIME\n211-SIZE\n211-TVFS\n211-UTF8\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDQYj83kARFOCBWqna65Mtk4yZ3IBrU+sv0j+aquKMfQqsu\nZ4HA/8pBYW32DtrQXMUuFv4MV9mq9IlcN8cT5tKfbB1g6OCLzI+4C8y9K33mavceomFtHQ8h6mBI\nQOC7VryVCCvPCGElG0cEo/Zx6McqDpcNWhsAofD+N7+HXAOT6gnPNJ4KoyDld35yEpPCEYQH4Trm\nvIC+9ByKDUxTKLWOLE7j75kc/39rGgQ/CuuRv6TE2duY+ZOmlM/ur6iR0/PadqrRbC3BopqqX4hS\niJnKDv2e4235V+UQCLM08i8Hf9HqSdSkdHWw0NpcjWp53CiiYiBmRafi43Tpv72ZcYMPd3yjVdqg\n5jUvCtviGHxKYWI6GeFI+JIY8kgSNWvbaxNIH1HAnjs+VJav4EC/OvEGFdbZypOGU/oah5b/SNSs\n011R/yAHi30/Gbx3hOZjCK1ye6AW68fPhxGQQv8oqe0rYds9W6MWNbcXvJAYdh0d+9PiQH7d+Yhx\nOWEQkq70juE=\nFingerprint: 35:55:8f:6f:c0:e2:41:ce:60:dc:4e:88:01:b5:6f:69\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.1\r\nDate: Tue, 02 Jul 2024 19:29:31 GMT\r\nContent-Type: text/html\r\nContent-Length: 15793\r\nLast-Modified: Mon, 03 Jun 2024 07:40:55 GMT\r\nConnection: keep-alive\r\nETag: \"665d7387-3db1\"\r\nAccept-Ranges: bytes\n```\n------------------\n**110:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nSTLS\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.1\r\nDate: Thu, 04 Jul 2024 18:15:45 GMT\r\nContent-Type: text/html\r\nContent-Length: 15793\r\nLast-Modified: Mon, 03 Jun 2024 07:40:55 GMT\r\nConnection: keep-alive\r\nETag: \"665d7387-3db1\"\r\nAccept-Ranges: bytes\n```\nHEARTBLEED: 2024/07/04 18:16:00 91.92.245.105:443 - SAFE\n\n------------------\n**993:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\n------------------\n**995:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\nHEARTBLEED: 2024/07/04 14:27:46 91.92.245.105:995 - SAFE\n\n------------------\n**7777:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Wed, 26 Jun 2024 06:22:23 GMT\r\nContent-Type: text/html\r\nContent-Length: 612\r\nLast-Modified: Mon, 24 Jun 2024 08:43:39 GMT\r\nConnection: keep-alive\r\nETag: \"667931bb-264\"\r\nAccept-Ranges: bytes\n```\n------------------\n**8888:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Thu, 04 Jul 2024 18:15:41 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: close\r\nLocation: https://91.92.245.105:8888/\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "91.92.245.105"
+    }
+]
