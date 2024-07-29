@@ -10533,5 +10533,169 @@
         "x_opencti_description": "binarydefense IP",
         "x_opencti_score": null,
         "value": "223.78.106.3"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-29T20:53:13.018Z",
+        "updated_at": "2024-07-29T20:53:39.746Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "049e2ba3-1c28-4ccd-8c0c-b2b1a12cf1cf",
+                "value": "malware",
+                "color": "0bf8d9",
+                "createdById": null
+            },
+            {
+                "id": "8da4c12d-7de4-49db-ac29-4079fbae53a5",
+                "value": "spyware",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "fbf89839-373f-4f47-84f0-feb922da7268",
+                "value": "android",
+                "color": "#6f36a8",
+                "createdById": null
+            },
+            {
+                "id": "624861ca-da31-4e2d-a10c-0cffdc5aa4a6",
+                "value": "google play",
+                "color": "#bb1893",
+                "createdById": null
+            },
+            {
+                "id": "95a3fcd6-4dc3-464c-92c4-6cc8e45d39fb",
+                "value": "mobile malware",
+                "color": "#5736e5",
+                "createdById": null
+            },
+            {
+                "id": "392f3425-ac33-4a2d-acb5-0faa2703e0fb",
+                "value": "mandrake",
+                "color": "#131d88",
+                "createdById": null
+            },
+            {
+                "id": "8d47f48a-45f0-4ed4-a3a7-2d2931d1f03d",
+                "value": "response opcode",
+                "color": "#0d1ca1",
+                "createdById": null
+            },
+            {
+                "id": "66af3743-7032-444a-8652-549aa9ef436a",
+                "value": "apk file",
+                "color": "#005d95",
+                "createdById": null
+            },
+            {
+                "id": "857bdfe0-9e13-41a1-b975-aafa2b603265",
+                "value": "airfs",
+                "color": "#975b88",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
+        "observable_value": "45.142.122.12",
+        "x_opencti_description": "**ISP:** Aeza Group Ltd.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.19.0\r\nDate: Sun, 28 Jul 2024 05:38:08 GMT\r\nContent-Type: text/html\r\nContent-Length: 612\r\nLast-Modified: Tue, 06 Jun 2023 14:03:13 GMT\r\nConnection: keep-alive\r\nETag: \"647f3ca1-264\"\r\nAccept-Ranges: bytes\n```\n------------------\n**443:**\n```\n\n```\nHEARTBLEED: 2024/07/18 10:35:57 45.142.122.12:443 - SAFE\n\n------------------\n**1234:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCpif4YLu0k5lsRLoOZRQeEA+IjYdq/IkcmkXVo/aRcbmYK\n/M6CXctl81KlZkpNedR3zNjab/e/VMCnyHqnQJoPnXxLVQIsWsmeXCOEjKc/C+iSpp5O1vx4INLs\nM5Ciqu9HUOBSXmuydGiZQ4pYe0z2PoBBiE8UEktm/IDnCCq71NGgV8VmbrtoAJrN2ikSTOfC1Nri\nR+aFS4KsVZpsYjaECJWiduy0oEye0gEobNB0xq8KDAaKl6KMui7TL8FzScNWcZc/9/0Tbtqi4glb\ndTbaTKkDt3ifIDGp8wJdmB0jLV4eGbdy6rO3Ra+LXu9TeoyEYvniocp/Xmyu79aDCTZb\nFingerprint: b0:24:f5:e3:59:62:39:03:f5:7b:be:a9:43:22:cb:b9\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\taes128-cbc\n\taes192-cbc\n\taes256-cbc\n\tblowfish-cbc\n\tcast128-cbc\n\t3des-cbc\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "45.142.122.12"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-29T20:53:13.064Z",
+        "updated_at": "2024-07-29T20:53:13.187Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "049e2ba3-1c28-4ccd-8c0c-b2b1a12cf1cf",
+                "value": "malware",
+                "color": "0bf8d9",
+                "createdById": null
+            },
+            {
+                "id": "8da4c12d-7de4-49db-ac29-4079fbae53a5",
+                "value": "spyware",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "fbf89839-373f-4f47-84f0-feb922da7268",
+                "value": "android",
+                "color": "#6f36a8",
+                "createdById": null
+            },
+            {
+                "id": "624861ca-da31-4e2d-a10c-0cffdc5aa4a6",
+                "value": "google play",
+                "color": "#bb1893",
+                "createdById": null
+            },
+            {
+                "id": "95a3fcd6-4dc3-464c-92c4-6cc8e45d39fb",
+                "value": "mobile malware",
+                "color": "#5736e5",
+                "createdById": null
+            },
+            {
+                "id": "392f3425-ac33-4a2d-acb5-0faa2703e0fb",
+                "value": "mandrake",
+                "color": "#131d88",
+                "createdById": null
+            },
+            {
+                "id": "8d47f48a-45f0-4ed4-a3a7-2d2931d1f03d",
+                "value": "response opcode",
+                "color": "#0d1ca1",
+                "createdById": null
+            },
+            {
+                "id": "66af3743-7032-444a-8652-549aa9ef436a",
+                "value": "apk file",
+                "color": "#005d95",
+                "createdById": null
+            },
+            {
+                "id": "857bdfe0-9e13-41a1-b975-aafa2b603265",
+                "value": "airfs",
+                "color": "#975b88",
+                "createdById": null
+            }
+        ],
+        "observable_value": "85.214.132.126",
+        "x_opencti_description": null,
+        "x_opencti_score": 50,
+        "value": "85.214.132.126"
     }
 ]
