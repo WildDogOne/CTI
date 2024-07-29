@@ -1,65 +1,12 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-07-29T13:02:11.646Z","IPv4-Addr","self-signed","TLP:CLEAR","176.111.174.140","2024-07-29T13:02:18.227Z","176.111.174.140","**ISP:** Chang Way Technologies Co. Limited
+"2024-07-29T14:07:51.871Z","IPv4-Addr","","TLP:CLEAR","104.234.10.91","2024-07-29T14:07:51.970Z","104.234.10.91","Anyrun Malware Trends",""
+"2024-07-29T14:07:51.872Z","IPv4-Addr","self-signed","TLP:CLEAR","192.210.215.42","2024-07-29T14:08:00.424Z","192.210.215.42","**ISP:** HostPapa
 
-**OS:** -
-
---------------------------
-Services:
-
-**80:**
-```
-HTTP/1.1 302 Found
-Date: Sun, 28 Jul 2024 12:04:49 GMT
-Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
-X-Powered-By: PHP/8.0.30
-Location: https://google.com
-Content-Length: 0
-Content-Type: text/html; charset=UTF-8
-```
-------------------
-**443:**
-```
-HTTP/1.1 302 Found
-Date: Sun, 28 Jul 2024 10:17:19 GMT
-Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
-X-Powered-By: PHP/8.0.30
-Location: https://google.com
-Content-Length: 0
-Content-Type: text/html; charset=UTF-8
-```
-HEARTBLEED: 2024/07/28 10:18:04 176.111.174.140:443 - SAFE
-
-------------------
-**1911:**
-```
-HTTP/1.1 400 Bad Request\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sun, 28 Jul 2024 11:26:59 GMT\r\nConnection: close\r\nContent-Length: 311\r\n\r\n<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""""http://www.w3.org/TR/html4/strict.dtd"">\r\n<HTML><HEAD><TITLE>Bad Request</TITLE>\r\n<META HTTP-EQUIV=""Content-Type"" Content=""text/html; charset=us-ascii""></HEAD>\r\n<BODY><h2>Bad Request</h2>\r\n<hr><p>HTTP Error 400. The request is badly formed.</p>\r\n</BODY></HTML>\r\n
-```
-------------------
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-```
-------------------","50"
-"2024-07-29T13:02:46.329Z","IPv4-Addr","self-signed","TLP:CLEAR","193.42.11.9","2024-07-29T13:02:57.656Z","193.42.11.9","**ISP:** dataforest GmbH
-
-**OS:** -
+**OS:** Windows Server 2022 (build 10.0.20348)
 
 --------------------------
 Services:
 
-**80:**
-```
-HTTP/1.1 200 OK
-Date: Mon, 29 Jul 2024 00:19:16 GMT
-Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
-Last-Modified: Sun, 19 Nov 2023 11:10:25 GMT
-ETag: ""1443-60a7f6a8cca40""
-Accept-Ranges: bytes
-Content-Length: 5187
-Content-Type: text/html
-```
-------------------
 **3389:**
 ```
 Remote Desktop Protocol
@@ -67,10 +14,876 @@ Remote Desktop Protocol
 Remote Desktop Protocol NTLM Info:
   OS: Windows Server 2022
   OS Build: 10.0.20348
-  Target Name: WIN-RI8CECQIG28
-  NetBIOS Domain Name: WIN-RI8CECQIG28
-  NetBIOS Computer Name: WIN-RI8CECQIG28
-  DNS Domain Name: WIN-RI8CECQIG28
-  FQDN: WIN-RI8CECQIG28
+  Target Name: WIN-JDPEQD10OQR
+  NetBIOS Domain Name: WIN-JDPEQD10OQR
+  NetBIOS Computer Name: WIN-JDPEQD10OQR
+  DNS Domain Name: WIN-JDPEQD10OQR
+  FQDN: WIN-JDPEQD10OQR
+
+Administrator
+ed
+```
+------------------","50"
+"2024-07-29T14:07:52.957Z","IPv4-Addr","starttls,database","TLP:CLEAR","199.250.198.12","2024-07-29T14:08:23.940Z","199.250.198.12","**ISP:** InMotion Hosting, Inc.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 2 of 150 allowed.
+220-Local time is now 23:10. Server port: 21.
+220-This is a private system - No anonymous login
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 30 minutes of inactivity.
+530 Login authentication failed
+214-The following SITE commands are recognized
+ ALIAS
+ CHMOD
+ IDLE
+ UTIME
+214 Pure-FTPd - http://pureftpd.org/
+211-Extensions supported:
+ UTF8
+ EPRT
+ IDLE
+ MDTM
+ SIZE
+ MFMT
+ REST STREAM
+ MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+ MLSD
+ PRET
+ AUTH TLS
+ PBSZ
+ PROT
+ TVFS
+ ESTA
+ PASV
+ EPSV
+ ESTP
+211 End.
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sun, 28 Jul 2024 21:09:10 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade
+X-Accel-Expires: 0
+Cache-Control: no-cache, no-store
+Content-Length: 506
+Content-Type: text/html; charset=UTF-8
+```
+------------------
+**110:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+STLS
+USER
+SASL PLAIN LOGIN
+.
+```
+------------------
+**143:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 29 Jul 2024 04:54:21 GMT
+Server: Apache
+Link: <https://gandwcpas.com/wp-json/>; rel=""https://api.w.org/"", <https://gandwcpas.com/wp-json/wp/v2/pages/2>; rel=""alternate""; type=""application/json"", <https://gandwcpas.com/>; rel=shortlink
+Upgrade: h2,h2c
+Connection: Upgrade
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/07/29 04:55:06 199.250.198.12:443 - SAFE
+
+------------------
+**465:**
+```
+220-ecbiz275.inmotionhosting.com ESMTP Exim 4.96.2 #2 Mon, 29 Jul 2024 08:58:55 -0400 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+250-ecbiz275.inmotionhosting.com Hello 224.3.70.59 [224.3.70.59]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250 HELP
+```
+HEARTBLEED: 2024/07/29 12:59:02 199.250.198.12:465 - SAFE
+
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/07/03 19:35:19 199.250.198.12:993 - SAFE
+
+------------------
+**995:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/07/12 03:46:20 199.250.198.12:995 - SAFE
+
+------------------
+**2082:**
+```
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html; charset=""utf-8""
+Date: Thu, 18 Jul 2024 19:29:33 GMT
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+Set-Cookie: cprelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082
+Set-Cookie: cpsession=%3ao4N7KCjx5DDW4bdU%2c8020a2c72aa64d3e2124e2614e4d6072; HttpOnly; path=/; port=2082
+Set-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082
+Set-Cookie: roundcube_sessauth=expired; HttpOnly; domain=199.250.198.12; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082
+Set-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2082
+Content-Length: 36793
+```
+------------------
+**2083:**
+```
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html; charset=""utf-8""
+Date: Mon, 22 Jul 2024 06:25:52 GMT
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+Set-Cookie: cprelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
+Set-Cookie: cpsession=%3aBnLvcXgAAw3jdsCU%2cc6042efc0109caae942016e31de8bc3a; HttpOnly; path=/; port=2083; secure
+Set-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
+Set-Cookie: roundcube_sessauth=expired; HttpOnly; domain=199.250.198.12; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
+Set-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
+Content-Length: 36793
+```
+HEARTBLEED: 2024/07/22 06:26:01 199.250.198.12:2083 - SAFE
+
+------------------
+**3306:**
+```
+MariaDB:
+  Protocol Version: 10
+  Version: 10.6.18-MariaDB-log
+  Capabilities: 63486
+  Server Language: 8
+  Server Status: 2
+  Extended Server Capabilities: 33279
+  Authentication Plugin: mysql_native_password
+```
+------------------","50"
+"2024-07-29T14:07:54.280Z","IPv4-Addr","starttls,self-signed,database","TLP:CLEAR","97.74.88.160","2024-07-29T14:09:04.091Z","97.74.88.160","**ISP:** GoDaddy.com, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.0
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDBDaIyUVciq/SW6l4nPLd2OJwOf+xVnX2qRCcAbFPQW9p+
+Ly6TamfCnTaxkeiEoKl/5H6DVmzKbvcLYVfLYCtgKZUugLISDImI5myKKr2h8c8vjIV78RwKBaZw
+zS1WhV7A37gKqNuMuIt7Pu/26CUDhLLZhCxgRU9aW1pIA427bYFUNT480KdLNAI6Jx9C1AGn/RIi
+cfo3EuuX3Y+25ixTeL3Xp9clhEUJNkzyi2wH2w6D+dGzIHBlaS5n4k3a7s+gZjRFwnmfUT9f/vMW
+dLvhzG3uptEHjbooTc1C2/gBTdxnBw2c9bPzZePSLpZlPxBU2KFCBNR+3V0qYhCRiz76yD68N59H
+/PSDOg+bl48us0nXnQNVGrDEQROXdb/9tDIqv/kD8hZyVrJPxQvHsPRvM71kKxdU/+Du20ZxYFeR
+s7mrxhqfPR6Pk53bnIguyv0KVS5N6+rL5K7/UAebpGijuv+Ak1Y+bQUcPdOhK33kJiE+VCGYTwii
+shQ9b1zwxZ0=
+Fingerprint: 34:66:dc:dc:c7:32:cb:7c:2f:bd:99:60:f3:ec:2b:11
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha1
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes256-gcm@openssh.com
+	chacha20-poly1305@openssh.com
+	aes256-ctr
+	aes256-cbc
+	aes128-gcm@openssh.com
+	aes128-ctr
+	aes128-cbc
+
+MAC Algorithms:
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha2-256
+	hmac-sha1
+	umac-128@openssh.com
+	hmac-sha2-512
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**53:**
+```
+Resolver ID: 160.88.74.97.host.secureserver.net
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2024 21:53:12 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+```
+------------------
+**110:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+STLS
+USER
+SASL PLAIN LOGIN
+.
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------
+**443:**
+```
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 12 Jul 2024 22:09:30 GMT
+Server: Apache
+X-UA-Compatible: IE=edge
+X-Redirect-By: WordPress
+Upgrade: h2,h2c
+Connection: Upgrade
+Location: https://www.sarkaritask.com/
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/07/12 22:09:54 97.74.88.160:443 - SAFE
+
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/07/13 05:34:44 97.74.88.160:993 - SAFE
+
+------------------
+**995:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/07/04 01:07:48 97.74.88.160:995 - SAFE
+
+------------------
+**2082:**
+```
+HTTP/1.1 301 Moved
+Content-length: 132
+Location: https://160.88.74.97.host.secureserver.net:2083/
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+```
+------------------
+**2083:**
+```
+HTTP/1.1 301 Moved
+Content-length: 131
+Location: https://160.88.74.97.host.secureserver.net:2083
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+```
+------------------
+**2087:**
+```
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html; charset=""utf-8""
+Date: Sat, 13 Jul 2024 17:35:19 GMT
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+Set-Cookie: whostmgrrelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Set-Cookie: whostmgrsession=%3avAnPyVZmH9f9MCY7%2c9d578dd7414ee1efe7ea4616b7edafd1; HttpOnly; path=/; port=2087; secure
+Set-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Set-Cookie: roundcube_sessauth=expired; HttpOnly; domain=97.74.88.160; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Set-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Length: 37217
+```
+HEARTBLEED: 2024/07/13 17:35:37 97.74.88.160:2087 - ERROR: heartbleed: timeout
+
+------------------
+**2096:**
+```
+HTTP/1.1 301 Moved
+Content-length: 131
+Location: https://160.88.74.97.host.secureserver.net:2096
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+```
+------------------
+**3306:**
+```
+MySQL:
+  Error Message: Host '224.3.70.59' is not allowed to connect to this MySQL server
+  Error Code: 1130
+```
+------------------","50"
+"2024-07-29T14:07:55.558Z","IPv4-Addr","starttls","TLP:CLEAR","67.222.24.48","2024-07-29T14:09:55.926Z","67.222.24.48","**ISP:** PrivateSystems Networks
+
+**OS:** -
+
+--------------------------
+Services:
+
+**26:**
+```
+220-cp30-ga.privatesystems.net ESMTP Exim 4.96.2 #2 Thu, 04 Jul 2024 14:16:12 -0500 \r\n220-We do not authorize the use of this system to transport unsolicited, \r\n220 and/or bulk e-mail.\r\n
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 29 Jul 2024 00:28:25 GMT
+Content-Length: 1536
+Connection: keep-alive
+Content-Type: text/html
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Cache-Control: no-store, max-age=0
+Server: imunify360-webshield/1.21
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+content-type: text/html; charset=UTF-8
+x-pingback: https://www.septicdesign.ca/xmlrpc.php
+link: <https://www.septicdesign.ca/wp-json/>; rel=""https://api.w.org/""
+link: <https://www.septicdesign.ca/wp-json/wp/v2/pages/7>; rel=""alternate""; type=""application/json""
+link: <https://www.septicdesign.ca/>; rel=shortlink
+etag: ""884-1721705696;;;""
+x-litespeed-cache: hit
+transfer-encoding: chunked
+date: Mon, 29 Jul 2024 05:10:54 GMT
+server: LiteSpeed
+alt-svc: h3="":443""; ma=2592000, h3-29="":443""; ma=2592000, h3-Q050="":443""; ma=2592000, h3-Q046="":443""; ma=2592000, h3-Q043="":443""; ma=2592000, quic="":443""; ma=2592000; v=""43,46""
+```
+HEARTBLEED: 2024/07/29 05:11:16 67.222.24.48:443 - SAFE
+
+------------------
+**587:**
+```
+220-cp30-ga.privatesystems.net ESMTP Exim 4.96.2 #2 Sat, 20 Jul 2024 07:54:40 -0500 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+250-cp30-ga.privatesystems.net Hello 224.44.214.3 [224.44.214.3]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+```
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/07/28 18:10:02 67.222.24.48:993 - SAFE
+
+------------------
+**8887:**
+```
+HTTP/1.0 301 Moved Permanently
+Location: https://67.222.24.48/
+Cache-Control: private, no-cache, max-age=0
+Pragma: no-cache
+Server:LiteSpeed
+Content-Length: 0
+Connection: Close
+```
+------------------","50"
+"2024-07-29T14:07:57.049Z","IPv4-Addr","cloud","TLP:CLEAR","54.180.140.193","2024-07-29T14:10:21.003Z","54.180.140.193","**ISP:** Amazon.com, Inc.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**9999:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jul 2024 05:16:48 GMT
+Content-Length: 1661
+```
+------------------","50"
+"2024-07-29T14:07:57.060Z","IPv4-Addr","starttls,database","TLP:CLEAR","87.236.102.132","2024-07-29T14:10:35.951Z","87.236.102.132","**ISP:** LeaseWeb Netherlands B.V.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 1 of 500 allowed.
+220-Local time is now 00:29. Server port: 21.
+220-This is a private system - No anonymous login
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 15 minutes of inactivity.
+530 Login authentication failed
+214-The following SITE commands are recognized
+ ALIAS
+ CHMOD
+ IDLE
+ UTIME
+214 Pure-FTPd - http://pureftpd.org/
+211-Extensions supported:
+ UTF8
+ EPRT
+ IDLE
+ MDTM
+ SIZE
+ MFMT
+ REST STREAM
+ MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+ MLSD
+ PRET
+ AUTH TLS
+ PBSZ
+ PROT
+ TVFS
+ ESTA
+ PASV
+ EPSV
+211 End.
+```
+------------------
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDrupqZNFXN5F3TevfWpzdZHdyGX/hFlaitmltF1Q7S3D9O
+ntKZjqv8kz0EVt9qF1g0STiTH0aJrOb8+hFA+/Vpt2mAKapmM/dW+SAd6RJ4Aa1OoqUo51c5tuE6
+Gkj0wqRxk5vqurWqm086LRooDidYwms+ZJAyOLk1wdgUD77IzeoJdRD0SP6gPsBmImBMjNtl7zYv
+sMeyp2xSFZAIANIrBYPo7ziiWtGuTjKXVLMmF2l8+dQJ0XkeUt2Vk8UL3h8jAxl8W1jAXK9bCOEf
+CLdnyHHfWOCkBlJjL3ZyFZDOtrTd4I7o0RAElSS2JSXG4Hyk0VzuPs9RXNQmHzz5Njhf
+Fingerprint: 46:b3:2b:23:ea:57:e2:31:ec:d9:e9:9f:f8:dd:f1:dc
+
+Kex Algorithms:
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group14-sha1
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group-exchange-sha256
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 27 Jul 2024 06:37:04 GMT
+Server: Apache
+Location: https://www.zonweringvanderzalm.com/
+Content-Length: 244
+Content-Type: text/html; charset=iso-8859-1
+```
+------------------
+**110:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+STLS
+USER
+SASL PLAIN LOGIN
+.
+```
+------------------
+**143:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 29 Jul 2024 04:43:58 GMT
+Server: Apache
+Last-Modified: Tue, 10 Jan 2023 09:01:44 GMT
+ETag: ""ec35-5f1e5220b187e""
+Accept-Ranges: bytes
+Content-Length: 60469
+Cache-Control: max-age=0
+Expires: Mon, 29 Jul 2024 04:43:58 GMT
+Vary: Accept-Encoding,Cookie
+Referrer-Policy: no-referrer-when-downgrade
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/07/29 03:53:57 87.236.102.132:443 - SAFE
+
+------------------
+**465:**
+```
+220-cp10.c-panel-server.com ESMTP Exim 4.96.2 #2 Thu, 18 Jul 2024 03:24:40 +0200 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+250-cp10.c-panel-server.com Hello 224.217.173.226 [224.217.173.226]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+```
+HEARTBLEED: 2024/07/18 01:24:48 87.236.102.132:465 - SAFE
+
+------------------
+**587:**
+```
+220-cp10.c-panel-server.com ESMTP Exim 4.96.2 #2 Mon, 29 Jul 2024 10:24:37 +0200 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+250-cp10.c-panel-server.com Hello ok9nu5hkvh8l5j.net [224.115.120.67]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250-STARTTLS
+250 HELP
+```
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/07/27 10:07:00 87.236.102.132:993 - SAFE
+
+------------------
+**995:**
+```
++OK Dovecot ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/07/27 08:01:17 87.236.102.132:995 - SAFE
+
+------------------
+**2082:**
+```
+HTTP/1.1 301 Moved
+Content-length: 112
+Location: https://87.236.102.132:2083/
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+```
+------------------
+**2083:**
+```
+HTTP/1.1 301 Moved
+Content-length: 120
+Location: https://cp10.c-panel-server.com:2083
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+```
+------------------
+**2086:**
+```
+HTTP/1.1 301 Moved
+Content-length: 112
+Location: https://87.236.102.132:2087/
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+```
+------------------
+**2087:**
+```
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html; charset=""utf-8""
+Date: Sun, 28 Jul 2024 19:49:51 GMT
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+Set-Cookie: whostmgrrelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Set-Cookie: whostmgrsession=%3aRztA0uK5jHn5WtS1%2c3842220d502bc780072d4c47bd0d52df; HttpOnly; path=/; port=2087; secure
+Set-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Set-Cookie: roundcube_sessauth=expired; HttpOnly; domain=87.236.102.132; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Set-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2087; secure
+Cache-Control: no-cache, no-store, must-revalidate, private
+Content-Length: 37033
+```
+HEARTBLEED: 2024/07/28 18:59:29 87.236.102.132:2087 - SAFE
+
+------------------
+**3306:**
+```
+MariaDB:
+  Protocol Version: 10
+  Version: 10.5.25-MariaDB-cll-lve
+  Capabilities: 63486
+  Server Language: 8
+  Server Status: 2
+  Extended Server Capabilities: 33279
+  Authentication Plugin: mysql_native_password
+```
+------------------","50"
+"2024-07-29T14:07:58.201Z","IPv4-Addr","","TLP:CLEAR","185.246.220.237","2024-07-29T14:07:58.557Z","185.246.220.237","Anyrun Malware Trends",""
+"2024-07-29T14:07:59.604Z","IPv4-Addr","","TLP:CLEAR","45.74.40.10","2024-07-29T14:08:00.069Z","45.74.40.10","Anyrun Malware Trends",""
+"2024-07-29T14:08:00.322Z","IPv4-Addr","","TLP:CLEAR","35.77.200.33","2024-07-29T14:08:00.829Z","35.77.200.33","Anyrun Malware Trends",""
+"2024-07-29T14:08:00.861Z","IPv4-Addr","","TLP:CLEAR","212.87.212.173","2024-07-29T14:11:54.201Z","212.87.212.173","**ISP:** Dominic Scholz trading as ITP-Solutions GmbH & Co. KG
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDQjTrDxDwepRlUjL2+0kJRo1r2Y2KwiEOxiYHkcjJZ8yWg
+NZyhMbnKw16e0bDe27Igs3LEAwRxfbfQ7UtDa+NEubMI+9J1zNH5yM6i+jA/M/LiHdWshvjXPamq
+2siitt1A+LkZx9eX6NPfanNvVPALhkWO534+wPPwsKOcQJngVHyZ7yEhi9MjWg4ajLpbVGaQUp5U
+fRZTPl7ZnNgEernq/CPsuDJPRTvtk5E+yaxHXfe7sybX7YyBYVhnEQ9dMUzr6hC+lwt+FT7jrC8u
+8gKR8yj0h8ajNeKvj31f6O8vsvKyUAStNBd8DpkCMEywuCDMjmdJc8niN5CZPaq3TXOBMHieeV8I
+z+ypnXBEUk3ofz1N+zup3E6+bjB323Qz4YnpKQZOprCPvfTlob0D9r5UTOwtkqv5IzXT9xCwr/N/
+r9NCFmQDlzQYTVZXqCHYp84FjAEiHzaGPX1GEaL+BIBHm+qJx9dcc5RAJwctDE+FVb3hT/WO9+LR
+vJBu5qQMQbs=
+Fingerprint: 73:df:fa:73:70:bb:eb:5c:7b:f2:ca:b2:d8:e7:08:96
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
 ```
 ------------------","50"
