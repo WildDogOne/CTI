@@ -1653,7 +1653,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-07-29T13:02:11.646Z",
-        "updated_at": "2024-07-29T16:59:16.588Z",
+        "updated_at": "2024-07-30T06:26:47.040Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -1686,10 +1686,22 @@
                 "value": "redlinestealer",
                 "color": "#97eece",
                 "createdById": null
+            },
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
             }
         ],
         "observable_value": "176.111.174.140",
-        "x_opencti_description": "Traffic seen on port 1912",
+        "x_opencti_description": "Malicious SSL connections",
         "x_opencti_score": 50,
         "value": "176.111.174.140"
     },
@@ -2216,7 +2228,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-07-29T16:57:26.202Z",
-        "updated_at": "2024-07-29T16:58:36.599Z",
+        "updated_at": "2024-07-30T06:26:43.690Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2249,10 +2261,22 @@
                 "value": "self-signed",
                 "color": "#bd7cfa",
                 "createdById": null
+            },
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
             }
         ],
         "observable_value": "193.23.160.13",
-        "x_opencti_description": "**ISP:** aurologic GmbH\n\n**OS:** Windows (build 10.0.17763)\n\n--------------------------\nServices:\n\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 1809)/Windows Server 2019 (version 1809)\n  OS Build: 10.0.17763\n  Target Name: VPS-ZAP65083-7\n  NetBIOS Domain Name: VPS-ZAP65083-7\n  NetBIOS Computer Name: VPS-ZAP65083-7\n  DNS Domain Name: vps-zap65083-7\n  FQDN: vps-zap65083-7\n```\n------------------",
+        "x_opencti_description": "Malicious SSL connections",
         "x_opencti_score": 50,
         "value": "193.23.160.13"
     },
@@ -3081,7 +3105,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-07-29T16:59:10.526Z",
-        "updated_at": "2024-07-29T17:06:42.754Z",
+        "updated_at": "2024-07-30T06:26:47.038Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3108,10 +3132,22 @@
                 "value": "vidar",
                 "color": "#0214b0",
                 "createdById": null
+            },
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
             }
         ],
         "observable_value": "168.119.176.241",
-        "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLDugmot4d02bWUIBK0GdKOb\nP7XXymbLiw43/INLPgY/YTVV+8RjFv6ZEUb7piK2PC7+Htg4NPNDfLZy8K9o4eY=\nFingerprint: 40:b7:a3:58:04:7b:93:de:11:3d:55:56:1d:b0:96:ee\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Wed, 17 Jul 2024 15:37:18 GMT\r\nContent-Type: text/html\r\nContent-Length: 52\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nLast-Modified: Fri, 29 Dec 2023 08:11:36 GMT\r\nETag: \"658e7f38-34\"\r\nAccept-Ranges: bytes\n```\nHEARTBLEED: 2024/07/17 15:37:28 168.119.176.241:443 - SAFE\n\n------------------",
+        "x_opencti_description": "Malicious SSL connections",
         "x_opencti_score": 50,
         "value": "168.119.176.241"
     },
@@ -10933,5 +10969,42 @@
         "x_opencti_description": "**ISP:** Microsoft Corporation\n\n**OS:** Windows (build 10.0.14393)\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Thu, 25 Jul 2024 00:03:04 GMT\r\nAccept-Ranges: bytes\r\nETag: \"7865d526deda1:0\"\r\nServer: Microsoft-IIS/10.0\r\nDate: Mon, 29 Jul 2024 02:05:22 GMT\r\nContent-Length: 703\n```\n------------------\n**1911:**\n```\nHTTP/1.1 400 Bad Request\\r\\nContent-Type: text/html; charset=us-ascii\\r\\nServer: Microsoft-HTTPAPI/2.0\\r\\nDate: Mon, 29 Jul 2024 01:35:21 GMT\\r\\nConnection: close\\r\\nContent-Length: 311\\r\\n\\r\\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\\r\\n<HTML><HEAD><TITLE>Bad Request</TITLE>\\r\\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\\r\\n<BODY><h2>Bad Request</h2>\\r\\n<hr><p>HTTP Error 400. The request is badly formed.</p>\\r\\n</BODY></HTML>\\r\\n\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 1607)/Windows Server 2016 (version 1607)\n  OS Build: 10.0.14393\n  Target Name: oke\n  NetBIOS Domain Name: oke\n  NetBIOS Computer Name: oke\n  DNS Domain Name: oke\n  FQDN: oke\n```\n------------------",
         "x_opencti_score": 50,
         "value": "20.195.15.112"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-07-30T06:27:16.132Z",
+        "updated_at": "2024-07-30T06:27:16.194Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            }
+        ],
+        "observable_value": "109.176.30.246",
+        "x_opencti_description": "Malicious SSL connections",
+        "x_opencti_score": null,
+        "value": "109.176.30.246"
     }
 ]

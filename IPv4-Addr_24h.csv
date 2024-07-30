@@ -3308,7 +3308,7 @@ WinRM NTLM Info:
   FQDN: FireVPS-RDP
 ```
 ------------------","50"
-"2024-07-29T13:02:11.646Z","IPv4-Addr","self-signed,botnet_cc,redlinestealer","TLP:CLEAR","176.111.174.140","2024-07-29T16:59:16.588Z","176.111.174.140","Traffic seen on port 1912","50"
+"2024-07-29T13:02:11.646Z","IPv4-Addr","self-signed,botnet_cc,redlinestealer,osint,ssl-blacklist","TLP:CLEAR","176.111.174.140","2024-07-30T06:26:47.040Z","176.111.174.140","Malicious SSL connections","50"
 "2024-07-29T13:02:46.329Z","IPv4-Addr","self-signed,botnet_cc,rat,quasarrat,osint,ssl-blacklist","TLP:CLEAR","193.42.11.9","2024-07-29T18:26:32.962Z","193.42.11.9","Malicious SSL connections","50"
 "2024-07-29T14:07:51.871Z","IPv4-Addr","","TLP:CLEAR","104.234.10.91","2024-07-29T14:07:51.970Z","104.234.10.91","Anyrun Malware Trends",""
 "2024-07-29T14:07:51.872Z","IPv4-Addr","self-signed","TLP:CLEAR","192.210.215.42","2024-07-29T14:08:00.424Z","192.210.215.42","**ISP:** HostPapa
@@ -5112,27 +5112,7 @@ Remote Desktop Protocol NTLM Info:
 am Windows Server 2012R2
 ```
 ------------------","50"
-"2024-07-29T16:57:26.202Z","IPv4-Addr","botnet_cc,asyncrat,self-signed","TLP:CLEAR","193.23.160.13","2024-07-29T16:58:36.599Z","193.23.160.13","**ISP:** aurologic GmbH
-
-**OS:** Windows (build 10.0.17763)
-
---------------------------
-Services:
-
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows 10 (version 1809)/Windows Server 2019 (version 1809)
-  OS Build: 10.0.17763
-  Target Name: VPS-ZAP65083-7
-  NetBIOS Domain Name: VPS-ZAP65083-7
-  NetBIOS Computer Name: VPS-ZAP65083-7
-  DNS Domain Name: vps-zap65083-7
-  FQDN: vps-zap65083-7
-```
-------------------","50"
+"2024-07-29T16:57:26.202Z","IPv4-Addr","botnet_cc,asyncrat,self-signed,osint,ssl-blacklist","TLP:CLEAR","193.23.160.13","2024-07-30T06:26:43.690Z","193.23.160.13","Malicious SSL connections","50"
 "2024-07-29T16:58:17.063Z","IPv4-Addr","botnet_cc,none","TLP:CLEAR","81.19.137.179","2024-07-29T16:58:48.706Z","81.19.137.179","**ISP:** AEZA INTERNATIONAL LTD
 
 **OS:** -
@@ -6886,81 +6866,7 @@ Compression Algorithms:
 	zlib@openssh.com
 ```
 ------------------","50"
-"2024-07-29T16:59:10.526Z","IPv4-Addr","botnet_cc,vidar","TLP:CLEAR","168.119.176.241","2024-07-29T17:06:42.754Z","168.119.176.241","**ISP:** Hetzner Online GmbH
-
-**OS:** Linux
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLDugmot4d02bWUIBK0GdKOb
-P7XXymbLiw43/INLPgY/YTVV+8RjFv6ZEUb7piK2PC7+Htg4NPNDfLZy8K9o4eY=
-Fingerprint: 40:b7:a3:58:04:7b:93:de:11:3d:55:56:1d:b0:96:ee
-
-Kex Algorithms:
-	sntrup761x25519-sha512@openssh.com
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**443:**
-```
-HTTP/1.1 200 OK
-Server: nginx
-Date: Wed, 17 Jul 2024 15:37:18 GMT
-Content-Type: text/html
-Content-Length: 52
-Connection: keep-alive
-Vary: Accept-Encoding
-Last-Modified: Fri, 29 Dec 2023 08:11:36 GMT
-ETag: ""658e7f38-34""
-Accept-Ranges: bytes
-```
-HEARTBLEED: 2024/07/17 15:37:28 168.119.176.241:443 - SAFE
-
-------------------","50"
+"2024-07-29T16:59:10.526Z","IPv4-Addr","botnet_cc,vidar,osint,ssl-blacklist","TLP:CLEAR","168.119.176.241","2024-07-30T06:26:47.038Z","168.119.176.241","Malicious SSL connections","50"
 "2024-07-29T16:59:13.272Z","IPv4-Addr","botnet_cc,vidar","TLP:CLEAR","65.21.5.236","2024-07-29T17:07:13.036Z","65.21.5.236","**ISP:** Hetzner Online GmbH
 
 **OS:** Linux
@@ -33706,3 +33612,4 @@ Remote Desktop Protocol NTLM Info:
   FQDN: oke
 ```
 ------------------","50"
+"2024-07-30T06:27:16.132Z","IPv4-Addr","osint,ssl-blacklist","TLP:CLEAR","109.176.30.246","2024-07-30T06:27:16.194Z","109.176.30.246","Malicious SSL connections",""
