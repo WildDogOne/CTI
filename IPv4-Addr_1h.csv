@@ -1,1 +1,127 @@
+"created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
+"2024-08-05T09:14:46.479Z","IPv4-Addr","phishing,stealer,evasion,rhadamanthys,persistence,israeli,self-signed","TLP:CLEAR","103.68.109.208","2024-08-05T09:15:28.779Z","103.68.109.208","**ISP:** Host Universal Pty Ltd
 
+**OS:** -
+
+--------------------------
+Services:
+
+**443:**
+```
+
+```
+HEARTBLEED: 2024/08/05 00:58:21 103.68.109.208:443 - SAFE
+
+------------------","50"
+"2024-08-05T09:22:20.666Z","IPv4-Addr","lateral movement,credential theft,meshagent,encrypted communication,advanced persistent threat,firewall compromise,cloud","TLP:CLEAR","78.141.238.182","2024-08-05T09:22:27.152Z","78.141.238.182","**ISP:** The Constant Company, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.3p1 Ubuntu-1ubuntu3.6
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDnkCh5AUtTRfsfli9QHiKoC
+GtFdRB5KySh3VB/MfNHmwN3AmTvH8FFsoxlGux+mgotuBtajFQNHpCEhCHBInpY=
+Fingerprint: f7:70:a1:ef:b4:93:a4:c3:f4:46:6f:f8:c3:63:ea:81
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 302 Found
+strict-transport-security: max-age=60000; includeSubDomains
+Referrer-Policy: no-referrer
+x-frame-options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline';
+Location: https://78.141.238.182:443/
+Vary: Accept
+Content-Type: text/html; charset=utf-8
+Content-Length: 98
+Date: Fri, 02 Aug 2024 05:51:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+------------------
+**443:**
+```
+HTTP/1.1 404 Not Found
+Referrer-Policy: no-referrer
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; font-src 'self'; script-src 'self' 'unsafe-inline'; connect-src 'self' wss://78.141.238.182; img-src 'self' blob: data: data:; style-src 'self' 'unsafe-inline'; frame-src 'self' blob: mcrouter:; media-src 'self'; form-action 'self'; manifest-src 'self'
+Permissions-Policy: interest-cohort=()
+X-Frame-Options: sameorigin
+Strict-Transport-Security: max-age=63072000
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+ETag: W/""9-0gXL1ngzMqISxa6S1zx3F4wtLyg""
+Set-Cookie: xid=e30=; path=/; samesite=lax; secure; httponly
+Set-Cookie: xid.sig=pYw_y5s-19Gta2CBGAPnUBe3JbaPDFCiYvTg20a1BXsCRm-91Dmjb3bpMAojW9hR; path=/; samesite=lax; secure; httponly
+Vary: Accept-Encoding
+Date: Mon, 05 Aug 2024 04:34:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+HEARTBLEED: 2024/08/05 04:34:31 78.141.238.182:443 - SAFE
+
+------------------
+**4433:**
+```
+HTTP/1.1 200 OK
+Host: 78.141.238.182
+Connection: keep-alive
+Cache-Control: no-cache
+Content-Type: text/html
+Content-Length: 150
+```
+HEARTBLEED: 2024/07/31 11:41:07 78.141.238.182:4433 - SAFE
+
+------------------","50"
