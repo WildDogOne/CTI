@@ -1,5 +1,4 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-08-10T18:30:13.022Z","IPv4-Addr","osint,ssl-blacklist,self-signed","TLP:CLEAR","116.203.5.69","2024-08-11T06:30:20.873Z","116.203.5.69","Malicious SSL connections","50"
 "2024-08-10T22:42:42.796Z","IPv4-Addr","","TLP:CLEAR","45.66.231.184","2024-08-10T23:25:06.005Z","45.66.231.184","**ISP:** Limenet
 
 **OS:** -
@@ -1150,65 +1149,7 @@ Compression Algorithms:
 ```
 ------------------","50"
 "2024-08-11T06:26:19.982Z","IPv4-Addr","","TLP:CLEAR","23.105.131.243","2024-08-11T06:26:21.294Z","23.105.131.243","Anyrun Malware Trends",""
-"2024-08-11T06:30:19.768Z","IPv4-Addr","osint,ssl-blacklist","TLP:CLEAR","78.46.239.218","2024-08-11T06:30:26.391Z","78.46.239.218","**ISP:** Hetzner Online GmbH
-
-**OS:** Linux
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBB8mjBjxqrZd2fuaFwBYOmFU
-Aa2xwijS/HVbqYxc2YUIQhAn+S3Q8+9rO9b8DqxOREMl09S4jqMSxrdhhiGaU18=
-Fingerprint: 83:da:13:49:18:2d:a4:ec:e2:75:46:3f:6b:1a:48:f6
-
-Kex Algorithms:
-	sntrup761x25519-sha512@openssh.com
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------","50"
+"2024-08-11T06:30:19.768Z","IPv4-Addr","osint,ssl-blacklist","TLP:CLEAR","78.46.239.218","2024-08-11T18:30:29.629Z","78.46.239.218","Malicious SSL connections","50"
 "2024-08-11T17:09:11.352Z","IPv4-Addr","","TLP:CLEAR","8.219.191.177","2024-08-11T17:09:11.961Z","8.219.191.177","binarydefense IP",""
 "2024-08-11T17:09:11.492Z","IPv4-Addr","cloud","TLP:CLEAR","8.219.52.40","2024-08-11T17:09:21.271Z","8.219.52.40","**ISP:** Alibaba (US) Technology Co., Ltd.
 
@@ -1766,3 +1707,49 @@ Compression Algorithms:
 ------------------","50"
 "2024-08-11T17:09:19.933Z","IPv4-Addr","","TLP:CLEAR","67.41.43.127","2024-08-11T17:09:20.228Z","67.41.43.127","binarydefense IP",""
 "2024-08-11T17:09:20.466Z","IPv4-Addr","","TLP:CLEAR","95.70.246.102","2024-08-11T17:09:20.926Z","95.70.246.102","binarydefense IP",""
+"2024-08-11T18:33:54.038Z","IPv4-Addr","eol-os","TLP:CLEAR","194.59.31.253","2024-08-11T18:34:01.268Z","194.59.31.253","**ISP:** 12651980 CANADA INC.
+
+**OS:** Windows Server 2012 R2 Standard 9600
+
+--------------------------
+Services:
+
+**137:**
+```
+NetBIOS Response:
+  MAC Address: 72:4A:FE:E5:DF:9E
+  Names:
+    WIN-4TTI4DH7SGH <0x0>
+    WORKGROUP <0x0>
+```
+------------------
+**445:**
+```
+SMB Status:
+  Authentication: enabled
+  SMB Version: 1
+  OS: Windows Server 2012 R2 Standard 9600
+  Software: Windows Server 2012 R2 Standard 6.3
+  Capabilities: extended-security, infolevel-passthru, large-files, large-readx, large-writex, level2-oplocks, lock-and-read, lwio, nt-find, nt-smb, nt-status, rpc-remote-api, unicode
+```
+------------------
+**5985:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Aug 2024 11:41:35 GMT
+Connection: close
+Content-Length: 315
+
+
+WinRM NTLM Info:
+  OS: Windows Server 2012 R2
+  OS Build: 6.3.9600
+  Target Name: WIN-4TTI4DH7SGH
+  NetBIOS Domain Name: WIN-4TTI4DH7SGH
+  NetBIOS Computer Name: WIN-4TTI4DH7SGH
+  DNS Domain Name: WIN-4TTI4DH7SGH
+  FQDN: WIN-4TTI4DH7SGH
+```
+------------------","50"
