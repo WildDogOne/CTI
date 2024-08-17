@@ -1,5 +1,4 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-08-16T06:31:55.225Z","IPv4-Addr","osint,ssl-blacklist,self-signed","TLP:CLEAR","89.110.82.139","2024-08-16T18:32:03.396Z","89.110.82.139","Malicious SSL connections","50"
 "2024-08-16T07:55:17.701Z","IPv4-Addr","self-signed,eol-os,botnet_cc,rat,c2,censys,mt-mpls,as36903","TLP:CLEAR","41.142.192.236","2024-08-16T17:32:12.067Z","41.142.192.236","Traffic seen on port 4444","50"
 "2024-08-16T07:55:53.339Z","IPv4-Addr","","TLP:CLEAR","212.109.199.150","2024-08-16T07:56:03.251Z","212.109.199.150","**ISP:** JSC IOT
 
@@ -43481,5 +43480,116 @@ SMB Status:
   Authentication: enabled
   SMB Version: 2
   Capabilities: raw-mode
+```
+------------------","50"
+"2024-08-17T06:32:11.167Z","IPv4-Addr","osint,ssl-blacklist,self-signed","TLP:CLEAR","91.92.249.33","2024-08-17T06:32:52.045Z","91.92.249.33","**ISP:** Limenet
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLkGp8If7/m3y8N1wRrpN7oa
+bSNcOYoMcqAaOX4p4mi8z76uDVK+ykMw1jRQleZy2qxsXyDewEgBlJr/VuvvRY8=
+Fingerprint: e6:db:cc:8b:7f:c1:db:38:c4:4e:22:bf:1c:03:bf:21
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 10 Aug 2024 15:00:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Last-Modified: Mon, 29 Jul 2024 19:07:24 GMT
+ETag: ""29af-61e67923ca969""
+Accept-Ranges: bytes
+Content-Length: 10671
+Vary: Accept-Encoding
+Content-Type: text/html
+```
+------------------
+**81:**
+```
+
+```
+------------------
+**10443:**
+```
+HTTP/1.1 404 Not Found
+Date: Wed, 7 Aug 2024 14:30:00 GMT
+Content-Type: text/plain
+Content-Length: 0
+```
+HEARTBLEED: 2024/08/07 14:30:11 91.92.249.33:10443 - SAFE
+
+------------------","50"
+"2024-08-17T06:32:11.169Z","IPv4-Addr","osint,ssl-blacklist,self-signed","TLP:CLEAR","45.83.140.79","2024-08-17T06:32:25.545Z","45.83.140.79","**ISP:** STARK INDUSTRIES SOLUTIONS LTD
+
+**OS:** Windows (build 10.0.14393)
+
+--------------------------
+Services:
+
+**3389:**
+```
+Remote Desktop Protocol
+\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
+Remote Desktop Protocol NTLM Info:
+  OS: Windows 10 (version 1607)/Windows Server 2016 (version 1607)
+  OS Build: 10.0.14393
+  Target Name: WIN-J9D866ESIJ2
+  NetBIOS Domain Name: WIN-J9D866ESIJ2
+  NetBIOS Computer Name: WIN-J9D866ESIJ2
+  DNS Domain Name: WIN-J9D866ESIJ2
+  FQDN: WIN-J9D866ESIJ2
+
+; Administrator
+SES
 ```
 ------------------","50"
