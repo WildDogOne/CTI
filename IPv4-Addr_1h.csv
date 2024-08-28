@@ -1,1 +1,84 @@
+"created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
+"2024-08-28T14:08:24.600Z","IPv4-Addr","starttls,cloud,self-signed","TLP:CLEAR","95.179.250.45","2024-08-28T14:08:27.511Z","95.179.250.45","**ISP:** The Constant Company, LLC
 
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 1 of 50 allowed.
+220-Local time is now 00:31. Server port: 21.
+220-This is a private system - No anonymous login
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 15 minutes of inactivity.
+530 Login authentication failed
+214-The following SITE commands are recognized
+ ALIAS
+ CHMOD
+ IDLE
+ UTIME
+214 Pure-FTPd - http://pureftpd.org/
+211-Extensions supported:
+ UTF8
+ EPRT
+ IDLE
+ MDTM
+ SIZE
+ MFMT
+ REST STREAM
+ MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+ MLSD
+ PRET
+ AUTH TLS
+ PBSZ
+ PROT
+ TVFS
+ ESTA
+ PASV
+ EPSV
+211 End.
+```
+------------------
+**143:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+------------------
+**465:**
+```
+220-cpanel76635298.vultrusercontent.com ESMTP Exim 4.97.1 #2 Sat, 03 Aug 2024 16:38:10 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+250-cpanel76635298.vultrusercontent.com Hello 224.60.87.99 [224.60.87.99]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+```
+HEARTBLEED: 2024/08/03 16:38:18 95.179.250.45:465 - SAFE
+
+------------------
+**2087:**
+```
+HTTP/1.1 301 Moved
+Content-length: 132
+Location: https://cpanel76635298.vultrusercontent.com:2087
+Content-type: text/html; charset=""utf-8""
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+
+<html><head><META HTTP-EQUIV=""refresh"" CONTENT=""2;URL=https://cpanel76635298.vultrusercontent.com:2087""></head><body></body></html>
+```
+------------------","50"
