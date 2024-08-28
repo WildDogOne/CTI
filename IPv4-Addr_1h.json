@@ -1,8 +1,8 @@
 [
     {
         "entity_type": "IPv4-Addr",
-        "created_at": "2024-08-28T07:44:01.349Z",
-        "updated_at": "2024-08-28T07:44:04.850Z",
+        "created_at": "2024-08-28T08:47:48.466Z",
+        "updated_at": "2024-08-28T08:47:52.783Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -19,15 +19,431 @@
         ],
         "objectLabel": [
             {
-                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
-                "value": "self-signed",
-                "color": "#bd7cfa",
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
                 "createdById": null
             }
         ],
-        "observable_value": "185.196.9.46",
-        "x_opencti_description": "**ISP:** Global-Data System IT Corporation\n\n**OS:** Windows Server 2022 (build 10.0.20348)\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDJaheWZeXMIgqBr78hgnoFXAPqGCHQWrN8l5L+YIV7ARwB\nocnjmLPhCIB73BORTxbMLMXKomv7RqNIc6L0YLNGaKPMeUISkzr//Z1rfFq6FI8bgOIu62h4LNb8\nBg/0yRecgN7zeZD49dpJ5DkrNsJViDrA4vxeEALG0HXllGakJpKGZNBdTFPqFUzFQzkDilLrPgwq\n0SXG2hN9Go1vPhSIGfMpQvACNzlTadmZTsWMb7uU7oh9xF5M/McGsXscRJozwUOrP0C0KoJwCX4L\n2X3t35hrbGHkh2B2iNi3Cvw9d+Nrb4RfEpy9CYdsMDFQxamfvc+RiYDTi2w34YGFo9TBwkiIyq5P\nMMcQCAfFSdbM4PQJ9qcTi2+MMnpHNN64uzhEuAbuXW+cno05tbb3x8nuzGy7yi+6lfC1zkeW55/c\nRecbI2LsSpm19OP/VT0gkLvxDXQh66b3jNJAbWrlKnBhaFsPjX8QpNGxiS2opK7i46SO+KeeteEB\nwM02twr6lBk=\nFingerprint: b9:f1:45:4f:8e:14:c4:53:7e:9a:3f:24:98:45:5a:08\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows Server 2022\n  OS Build: 10.0.20348\n  Target Name: WIN-8OA3CCQAE4D\n  NetBIOS Domain Name: WIN-8OA3CCQAE4D\n  NetBIOS Computer Name: WIN-8OA3CCQAE4D\n  DNS Domain Name: WIN-8OA3CCQAE4D\n  FQDN: WIN-8OA3CCQAE4D\n\n; Administrator\nSES\n```\n------------------",
+        "observable_value": "79.134.225.50",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 707932707a757532\nResponder SPI: 6978627069676d6a\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\x00\\xf6\\xad\\xc8\\xdb\\x93\\xe9\\xab\\x01\\x00\\x00\\x00\\x00\\xd9\\xce:\\xbe\\xf6\\x98\\xa5m\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Sun, 18 Aug 2024 21:44:28 GMT\r\nContent-Type: text/html\r\nContent-Length: 3130\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
         "x_opencti_score": 50,
-        "value": "185.196.9.46"
+        "value": "79.134.225.50"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:48.466Z",
+        "updated_at": "2024-08-28T08:47:58.075Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.38",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 776f743761763235\nResponder SPI: 777a6d3175336b32\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\x1b\\xa5\\xc0U\\xf6\\x17z\\xe8\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Tue, 27 Aug 2024 06:40:17 GMT\r\nContent-Type: text/html\r\nContent-Length: 3132\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.38"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:49.131Z",
+        "updated_at": "2024-08-28T08:48:03.330Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.32",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 7736303672396b37\nResponder SPI: 6a68657877347935\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\xe9ts\\xa8\\x91(to\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.32"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:50.013Z",
+        "updated_at": "2024-08-28T08:47:50.195Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "23.105.131.236",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "23.105.131.236"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:50.078Z",
+        "updated_at": "2024-08-28T08:48:08.617Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.9",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 7a76796877637436\nResponder SPI: 6d7334357630336b\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@g\\xcf\\xe7\\xd3\\x17\\xa9(\\xda\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Mon, 26 Aug 2024 01:54:24 GMT\r\nContent-Type: text/html\r\nContent-Length: 3130\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.9"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:50.745Z",
+        "updated_at": "2024-08-28T08:48:13.116Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.6",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 6b71786b33643662\nResponder SPI: 387a617136346332\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\xa3AK\\t7\\xbda[\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Sat, 24 Aug 2024 11:56:51 GMT\r\nContent-Type: text/html\r\nContent-Length: 3130\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.6"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:51.468Z",
+        "updated_at": "2024-08-28T08:47:51.539Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "75.80.221.198",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "75.80.221.198"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:51.544Z",
+        "updated_at": "2024-08-28T08:48:13.935Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.34",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 6c756a6f6c366264\nResponder SPI: 6864396a7a6c3934\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@7\\x90\\x96\\xd8o4\\xa8\\x8d\\x01\\x00\\x00\\x00\\x00\\xd9\\xce:\\xbe\\xf6\\x98\\xa5m\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Fri, 23 Aug 2024 15:08:20 GMT\r\nContent-Type: text/html\r\nContent-Length: 3130\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.34"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:52.158Z",
+        "updated_at": "2024-08-28T08:48:14.905Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.19",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 366f676a6b346538\nResponder SPI: 6e626b38766b7138\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\x90\\x02\\xd1;ExE\\x17\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Sat, 24 Aug 2024 22:34:49 GMT\r\nContent-Type: text/html\r\nContent-Length: 3129\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.19"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:52.895Z",
+        "updated_at": "2024-08-28T08:47:52.944Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "23.105.131.172",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "23.105.131.172"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:47:52.928Z",
+        "updated_at": "2024-08-28T08:48:20.512Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "79.134.225.44",
+        "x_opencti_description": "**ISP:** Andreas Fink trading as Fink Telecom Services GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 6d366131376c7573\nResponder SPI: 6578363474753177\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\xff\\xdb\\xd1\\xd3\\xc3(\\xc8}\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Tue, 27 Aug 2024 16:17:30 GMT\r\nContent-Type: text/html\r\nContent-Length: 3132\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from ch3\r\nVia: 1.1 ch3 (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "79.134.225.44"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:49:44.907Z",
+        "updated_at": "2024-08-28T08:49:50.992Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "93.115.28.138",
+        "x_opencti_description": "**ISP:** UAB Cherry Servers\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKChrNC2QZti1Gd2wY58FQg4\n7NzagS+WyDMQ0cpXoXzryrU52X+plAQkLpVcljzhm7NjVDJb6Lbi41ZzThgVRWk=\nFingerprint: a7:54:aa:87:60:3b:78:4a:f7:e8:e8:51:50:e2:ea:62\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\text-info-s\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\taes256-gcm@openssh.com\n\tchacha20-poly1305@openssh.com\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes128-ctr\n\nMAC Algorithms:\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha2-256\n\thmac-sha1\n\tumac-128@openssh.com\n\thmac-sha2-512\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "93.115.28.138"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:49:44.908Z",
+        "updated_at": "2024-08-28T08:49:44.974Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "45.81.225.72",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "45.81.225.72"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:50:29.709Z",
+        "updated_at": "2024-08-28T08:50:33.053Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "45.11.59.161",
+        "x_opencti_description": "**ISP:** SOLLUTIUM EU Sp z.o.o.\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDk1/Dwq23Jn5/znTLa9X3TJblG3VNeSbh5EadEmrsfyPNa\n+zytQsuMXOrYTTLD+M6+mR270GG9mLP4TZmqKOfa2C8dmIen4SoHSnEb0ZXV6gIbMhJguF23sfic\nNTnTr59jOklgJ6ikC59BgyBTsnSyQDIO5R5painuhjGHhqKNvIHi8qxSgn9cBkNKiRZtTHeRZ9DW\ny7hk/hM83rwZLMHfChvbUzPBycK+zTwmn5cc9x4UBI0YnUNdKaz0dR3H8IItmr5DUBfg4dC4I42t\nZXvGEBki3fKzjnC4u8do8WoZjwYoEVZ3f3UH5FY0MLvivfixxYJolwRf6xCut2RDZAVBTfRLaYbH\nzuIcjpJoyRqwycoK3fDEjb1pfx0BNR3KZn5U7EtxAqWmPJSLPE7Q0VOG8UTrWWDCcX1XITcvnhej\nQEfahMSruxuB5FtNOGHK/qi3ezbyxnupmVmtds4TVLIXSZspBTb5XgHdyiY6/sd1wenEGdOZt5ZQ\nnT991DMtwmE=\nFingerprint: e1:52:cc:80:59:fb:9c:70:65:2e:1d:3d:fd:84:ad:19\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "45.11.59.161"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:50:30.313Z",
+        "updated_at": "2024-08-28T08:50:30.367Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "80.76.51.250",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "80.76.51.250"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-28T08:51:19.034Z",
+        "updated_at": "2024-08-28T08:51:24.139Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "91.193.75.134",
+        "x_opencti_description": "**ISP:** xTom GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**53:**\n```\n\n```\n------------------\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 366f676a6b346538\nResponder SPI: 6e626b38766b7138\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1194:**\n```\n@\\x93\\xc2\\xe9s\\x047\\xc5R\\x01\\x00\\x00\\x00\\x00\\xd9\\xce:\\xbe\\xf6\\x98\\xa5m\\x00\\x00\\x00\\x00\n```\n------------------\n**3128:**\n```\nHTTP/1.1 400 Bad Request\r\nServer: squid\r\nMime-Version: 1.0\r\nDate: Thu, 22 Aug 2024 09:37:30 GMT\r\nContent-Type: text/html\r\nContent-Length: 3130\r\nX-Squid-Error: ERR_INVALID_URL 0\r\nVary: Accept-Language\r\nContent-Language: en\r\nX-Cache: MISS from est\r\nVia: 1.1 est (squid)\r\nConnection: close\n```\n------------------\n**9999:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "91.193.75.134"
     }
 ]
