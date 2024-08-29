@@ -6243,7 +6243,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-08-28T21:36:50.967Z",
-        "updated_at": "2024-08-28T21:36:57.571Z",
+        "updated_at": "2024-08-29T06:47:58.375Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -6270,10 +6270,22 @@
                 "value": "eol-os",
                 "color": "#8f76a7",
                 "createdById": null
+            },
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "be0f0b30-2c1c-4ade-9ff1-d7c61b6bda85",
+                "value": "redlinestealer",
+                "color": "#97eece",
+                "createdById": null
             }
         ],
         "observable_value": "45.137.22.169",
-        "x_opencti_description": "**ISP:** RootLayer Web Services Ltd.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**135:**\n```\nMicrosoft RPC Endpoint Mapper\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 45.137.22.169:49152\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc043070\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc043070\n  ncalrpc: WMsgKRpc044E91\n  ncalrpc: WMsgKRpc0294FC2\n\n9b008953-f195-4bf9-bde0-4471971e58ed\n  version: v1.0\n  ncalrpc: LRPC-5c792b8c5e0d5c870c\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-81a3e8db8259154e8a\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n697dcda9-3ba9-4eb2-9247-e11f1901b0d2\n  version: v1.0\n  ncalrpc: LRPC-5c792b8c5e0d5c870c\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-81a3e8db8259154e8a\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-81a3e8db8259154e8a\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n  ncalrpc: IUserProfile2\n  ncalrpc: IUserProfile2\n\n0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc605f9fb-f0a3-4e2a-a073-73560f8d9e3e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8bfc3be1-6def-4e2d-af74-7c47cd0ade4a\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2d98a740-581d-41b9-aa0d-a88b9d5ce938\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nbdaa0970-413b-4a3e-9e5d-f6dc9d7e0760\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3b338d89-6cfa-44b8-847e-531531bc9992\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8782d3b9-ebbd-4644-a3d8-e8725381919b\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n085b0334-e454-4d91-9b8c-4134f9e793f3\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-189e3d13f55851b754\n  ncacn_ip_tcp: 45.137.22.169:49153\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\eventlog\n  ncalrpc: eventlog\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-189e3d13f55851b754\n  ncacn_ip_tcp: 45.137.22.169:49153\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\eventlog\n  ncalrpc: eventlog\n\nabfb6ca3-0c5e-4734-9285-0aee72fe8d1c\n  version: v1.0\n  annotation: Wcm Service\n  ncalrpc: LRPC-189e3d13f55851b754\n  ncacn_ip_tcp: 45.137.22.169:49153\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncalrpc: LRPC-189e3d13f55851b754\n  ncacn_ip_tcp: 45.137.22.169:49153\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\eventlog\n  ncalrpc: eventlog\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Event log TCPIP\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 45.137.22.169:49153\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\eventlog\n  ncalrpc: eventlog\n\na398e520-d59a-4bdd-aa7a-3c1e0303a511\n  version: v1.0\n  annotation: IKE/Authip API\n  provider: IKEEXT.DLL\n  ncalrpc: DeviceSetupManager\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-8e83da1d1f3cf5e2e6\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n58e604e8-9adb-4d2e-a464-3b0683fb1480\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-8e83da1d1f3cf5e2e6\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\nfd7a0523-dc70-43dd-9b2e-9c5ed48225b1\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-8e83da1d1f3cf5e2e6\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n5f54ce7d-5b79-4175-8584-cb65313a0e98\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-8e83da1d1f3cf5e2e6\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n201ef99a-7fa0-444c-9399-19ba84f12a1a\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-8e83da1d1f3cf5e2e6\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncalrpc: LRPC-8e83da1d1f3cf5e2e6\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\srvsvc\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n1a0d010f-1c33-432c-b0f5-8cf4e8053099\n  version: v1.0\n  annotation: IdSegSrv service\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\nc36be077-e14b-4fe9-8abc-e856ef4f048b\n  version: v1.0\n  annotation: Proxy Manager client server endpoint\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\nc49a5a70-8a7f-4e70-ba16-1e8f1f193ef1\n  version: v1.0\n  annotation: Adh APIs\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n2e6035b2-e8f1-41a7-a044-656b439c4c34\n  version: v1.0\n  annotation: Proxy Manager provider server endpoint\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n3a9ef155-691d-4449-8d05-09ad57031823\n  version: v1.0\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 45.137.22.169:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: senssvc\n  ncalrpc: OLE1AEA863A6CA6088E2E714434B73B\n  ncalrpc: IUserProfile2\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  annotation: Group Policy RPC Interface\n  provider: gpsvc.dll\n  ncalrpc: LRPC-3ec48721ee68d31664\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\W32TIME_ALT\n  ncalrpc: W32TIME_ALT\n  ncalrpc: LRPC-13e3b8c16bfc211f8f\n  ncalrpc: OLEBDAB093DB58F16997C53FAEA1219\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-13e3b8c16bfc211f8f\n  ncalrpc: OLEBDAB093DB58F16997C53FAEA1219\n\nb2507c30-b126-494a-92ac-ee32b6eeb039\n  version: v1.0\n  ncalrpc: LRPC-a58d012267e884e8d9\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-cc91018dce869c0c26\n  ncalrpc: LRPC-1bfb977519d208243e\n\nf47433c3-3e9d-4157-aad4-83aa1f5c2d4c\n  version: v1.0\n  annotation: Fw APIs\n  ncalrpc: LRPC-cc91018dce869c0c26\n  ncalrpc: LRPC-1bfb977519d208243e\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-cc91018dce869c0c26\n  ncalrpc: LRPC-1bfb977519d208243e\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-1bfb977519d208243e\n\n7f1343fe-50a9-4927-a778-0c5859517bac\n  version: v1.0\n  annotation: DfsDs service\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\PIPE\\wkssvc\n  ncalrpc: LRPC-ac0c95c40962714349\n  ncalrpc: DNSResolver\n\neb081a0d-10ee-478a-a1dd-50995283e7a8\n  version: v3.0\n  annotation: Witness Client Test Interface\n  ncalrpc: LRPC-ac0c95c40962714349\n  ncalrpc: DNSResolver\n\nf2c9b409-c1c9-4100-8639-d8ab1486694a\n  version: v1.0\n  annotation: Witness Client Upcall Server\n  ncalrpc: LRPC-ac0c95c40962714349\n  ncalrpc: DNSResolver\n\n76f03f96-cdfd-44fc-a22c-64950a001209\n  version: v1.0\n  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 45.137.22.169:49155\n  ncalrpc: LRPC-b8aec76bf0dda22e50\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 45.137.22.169:49155\n  ncalrpc: LRPC-b8aec76bf0dda22e50\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 45.137.22.169:49155\n  ncalrpc: LRPC-b8aec76bf0dda22e50\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 45.137.22.169:49155\n  ncalrpc: LRPC-b8aec76bf0dda22e50\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 45.137.22.169:49155\n  ncalrpc: LRPC-b8aec76bf0dda22e50\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 45.137.22.169:49156\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 45.137.22.169:49160\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\lsass\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc0294FC2\n\na500d4c6-0dd1-4543-bc0c-d5f93486eaf8\n  version: v1.0\n  ncalrpc: LRPC-a87744ae1985445f9c\n\ne40f7b57-7a25-4cd3-a135-7f7d3df9d16b\n  version: v1.0\n  annotation: Network Connection Broker server endpoint\n  ncalrpc: OLEF5044A78B88EBA6BB45BEEF21D51\n  ncalrpc: TSUMRPD_PRINT_DRV_LPC_API\n  ncalrpc: trkwks\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\trkwks\n\n880fd55e-43b9-11e0-b1a8-cf4edfd72085\n  version: v1.0\n  annotation: KAPI Service endpoint\n  ncalrpc: OLEF5044A78B88EBA6BB45BEEF21D51\n  ncalrpc: TSUMRPD_PRINT_DRV_LPC_API\n  ncalrpc: trkwks\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\trkwks\n\n5222821f-d5e2-4885-84f1-5f6185a0ec41\n  version: v1.0\n  annotation: Network Connection Broker server endpoint for NCB Reset module\n  ncalrpc: TSUMRPD_PRINT_DRV_LPC_API\n  ncalrpc: trkwks\n  ncacn_np: \\\\WIN-SVPD50JM3QK\\pipe\\trkwks\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-e9f89b68ee622ddf8e\n  ncalrpc: LRPC-e9f89b68ee622ddf8e\n  ncalrpc: LRPC-e9f89b68ee622ddf8e\n\n6b5bdd1e-528c-422c-af8c-a4079be4fe48\n  version: v1.0\n  annotation: Remote Fw APIs\n  protocol: [MS-FASP]: Firewall and Advanced Security Protocol\n  provider: FwRemoteSvr.dll\n  ncacn_ip_tcp: 45.137.22.169:51302\n  ncalrpc: ipsec\n```\n------------------\n**139:**\n```\n\\x83\\x00\\x00\\x01\\x8f\n```\n------------------\n**445:**\n```\nSMB Status:\n  Authentication: enabled\n  SMB Version: 1\n  OS: Windows Server 2012 R2 Standard 9600\n  Software: Windows Server 2012 R2 Standard 6.3\n  Capabilities: extended-security, infolevel-passthru, large-files, large-readx, large-writex, level2-oplocks, lock-and-read, lwio, nt-find, nt-smb, nt-status, rpc-remote-api, unicode\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x0f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 8.1/Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: WIN-SVPD50JM3QK\n  NetBIOS Domain Name: WIN-SVPD50JM3QK\n  NetBIOS Computer Name: WIN-SVPD50JM3QK\n  DNS Domain Name: WIN-SVPD50JM3QK\n  FQDN: WIN-SVPD50JM3QK\n\nAdministrator\nWindows Update\nImportant updates are available. Go to PC settings to\ninstall them.\nam Windows Server 2012R2\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Mon, 05 Aug 2024 11:52:23 GMT\r\nConnection: close\r\nContent-Length: 315\r\n\r\n\nWinRM NTLM Info:\n  OS: Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: WIN-SVPD50JM3QK\n  NetBIOS Domain Name: WIN-SVPD50JM3QK\n  NetBIOS Computer Name: WIN-SVPD50JM3QK\n  DNS Domain Name: WIN-SVPD50JM3QK\n  FQDN: WIN-SVPD50JM3QK\n```\n------------------",
+        "x_opencti_description": "Traffic seen on port 55615",
         "x_opencti_score": 50,
         "value": "45.137.22.169"
     },
@@ -6687,7 +6699,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-08-28T23:45:13.019Z",
-        "updated_at": "2024-08-28T23:45:15.677Z",
+        "updated_at": "2024-08-29T06:47:57.199Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -6714,11 +6726,3419 @@
                 "value": "eol-os",
                 "color": "#8f76a7",
                 "createdById": null
+            },
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "be0f0b30-2c1c-4ade-9ff1-d7c61b6bda85",
+                "value": "redlinestealer",
+                "color": "#97eece",
+                "createdById": null
             }
         ],
         "observable_value": "212.162.149.53",
-        "x_opencti_description": "**ISP:** UnReal Servers, LLC\n\n**OS:** Windows Server 2012 R2 Datacenter Evaluation 9600\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Sun, 25 Aug 2024 01:38:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/8.3.0\r\nVary: Accept-Encoding,User-Agent\r\nContent-Length: 2765\r\nContent-Type: text/html; charset=UTF-8\n```\n------------------\n**135:**\n```\nMicrosoft RPC Endpoint Mapper\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 212.162.149.53:49152\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\K-24F19960\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc03BAF0\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\K-24F19960\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc03BAF0\n  ncalrpc: WMsgKRpc03C491\n  ncalrpc: WMsgKRpc0124A4B2\n\n9b008953-f195-4bf9-bde0-4471971e58ed\n  version: v1.0\n  ncalrpc: dabrpc\n  ncalrpc: LRPC-9f4f1782ac4324edc1\n  ncacn_np: \\\\K-24F19960\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-2705516e36204d80c3\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n697dcda9-3ba9-4eb2-9247-e11f1901b0d2\n  version: v1.0\n  ncalrpc: LRPC-9f4f1782ac4324edc1\n  ncacn_np: \\\\K-24F19960\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-2705516e36204d80c3\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-2705516e36204d80c3\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncacn_np: \\\\K-24F19960\\PIPE\\srvsvc\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n  ncalrpc: IUserProfile2\n\n0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc605f9fb-f0a3-4e2a-a073-73560f8d9e3e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8bfc3be1-6def-4e2d-af74-7c47cd0ade4a\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2d98a740-581d-41b9-aa0d-a88b9d5ce938\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nbdaa0970-413b-4a3e-9e5d-f6dc9d7e0760\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3b338d89-6cfa-44b8-847e-531531bc9992\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8782d3b9-ebbd-4644-a3d8-e8725381919b\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n085b0334-e454-4d91-9b8c-4134f9e793f3\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-918299f10fb42922c7\n  ncacn_ip_tcp: 212.162.149.53:49153\n  ncacn_np: \\\\K-24F19960\\pipe\\eventlog\n  ncalrpc: eventlog\n\nabfb6ca3-0c5e-4734-9285-0aee72fe8d1c\n  version: v1.0\n  annotation: Wcm Service\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-918299f10fb42922c7\n  ncacn_ip_tcp: 212.162.149.53:49153\n  ncacn_np: \\\\K-24F19960\\pipe\\eventlog\n  ncalrpc: eventlog\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-918299f10fb42922c7\n  ncacn_ip_tcp: 212.162.149.53:49153\n  ncacn_np: \\\\K-24F19960\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncalrpc: LRPC-918299f10fb42922c7\n  ncacn_ip_tcp: 212.162.149.53:49153\n  ncacn_np: \\\\K-24F19960\\pipe\\eventlog\n  ncalrpc: eventlog\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Event log TCPIP\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 212.162.149.53:49153\n  ncacn_np: \\\\K-24F19960\\pipe\\eventlog\n  ncalrpc: eventlog\n\nb2507c30-b126-494a-92ac-ee32b6eeb039\n  version: v1.0\n  ncalrpc: LRPC-eb85b18bac72fd46da\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncalrpc: LRPC-aba42ac7a76af34d84\n  ncacn_np: \\\\K-24F19960\\PIPE\\srvsvc\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n1a0d010f-1c33-432c-b0f5-8cf4e8053099\n  version: v1.0\n  annotation: IdSegSrv service\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\nc49a5a70-8a7f-4e70-ba16-1e8f1f193ef1\n  version: v1.0\n  annotation: Adh APIs\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\nc36be077-e14b-4fe9-8abc-e856ef4f048b\n  version: v1.0\n  annotation: Proxy Manager client server endpoint\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n2e6035b2-e8f1-41a7-a044-656b439c4c34\n  version: v1.0\n  annotation: Proxy Manager provider server endpoint\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\na398e520-d59a-4bdd-aa7a-3c1e0303a511\n  version: v1.0\n  annotation: IKE/Authip API\n  provider: IKEEXT.DLL\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n3a9ef155-691d-4449-8d05-09ad57031823\n  version: v1.0\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 212.162.149.53:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\K-24F19960\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: senssvc\n  ncalrpc: OLE8BFCCF18B5B1BA6CB5E30DAF9128\n  ncalrpc: IUserProfile2\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  annotation: Group Policy RPC Interface\n  provider: gpsvc.dll\n  ncalrpc: LRPC-19e2febed93884c8ce\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncalrpc: LRPC-e9b7c5f90070370f16\n  ncalrpc: OLEE0277564112D8CA3BDA01CDCC873\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-e9b7c5f90070370f16\n  ncalrpc: OLEE0277564112D8CA3BDA01CDCC873\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-acd28c0a659d05ddd5\n  ncalrpc: LRPC-2256bc032f508eeff0\n\nf47433c3-3e9d-4157-aad4-83aa1f5c2d4c\n  version: v1.0\n  annotation: Fw APIs\n  ncalrpc: LRPC-acd28c0a659d05ddd5\n  ncalrpc: LRPC-2256bc032f508eeff0\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-acd28c0a659d05ddd5\n  ncalrpc: LRPC-2256bc032f508eeff0\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-2256bc032f508eeff0\n\n7f1343fe-50a9-4927-a778-0c5859517bac\n  version: v1.0\n  annotation: DfsDs service\n  ncacn_np: \\\\K-24F19960\\PIPE\\wkssvc\n  ncalrpc: LRPC-0b9ac2122a87d545fe\n  ncalrpc: DNSResolver\n\neb081a0d-10ee-478a-a1dd-50995283e7a8\n  version: v3.0\n  annotation: Witness Client Test Interface\n  ncalrpc: LRPC-0b9ac2122a87d545fe\n  ncalrpc: DNSResolver\n\nf2c9b409-c1c9-4100-8639-d8ab1486694a\n  version: v1.0\n  annotation: Witness Client Upcall Server\n  ncalrpc: LRPC-0b9ac2122a87d545fe\n  ncalrpc: DNSResolver\n\n76f03f96-cdfd-44fc-a22c-64950a001209\n  version: v1.0\n  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 212.162.149.53:49155\n  ncalrpc: LRPC-c8826a398b8589a800\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 212.162.149.53:49155\n  ncalrpc: LRPC-c8826a398b8589a800\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 212.162.149.53:49155\n  ncalrpc: LRPC-c8826a398b8589a800\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 212.162.149.53:49155\n  ncalrpc: LRPC-c8826a398b8589a800\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 212.162.149.53:49155\n  ncalrpc: LRPC-c8826a398b8589a800\n\n7da1c63b-5bd2-4ed2-aeeb-976ba4d66f9e\n  version: v1.0\n  ncalrpc: LRPC-6e6c6343e408b69b77\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 212.162.149.53:49158\n\n6b5bdd1e-528c-422c-af8c-a4079be4fe48\n  version: v1.0\n  annotation: Remote Fw APIs\n  protocol: [MS-FASP]: Firewall and Advanced Security Protocol\n  provider: FwRemoteSvr.dll\n  ncacn_ip_tcp: 212.162.149.53:49166\n\nf763c91c-2ab1-47fa-868f-7de7efd42194\n  version: v1.0\n  annotation: VM Allow-List Provider RPC\n  ncalrpc: RdvVmAllowListRpc\n  ncalrpc: OLE6D4AAF425D6C076E357961537BF1\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 212.162.149.53:49167\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\K-24F19960\\pipe\\lsass\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-b5942655a1e4211140\n  ncalrpc: LRPC-b5942655a1e4211140\n  ncalrpc: LRPC-b5942655a1e4211140\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc0124A4B2\n```\n------------------\n**137:**\n```\nNetBIOS Response:\n  Server Name: K-24F19960\n  MAC Address: 00:15:5D:95:02:CD\n  Names:\n    K-24F19960 <0x0>\n    WORKGROUP <0x0>\n    K-24F19960 <0x20>\n```\n------------------\n**445:**\n```\nSMB Status:\n  Authentication: enabled\n  SMB Version: 1\n  OS: Windows Server 2012 R2 Datacenter Evaluation 9600\n  Software: Windows Server 2012 R2 Datacenter Evaluation 6.3\n  Capabilities: extended-security, infolevel-passthru, large-files, large-readx, large-writex, level2-oplocks, lock-and-read, lwio, nt-find, nt-smb, nt-status, rpc-remote-api, unicode\n```\n------------------\n**2050:**\n```\nHTTP/1.1 200 OK\r\nTransfer-Encoding: chunked\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Mon, 26 Aug 2024 22:47:51 GMT\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x0f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 8.1/Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: K-24F19960\n  NetBIOS Domain Name: K-24F19960\n  NetBIOS Computer Name: K-24F19960\n  DNS Domain Name: K-24F19960\n  FQDN: K-24F19960\n\nam Windows Server 2012R2\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sat, 24 Aug 2024 00:05:49 GMT\r\nConnection: close\r\nContent-Length: 315\n```\n------------------",
+        "x_opencti_description": "Traffic seen on port 2049",
         "x_opencti_score": 50,
         "value": "212.162.149.53"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:08:30.035Z",
+        "updated_at": "2024-08-29T06:08:34.837Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "107.148.237.29",
+        "x_opencti_description": "**ISP:** PEG TECH INC\n\n**OS:** Windows\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Sun, 29 Oct 2023 09:06:52 GMT\r\nAccept-Ranges: bytes\r\nETag: \"a22d14247ada1:0\"\r\nServer: Microsoft-IIS/10.0\r\nX-Powered-By: ASP.NET\r\nDate: Wed, 28 Aug 2024 02:04:56 GMT\r\nContent-Length: 703\n```\n------------------\n**135:**\n```\nMicrosoft RPC Endpoint Mapper\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 107.148.237.29:49664\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\C20221106116493\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc05DD80\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\C20221106116493\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc05DD80\n  ncalrpc: WMsgKRpc06C1F1\n  ncalrpc: WMsgKRpc09B9912\n\nfc48cd89-98d6-4628-9839-86f7a3e4161a\n  version: v1.0\n  ncalrpc: dabrpc\n  ncalrpc: csebpub\n  ncalrpc: LRPC-e90f6f23a6ce7ef17c\n  ncalrpc: LRPC-f6db8f249b5a3c9f03\n  ncalrpc: LRPC-640f875ac7ffc34dfa\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nd09bdeb5-6171-4a34-bfe2-06fa82652568\n  version: v1.0\n  ncalrpc: csebpub\n  ncalrpc: LRPC-e90f6f23a6ce7ef17c\n  ncalrpc: LRPC-f6db8f249b5a3c9f03\n  ncalrpc: LRPC-640f875ac7ffc34dfa\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncalrpc: LRPC-f6db8f249b5a3c9f03\n  ncalrpc: LRPC-640f875ac7ffc34dfa\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncalrpc: LRPC-640f875ac7ffc34dfa\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncalrpc: LRPC-8dc9cb2007eba1bdf2\n  ncalrpc: LRPC-da1b6d09794d7f35b5\n\n697dcda9-3ba9-4eb2-9247-e11f1901b0d2\n  version: v1.0\n  ncalrpc: LRPC-e90f6f23a6ce7ef17c\n  ncalrpc: LRPC-f6db8f249b5a3c9f03\n  ncalrpc: LRPC-640f875ac7ffc34dfa\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n9b008953-f195-4bf9-bde0-4471971e58ed\n  version: v1.0\n  ncalrpc: LRPC-f6db8f249b5a3c9f03\n  ncalrpc: LRPC-640f875ac7ffc34dfa\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\ndd59071b-3215-4c59-8481-972edadc0f6a\n  version: v1.0\n  ncalrpc: umpo\n\n0d47017b-b33b-46ad-9e18-fe96456c5078\n  version: v1.0\n  ncalrpc: umpo\n\n95406f0b-b239-4318-91bb-cea3a46ff0dc\n  version: v1.0\n  ncalrpc: umpo\n\n4ed8abcc-f1e2-438b-981f-bb0e8abc010c\n  version: v1.0\n  ncalrpc: umpo\n\n0ff1f646-13bb-400a-ab50-9a78f2b7a85a\n  version: v1.0\n  ncalrpc: umpo\n\n6982a06e-5fe2-46b1-b39c-a2c545bfa069\n  version: v1.0\n  ncalrpc: umpo\n\n082a3471-31b6-422a-b931-a54401960c62\n  version: v1.0\n  ncalrpc: umpo\n\nfae436b0-b864-4a87-9eda-298547cd82f2\n  version: v1.0\n  ncalrpc: umpo\n\ne53d94ca-7464-4839-b044-09a2fb8b3ae5\n  version: v1.0\n  ncalrpc: umpo\n\n178d84be-9291-4994-82c6-3f909aca5a03\n  version: v1.0\n  ncalrpc: umpo\n\n4dace966-a243-4450-ae3f-9b7bcb5315b8\n  version: v2.0\n  ncalrpc: umpo\n\n1832bcf6-cab8-41d4-85d2-c9410764f75a\n  version: v1.0\n  ncalrpc: umpo\n\nc521facf-09a9-42c5-b155-72388595cbf0\n  version: v0.0\n  ncalrpc: umpo\n\n2c7fd9ce-e706-4b40-b412-953107ef9bb0\n  version: v0.0\n  ncalrpc: umpo\n\n88abcbc3-34ea-76ae-8215-767520655a23\n  version: v0.0\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n76c217bc-c8b4-4201-a745-373ad9032b1a\n  version: v1.0\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n55e6b932-1979-45d6-90c5-7f6270724112\n  version: v1.0\n  ncalrpc: LRPC-94e287c744bd50447d\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n857fb1be-084f-4fb5-b59c-4b2c4be5f0cf\n  version: v1.0\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nb8cadbaf-e84b-46b9-84f2-6f71c03f9e55\n  version: v1.0\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n20c40295-8dba-48e6-aebf-3e78ef3bb144\n  version: v1.0\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2513bcbe-6cd4-4348-855e-7efb3c336dd3\n  version: v1.0\n  ncalrpc: LRPC-ab38884100ba3d88f7\n  ncalrpc: OLE17304CEF01D2196A6535AB171E86\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e\n  version: v1.0\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc605f9fb-f0a3-4e2a-a073-73560f8d9e3e\n  version: v1.0\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0\n  version: v1.0\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8bfc3be1-6def-4e2d-af74-7c47cd0ade4a\n  version: v1.0\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2d98a740-581d-41b9-aa0d-a88b9d5ce938\n  version: v1.0\n  ncalrpc: LRPC-4249fdd613f0e26e5b\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n0361ae94-0316-4c6c-8ad8-c594375800e2\n  version: v1.0\n  ncalrpc: umpo\n\n5824833b-3c1a-4ad2-bdfd-c31d19e23ed2\n  version: v1.0\n  ncalrpc: umpo\n\nbdaa0970-413b-4a3e-9e5d-f6dc9d7e0760\n  version: v1.0\n  ncalrpc: umpo\n\n3b338d89-6cfa-44b8-847e-531531bc9992\n  version: v1.0\n  ncalrpc: umpo\n\n8782d3b9-ebbd-4644-a3d8-e8725381919b\n  version: v1.0\n  ncalrpc: umpo\n\n085b0334-e454-4d91-9b8c-4134f9e793f3\n  version: v1.0\n  ncalrpc: umpo\n\n4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9\n  version: v1.0\n  ncalrpc: umpo\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-20e56b2130ba1225da\n  ncalrpc: IUserProfile2\n  ncalrpc: LRPC-a9c6cb7dfd54708d7f\n  ncalrpc: LRPC-a3269492319af4de56\n  ncalrpc: senssvc\n  ncalrpc: LRPC-0d3b144ecf50bf6174\n\nf3f09ffd-fbcf-4291-944d-70ad6e0e73bb\n  version: v1.0\n  ncalrpc: LRPC-aae36e9f57cf227d68\n\ne40f7b57-7a25-4cd3-a135-7f7d3df9d16b\n  version: v1.0\n  annotation: Network Connection Broker server endpoint\n  ncalrpc: LRPC-eee005ce6979c6b68f\n  ncalrpc: OLE33635B9EC5394CD325059B2BD325\n  ncalrpc: LRPC-38b28d719bf3dc2ec3\n  ncalrpc: LRPC-8dc9cb2007eba1bdf2\n\n880fd55e-43b9-11e0-b1a8-cf4edfd72085\n  version: v1.0\n  annotation: KAPI Service endpoint\n  ncalrpc: LRPC-eee005ce6979c6b68f\n  ncalrpc: OLE33635B9EC5394CD325059B2BD325\n  ncalrpc: LRPC-38b28d719bf3dc2ec3\n  ncalrpc: LRPC-8dc9cb2007eba1bdf2\n\n5222821f-d5e2-4885-84f1-5f6185a0ec41\n  version: v1.0\n  annotation: Network Connection Broker server endpoint for NCB Reset module\n  ncalrpc: LRPC-38b28d719bf3dc2ec3\n  ncalrpc: LRPC-8dc9cb2007eba1bdf2\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  annotation: Group Policy RPC Interface\n  provider: gpsvc.dll\n  ncalrpc: LRPC-6aef7805a1e97029e7\n\ndf4df73a-c52d-4e3a-8003-8437fdf8302a\n  version: v0.0\n  annotation: WM_WindowManagerRPC\\Server\n  ncalrpc: LRPC-df80bdf8c0bf94a3de\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-7b3a0792ecaf88ec86\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncalrpc: LRPC-2e87643d1f56c9fe5b\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncalrpc: LRPC-2f963068941cfb54f1\n\na500d4c6-0dd1-4543-bc0c-d5f93486eaf8\n  version: v1.0\n  ncalrpc: LRPC-80cd899599aed09f35\n  ncalrpc: LRPC-da1b6d09794d7f35b5\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Event log TCPIP\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 107.148.237.29:49665\n  ncacn_np: \\\\C20221106116493\\pipe\\eventlog\n  ncalrpc: eventlog\n\n7f1343fe-50a9-4927-a778-0c5859517bac\n  version: v1.0\n  annotation: DfsDs service\n  ncacn_np: \\\\C20221106116493\\PIPE\\wkssvc\n  ncalrpc: LRPC-cb1946bbd0db74b6ad\n\neb081a0d-10ee-478a-a1dd-50995283e7a8\n  version: v3.0\n  annotation: Witness Client Test Interface\n  ncalrpc: LRPC-cb1946bbd0db74b6ad\n\nf2c9b409-c1c9-4100-8639-d8ab1486694a\n  version: v1.0\n  annotation: Witness Client Upcall Server\n  ncalrpc: LRPC-cb1946bbd0db74b6ad\n\n3a9ef155-691d-4449-8d05-09ad57031823\n  version: v1.0\n  ncacn_ip_tcp: 107.148.237.29:49666\n  ncalrpc: LRPC-ffd25ed2798ea48677\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\C20221106116493\\PIPE\\atsvc\n  ncalrpc: LRPC-b2a6fd13f7ccb2cc27\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 107.148.237.29:49666\n  ncalrpc: LRPC-ffd25ed2798ea48677\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\C20221106116493\\PIPE\\atsvc\n  ncalrpc: LRPC-b2a6fd13f7ccb2cc27\n\n33d84484-3626-47ee-8c6f-e7e98b113be1\n  version: v2.0\n  ncalrpc: LRPC-ffd25ed2798ea48677\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\C20221106116493\\PIPE\\atsvc\n  ncalrpc: LRPC-b2a6fd13f7ccb2cc27\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\C20221106116493\\PIPE\\atsvc\n  ncalrpc: LRPC-b2a6fd13f7ccb2cc27\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\C20221106116493\\PIPE\\atsvc\n  ncalrpc: LRPC-b2a6fd13f7ccb2cc27\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: LRPC-b2a6fd13f7ccb2cc27\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncalrpc: dhcpcsvc\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n\n29770a8f-829b-4158-90a2-78cd488501f7\n  version: v1.0\n  ncacn_ip_tcp: 107.148.237.29:49667\n  ncacn_np: \\\\C20221106116493\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-0d3b144ecf50bf6174\n\nc2d1b5dd-fa81-4460-9dd6-e7658b85454b\n  version: v1.0\n  ncalrpc: LRPC-104dbdb95434eb73af\n  ncalrpc: OLEC2CEAF5E82624103AD7190D051EB\n\nf44e62af-dab1-44c2-8013-049a9de417d6\n  version: v1.0\n  ncalrpc: LRPC-104dbdb95434eb73af\n  ncalrpc: OLEC2CEAF5E82624103AD7190D051EB\n\n7aeb6705-3ae6-471a-882d-f39c109edc12\n  version: v1.0\n  ncalrpc: LRPC-104dbdb95434eb73af\n  ncalrpc: OLEC2CEAF5E82624103AD7190D051EB\n\ne7f76134-9ef5-4949-a2d6-3368cc0988f3\n  version: v1.0\n  ncalrpc: LRPC-104dbdb95434eb73af\n  ncalrpc: OLEC2CEAF5E82624103AD7190D051EB\n\nb37f900a-eae4-4304-a2ab-12bb668c0188\n  version: v1.0\n  ncalrpc: LRPC-104dbdb95434eb73af\n  ncalrpc: OLEC2CEAF5E82624103AD7190D051EB\n\nabfb6ca3-0c5e-4734-9285-0aee72fe8d1c\n  version: v1.0\n  ncalrpc: LRPC-104dbdb95434eb73af\n  ncalrpc: OLEC2CEAF5E82624103AD7190D051EB\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 107.148.237.29:49679\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\C20221106116493\\pipe\\lsass\n\n51a227ae-825b-41f2-b4a9-1ac9557a1018\n  version: v1.0\n  annotation: Ngc Pop Key Service\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\C20221106116493\\pipe\\lsass\n\n8fb74744-b2ff-4c00-be0d-9ef9a191fe1b\n  version: v1.0\n  annotation: Ngc Pop Key Service\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\C20221106116493\\pipe\\lsass\n\nb25a52bf-e5dd-4f4a-aea6-8ca7272a0e86\n  version: v2.0\n  annotation: KeyIso\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\C20221106116493\\pipe\\lsass\n\n0d3c7f20-1c8d-4654-a1b3-51563b298bda\n  version: v1.0\n  annotation: UserMgrCli\n  ncalrpc: LRPC-f386116533086b4c8e\n  ncalrpc: OLE2B840B7970712D935D4D3DFDD31A\n\nb18fbab6-56f8-4702-84e0-41053293a869\n  version: v1.0\n  annotation: UserMgrCli\n  ncalrpc: LRPC-f386116533086b4c8e\n  ncalrpc: OLE2B840B7970712D935D4D3DFDD31A\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-41d95d3858a27ee5f7\n  ncalrpc: LRPC-8c4dac9740ddcae92d\n  ncalrpc: LRPC-89af567b2d987ae9bc\n  ncalrpc: LRPC-65ed7d37a3734d0627\n\nf47433c3-3e9d-4157-aad4-83aa1f5c2d4c\n  version: v1.0\n  annotation: Fw APIs\n  ncalrpc: LRPC-8c4dac9740ddcae92d\n  ncalrpc: LRPC-89af567b2d987ae9bc\n  ncalrpc: LRPC-65ed7d37a3734d0627\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-89af567b2d987ae9bc\n  ncalrpc: LRPC-65ed7d37a3734d0627\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-65ed7d37a3734d0627\n\na398e520-d59a-4bdd-aa7a-3c1e0303a511\n  version: v1.0\n  annotation: IKE/Authip API\n  provider: IKEEXT.DLL\n  ncalrpc: LRPC-b6c4ad44b2ccf2409b\n\n76f03f96-cdfd-44fc-a22c-64950a001209\n  version: v1.0\n  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 107.148.237.29:49668\n  ncalrpc: LRPC-24023eb0487313f2ca\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 107.148.237.29:49668\n  ncalrpc: LRPC-24023eb0487313f2ca\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 107.148.237.29:49668\n  ncalrpc: LRPC-24023eb0487313f2ca\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 107.148.237.29:49668\n  ncalrpc: LRPC-24023eb0487313f2ca\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 107.148.237.29:49668\n  ncalrpc: LRPC-24023eb0487313f2ca\n\nb58aa02e-2884-4e97-8176-4ee06d794184\n  version: v1.0\n  provider: sysmain.dll\n  ncalrpc: LRPC-4be80389a55057a836\n\nc49a5a70-8a7f-4e70-ba16-1e8f1f193ef1\n  version: v1.0\n  annotation: Adh APIs\n  ncalrpc: TeredoControl\n  ncalrpc: TeredoDiagnostics\n  ncalrpc: LRPC-fa90e65dd2ab186149\n\nc36be077-e14b-4fe9-8abc-e856ef4f048b\n  version: v1.0\n  annotation: Proxy Manager client server endpoint\n  ncalrpc: TeredoControl\n  ncalrpc: TeredoDiagnostics\n  ncalrpc: LRPC-fa90e65dd2ab186149\n\n2e6035b2-e8f1-41a7-a044-656b439c4c34\n  version: v1.0\n  annotation: Proxy Manager provider server endpoint\n  ncalrpc: TeredoControl\n  ncalrpc: TeredoDiagnostics\n  ncalrpc: LRPC-fa90e65dd2ab186149\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncalrpc: LRPC-fa90e65dd2ab186149\n\n1a0d010f-1c33-432c-b0f5-8cf4e8053099\n  version: v1.0\n  annotation: IdSegSrv service\n  ncalrpc: LRPC-6acf22ce90eca3f6ff\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncalrpc: LRPC-6acf22ce90eca3f6ff\n\n6b5bdd1e-528c-422c-af8c-a4079be4fe48\n  version: v1.0\n  annotation: Remote Fw APIs\n  protocol: [MS-FASP]: Firewall and Advanced Security Protocol\n  provider: FwRemoteSvr.dll\n  ncacn_ip_tcp: 107.148.237.29:49670\n  ncalrpc: ipsec\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 107.148.237.29:49671\n\n650a7e26-eab8-5533-ce43-9c1dfce11511\n  version: v1.0\n  annotation: Vpn APIs\n  ncalrpc: LRPC-34fe8b1980e540f9e5\n  ncalrpc: VpnikeRpc\n  ncalrpc: RasmanLrpc\n  ncacn_np: \\\\C20221106116493\\PIPE\\ROUTER\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-f0117c0755f4e3ff64\n  ncalrpc: LRPC-f0117c0755f4e3ff64\n  ncalrpc: LRPC-f0117c0755f4e3ff64\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc09B9912\n\nb1ef227e-dfa5-421e-82bb-67a6a129c496\n  version: v0.0\n  ncalrpc: LRPC-1f272d1eff7c5327c4\n  ncalrpc: OLEF58BF32AB69FD778D870223A1422\n\n0fc77b1a-95d8-4a2e-a0c0-cff54237462b\n  version: v0.0\n  ncalrpc: LRPC-1f272d1eff7c5327c4\n  ncalrpc: OLEF58BF32AB69FD778D870223A1422\n\n8ec21e98-b5ce-4916-a3d6-449fa428a007\n  version: v0.0\n  ncalrpc: LRPC-1f272d1eff7c5327c4\n  ncalrpc: OLEF58BF32AB69FD778D870223A1422\n\n54b4c689-969a-476f-8dc2-990885e9f562\n  version: v0.0\n  ncalrpc: LRPC-076e1e7879b2804132\n\nbe7f785e-0e3a-4ab7-91de-7e46e443be29\n  version: v0.0\n  ncalrpc: LRPC-076e1e7879b2804132\n\n0767a036-0d22-48aa-ba69-b619480f38cb\n  version: v1.0\n  annotation: PcaSvc\n  provider: pcasvc.dll\n  ncalrpc: LRPC-e054dad754a89eb8c9\n\na4b8d482-80ce-40d6-934d-b22a01a44fe7\n  version: v1.0\n  annotation: LicenseManager\n  ncalrpc: LicenseServiceEndpoint\n\nbf4dc912-e52f-4904-8ebe-9317c1bdd497\n  version: v1.0\n  ncalrpc: LRPC-010c24170ddce11356\n  ncalrpc: OLECEF645A008F8F0B07459A2AED807\n\n58e604e8-9adb-4d2e-a464-3b0683fb1480\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1fd17beac989f37261\n\nfd7a0523-dc70-43dd-9b2e-9c5ed48225b1\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1fd17beac989f37261\n\n5f54ce7d-5b79-4175-8584-cb65313a0e98\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1fd17beac989f37261\n\n201ef99a-7fa0-444c-9399-19ba84f12a1a\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1fd17beac989f37261\n\n0497b57d-2e66-424f-a0c6-157cd5d41700\n  version: v1.0\n  annotation: AppInfo\n  ncalrpc: LRPC-1fd17beac989f37261\n\n98cd761e-e77d-41c8-a3c0-0fb756d90ec2\n  version: v1.0\n  ncalrpc: LRPC-03dd8f411b53f8db01\n\nd22895ef-aff4-42c5-a5b2-b14466d34ab4\n  version: v1.0\n  ncalrpc: LRPC-03dd8f411b53f8db01\n\ne38f5360-8572-473e-b696-1b46873beeab\n  version: v1.0\n  ncalrpc: LRPC-03dd8f411b53f8db01\n\n95095ec8-32ea-4eb0-a3e2-041f97b36168\n  version: v1.0\n  ncalrpc: LRPC-03dd8f411b53f8db01\n\nfd8be72b-a9cd-4b2c-a9ca-4ded242fbe4d\n  version: v1.0\n  ncalrpc: LRPC-03dd8f411b53f8db01\n\n4c9dbf19-d39e-4bb9-90ee-8f7179b20283\n  version: v1.0\n  ncalrpc: LRPC-03dd8f411b53f8db01\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncalrpc: cb0d7964-6512-42fd-b48e-a5af93493025\n  ncalrpc: LRPC-f421bf6abb5081e9a0\n```\n------------------\n**443:**\n```\n\n```\n------------------\n**445:**\n```\nSMB Status:\n  Authentication: enabled\n  SMB Version: 2\n  Capabilities: raw-mode\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Wed, 07 Aug 2024 18:24:26 GMT\r\nConnection: close\r\nContent-Length: 315\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "107.148.237.29"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:45:18.874Z",
+        "updated_at": "2024-08-29T06:45:18.916Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            }
+        ],
+        "observable_value": "12.187.175.72",
+        "x_opencti_description": "Malicious SSL connections",
+        "x_opencti_score": null,
+        "value": "12.187.175.72"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:45:18.876Z",
+        "updated_at": "2024-08-29T06:47:55.825Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            },
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "e3bd8dc0-eda1-4eb7-8430-8aa9f618e87e",
+                "value": "asyncrat",
+                "color": "#29d475",
+                "createdById": null
+            }
+        ],
+        "observable_value": "12.202.180.114",
+        "x_opencti_description": "Traffic seen on port 8797",
+        "x_opencti_score": 50,
+        "value": "12.202.180.114"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:45:19.571Z",
+        "updated_at": "2024-08-29T06:45:41.994Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            }
+        ],
+        "observable_value": "94.130.188.148",
+        "x_opencti_description": "**ISP:** Hetzner Online GmbH\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOyC25F4+CWzM+SKMMm1W2o4\n4XftFjaMRa2vBR7iGFxO93W0np0IT88vTdWTLTU09f/DZghC9X3tQEuAUy+KZaQ=\nFingerprint: a3:ac:60:5c:b6:e5:88:0c:9e:22:dc:a3:93:74:e3:ff\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "94.130.188.148"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:45:20.909Z",
+        "updated_at": "2024-08-29T06:45:49.667Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "4eb4f0d3-2608-4fb4-8d5a-54fe21385978",
+                "value": "osint",
+                "color": "#8b0f52",
+                "createdById": null
+            },
+            {
+                "id": "67145e6e-4e9b-4c82-ba0f-c5808ec504c8",
+                "value": "ssl-blacklist",
+                "color": "#9caa81",
+                "createdById": null
+            }
+        ],
+        "observable_value": "154.216.19.149",
+        "x_opencti_description": "**ISP:** Silent Connection Ltd.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.7\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFJTH0OjMuZo+tfH/aup80zG\noDrxwLmYk8GXgJmlgHwFT1pMrjA/sSvXgS/2a03oL+7UsRSdWe60HXR+iV77s74=\nFingerprint: ee:3c:d2:7e:45:e9:bd:49:16:cb:1c:f5:8c:cd:da:8c\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\taes256-gcm@openssh.com\n\tchacha20-poly1305@openssh.com\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes128-ctr\n\nMAC Algorithms:\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha2-256\n\thmac-sha1\n\tumac-128@openssh.com\n\thmac-sha2-512\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**111:**\n```\nPortmap\nProgram\tVersion\tProtocol\tPort\nportmapper\t4\ttcp\t111\nportmapper\t3\ttcp\t111\nportmapper\t2\ttcp\t111\nportmapper\t4\tudp\t111\nportmapper\t3\tudp\t111\nportmapper\t2\tudp\t111\n```\n------------------\n**111:**\n```\nPortmap\nProgram\tVersion\tProtocol\tPort\nportmapper\t4\ttcp\t111\nportmapper\t3\ttcp\t111\nportmapper\t2\ttcp\t111\nportmapper\t4\tudp\t111\nportmapper\t3\tudp\t111\nportmapper\t2\tudp\t111\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "154.216.19.149"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:45:35.204Z",
+        "updated_at": "2024-08-29T06:46:05.240Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "3cddafc1-d14e-4428-a356-f4241a754512",
+                "value": "remcos",
+                "color": "#adca4a",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "d8fc44bc-08d4-4800-bbba-f21a1eada8c3",
+                "value": "eol-os",
+                "color": "#8f76a7",
+                "createdById": null
+            }
+        ],
+        "observable_value": "84.38.132.40",
+        "x_opencti_description": "**ISP:** DataClub S.A.\n\n**OS:** Windows (build 6.3.9600)\n\n--------------------------\nServices:\n\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x0f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 8.1/Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: IP-132-40\n  NetBIOS Domain Name: IP-132-40\n  NetBIOS Computer Name: IP-132-40\n  DNS Domain Name: IP-132-40.dataclub.eu\n  FQDN: IP-132-40.dataclub.eu\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "84.38.132.40"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:12.556Z",
+        "updated_at": "2024-08-29T06:46:17.314Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "c149024c-8db2-4dc5-b3e6-3704218ca8c5",
+                "value": "cs-watermark-100000",
+                "color": "#e55b22",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "daef32ea-7c07-473b-910d-f57f80942c4e",
+                "value": "alibaba-cn-net",
+                "color": "#cc289e",
+                "createdById": null
+            },
+            {
+                "id": "de8b3576-280b-48cb-9fce-fe5cc4862a3c",
+                "value": "as45102",
+                "color": "#e05e6f",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "47.237.90.16",
+        "x_opencti_description": "**ISP:** Alibaba (US) Technology Co., Ltd.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCLFQ9piDdRPXkCLEP2RG2Bb\n620L5nodFypRFo9KcOsldSETasmn9jwyYLo33gEolMaUlUQIhUvoLwPzenQqsi0=\nFingerprint: 20:79:37:d7:34:9d:b8:14:be:10:c2:a9:2c:99:0d:37\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "47.237.90.16"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:13.837Z",
+        "updated_at": "2024-08-29T06:46:23.771Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "c149024c-8db2-4dc5-b3e6-3704218ca8c5",
+                "value": "cs-watermark-100000",
+                "color": "#e55b22",
+                "createdById": null
+            }
+        ],
+        "observable_value": "23.95.193.207",
+        "x_opencti_description": "**ISP:** HostPapa\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDDoyRtMjIkIwaEcOIGdi9N7htruba6PwlSILyc4bIvCnOe\ne4EIfqkjZnGbjlFi6uG7anRxaEzkMrshCG4V+8+iOdfz6ktXNaGtiW989AoPDHfSFtFWRaD/sRRp\nC6iOI7Kbhq0xofQFbJwgFTGG1fb70NStEPqga8FqK4KNME8yubHH7aR5D+delyG+SaTdqOjNSMTA\n6Zt8Wx/vqq/q0jkuAuim9SX51D5RSKblaYMF6WQD4lutjLyzeXRf3MmfWCHb49/aYzRhloPenVyB\nIPR1SuH3JTofvezES+krCdQO5X4Yz6iMBRGk0mCayzxKV7KTUYodeKxkONwdPnJsORwF5q8FcHm/\nIRHOnbq/7Pr1NkHssqONeyPTl+LpReCTKMl759BEM6gLrvw9KhMZDKfNWwSA160SlaCPlKqREw4/\nUiAG/7U6aE5acvKI4ifW26Vk6TwcCzHVXkod1zHoJ9x76S9kWayHHIegY4Ibk8IqKRm8BDJleJyF\n0BSEdAG3x/0=\nFingerprint: b3:5d:18:1f:27:d4:08:2c:52:52:94:20:df:6e:da:b2\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "23.95.193.207"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:16.311Z",
+        "updated_at": "2024-08-29T06:46:30.495Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            }
+        ],
+        "observable_value": "175.27.135.115",
+        "x_opencti_description": "**ISP:** Shenzhen Tencent Computer Systems Company Limited\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 404 Not Found\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "175.27.135.115"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:18.306Z",
+        "updated_at": "2024-08-29T06:46:18.480Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            }
+        ],
+        "observable_value": "1.94.162.118",
+        "x_opencti_description": "Traffic seen on port 801",
+        "x_opencti_score": null,
+        "value": "1.94.162.118"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:18.323Z",
+        "updated_at": "2024-08-29T06:46:34.695Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            }
+        ],
+        "observable_value": "107.172.190.194",
+        "x_opencti_description": "**ISP:** HostPapa\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQCV4LPgw8l0OPY8htt2Uv8wmZ5f14sWecIh1Vhb7KNDYyV9\n5uKFh18n9spsUxos0Nf7HUmS00iqiRDcbmMLXEslrudwwFveaxkVnU7hPMWqrZsYqjQCQZaxcE91\n+E0JkQFOoQUOj+/dYVWsgGJoWcFv16P0VIEiZfgQV1tBMAldipwK1A/PA4i9TdrWolWtecP9mM50\n9i2OuIaQfIjz87UoIIZwIJdU41IBdrHsDm7JOpT35um1ZhnYrdi83pDkf3NnBo2npKPgQ7sgHI40\nro1uz9Q3pbwuP8H/8mXHmLdKRYHOe+1VEk9Q+BlhZKBm9fXIYWR0HsYUQ04ytiQeTqeVZpbKQOFA\ntZeler2PzXrWLjG+ltWCesqiVfoWYvb6L8Xojo4gUPcFWExiEYu+D9OflsfSausgcDukQeNXmIpX\nAHJgC2Q+cMSqwCLbPy/9+pi3tFrI8PQ0idmp5gwqv5V0FPcGG20zzPXSvUfr2UXffLUqIlnYkOjH\nCbb87izUk0E=\nFingerprint: be:44:1d:f7:d2:8a:8d:84:53:de:29:55:cc:aa:75:d2\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**8080:**\n```\nHTTP/1.1 404 Not Found\r\nDate: Wed, 28 Aug 2024 20:21:21 GMT\r\nContent-Type: text/plain\r\nContent-Length: 0\r\nServer: golfe2\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "107.172.190.194"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:20.890Z",
+        "updated_at": "2024-08-29T06:46:46.425Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            }
+        ],
+        "observable_value": "47.113.145.253",
+        "x_opencti_description": "**ISP:** Hangzhou Alibaba Advertising Co.,Ltd.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBL1s4C+8FX+A1yKlM96V70Me\nId47tvMw0cu2GKHI2o4OMtrnssRrN4ibiqgmBh5AAjtUDVqTpCL2FAkoA35+33E=\nFingerprint: 37:bd:e2:e7:ab:50:30:7a:ab:5e:46:46:d2:2e:70:67\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "47.113.145.253"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:21.762Z",
+        "updated_at": "2024-08-29T06:46:52.757Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "b655a8c7-bb83-4ea0-a317-ea8c8800f035",
+                "value": "cs-watermark-666666",
+                "color": "#86f501",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "118.89.135.167",
+        "x_opencti_description": "**ISP:** Shenzhen Tencent Computer Systems Company Limited\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDDr7SG428ufJ9LkN1cQOsi8AkVIGfGqzHRAhLZKab2cT08\n+iei19cYkEBOjZf7ys3k9eYQf0csrVI53OXZT0PC2vJO0t+9cALZ3G+q8tWzgW3oYxR3OZ5fUiht\nPbWxxn0qagbsV0ZPxZzZxrkDAK+O3VSCIAu6j0jZnibmmaNZrgBjFxD4807dXcUbTKJw4koMAfKy\nySDcqsqtFZQfHM1GuW8BC1opuEqtEocKzkEQg7uN7nzmVB5IGkPMb9auUBDQabteYnKwQzjqkEoy\n5SwxcIXI8mK+n6iOL+vt8F75eUibtLiQCHDtnLKTP0eTiX6D8zS24lap+akKtyQVjrNeOa9beG9m\n6aEOXe69I6AFjZ8r6MeYFDp5VCGnZyvMVrwhH7CgLc8nTmqwB0MfzFWEFnMLJW/AUo/JzfDakk9j\nMXJu3QnkKl7yawNDKUUEQcCFPpEx6ENGlXe9XiAw7a7AGnPuQSyIwmti7DbGg3oc/bPah9VzuI2Z\nRZHV36KlGY8=\nFingerprint: c2:78:7f:a5:f6:a9:82:d1:b9:73:03:67:ed:d2:c2:34\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "118.89.135.167"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:26.747Z",
+        "updated_at": "2024-08-29T06:47:00.544Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "d9fff8ef-8292-4b90-bf0d-31cc88d246bc",
+                "value": "cs-watermark-305419896",
+                "color": "#eb4e52",
+                "createdById": null
+            }
+        ],
+        "observable_value": "45.156.24.142",
+        "x_opencti_description": "**ISP:** None\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDPwNacwybtGM2INaEosKMVlCw1COQWsQ0Dv5SL6v1yctTH\nEpaAi1QE2dh08K6tEZAW3PR4TqrJ1En9XBneCB9vGmND7rN7i9RhvPGiJXqms1Ivxi4k1QJ7RIgH\nuzgSKMIdIQiBe5OUYLWxomU2kZvmknJ9XOlVLWEkWBTyikmpsSvtKxFRx8eOfmATtWrgUcYwHBqm\nYTxMfEa7MVGLQd1MOwdYuIYumKzUixHY0VJhTfXaa3w8sQbhJ3pAVJdzxDEwXIRfmGIYGxydCb6k\n7CISXaraTJ9B0mfngtP1gGdfWZeFx8Smn1jisrVGH7qoI+o74VQRNipcFUujK0+xRgjeTIQBXniS\ngZ6uzMzFuxWMC0L/YnXT9QqECv5tNlv4bUdAVNjNVgN//18e5OgbxFWUgeuxDfoAhc0igYpdSn7q\nSrW8PhF3lv5pc6p4b8gz0ZLu4k0FDO3pCvpDw9Nbc221anVM/AWiKSqQbMxQcVaOp4QlhvxDd0SA\nXMWYSNUE6Hc=\nFingerprint: 7a:29:92:02:cf:46:f8:ca:b8:ec:06:af:d8:4d:78:cc\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "45.156.24.142"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:27.552Z",
+        "updated_at": "2024-08-29T06:46:27.644Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "c149024c-8db2-4dc5-b3e6-3704218ca8c5",
+                "value": "cs-watermark-100000",
+                "color": "#e55b22",
+                "createdById": null
+            }
+        ],
+        "observable_value": "23.224.144.131",
+        "x_opencti_description": "Traffic seen on port 8081",
+        "x_opencti_score": null,
+        "value": "23.224.144.131"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:29.170Z",
+        "updated_at": "2024-08-29T06:47:05.658Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "ae7e6c2f-b135-41c4-8ffd-655b11db6fdd",
+                "value": "cs-watermark-6",
+                "color": "#30dbe9",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "c2786d5f-50ef-47f8-96cb-6fe0b95c1094",
+                "value": "proxy",
+                "color": "#6eca5f",
+                "createdById": null
+            }
+        ],
+        "observable_value": "152.136.44.13",
+        "x_opencti_description": "**ISP:** Shenzhen Tencent Computer Systems Company Limited\n\n**OS:** Windows (build 10.0.14393)\n\n--------------------------\nServices:\n\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 1607)/Windows Server 2016 (version 1607)\n  OS Build: 10.0.14393\n  Target Name: 10_116_20_158\n  NetBIOS Domain Name: 10_116_20_158\n  NetBIOS Computer Name: 10_116_20_158\n  DNS Domain Name: 10_116_20_158\n  FQDN: 10_116_20_158\n```\n------------------\n**14344:**\n```\n\n```\n------------------\n**18999:**\n```\nHTTP/1.1 407 Proxy Authentication Required\r\nProxy-Authenticate: Basic realm=\"proxy\"\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "152.136.44.13"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:29.371Z",
+        "updated_at": "2024-08-29T06:47:13.343Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "c149024c-8db2-4dc5-b3e6-3704218ca8c5",
+                "value": "cs-watermark-100000",
+                "color": "#e55b22",
+                "createdById": null
+            }
+        ],
+        "observable_value": "107.172.141.221",
+        "x_opencti_description": "**ISP:** HostPapa\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.6p1 Ubuntu-4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDjGV4BQOyIL96x3DR5f2rhHqpofGlDScW4auiiJ+blMzV/\nr3PbjS7fjMXp76iH4NjlzJxGnM8UsshR7eC5/gFrkXIRF2nuIxIkGZzasBmWplUHHMaDvCrVH1F0\nSGZMZsay1P+uFtv9GBobpDqfQbDb5n15QsiBseUuasll+7vU8v/rVx/AMtAQWchRAUxnA038GV0o\ngydqSAH0JNQTV/JwMzYlG51b5WsPemOf/fXL4mmLQmWN/793V/v1WDhQ69NjtJ31rqi3MxIp7M8u\nmPyMm75Aujr3klMCaFuVmRS1NNoXtv3WvHK0RmbK6Pyqdk/LUcaxGCAa4jxhEa026EvwgHaJOMkf\nk8OpLobPFEjWzvy0lN7BzcXvYYT704ZWFuyQQNzkh5Yr2RpRP3iW2x/j8gsqYHkP1niO+LPSNpVQ\ncxQPCggokTpV93e62cm2XBT9qQF6g7HT6Z0eLws+bTe8LvalRVxuZhYlpChWY1nTeOVith71HjI/\n97L9ztsRLP0=\nFingerprint: bd:67:3b:7b:1d:32:49:a0:ae:09:25:b4:5b:1f:bd:a3\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "107.172.141.221"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:29.827Z",
+        "updated_at": "2024-08-29T06:46:29.968Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            }
+        ],
+        "observable_value": "8.148.5.65",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "8.148.5.65"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:46:56.974Z",
+        "updated_at": "2024-08-29T06:47:22.533Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "118be92b-691a-4369-92b6-d0249ce46a0c",
+                "value": "mirai",
+                "color": "#fe7431",
+                "createdById": null
+            },
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            }
+        ],
+        "observable_value": "213.183.53.189",
+        "x_opencti_description": "**ISP:** Melbikomas UAB\n\n**OS:** Debian\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDlsnDRLDHhSd/JGhOHHknyANV5AgcIEu64elS5tr6EER12\nwDtRTsLYAKIqxBVH7LMg2n5m3PokVW1AnuaUxr+08/jf0gSldKlAT1NRG8OmPP41ew8So6eoClWk\nOdH7dRUjUqktcvFC9EVaruI3N0UrQ6pbM39okgi/66g0yCa9gNn/9Pw14gjKe6vEKkqMk9xAtc6z\nI8jGL26iFDjPGELAN+vMSEjq9JrK6RpW85TMrkOW9bzOFwivSSDH+Ic7QYMTg0hRpCe8Vf3u1Zc5\nFFWr1pZDjV9CkMaeodBqjCWSadQNi0uoQHHErqwO7ILevz1nDcbLDg8RhPoels+AART9ZV/7FlwJ\nPsTbFnehLaJznDNAmFqd3vlDRfbBNnfkWCneyVIUujaZ3vKBPmFxs0BpnuSPVm8GViYnNrwZB5qS\nvHuolgIc/f+5Y0rePuniXdMxKfOhskOs+T4AJ4ySQpF26ys9jZLNHVjqC5RvXUQOo2uDO8js30pn\nZxm62ugpek0=\nFingerprint: 8f:14:0e:74:58:c2:b1:41:a0:bf:71:b9:0d:f5:71:01\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "213.183.53.189"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:00.715Z",
+        "updated_at": "2024-08-29T06:47:00.802Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "923f8ab1-cc12-400f-ac89-0fe7e505d520",
+                "value": "kongtuke",
+                "color": "#54483b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "172.208.117.89",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "172.208.117.89"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:04.615Z",
+        "updated_at": "2024-08-29T06:47:30.795Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "2100b436-7807-4886-b731-871136213075",
+                "value": "stealer",
+                "color": "#3cc61b",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "c3932c6d-0939-4433-8b6b-27c9f271ae11",
+                "value": "as43641",
+                "color": "#62896e",
+                "createdById": null
+            },
+            {
+                "id": "f81f1c4d-b77b-4428-a9e7-e128d313704b",
+                "value": "sollutium-nl",
+                "color": "#858edd",
+                "createdById": null
+            }
+        ],
+        "observable_value": "91.202.5.28",
+        "x_opencti_description": "**ISP:** SOLLUTIUM EU Sp z.o.o.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDsmBDbMGFpiAHGIcqMy8+HLiVZj0D++g6woTGWpaQlaPZF\nn9k3xdA+is7JoRHmB5B/EneLJh/7kcCg4wlRhThU3g+O4OK8S5DEoi9m1VSuvor9okKLi15Z5gKy\nwY4aGBtckiHZfyX1d/oKaECS7FEZh6ZVr/+oK9Ctfp8gx6rdaivtaX148pwLlvCTcltqADzsStct\nB+nO+EhjNW6VRgClb2k4+I1WbVAntpkJpcg4Wh4pmSaXhSSg/iWB2TTs4MYKL2NfzNS5PirzCrzp\n+c+Jdw7A13/TqS9z7Exe+FvghwwCBcjK4TfxGXacVmoT1lGmEB3UUmTfINSdfkrYussf\nFingerprint: 1f:7e:1b:e4:54:6a:fe:28:a8:61:ed:ff:b5:c9:c0:59\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\taes128-cbc\n\taes192-cbc\n\taes256-cbc\n\tblowfish-cbc\n\tcast128-cbc\n\t3des-cbc\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Wed, 31 Jul 2024 08:11:23 GMT\r\nServer: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16\r\nLast-Modified: Tue, 23 Jul 2024 06:33:47 GMT\r\nETag: \"31ad-61de4580908c0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 12717\r\nContent-Type: text/html; charset=UTF-8\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "91.202.5.28"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:08.882Z",
+        "updated_at": "2024-08-29T06:47:09.622Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "470a77bd-b25a-4a02-9ba2-97f66cb78797",
+                "value": "ovh",
+                "color": "#61af01",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "f246b295-1a4e-4125-ac9f-d7fb46b4f79d",
+                "value": "as16276",
+                "color": "#5a9145",
+                "createdById": null
+            }
+        ],
+        "observable_value": "51.77.103.216",
+        "x_opencti_description": "Traffic seen on port 8520",
+        "x_opencti_score": null,
+        "value": "51.77.103.216"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:12.094Z",
+        "updated_at": "2024-08-29T06:47:12.366Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "34d0afcc-4da7-4bf4-9125-944c1f35cc2b",
+                "value": "as45839",
+                "color": "#8b796f",
+                "createdById": null
+            },
+            {
+                "id": "eaaccf84-7b42-4c77-abbb-db2d7d0c650a",
+                "value": "shinjiru-my-as-ap",
+                "color": "#fa7d71",
+                "createdById": null
+            }
+        ],
+        "observable_value": "101.99.94.128",
+        "x_opencti_description": "Traffic seen on port 3232",
+        "x_opencti_score": null,
+        "value": "101.99.94.128"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:12.481Z",
+        "updated_at": "2024-08-29T06:47:12.978Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "630524ff-d2ef-4f3c-abc4-ed1258220446",
+                "value": "blnwx",
+                "color": "#45c397",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "a62d1251-3ee5-4abb-b663-981950a5ecf1",
+                "value": "as399629",
+                "color": "#3cbc03",
+                "createdById": null
+            }
+        ],
+        "observable_value": "45.61.137.180",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "45.61.137.180"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:15.176Z",
+        "updated_at": "2024-08-29T06:47:15.880Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "dca99638-d5a4-4268-af1a-d27f8cd28e0a",
+                "value": "as62370",
+                "color": "#1e398a",
+                "createdById": null
+            },
+            {
+                "id": "859d49d7-92c0-4aeb-9bab-600251add16d",
+                "value": "snel",
+                "color": "#42f035",
+                "createdById": null
+            }
+        ],
+        "observable_value": "185.62.56.81",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "185.62.56.81"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:16.701Z",
+        "updated_at": "2024-08-29T06:47:16.810Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "780f7ff2-46eb-4398-8613-2684669bf0e7",
+                "value": "as8075",
+                "color": "#08d3f4",
+                "createdById": null
+            },
+            {
+                "id": "137e81ab-ca53-4039-8212-0df1ccdd084c",
+                "value": "microsoft-corp-msn-as-block",
+                "color": "#fbd50d",
+                "createdById": null
+            }
+        ],
+        "observable_value": "52.189.253.111",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "52.189.253.111"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:18.671Z",
+        "updated_at": "2024-08-29T06:47:18.923Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "acb1240a-7771-43ac-9c23-45bfc9ebea1c",
+                "value": "att-internet4",
+                "color": "#e768a7",
+                "createdById": null
+            },
+            {
+                "id": "687b114b-6707-4b45-972c-661b762b21b9",
+                "value": "as7018",
+                "color": "#f25df4",
+                "createdById": null
+            }
+        ],
+        "observable_value": "108.253.252.20",
+        "x_opencti_description": "Traffic seen on port 8888",
+        "x_opencti_score": null,
+        "value": "108.253.252.20"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:20.711Z",
+        "updated_at": "2024-08-29T06:47:20.907Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "f0e6ad63-fe5d-4d64-9d2a-f3675f56f49c",
+                "value": "as210558",
+                "color": "#d90cda",
+                "createdById": null
+            },
+            {
+                "id": "8d907774-c863-4f32-918a-f1a9814275ea",
+                "value": "services-1337-gmbh",
+                "color": "#64b65b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "194.26.192.74",
+        "x_opencti_description": "Traffic seen on port 777",
+        "x_opencti_score": null,
+        "value": "194.26.192.74"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:22.689Z",
+        "updated_at": "2024-08-29T06:47:22.913Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8682ff8f-b23c-4ed0-9397-5c362c743c7e",
+                "value": "supershell",
+                "color": "#9563ab",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "bbda00e2-ed3d-4f67-9c51-98a291918fa4",
+                "value": "as45090",
+                "color": "#345c6f",
+                "createdById": null
+            },
+            {
+                "id": "3fa11cba-495d-40ac-800e-41c117fa7c9d",
+                "value": "tencent-net-ap",
+                "color": "#e7f952",
+                "createdById": null
+            }
+        ],
+        "observable_value": "111.229.21.155",
+        "x_opencti_description": "Traffic seen on port 8888",
+        "x_opencti_score": null,
+        "value": "111.229.21.155"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:23.703Z",
+        "updated_at": "2024-08-29T06:47:23.775Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "f1a8368c-87cc-4afb-a1f2-dab22d1139d2",
+                "value": "as-choopa",
+                "color": "#b1176b",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "6e07ba38-6d67-48af-85ea-ac6dcd1003d2",
+                "value": "as20473",
+                "color": "#20f650",
+                "createdById": null
+            }
+        ],
+        "observable_value": "45.77.9.96",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "45.77.9.96"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:25.648Z",
+        "updated_at": "2024-08-29T06:47:25.863Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "ed1ea0fc-490b-4322-b8c8-29e11d5d3c0c",
+                "value": "google-cloud-platform",
+                "color": "#1f2f1e",
+                "createdById": null
+            },
+            {
+                "id": "bfc34b15-e9dc-43dc-9adc-cd7045755062",
+                "value": "as396982",
+                "color": "#156b02",
+                "createdById": null
+            }
+        ],
+        "observable_value": "34.136.135.11",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "34.136.135.11"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:28.052Z",
+        "updated_at": "2024-08-29T06:47:28.540Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "1dfd5e1e-56c3-488d-9da3-934fd72df1b3",
+                "value": "amazon-02",
+                "color": "#6bba88",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "8980eac1-0138-494d-afc8-f7813de28281",
+                "value": "as16509",
+                "color": "#c79b45",
+                "createdById": null
+            }
+        ],
+        "observable_value": "3.37.251.172",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "3.37.251.172"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:32.404Z",
+        "updated_at": "2024-08-29T06:47:32.698Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "ed4b743c-f5c3-4a88-a964-049042172b65",
+                "value": "cs-watermark-666666666",
+                "color": "#30a6fb",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "bbda00e2-ed3d-4f67-9c51-98a291918fa4",
+                "value": "as45090",
+                "color": "#345c6f",
+                "createdById": null
+            },
+            {
+                "id": "3fa11cba-495d-40ac-800e-41c117fa7c9d",
+                "value": "tencent-net-ap",
+                "color": "#e7f952",
+                "createdById": null
+            }
+        ],
+        "observable_value": "175.178.42.127",
+        "x_opencti_description": "Traffic seen on port 8080",
+        "x_opencti_score": null,
+        "value": "175.178.42.127"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:34.514Z",
+        "updated_at": "2024-08-29T06:47:34.760Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "a94c02fd-53ac-4e58-aebe-b2efd1cac751",
+                "value": "cs-watermark-391144938",
+                "color": "#926fad",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "1a61027a-e589-42a2-85bc-72758e8693c2",
+                "value": "as136907",
+                "color": "#de2b44",
+                "createdById": null
+            },
+            {
+                "id": "1f73e9bf-0d30-490a-a64c-bf6ccd48677c",
+                "value": "hwclouds-as-ap",
+                "color": "#8a3007",
+                "createdById": null
+            }
+        ],
+        "observable_value": "159.138.143.38",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "159.138.143.38"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:36.419Z",
+        "updated_at": "2024-08-29T06:47:36.643Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "de47b89f-3c29-4649-89e8-6f1f7113d19e",
+                "value": "as37963",
+                "color": "#e04e62",
+                "createdById": null
+            },
+            {
+                "id": "daef32ea-7c07-473b-910d-f57f80942c4e",
+                "value": "alibaba-cn-net",
+                "color": "#cc289e",
+                "createdById": null
+            }
+        ],
+        "observable_value": "8.140.227.46",
+        "x_opencti_description": "Traffic seen on port 9999",
+        "x_opencti_score": null,
+        "value": "8.140.227.46"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:39.871Z",
+        "updated_at": "2024-08-29T06:47:40.064Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "019a8517-bb15-44cf-8770-dc2e144c9803",
+                "value": "moobot",
+                "color": "#9a5f50",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "7e0896e7-3ec4-4445-923b-075e4fb71618",
+                "value": "as202662",
+                "color": "#f0e1cc",
+                "createdById": null
+            },
+            {
+                "id": "72917ea4-4a07-4bd7-a3d2-e018f872203d",
+                "value": "hytron",
+                "color": "#6e9157",
+                "createdById": null
+            }
+        ],
+        "observable_value": "89.185.25.230",
+        "x_opencti_description": "Traffic seen on port 47925",
+        "x_opencti_score": null,
+        "value": "89.185.25.230"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:41.204Z",
+        "updated_at": "2024-08-29T06:47:41.354Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "019a8517-bb15-44cf-8770-dc2e144c9803",
+                "value": "moobot",
+                "color": "#9a5f50",
+                "createdById": null
+            },
+            {
+                "id": "1dfd5e1e-56c3-488d-9da3-934fd72df1b3",
+                "value": "amazon-02",
+                "color": "#6bba88",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "8980eac1-0138-494d-afc8-f7813de28281",
+                "value": "as16509",
+                "color": "#c79b45",
+                "createdById": null
+            }
+        ],
+        "observable_value": "13.48.214.27",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "13.48.214.27"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:43.597Z",
+        "updated_at": "2024-08-29T06:47:43.678Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "fe246c89-698f-47d4-b46c-a7af4f1cdcaf",
+                "value": "colombia",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "1b383038-25da-4eb1-9b50-9f9942d2e497",
+                "value": "as27831",
+                "color": "#3f3354",
+                "createdById": null
+            }
+        ],
+        "observable_value": "179.14.10.24",
+        "x_opencti_description": "Traffic seen on port 2004",
+        "x_opencti_score": null,
+        "value": "179.14.10.24"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:43.597Z",
+        "updated_at": "2024-08-29T06:47:43.764Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "284ea53a-4953-4d24-b0c3-66075eaf24d4",
+                "value": "as3257",
+                "color": "#7394f2",
+                "createdById": null
+            },
+            {
+                "id": "286d2eb0-0700-4003-8f56-6cb80a2aefb2",
+                "value": "gtt-backbone",
+                "color": "#11c2da",
+                "createdById": null
+            }
+        ],
+        "observable_value": "86.53.241.21",
+        "x_opencti_description": "Traffic seen on port 447",
+        "x_opencti_score": null,
+        "value": "86.53.241.21"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:45.317Z",
+        "updated_at": "2024-08-29T06:47:45.390Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "08aac33f-940f-476e-b835-0a50026ac51d",
+                "value": "mythic",
+                "color": "#3aa6df",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "7950d865-6a13-4b09-91c5-bb5b226e996f",
+                "value": "amazon-aes",
+                "color": "#86518f",
+                "createdById": null
+            },
+            {
+                "id": "38d44c69-e60d-424b-a21f-a5f870a96c9e",
+                "value": "as14618",
+                "color": "#e8b644",
+                "createdById": null
+            }
+        ],
+        "observable_value": "54.227.99.217",
+        "x_opencti_description": "Traffic seen on port 7443",
+        "x_opencti_score": null,
+        "value": "54.227.99.217"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:47.937Z",
+        "updated_at": "2024-08-29T06:47:48.021Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "a94c02fd-53ac-4e58-aebe-b2efd1cac751",
+                "value": "cs-watermark-391144938",
+                "color": "#926fad",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "bbda00e2-ed3d-4f67-9c51-98a291918fa4",
+                "value": "as45090",
+                "color": "#345c6f",
+                "createdById": null
+            },
+            {
+                "id": "3fa11cba-495d-40ac-800e-41c117fa7c9d",
+                "value": "tencent-net-ap",
+                "color": "#e7f952",
+                "createdById": null
+            }
+        ],
+        "observable_value": "152.136.159.25",
+        "x_opencti_description": "Traffic seen on port 4455",
+        "x_opencti_score": null,
+        "value": "152.136.159.25"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:49.512Z",
+        "updated_at": "2024-08-29T06:47:49.591Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "de47b89f-3c29-4649-89e8-6f1f7113d19e",
+                "value": "as37963",
+                "color": "#e04e62",
+                "createdById": null
+            },
+            {
+                "id": "daef32ea-7c07-473b-910d-f57f80942c4e",
+                "value": "alibaba-cn-net",
+                "color": "#cc289e",
+                "createdById": null
+            }
+        ],
+        "observable_value": "139.129.36.72",
+        "x_opencti_description": "Traffic seen on port 3333",
+        "x_opencti_score": null,
+        "value": "139.129.36.72"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:51.845Z",
+        "updated_at": "2024-08-29T06:47:51.870Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "783a76e0-80d5-41c2-af2c-ac67763be143",
+                "value": "as8280",
+                "color": "#a4daf4",
+                "createdById": null
+            },
+            {
+                "id": "5e42ae2b-0a6f-43c3-b926-983aba740126",
+                "value": "synapsecom-as",
+                "color": "#c71217",
+                "createdById": null
+            }
+        ],
+        "observable_value": "151.236.29.64",
+        "x_opencti_description": "Traffic seen on port 10001",
+        "x_opencti_score": null,
+        "value": "151.236.29.64"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:51.882Z",
+        "updated_at": "2024-08-29T06:47:52.032Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "f25a2b09-e4c3-47ad-8511-68eed1708a70",
+                "value": "as55990",
+                "color": "#7e957d",
+                "createdById": null
+            },
+            {
+                "id": "23caee06-e97e-4208-83d9-8a6e4449b27c",
+                "value": "hwcsnet",
+                "color": "#7ecb41",
+                "createdById": null
+            }
+        ],
+        "observable_value": "121.37.180.38",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "121.37.180.38"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:54.843Z",
+        "updated_at": "2024-08-29T06:47:54.921Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "be0f0b30-2c1c-4ade-9ff1-d7c61b6bda85",
+                "value": "redlinestealer",
+                "color": "#97eece",
+                "createdById": null
+            }
+        ],
+        "observable_value": "185.236.228.12",
+        "x_opencti_description": "Traffic seen on port 45690",
+        "x_opencti_score": null,
+        "value": "185.236.228.12"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:47:58.234Z",
+        "updated_at": "2024-08-29T06:47:58.289Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "bbda00e2-ed3d-4f67-9c51-98a291918fa4",
+                "value": "as45090",
+                "color": "#345c6f",
+                "createdById": null
+            },
+            {
+                "id": "3fa11cba-495d-40ac-800e-41c117fa7c9d",
+                "value": "tencent-net-ap",
+                "color": "#e7f952",
+                "createdById": null
+            },
+            {
+                "id": "218f7242-29cc-4b3a-a4ad-d73b5210c6e8",
+                "value": "vshell",
+                "color": "#7a37e1",
+                "createdById": null
+            }
+        ],
+        "observable_value": "122.51.230.215",
+        "x_opencti_description": "Traffic seen on port 8082",
+        "x_opencti_score": null,
+        "value": "122.51.230.215"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:00.311Z",
+        "updated_at": "2024-08-29T06:48:00.419Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "012c15a3-d16b-4c50-a535-982d965406ea",
+                "value": "as141995",
+                "color": "#99fe4f",
+                "createdById": null
+            },
+            {
+                "id": "2bfb1fd4-0437-4d03-b52f-3fc2aa25d57b",
+                "value": "capl-as-ap",
+                "color": "#f7664f",
+                "createdById": null
+            }
+        ],
+        "observable_value": "217.15.167.175",
+        "x_opencti_description": "Traffic seen on port 8000",
+        "x_opencti_score": null,
+        "value": "217.15.167.175"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:03.456Z",
+        "updated_at": "2024-08-29T06:48:03.642Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "08aac33f-940f-476e-b835-0a50026ac51d",
+                "value": "mythic",
+                "color": "#3aa6df",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "5b6c339e-d042-45e1-b87b-5874a7f45c01",
+                "value": "akamai-linode-ap",
+                "color": "#2eed14",
+                "createdById": null
+            },
+            {
+                "id": "4f6774ed-1b28-404f-ab37-44021face094",
+                "value": "as63949",
+                "color": "#afc38a",
+                "createdById": null
+            }
+        ],
+        "observable_value": "139.144.96.180",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "139.144.96.180"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:03.769Z",
+        "updated_at": "2024-08-29T06:48:03.879Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "185232ea-7b67-459e-937a-eb180a60392e",
+                "value": "as42708",
+                "color": "#4f186e",
+                "createdById": null
+            },
+            {
+                "id": "dd51e496-635c-4d50-8104-d4fdf97e84a7",
+                "value": "portlane",
+                "color": "#ed0175",
+                "createdById": null
+            }
+        ],
+        "observable_value": "178.73.218.17",
+        "x_opencti_description": "Traffic seen on port 2000",
+        "x_opencti_score": null,
+        "value": "178.73.218.17"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:05.203Z",
+        "updated_at": "2024-08-29T06:48:05.596Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "f1a8368c-87cc-4afb-a1f2-dab22d1139d2",
+                "value": "as-choopa",
+                "color": "#b1176b",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8682ff8f-b23c-4ed0-9397-5c362c743c7e",
+                "value": "supershell",
+                "color": "#9563ab",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "6e07ba38-6d67-48af-85ea-ac6dcd1003d2",
+                "value": "as20473",
+                "color": "#20f650",
+                "createdById": null
+            }
+        ],
+        "observable_value": "207.148.125.111",
+        "x_opencti_description": "Traffic seen on port 8888",
+        "x_opencti_score": null,
+        "value": "207.148.125.111"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:06.473Z",
+        "updated_at": "2024-08-29T06:48:06.658Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "abc25679-193f-47f8-a9a6-ad52e44bc370",
+                "value": "digitalocean-asn",
+                "color": "#156655",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "1c975c4f-b071-470b-8623-412179a2948c",
+                "value": "as14061",
+                "color": "#f6a044",
+                "createdById": null
+            }
+        ],
+        "observable_value": "165.232.93.235",
+        "x_opencti_description": "Traffic seen on port 4443",
+        "x_opencti_score": null,
+        "value": "165.232.93.235"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:08.474Z",
+        "updated_at": "2024-08-29T06:48:08.690Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "2f600327-dcf4-4ebe-8fbe-d5949cf651c1",
+                "value": "as9009",
+                "color": "#9246f5",
+                "createdById": null
+            },
+            {
+                "id": "8ed7ceea-c604-4002-a724-424d9486fe80",
+                "value": "m247",
+                "color": "#a84e32",
+                "createdById": null
+            }
+        ],
+        "observable_value": "162.252.172.190",
+        "x_opencti_description": "Traffic seen on port 443",
+        "x_opencti_score": null,
+        "value": "162.252.172.190"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:12.231Z",
+        "updated_at": "2024-08-29T06:48:12.711Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "d9fff8ef-8292-4b90-bf0d-31cc88d246bc",
+                "value": "cs-watermark-305419896",
+                "color": "#eb4e52",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "84bc942f-9232-4d04-a8b8-f3e3236ad0af",
+                "value": "as8796",
+                "color": "#8eedf4",
+                "createdById": null
+            },
+            {
+                "id": "b764f970-e935-4a28-92f6-b1b06a28eb71",
+                "value": "fd-298-8796",
+                "color": "#07b038",
+                "createdById": null
+            }
+        ],
+        "observable_value": "156.238.230.211",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "156.238.230.211"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:14.228Z",
+        "updated_at": "2024-08-29T06:48:14.436Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "a94c02fd-53ac-4e58-aebe-b2efd1cac751",
+                "value": "cs-watermark-391144938",
+                "color": "#926fad",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "91143511-3bb9-4bc0-88b6-6b07d8bc920a",
+                "value": "as138915",
+                "color": "#b91445",
+                "createdById": null
+            },
+            {
+                "id": "198dde5e-310e-4f97-ad0e-c0863705f787",
+                "value": "kaopu-hk",
+                "color": "#924f24",
+                "createdById": null
+            }
+        ],
+        "observable_value": "38.54.57.108",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "38.54.57.108"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:15.962Z",
+        "updated_at": "2024-08-29T06:48:16.127Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "a94c02fd-53ac-4e58-aebe-b2efd1cac751",
+                "value": "cs-watermark-391144938",
+                "color": "#926fad",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "bbda00e2-ed3d-4f67-9c51-98a291918fa4",
+                "value": "as45090",
+                "color": "#345c6f",
+                "createdById": null
+            },
+            {
+                "id": "3fa11cba-495d-40ac-800e-41c117fa7c9d",
+                "value": "tencent-net-ap",
+                "color": "#e7f952",
+                "createdById": null
+            }
+        ],
+        "observable_value": "115.159.149.77",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "115.159.149.77"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:16.039Z",
+        "updated_at": "2024-08-29T06:48:16.212Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "4730ea7e-293a-4200-9c0c-3d28d8169a8e",
+                "value": "as40065",
+                "color": "#01166d",
+                "createdById": null
+            },
+            {
+                "id": "985ad38d-6a26-44f8-b8ff-ea29e2ff95f6",
+                "value": "cnservers",
+                "color": "#c5ee7b",
+                "createdById": null
+            }
+        ],
+        "observable_value": "38.6.177.6",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "38.6.177.6"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:17.957Z",
+        "updated_at": "2024-08-29T06:48:18.088Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "ccf62500-a2a9-4c71-b5fd-830a1f3b983c",
+                "value": "limenet",
+                "color": "#a86d7d",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "e09bdada-c2e3-455b-8d64-f8f99ee9ab12",
+                "value": "as394711",
+                "color": "#fb7901",
+                "createdById": null
+            }
+        ],
+        "observable_value": "91.92.251.104",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "91.92.251.104"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:19.068Z",
+        "updated_at": "2024-08-29T06:48:19.203Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "318ccbd1-4091-4606-8713-98b75b03fd16",
+                "value": "cobaltstrike",
+                "color": "#e5f90e",
+                "createdById": null
+            },
+            {
+                "id": "4d0273a1-5994-4440-b332-a3e7e10a4719",
+                "value": "cs-watermark-987654321",
+                "color": "#2f7c62",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "8e8d629e-ec51-499e-a95b-7585a9b29f0d",
+                "value": "censys",
+                "color": "#01cbb2",
+                "createdById": null
+            },
+            {
+                "id": "10801b5b-31b1-4889-9d3c-143af7e2b7b8",
+                "value": "as142403",
+                "color": "#1a5f50",
+                "createdById": null
+            },
+            {
+                "id": "6719cd87-237b-4934-833b-ecc81db86b6d",
+                "value": "yisucloudltd-hk",
+                "color": "#574287",
+                "createdById": null
+            }
+        ],
+        "observable_value": "154.221.19.134",
+        "x_opencti_description": "Traffic seen on port 8443",
+        "x_opencti_score": null,
+        "value": "154.221.19.134"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:20.725Z",
+        "updated_at": "2024-08-29T06:48:21.062Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "2100b436-7807-4886-b731-871136213075",
+                "value": "stealer",
+                "color": "#3cc61b",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "db7bbfd7-1871-47a6-a64a-7d30d57a7a5b",
+                "value": "karinar",
+                "color": "#f2b338",
+                "createdById": null
+            },
+            {
+                "id": "2d4907cb-e34a-4071-a190-4233fc2d159e",
+                "value": "as215789",
+                "color": "#945adc",
+                "createdById": null
+            },
+            {
+                "id": "f7f18362-897d-4fc8-b895-b1ac7a3829c0",
+                "value": "logsdillercloud",
+                "color": "#34d896",
+                "createdById": null
+            }
+        ],
+        "observable_value": "147.45.47.253",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "147.45.47.253"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:48:22.749Z",
+        "updated_at": "2024-08-29T06:48:22.989Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "10467f64-9a54-4a56-8eb5-ed4ebabffe04",
+                "value": "rat",
+                "color": "#25b801",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "2f9b334c-c9d6-4eb1-894d-d28dbaa461cc",
+                "value": "shodan",
+                "color": "#97d42a",
+                "createdById": null
+            },
+            {
+                "id": "1da0e771-d694-42a8-a79d-16d158852878",
+                "value": "alkar-as",
+                "color": "#aef994",
+                "createdById": null
+            },
+            {
+                "id": "0519555d-bcf0-43ce-b0ca-a3fedfdf95c8",
+                "value": "as6703",
+                "color": "#b603f4",
+                "createdById": null
+            }
+        ],
+        "observable_value": "178.136.164.115",
+        "x_opencti_description": "Traffic seen on port 54984",
+        "x_opencti_score": null,
+        "value": "178.136.164.115"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-08-29T06:49:01.927Z",
+        "updated_at": "2024-08-29T06:49:06.144Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "763977f2-f734-4154-a3c0-da67b45cd68a",
+                "value": "botnet_cc",
+                "color": "#c952a2",
+                "createdById": null
+            },
+            {
+                "id": "a75d5f5f-152d-477d-9d25-a8898b534491",
+                "value": "c2",
+                "color": "#2f0c00",
+                "createdById": null
+            },
+            {
+                "id": "52c5f3ec-a11f-4fce-8401-0b793640012f",
+                "value": "darkgate",
+                "color": "#54483b",
+                "createdById": null
+            },
+            {
+                "id": "c3932c6d-0939-4433-8b6b-27c9f271ae11",
+                "value": "as43641",
+                "color": "#62896e",
+                "createdById": null
+            },
+            {
+                "id": "f81f1c4d-b77b-4428-a9e7-e128d313704b",
+                "value": "sollutium-nl",
+                "color": "#858edd",
+                "createdById": null
+            },
+            {
+                "id": "67839ed7-9f1b-4fa1-bb1c-c7ea48406a36",
+                "value": "x88y8y",
+                "color": "#02f1f5",
+                "createdById": null
+            }
+        ],
+        "observable_value": "91.222.173.42",
+        "x_opencti_description": "Traffic seen on port 80",
+        "x_opencti_score": null,
+        "value": "91.222.173.42"
     }
 ]
