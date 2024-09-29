@@ -1,53 +1,5 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-09-29T21:03:15.497Z","IPv4-Addr","malware,infostealer,stealer,netsupport,exfiltration,downloader,cryptbot,yass,mustardsandwich,self-signed","TLP:CLEAR","94.232.244.133","2024-09-29T21:29:12.537Z","94.232.244.133","**ISP:** STARK INDUSTRIES SOLUTIONS LTD
-
-**OS:** Windows Server 2022 (build 10.0.20348)
-
---------------------------
-Services:
-
-**443:**
-```
-
-```
-------------------
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows Server 2022
-  OS Build: 10.0.20348
-  Target Name: WIN-BS656MOF35Q
-  NetBIOS Domain Name: WIN-BS656MOF35Q
-  NetBIOS Computer Name: WIN-BS656MOF35Q
-  DNS Domain Name: WIN-BS656MOF35Q
-  FQDN: WIN-BS656MOF35Q
-```
-------------------","50"
-"2024-09-29T21:15:44.966Z","IPv4-Addr","ransomware,exfiltration,cybercrime,encryption,extortion,cicada3301,self-signed","TLP:CLEAR","103.42.240.37","2024-09-29T21:29:22.476Z","103.42.240.37","**ISP:** Serverius Holding B.V.
-
-**OS:** Windows Server 2022 (build 10.0.20348)
-
---------------------------
-Services:
-
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows Server 2022
-  OS Build: 10.0.20348
-  Target Name: WIN-RMM48SHAUPR
-  NetBIOS Domain Name: WIN-RMM48SHAUPR
-  NetBIOS Computer Name: WIN-RMM48SHAUPR
-  DNS Domain Name: WIN-RMM48SHAUPR
-  FQDN: WIN-RMM48SHAUPR
-```
-------------------","50"
-"2024-09-29T21:15:46.296Z","IPv4-Addr","ransomware,exfiltration,cybercrime,encryption,extortion,cicada3301","TLP:CLEAR","91.238.181.238","2024-09-29T21:15:46.809Z","91.238.181.238","","50"
-"2024-09-29T21:45:13.038Z","IPv4-Addr","backdoor,iran,government,dns tunneling,infrastructure,spearal,email c2,veaty,cachehttp,iis module,iraq","TLP:CLEAR","151.236.17.231","2024-09-29T21:45:18.468Z","151.236.17.231","**ISP:** M247 Europe SRL
+"2024-09-29T22:14:43.672Z","IPv4-Addr","evasion,botnets,backdoors,xlogin,routers,hammertoss,axlogin,fsynet,hammerduke,stealth,alogin,updtae,zylogin,netduke,rlogin,eol-product","TLP:CLEAR","151.236.20.30","2024-09-29T22:14:47.792Z","151.236.20.30","**ISP:** M247 Europe SRL
 
 **OS:** Linux
 
@@ -56,11 +8,11 @@ Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
 Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOUqUi8B8dymZeS8GoJQ5IH9
-v/4r0iykX+STrma4onIFLesWxKjHCTN3Kz5wm8KhNLvLA05KgaHjxxV6CqLY8ps=
-Fingerprint: ac:fc:18:f5:6a:c0:01:6d:f0:59:0a:f0:e6:a6:ae:45
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAleSETIqunS0XV5eVLu6kVc
+/eXBtEX8QjFNoNX4ls/8iw84Yw8FV1BscZ33cycq4a2XxyguwIluWdgot2qOG9I=
+Fingerprint: b0:d9:06:a9:d2:c6:eb:2c:df:e4:b5:99:eb:c5:51:5b
 
 Kex Algorithms:
 	curve25519-sha256
@@ -106,71 +58,20 @@ Compression Algorithms:
 	zlib@openssh.com
 ```
 ------------------
-**53:**
+**80:**
 ```
-9.18.18-0ubuntu0.22.04.2-Ubuntu
-Resolver name: webservice.dev
-```
-------------------
-**53:**
-```
-9.18.18-0ubuntu0.22.04.2-Ubuntu
-Resolver name: webservice.dev
-```
-------------------
-**443:**
-```
-SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOUqUi8B8dymZeS8GoJQ5IH9
-v/4r0iykX+STrma4onIFLesWxKjHCTN3Kz5wm8KhNLvLA05KgaHjxxV6CqLY8ps=
-Fingerprint: ac:fc:18:f5:6a:c0:01:6d:f0:59:0a:f0:e6:a6:ae:45
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	sntrup761x25519-sha512@openssh.com
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Sat, 14 Sep 2024 23:09:47 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Sat, 06 Jul 2024 11:25:44 GMT
+Connection: keep-alive
+ETag: ""668929b8-264""
+Accept-Ranges: bytes
 ```
 ------------------","50"
-"2024-09-29T21:45:13.367Z","IPv4-Addr","backdoor,iran,government,dns tunneling,infrastructure,spearal,email c2,veaty,cachehttp,iis module,iraq","TLP:CLEAR","185.76.78.177","2024-09-29T21:45:31.048Z","185.76.78.177","**ISP:** M247 Europe SRL
+"2024-09-29T22:14:43.695Z","IPv4-Addr","evasion,botnets,backdoors,xlogin,routers,hammertoss,axlogin,fsynet,hammerduke,stealth,alogin,updtae,zylogin,netduke,rlogin,cloud,self-signed","TLP:CLEAR","45.77.44.119","2024-09-29T22:15:02.752Z","45.77.44.119","**ISP:** The Constant Company, LLC
 
 **OS:** -
 
@@ -179,17 +80,17 @@ Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+SSH-2.0-OpenSSH_8.0
 Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDI7QczI9TRcTazkyh0aE9mDfneiW+QOBEB63Atr3HyI5YO
-fSVEPQTD27TfeFfMnw2G/kuNBjaMBeuzil5pChVm2F51YKSKs2h94S7s2tls/BbnJrtJ+l0/w6gJ
-KwgCqXddHqlLtuK5L8+Tw5a3vmj8KDBdGLREwCrHP+Jc4aox85/JAwGhP1NBW218WL4BXdLBa/6g
-efsdcCTfxV0KfhGbARetfZZg70Qk7wAotMrgLFwxZXbRL/Kb5/Ugq3NR9HEM4ueinn7veeFI1wIq
-R2vo8oRQiuyURyvu/zhm39K8oZZI2Ch0EGLdL87s/05mZGuZ4YR47AVgJ+wsuS+6xWoy/G34EPpm
-ho7gcJG5IoN+LSxCjnyZIuo5wOv3W3DopfvALHopwx+JuHMulsKpCOqxpLHddFXiS+cmbFLzLZu8
-pHtSUkxqI0aJV4bDun9PaywB4UwzbOtrHSvbCHuoVUhlSC1NgSk+7343iXabpVai6sRfHlL3ranV
-Ifg2uOtAVSE=
-Fingerprint: 49:a5:ac:1a:86:23:fc:d0:69:08:8b:fd:02:4e:c2:b4
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCtgh5bcINoHRRsOUXLM+tPvpUgOn09A3Cn0LsrVxJvbQo/
+3m2qd0Xh9aHu5oIo3ObhLSvUABWJ7rPcXml6cvz3qVhj0LxPMeIrtUpyloNTmG1rTMv9Fx7Dif68
+Cy5aS93x4+dzOw+EsvpFCFcWYigOfaxMBoMDSmVyNB09+vTv6ofW0zBPD9DrkniWxNapfuSf5tpE
+jRXyWZvZCtaJTi44gMaS6O+4gweRkXLoPk6HDmeEoLwJAqeWB/NbYUC6M/ifYSef547c097HCkG3
+E98gnDjO+kQ9sop6HXX0pKqa93B/GSCYI3LIyrBQtSiGwrrZj0WCpoKTtVP8EVs69IW20bm8RVaK
+c2Zv5SzGGR1hckki5uUV7GflToLSHcQ5Z+iKmHeJuuJon5o8ZmIYM2z53ld8MW01aI22LCcFIcfj
+1nFEVKF4XPmLj4d03wqGaplnJQfA0ThHHE8pGEdhuEnuSSbn2y9TkSHOK2EJdiZzUSdsYQPt8bll
+RNXQ+lEohQk=
+Fingerprint: df:ed:4c:43:e2:2a:e6:c2:f3:a5:aa:86:e7:5b:dc:bc
 
 Kex Algorithms:
 	curve25519-sha256
@@ -198,9 +99,11 @@ Kex Algorithms:
 	ecdh-sha2-nistp384
 	ecdh-sha2-nistp521
 	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha256
 	diffie-hellman-group16-sha512
 	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha1
 	kex-strict-s-v00@openssh.com
 
 Server Host Key Algorithms:
@@ -211,6 +114,89 @@ Server Host Key Algorithms:
 	ssh-ed25519
 
 Encryption Algorithms:
+	aes256-gcm@openssh.com
+	chacha20-poly1305@openssh.com
+	aes256-ctr
+	aes256-cbc
+	aes128-gcm@openssh.com
+	aes128-ctr
+	aes128-cbc
+
+MAC Algorithms:
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha2-256
+	hmac-sha1
+	umac-128@openssh.com
+	hmac-sha2-512
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Thu, 26 Sep 2024 10:40:06 GMT
+Content-Type: text/html
+Content-Length: 548
+Connection: keep-alive
+Vary: Accept-Encoding
+```
+------------------
+**443:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Wed, 25 Sep 2024 06:06:58 GMT
+Content-Type: text/html
+Content-Length: 548
+Connection: keep-alive
+Vary: Accept-Encoding
+```
+HEARTBLEED: 2024/09/25 06:07:35 45.77.44.119:443 - SAFE
+
+------------------","50"
+"2024-09-29T22:14:44.322Z","IPv4-Addr","evasion,botnets,backdoors,xlogin,routers,hammertoss,axlogin,fsynet,hammerduke,stealth,alogin,updtae,zylogin,netduke,rlogin","TLP:CLEAR","103.140.239.63","2024-09-29T22:14:44.493Z","103.140.239.63","","50"
+"2024-09-29T22:14:45.811Z","IPv4-Addr","evasion,botnets,backdoors,xlogin,routers,hammertoss,axlogin,fsynet,hammerduke,stealth,alogin,updtae,zylogin,netduke,rlogin","TLP:CLEAR","103.57.248.202","2024-09-29T22:15:29.920Z","103.57.248.202","**ISP:** M247 Europe SRL
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDLcThjtNK0xzNA+XMO/66+P
+WrLW/Nb8SxbK7vLDlf2DOPm7YVV3C56CQTTaQcCO4jvJZiVMVUPOqy3IRpIjKlo=
+Fingerprint: 0f:08:a7:c7:37:5c:c9:47:45:3b:29:2e:5f:7f:bd:ce
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
 	chacha20-poly1305@openssh.com
 	aes128-ctr
 	aes192-ctr
@@ -234,40 +220,8 @@ Compression Algorithms:
 	none
 	zlib@openssh.com
 ```
-------------------
-**53:**
-```
-
-```
-------------------
-**8080:**
-```
-HTTP/1.1 200 OK
-X-Powered-By: Express
-Content-Type: text/html; charset=utf-8
-Accept-Ranges: bytes
-Content-Length: 639
-ETag: W/""27f-nXV6XVnhJ3i1dgikUpogM58teUA""
-Vary: Accept-Encoding
-Date: Thu, 19 Sep 2024 14:38:00 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-```
-------------------
-**9090:**
-```
-HTTP/1.1 404 Not Found
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Content-Type: text/html; charset=utf-8
-Content-Length: 338
-ETag: W/""152-tg1b7s0FdufFnyGV4kYoIvnQls0""
-Date: Sun, 29 Sep 2024 09:10:51 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-```
 ------------------","50"
-"2024-09-29T21:45:14.702Z","IPv4-Addr","backdoor,iran,government,dns tunneling,infrastructure,spearal,email c2,veaty,cachehttp,iis module,iraq","TLP:CLEAR","194.68.32.114","2024-09-29T21:45:42.455Z","194.68.32.114","**ISP:** M247 Europe SRL
+"2024-09-29T22:14:46.570Z","IPv4-Addr","evasion,botnets,backdoors,xlogin,routers,hammertoss,axlogin,fsynet,hammerduke,stealth,alogin,updtae,zylogin,netduke,rlogin,starttls","TLP:CLEAR","158.247.194.125","2024-09-29T22:15:37.977Z","158.247.194.125","**ISP:** The Constant Company, LLC
 
 **OS:** -
 
@@ -276,11 +230,11 @@ Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+SSH-2.0-OpenSSH_8.9p1
 Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOJfUxMeiMuUl42CSVU4H1fW
-ULN2zb3AiKWtt4E5iWegBmOFLMlUXsNYeUR5Tttr3BM/Ac+R+4abu0s0KB54dYA=
-Fingerprint: 3d:51:5f:73:fa:df:6d:8d:69:22:99:5b:42:e4:9e:4d
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE6ebsM2fnqmoleLBNTEae6f
+yJOLeUBk3jX8F+9R4pBpfwnuKnCrRqLSZkUBTqJSb/J8rNsnAwtYOIxlDeqL2+E=
+Fingerprint: eb:63:e0:77:a9:ae:56:62:67:27:24:fe:fa:e9:43:33
 
 Kex Algorithms:
 	curve25519-sha256
@@ -326,40 +280,358 @@ Compression Algorithms:
 	zlib@openssh.com
 ```
 ------------------
-**2000:**
+**80:**
 ```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 27 Sep 2024 00:04:07 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 2588
+Connection: keep-alive
+Vary: Accept-Encoding
+Last-Modified: Mon, 24 Jun 2024 12:15:56 GMT
+ETag: ""a1c-61ba1be482a60""
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+```
+------------------
+**443:**
+```
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Thu, 26 Sep 2024 13:08:15 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: http://158.247.194.125/
+```
+HEARTBLEED: 2024/09/26 13:08:35 158.247.194.125:443 - SAFE
 
+------------------
+**465:**
+```
+220 158.247.194.125.vultrusercontent.com
+250-158.247.194.125.vultrusercontent.com Hello z6q2wxqmoyd.org [224.14.252.180]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPE_CONNECT
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250 HELP
+```
+HEARTBLEED: 2024/09/22 18:56:07 158.247.194.125:465 - SAFE
+
+------------------
+**587:**
+```
+220 158.247.194.125.vultrusercontent.com
+250-158.247.194.125.vultrusercontent.com Hello 224.80.39.236 [224.80.39.236]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPE_CONNECT
+250-CHUNKING
+250-STARTTLS
+250 HELP
+```
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Mail Delivery Agent
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/09/20 20:43:05 158.247.194.125:993 - SAFE
+
+------------------
+**995:**
+```
++OK Mail Delivery Agent
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/09/29 03:48:02 158.247.194.125:995 - SAFE
+
+------------------
+**8083:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 28 Sep 2024 21:16:15 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: PHPSESSID=64f8ptjc5jvn4ukdeq93anspv2; path=/; secure; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+```
+HEARTBLEED: 2024/09/28 21:16:29 158.247.194.125:8083 - SAFE
+
+------------------","50"
+"2024-09-29T22:25:38.654Z","IPv4-Addr","malware,infostealer,macos,obfuscation,crimeware,poseidon,rodrigostealer,cthulu,amos atomic,banshee,eol-product","TLP:CLEAR","41.216.183.214","2024-09-29T22:25:42.463Z","41.216.183.214","**ISP:** Private-Hosting di Cipriano oscar
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**21:**
+```
+220 (vsFTPd 3.0.5)
+530 Login incorrect.
+530 Please login with USER and PASS.
+211-Features:
+ EPRT
+ EPSV
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+211 End
+```
+------------------
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC6VYzVFBOTzqctuYgWbD+SOC1ERtsdWlEaIGNRbfeNypq2
+HoPVHRafx9UQnbwSvGsgZ8qmBp1Dmk3vEBMG4pXxeCksZaR98GQUprQvCzRFZhdjdl4WhvyXT/lx
+TFsXseAM7DFBuVcymwxyBU47s0xs8RqK3IwibL162DAXcsdYddYxWFzDr9OBZlFkmFxnFy129H8R
+jwjxdd+yujd0U65eb00VC1iMzIv0a1xaFIlwvAU4nJQdJAneQEQQlivxAdphf72RjVeg6v4ATIAY
+GpVVnTC2fUwZMRecboZQtsuwHbN3DTDp3wborn8JygW9JmtnAmGbBNQWe8nlxSrUjXeKbQ/oS/Ps
+4azFlEOur5ICWGYSSb88zQ/FYhfBGBGieRwLF0xrFuInKE8Wgv0Pk4RL0YcKyZ0YO0zxjFPIdvj0
+WfdAX1sZpBysX/CMjRdbrvFt894t197wlZXOZKmAz2aREQYYmR7OpaifjzFJzucPCMoOfhmMaH92
++7cXEYdnZZc=
+Fingerprint: ac:2c:47:15:60:6f:c9:f8:85:71:db:15:9e:29:29:e2
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 403 Forbidden
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 27 Sep 2024 14:51:44 GMT
+Content-Type: text/html
+Content-Length: 564
+Connection: keep-alive
 ```
 ------------------","50"
-"2024-09-29T21:45:15.564Z","IPv4-Addr","backdoor,iran,government,dns tunneling,infrastructure,spearal,email c2,veaty,cachehttp,iis module,iraq","TLP:CLEAR","37.1.213.152","2024-09-29T21:45:51.618Z","37.1.213.152","**ISP:** HIVELOCITY, Inc.
+"2024-09-29T22:28:51.488Z","IPv4-Addr","cryptocurrency,linux,backdoor,mallox,lateral movement,tsunami,weblogic,hadooken","TLP:CLEAR","185.174.136.204","2024-09-29T22:28:56.321Z","185.174.136.204","","50"
+"2024-09-29T22:36:44.979Z","IPv4-Addr","stealer,evasion,exfiltration,persistence,malware-as-a-service,gomorrah stealer,starttls,database","TLP:CLEAR","172.93.223.99","2024-09-29T22:36:50.847Z","172.93.223.99","**ISP:** Ewebguru
 
 **OS:** -
 
 --------------------------
 Services:
 
-**53:**
+**25:**
 ```
-9.11.5-P4-5.1+deb10u9-Debian
-Resolver name: v807756643.local
+220 pluto.ewebguru.com ESMTP Exim 4.98 Mon, 02 Sep 2024 18:27:19 +0530\r\n
 ```
 ------------------
 **53:**
 ```
-9.11.5-P4-5.1+deb10u9-Debian
-Resolver name: v807756643.local
+9.11.36-RedHat-9.11.36-16.el8_10.2
+Resolver name: jupiter1
+```
+------------------
+**53:**
+```
+9.11.36-RedHat-9.11.36-16.el8_10.2
+Resolver name: jupiter1
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Wed, 25 Sep 2024 00:56:30 GMT
+Content-Length: 1495
+Connection: keep-alive
+Content-Type: text/html
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Server: imunify360-webshield/1.21
+```
+------------------
+**143:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN] Dovecot DA ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+------------------
+**161:**
+```
+SNMP:
+  Versions:
+    3
+  Engine Boots: 2
+  Engineid Data: 80001f88803f7a4b4034ebd26600000000
+  Enterprise: 8072
+  Engine Time: 17 days, 9:33:22
 ```
 ------------------
 **443:**
 ```
-SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u4
+HTTP/1.1 200 OK
+Date: Thu, 26 Sep 2024 08:20:43 GMT
+Server: Apache/2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=641kujae6i9k61otg7uqc98n0t; path=/
+Vary: Accept-Encoding,User-Agent
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/09/26 08:23:10 172.93.223.99:443 - SAFE
+
+------------------
+**465:**
+```
+220 jupiter1.ewebguru.net ESMTP Exim 4.98 Thu, 19 Sep 2024 15:21:32 +0530
+250-jupiter1.ewebguru.net Hello 224.244.107.142 [224.244.107.142]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+```
+HEARTBLEED: 2024/09/19 09:53:20 172.93.223.99:465 - SAFE
+
+------------------
+**587:**
+```
+220 jupiter1.ewebguru.net ESMTP Exim 4.98 Wed, 25 Sep 2024 04:14:26 +0530
+250-jupiter1.ewebguru.net Hello 224.61.102.105 [224.61.102.105]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250-STARTTLS
+250 HELP
+```
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN] Dovecot DA ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/09/28 16:55:38 172.93.223.99:993 - SAFE
+
+------------------
+**3306:**
+```
+MariaDB:
+  Protocol Version: 10
+  Version: 10.6.18-MariaDB
+  Capabilities: 63486
+  Server Language: 8
+  Server Status: 2
+  Extended Server Capabilities: 33279
+  Authentication Plugin: mysql_native_password
+```
+------------------
+**4190:**
+```
+""IMPLEMENTATION"" ""Dovecot Pigeonhole""\r\n""SIEVE"" ""fileinto reject envelope encoded-character vacation subaddress comparator-i;ascii-numeric relational regex imap4flags copy include variables body enotify environment mailbox date index ihave duplicate mime foreverypart extracttext""\r\n""NOTIFY"" ""mailto""\r\n""SASL"" ""PLAIN""\r\n""STARTTLS""\r\n""VERSION"" ""1.0""\r\nOK ""Dovecot DA ready.""\r\n
+```
+------------------","50"
+"2024-09-29T22:42:08.915Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","102.165.51.106","2024-09-29T22:42:09.045Z","102.165.51.106","","50"
+"2024-09-29T22:42:08.970Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","102.165.51.80","2024-09-29T22:42:09.081Z","102.165.51.80","","50"
+"2024-09-29T22:42:09.033Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","112.85.42.158","2024-09-29T22:42:09.119Z","112.85.42.158","","50"
+"2024-09-29T22:42:09.349Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","119.131.209.186","2024-09-29T22:42:09.404Z","119.131.209.186","","50"
+"2024-09-29T22:42:09.391Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","107.173.21.146","2024-09-29T22:42:09.466Z","107.173.21.146","","50"
+"2024-09-29T22:42:09.393Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","107.173.21.239","2024-09-29T22:42:39.050Z","107.173.21.239","**ISP:** HostPapa
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.6p1 Ubuntu-4
 Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDlmH2pYTh5D+AM/90GjmbZsHBFHHOg/kLytc4ilSzAt8w3
-860Yrvsu9XEY3DiE48NiNU2MYfAAcSEJG1x3bqd3TqgvWMnPVfw6envpl5SVTYm3wKPQ9D8bH8wh
-n+OMsp/72O3vAV52j4gqt069Zp83syO9F1nVn4ixc2u17sj1cIvBOI92YQO5C7C8pN7ofxo/8wXJ
-m94IfnzQ897KTqe1UYVARl2VYAEz6CM5FTnt9EzM6cYK97V+u6x0p63l+itHcgOKPVk6LE032lyi
-qbHy2xBaWIAb8l8hnff4rnNZC5+3797/BreapE2r8d4K9NEzrI8N2navkeP2otRauNAH
-Fingerprint: e7:b2:fc:5f:79:32:27:07:10:86:0f:d0:4f:bc:34:9b
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDzYeTkn0yqSUHEUwOyBWb2pFz8AJ7weSkRpWtq8LawGGty
+BkON3HIWuZid84w9QtZ4E3wDOgjtvrVmikjJSaJK0IgvBK/rQHKyJkC1dcV8YE91DKRTq2KIhUap
+joi+U60H+MttooeX6LEpXcAWrEAlm+3GaA6EhlwevMe1uK4IZDKUkq+jIXaLhHL8MCQeC2Zsy8o7
+FMYYrGHrpo/q4HGSeuiXdfPTu0RjJMiXsoaVu8RA5/c6LhqoiVGAC/UY3p76osdKVQAnYwRW8iBg
+RWFb1qKYkSlFxWsADQC5FTZe7c5Ps0/T84F7dfKmDeNFKuGXuaQjZ7J42FRXsmA5gLUF
+Fingerprint: 3c:60:32:54:8e:27:ad:93:18:5a:ac:59:fa:39:1d:a8
 
 Kex Algorithms:
 	curve25519-sha256
@@ -372,7 +644,134 @@ Kex Algorithms:
 	diffie-hellman-group18-sha512
 	diffie-hellman-group14-sha256
 	diffie-hellman-group14-sha1
-	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-09-29T22:42:09.817Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner,eol-product,database","TLP:CLEAR","111.67.206.87","2024-09-29T22:42:51.711Z","111.67.206.87","**ISP:** China Unicom Beijing Province Network
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Connection: Close
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html; charset=UTF-8
+Content-Length: 171
+```
+------------------
+**92:**
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 Sep 2024 09:54:00 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+```
+------------------
+**3306:**
+```
+MySQL:
+  Protocol Version: 10
+  Version: 5.7.34-log
+  Capabilities: 65535
+  Server Language: 45
+  Server Status: 2
+  Extended Server Capabilities: 49663
+  Authentication Plugin: mysql_native_password
+```
+------------------
+**8888:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 146
+Server: nginx
+Connection: keep-alive
+Date: Sat, 28 Sep 2024 20:16:21 GMT
+```
+------------------","50"
+"2024-09-29T22:42:10.118Z","IPv4-Addr","privilege escalation,vulnerability exploitation,smominru,cve-2014-4113,database servers,kernel rootkit,crypto-miner","TLP:CLEAR","114.115.164.211","2024-09-29T22:42:10.227Z","114.115.164.211","","50"
+"2024-09-29T22:51:33.120Z","IPv4-Addr","tor,cryptomining,vulnerability exploitation,perfcc,iproyal pawns,proxyjacking,gsocket,traffmonetizer,selenium grid","TLP:CLEAR","95.216.88.55","2024-09-29T22:51:33.255Z","95.216.88.55","","50"
+"2024-09-29T22:51:33.120Z","IPv4-Addr","tor,cryptomining,vulnerability exploitation,perfcc,iproyal pawns,proxyjacking,gsocket,traffmonetizer,selenium grid","TLP:CLEAR","154.213.187.153","2024-09-29T22:51:33.343Z","154.213.187.153","","50"
+"2024-09-29T22:51:37.642Z","IPv4-Addr","tor,cryptomining,vulnerability exploitation,perfcc,iproyal pawns,proxyjacking,gsocket,traffmonetizer,selenium grid,starttls,self-signed","TLP:CLEAR","173.212.220.247","2024-09-29T22:52:06.978Z","173.212.220.247","**ISP:** Contabo GmbH
+
+**OS:** -
+
+--------------------------
+Services:
+
+**21:**
+```
+220 (vsFTPd 3.0.3)
+530 Login incorrect.
+530 Please login with USER and PASS.
+211-Features:
+ EPRT
+ EPSV
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+211 End
+```
+------------------
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDBdCfT18aDXgl9ftMzYTO2FCzsybDcZDQd0vWYnMN6A7Hw
+uAJBOh2dfT1sZyvdXKvS4Q2iwPFiti3sQuj91iTdHG3ixEz+VzknlVFotqQjeMOOqa1L4nHcoKmV
+teOT8N1nrCWdQGfUD9C2e/TupdwJHzEMTnOSeW9kZ17TZFUFLjr1MajhFOcXTPBrLyZDxIRokMOM
+d0yll4M4UnaR1G0iK6C1f1hWKDFUw/xJSaanSJ3q5aFZYkY9vD9FF8+2DNZXmUIzMV4iihf13WUn
+H6JVkdFGcrpRgODgDhh8By/g+orJAsVvIxprAGJ6oYRy6nGrsqSsg/yoyUyAxuw41dHR
+Fingerprint: 99:ea:80:04:1e:63:20:86:a9:71:2f:a7:27:87:61:19
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
 
 Server Host Key Algorithms:
 	rsa-sha2-512
@@ -405,8 +804,183 @@ Compression Algorithms:
 	none
 	zlib@openssh.com
 ```
+------------------
+**25:**
+```
+220-vmi109601.contaboserver.net ESMTP Postfix
+250-vmi109601.contaboserver.net
+250-SIZE 15728640
+250-ETRN
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 CHUNKING
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 14 Sep 2024 13:13:18 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 6005
+Content-Type: text/html;charset=UTF-8
+```
+------------------
+**110:**
+```
++OK Dovecot (Ubuntu) ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+STLS
+SASL
+.
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------
+**143:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS LOGINDISABLED] Dovecot (Ubuntu) ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS LOGINDISABLED
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+------------------
+**389:**
+```
+LDAP:
+  ResultCode: success
+```
+------------------
+**443:**
+```
+HTTP/1.1 302 Found
+Date: Wed, 11 Sep 2024 07:11:29 GMT
+Server: Apache
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Cache-Control: no-cache, private
+Location: https://login.microsoftonline.com/vubari.com/oauth2/authorize?response_type=code&client_id=a3db23b7-c9e3-4d90-aa13-d281d8b204ed&resource=a3db23b7-c9e3-4d90-aa13-d281d8b204ed
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkVvUFhcL0xnSUFYT3lQQmRXQXg3d3J3PT0iLCJ2YWx1ZSI6Im5QUkxFSG1MNjdxNnpZMFNPSitDWVd3azJENllWeUZiSFRSbmJwYWRLN2ZPS09teTc1UnJlSzg2RTYreVlyZVkiLCJtYWMiOiJhNGVhMDdlODE2OWI5MGJjZDcyZGFjODQxZjYzZGYzNjVkMzU5YjAxYmIzODIwZWJjMzgxMmRjYzU3ZGQxNDVjIn0%3D; expires=Wed, 11-Sep-2024 09:11:29 GMT; Max-Age=7200; path=/
+Set-Cookie: laravel_session=fYTsEiU8kJ71TYgQ4HdMrFNokxuQkY0k3R4PqxME; expires=Wed, 11-Sep-2024 09:11:29 GMT; Max-Age=7200; path=/; httponly
+Content-Length: 968
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/09/11 07:11:44 173.212.220.247:443 - SAFE
+
+------------------
+**587:**
+```
+220 vmi109601.contaboserver.net ESMTP Postfix
+250-vmi109601.contaboserver.net
+250-PIPELINING
+250-SIZE 15728640
+250-ETRN
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 CHUNKING
+```
+------------------
+**993:**
+```
+* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.
+* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+A001 OK Pre-login capabilities listed, post-login capabilities have more.
+* ID (""name"" ""Dovecot"")
+A002 OK ID completed.
+A003 BAD Error in IMAP command received by server.
+* BYE Logging out
+A004 OK Logout completed.
+```
+HEARTBLEED: 2024/09/12 18:46:40 173.212.220.247:993 - SAFE
+
+------------------
+**995:**
+```
++OK Dovecot (Ubuntu) ready.
++OK
+CAPA
+TOP
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+USER
+SASL PLAIN LOGIN
+.
+```
+HEARTBLEED: 2024/09/10 08:19:30 173.212.220.247:995 - SAFE
+
+------------------
+**8181:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 28 Sep 2024 10:34:31 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 6199
+Content-Type: text/html;charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2 Final//EN"">
+<html>
+ <head>
+  <title>Index of /</title>
+ </head>
+ <body>
+<h1>Index of /</h1>
+  <table>
+   <tr><th valign=""top""><img src=""/icons/blank.gif"" alt=""[ICO]""></th><th><a href=""?C=N;O=D"">Name</a></th><th><a href=""?C=M;O=A"">Last modified</a></th><th><a href=""?C=S;O=A"">Size</a></th><th><a href=""?C=D;O=A"">Description</a></th></tr>
+   <tr><th colspan=""5""><hr></th></tr>
+<tr><td valign=""top""><img src=""/icons/unknown.gif"" alt=""[   ]""></td><td><a href=""BatchPublishController.php"">BatchPublishController.php</a></td><td align=""right"">2018-05-07 16:51  </td><td align=""right""> 15K</td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/compressed.gif"" alt=""[   ]""></td><td><a href=""black.zip"">black.zip</a></td><td align=""right"">2019-02-05 12:04  </td><td align=""right""> 74M</td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""blackboxes/"">blackboxes/</a></td><td align=""right"">2024-09-25 07:32  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""blackboxes_old/"">blackboxes_old/</a></td><td align=""right"">2019-02-08 09:23  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""burj/"">burj/</a></td><td align=""right"">2018-03-28 19:20  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""burj3D/"">burj3D/</a></td><td align=""right"">2018-06-25 13:08  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""burjdubai/"">burjdubai/</a></td><td align=""right"">2017-10-17 18:15  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""careers/"">careers/</a></td><td align=""right"">2018-05-23 14:42  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""dolibarr/"">dolibarr/</a></td><td align=""right"">2017-10-09 13:59  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""dolitest/"">dolitest/</a></td><td align=""right"">2018-09-05 13:01  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/unknown.gif"" alt=""[   ]""></td><td><a href=""doorlog.php"">doorlog.php</a></td><td align=""right"">2017-12-11 16:13  </td><td align=""right"">753 </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""git/"">git/</a></td><td align=""right"">2018-09-17 10:52  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""gitclone/"">gitclone/</a></td><td align=""right"">2019-02-13 11:46  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""knockpruebas/"">knockpruebas/</a></td><td align=""right"">2019-02-21 14:21  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""laravel-rootinc/"">laravel-rootinc/</a></td><td align=""right"">2018-10-17 12:16  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""laravel-test/"">laravel-test/</a></td><td align=""right"">2019-12-17 11:23  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""mnt/"">mnt/</a></td><td align=""right"">2019-02-01 13:10  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""nethack/"">nethack/</a></td><td align=""right"">2018-12-12 10:04  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""nextcloud/"">nextcloud/</a></td><td align=""right"">2017-11-30 10:21  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""prueba/"">prueba/</a></td><td align=""right"">2018-04-11 11:30  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/text.gif"" alt=""[TXT]""></td><td><a href=""robots.txt"">robots.txt</a></td><td align=""right"">2017-05-04 13:52  </td><td align=""right""> 26 </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""sphere/"">sphere/</a></td><td align=""right"">2018-08-07 11:30  </td><td align=""right"">  - </td><td>&nbsp;</td></tr>
+<tr><td valign=""top""><img src=""/icons/folder.gif"" alt=""[DIR]""></td><td><a href=""test/"">test/</a></td><td align=""right"">2024-05-08 22:00  </
+```
 ------------------","50"
-"2024-09-29T21:45:15.571Z","IPv4-Addr","backdoor,iran,government,dns tunneling,infrastructure,spearal,email c2,veaty,cachehttp,iis module,iraq","TLP:CLEAR","206.206.123.176","2024-09-29T21:46:03.808Z","206.206.123.176","**ISP:** Datacamp Limited
+"2024-09-29T22:51:37.668Z","IPv4-Addr","tor,cryptomining,vulnerability exploitation,perfcc,iproyal pawns,proxyjacking,gsocket,traffmonetizer,selenium grid","TLP:CLEAR","193.168.143.199","2024-09-29T22:51:42.361Z","193.168.143.199","**ISP:** ZERGRUSH SRL
 
 **OS:** -
 
@@ -415,17 +989,17 @@ Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3
 Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQD4g3RoVEcvKnLxiRakcxTOAisLKGnpz8AoqZ5xSdML7tV+
-6Jp7WzPwC2As7RAiGx30gV8c43w45FUGKixjQ43E9EvE/Smu05Tx2Gp3vkEtG+KFCsPsultm9G/t
-PP5WMe60v5CT/VcaSaDMKohsG0jQwS+oBkRV+r8SIsvrqiebmxe/xufz3jpk+DtKScDGU8JXbyHZ
-MKXBxK8DS+Baz4nyfR0ItuUCYO+LzmeeUW0I/kEcOQB8rLmXQPvZE9pi5vm5OPacIDFiT9o6+BHO
-R2hE0LP8JABynpP5YGe4EVVG3ZTxvQJvp8Qm9BKxi2n3LqeE52vUeIfNHjUy3R68QoHA9fp8f9/M
-L2WgZKc+BVWiIG7ZYhU1tcU79yVovzyaNXKxbrnLLiVZxKYh0NY5t2lTXNWY0DQpuYyDIu140/Dw
-YxgKYRbTeZsb32dE5PXN3lSKC1egxUqo3PclgSAi3F8fMuCnVW6sDCpt0uf8SoLb5qh7NDcB1U/Z
-kb+dt4TLYy8=
-Fingerprint: c8:1d:49:cc:92:71:63:d3:fe:40:76:bf:57:41:98:95
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC6z/zoi2DJKEgQeFKBo6KDxetY5Eld8adhY8Bb1fpLF5VB
+dbgQd+AfUBeqjYsCRp+F5OVGXxAqj1ZAQzBakWN1MwhyNGGuBAHFzG3YyhAO6cPDQcNdt7NNSNH6
+RXVILUQbgMtdu999X4ld0KTDqs39n8mWUJq+i9dUa4cTH1RV74mPHTQZ2XkpKjB0WV3yTi+9HlGH
+h0H+OpEoSJfn2kyGmKjz/nadYGiH/SC7bwOGqjaeTyyBxmsHhZyg9ITV4VYR3GcJKmC4hYDyFQMx
+uQNS1N6tp+mkScfZfPmFA9vcmSxMTddzZh87h2JPBF/A1jN6Fc9m2nh91jVj2XryzTUN/EOzPMv4
+b39AVGKOb4P78VQDSOUklW/YVtjr6Bsu6jdpF00F4VHklzwbN6xC72rpNLJg+xLC23BWRfpLahaF
+3ght8tNs05Hz6oZ82Z/NIN5wCNCQUR2y/pMJ9g0zW8XZZFc0/9xkwCOJSmpttraQbQAnLTZr6gHY
+iNzodl6A6ek=
+Fingerprint: ee:fa:ea:bc:b3:c9:30:b8:5d:c3:71:ab:95:64:2d:a8
 
 Kex Algorithms:
 	curve25519-sha256
@@ -473,18 +1047,15 @@ Compression Algorithms:
 ------------------
 **80:**
 ```
-HTTP/1.1 404 Not Found
+HTTP/1.1 200 OK
+Date: Sun, 29 Sep 2024 06:37:37 GMT
+Server: Apache/2.4.59 (Debian)
+Last-Modified: Sat, 20 Jul 2024 20:09:46 GMT
+ETag: ""1-61db364b4f4ab""
+Accept-Ranges: bytes
+Content-Length: 1
 Content-Type: text/html
-Content-Length: 296
-```
-------------------
-**8080:**
-```
-HTTP/1.1 403 Forbidden
-Content-Type: text/plain
-Date: Mon, 23 Sep 2024 14:13:28 GMT
-Connection: keep-alive
-Transfer-Encoding: chunked
 ```
 ------------------","50"
-"2024-09-29T21:45:17.187Z","IPv4-Addr","backdoor,iran,government,dns tunneling,infrastructure,spearal,email c2,veaty,cachehttp,iis module,iraq","TLP:CLEAR","91.132.95.117","2024-09-29T21:45:17.487Z","91.132.95.117","","50"
+"2024-09-29T22:51:38.392Z","IPv4-Addr","tor,cryptomining,vulnerability exploitation,perfcc,iproyal pawns,proxyjacking,gsocket,traffmonetizer,selenium grid","TLP:CLEAR","212.47.244.38","2024-09-29T22:51:38.527Z","212.47.244.38","","50"
+"2024-09-29T22:51:39.101Z","IPv4-Addr","tor,cryptomining,vulnerability exploitation,perfcc,iproyal pawns,proxyjacking,gsocket,traffmonetizer,selenium grid","TLP:CLEAR","50.7.74.173","2024-09-29T22:51:39.188Z","50.7.74.173","","50"
