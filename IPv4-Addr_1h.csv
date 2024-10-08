@@ -1,5 +1,5 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-10-07T22:28:12.648Z","IPv4-Addr","phishing,malvertising,geolocation,azorult,adwind,jbifrost,captcha,kraken ransomware,evasion techniques,jrat,turkeydrop,friendspeak,dancefloor,jsocket,link shorteners,unrecom,jfrutas,digital analytics,trojan.maljava,advertising tools,alienspy,frutas,sockrat,mixlabel,starttls,database","TLP:CLEAR","82.221.136.1","2024-10-07T22:28:21.255Z","82.221.136.1","**ISP:** Advania Island ehf
+"2024-10-07T23:34:16.277Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883","TLP:CLEAR","154.213.192.44","2024-10-07T23:34:22.210Z","154.213.192.44","**ISP:** Pfcloud UG
 
 **OS:** -
 
@@ -8,220 +8,96 @@ Services:
 
 **21:**
 ```
-220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
-220-You are user number 1 of 50 allowed.
-220-Local time is now 06:58. Server port: 21.
-220-This is a private system - No anonymous login
-220-IPv6 connections are also welcome on this server.
-220 You will be disconnected after 15 minutes of inactivity.
-530 Login authentication failed
-214-The following SITE commands are recognized
- ALIAS
- CHMOD
- IDLE
- UTIME
-214 Pure-FTPd - http://pureftpd.org/
-211-Extensions supported:
- UTF8
+220 (vsFTPd 3.0.3)
+230 Login successful.
+214-The following commands are recognized.
+ ABOR ACCT ALLO APPE CDUP CWD  DELE EPRT EPSV FEAT HELP LIST MDTM MKD
+ MODE NLST NOOP OPTS PASS PASV PORT PWD  QUIT REIN REST RETR RMD  RNFR
+ RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD
+ XPWD XRMD
+214 Help OK.
+211-Features:
  EPRT
- IDLE
- MDTM
- SIZE
- MFMT
- REST STREAM
- MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
- MLSD
- PRET
- AUTH TLS
- PBSZ
- PROT
- TVFS
- ESTA
- PASV
  EPSV
- ESTP
-211 End.
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+211 End
 ```
 ------------------
-**53:**
+**22:**
 ```
-PowerDNS Authoritative Server 4.9.1 (built Sep  3 2024 16:15:48 by root@bh-centos-8.dev.cpanel.net)
-Resolver ID: lettir.orangewebsite.com
+SSH-2.0-OpenSSH_7.6p1 Ubuntu-4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDJWgrL3u0Pm8EG+pL+leRyFOwu9ukkmhCdkH0ibt8T5wWE
+IDnyc3+t0zqEdpouilSNLXo6hbyuev482RqtZjQ0hmJlsewHXLukRZI1PdTyxAN/BXglDN54921V
+mlC0agUtslpXqzDiIGy2L+lgk3ZXXcS8aA7ySqg7HRNN+PGXWblO22tQNfdVG4KOfSQ6CDZvCfPZ
+ka/NKgIPTjyoshrTR0pNlZai0NxVr98ZFHf+A88GM/D8ArgdANhb99P8+galr2hWefcm0kN0zCNF
+9hwpxFE5x7FwfPvU9Ssv7OZHnD8xic4PtGlJGOJ4qkRPsStxAy5jTCbJSnwz26jEK/hgIk9vTKnF
+qb14BGSWYxOnnzlpNu//AiQWf3BYFG1kAbC6SaCBy4EXwupBKtGIgSmsFb5JbgqQ3CsV2iAhHNZr
+FWomxn8wYcYmr+CV7yKGySotK8/abhrZGFOPrkuyYoXemmB9uF3GByK2GPBRU0uVtUtVQriT++JR
+ZwcN5S6AYqs=
+Fingerprint: 9a:52:0b:99:d6:b9:13:aa:b6:d1:c9:1f:78:82:15:a1
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
 ```
 ------------------
 **80:**
 ```
 HTTP/1.1 200 OK
-Connection: Keep-Alive
-Keep-Alive: timeout=5, max=100
-content-type: text/html
-transfer-encoding: chunked
-date: Sat, 05 Oct 2024 13:38:49 GMT
-server: LiteSpeed
-```
-------------------
-**110:**
-```
-+OK Dovecot ready.
-+OK
-CAPA
-TOP
-UIDL
-RESP-CODES
-PIPELINING
-AUTH-RESP-CODE
-STLS
-USER
-SASL PLAIN LOGIN
-.
-```
-------------------
-**143:**
-```
-* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
-* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN
-A001 OK Pre-login capabilities listed, post-login capabilities have more.
-* ID (""name"" ""Dovecot"")
-A002 OK ID completed.
-A003 BAD Error in IMAP command received by server.
-* BYE Logging out
-A004 OK Logout completed.
-```
-------------------
-**443:**
-```
-HTTP/1.1 200 OK
-Connection: Keep-Alive
-Keep-Alive: timeout=5, max=100
-content-type: text/html
-transfer-encoding: chunked
-date: Sun, 06 Oct 2024 22:13:19 GMT
-server: LiteSpeed
-alt-svc: h3="":443""; ma=2592000, h3-29="":443""; ma=2592000, h3-Q050="":443""; ma=2592000, h3-Q046="":443""; ma=2592000, h3-Q043="":443""; ma=2592000, quic="":443""; ma=2592000; v=""43,46""
-```
-HEARTBLEED: 2024/10/06 22:13:40 82.221.136.1:443 - SAFE
-
-------------------
-**465:**
-```
-220-lettir.orangewebsite.com ESMTP Exim 4.97.1 #2 Wed, 25 Sep 2024 08:48:35 +0000 
-220-We do not authorize the use of this system to transport unsolicited, 
-220 and/or bulk e-mail.
-250-lettir.orangewebsite.com Hello 224.126.163.120 [224.126.163.120]
-250-SIZE 52428800
-250-8BITMIME
-250-PIPELINING
-250-PIPECONNECT
-250-AUTH PLAIN LOGIN
-250 HELP
-```
-HEARTBLEED: 2024/09/25 08:48:43 82.221.136.1:465 - SAFE
-
-------------------
-**587:**
-```
-220-lettir.orangewebsite.com ESMTP Exim 4.97.1 #2 Wed, 25 Sep 2024 01:13:03 +0000 
-220-We do not authorize the use of this system to transport unsolicited, 
-220 and/or bulk e-mail.
-250-lettir.orangewebsite.com Hello z9h8m49j01lm.com [224.60.56.230]
-250-SIZE 52428800
-250-8BITMIME
-250-PIPELINING
-250-PIPECONNECT
-250-STARTTLS
-250 HELP
-```
-------------------
-**993:**
-```
-* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
-* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
-A001 OK Pre-login capabilities listed, post-login capabilities have more.
-* ID (""name"" ""Dovecot"")
-A002 OK ID completed.
-A003 BAD Error in IMAP command received by server.
-* BYE Logging out
-A004 OK Logout completed.
-```
-HEARTBLEED: 2024/09/25 04:05:17 82.221.136.1:993 - SAFE
-
-------------------
-**995:**
-```
-+OK Dovecot ready.
-+OK
-CAPA
-TOP
-UIDL
-RESP-CODES
-PIPELINING
-AUTH-RESP-CODE
-USER
-SASL PLAIN LOGIN
-.
-```
-HEARTBLEED: 2024/10/06 18:29:30 82.221.136.1:995 - SAFE
-
-------------------
-**2082:**
-```
-HTTP/1.1 301 Moved
-Content-length: 110
-Location: https://82.221.136.1:2083/
-Content-type: text/html; charset=""utf-8""
-Cache-Control: no-cache, no-store, must-revalidate, private
-```
-------------------
-**2083:**
-```
-HTTP/1.1 200 OK
-Connection: close
-Content-Type: text/html; charset=""utf-8""
-Date: Tue, 01 Oct 2024 08:15:21 GMT
-Cache-Control: no-cache, no-store, must-revalidate, private
-Pragma: no-cache
-Set-Cookie: cprelogin=no; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
-Set-Cookie: cpsession=%3aWBn16OypFUZfURfu%2cff78e4088aa5a19223c853ccd0611631; HttpOnly; path=/; port=2083; secure
-Set-Cookie: roundcube_sessid=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
-Set-Cookie: roundcube_sessauth=expired; HttpOnly; domain=82.221.136.1; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
-Set-Cookie: PPA_ID=expired; HttpOnly; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; port=2083; secure
-Content-Length: 37844
-```
-HEARTBLEED: 2024/10/01 08:15:34 82.221.136.1:2083 - SAFE
-
-------------------
-**2086:**
-```
-HTTP/1.1 301 Moved
-Content-length: 110
-Location: https://82.221.136.1:2087/
-Content-type: text/html; charset=""utf-8""
-Cache-Control: no-cache, no-store, must-revalidate, private
-```
-------------------
-**2087:**
-```
-HTTP/1.1 301 Moved
-Content-length: 121
-Location: https://lettir.orangewebsite.com:2087
-Content-type: text/html; charset=""utf-8""
-Cache-Control: no-cache, no-store, must-revalidate, private
-Pragma: no-cache
-```
-------------------
-**3306:**
-```
-MariaDB:
-  Protocol Version: 10
-  Version: 10.6.15-MariaDB
-  Capabilities: 63486
-  Server Language: 8
-  Server Status: 2
-  Extended Server Capabilities: 33279
-  Authentication Plugin: mysql_native_password
+Server: nginx
+Date: Sun, 06 Oct 2024 18:39:16 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Mon, 23 Sep 2024 14:41:25 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+ETag: ""66f17e15-264""
+Accept-Ranges: bytes
 ```
 ------------------","50"
-"2024-10-07T22:57:44.982Z","IPv4-Addr","osint,mythic,c2,linux,india,poseidon,apt36,desktop entry,digitalocean,jarm,cloud,eol-product","TLP:CLEAR","64.23.155.109","2024-10-07T22:57:49.268Z","64.23.155.109","**ISP:** DigitalOcean, LLC
+"2024-10-07T23:34:16.799Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883,cloud,self-signed","TLP:CLEAR","64.227.170.227","2024-10-07T23:34:29.888Z","64.227.170.227","**ISP:** DigitalOcean, LLC
 
 **OS:** Linux
 
@@ -230,19 +106,435 @@ Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_9.3p1 Ubuntu-1ubuntu3.6
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHhESdGXP9C6S44/Xlapb1KG
-4YCSAjk5oaaQUnXEW7hrzU7SbSaMgwWxScSsiW+qYJi2l+YjhMFyYCvIRqasgUo=
-Fingerprint: ef:25:f3:c0:62:d3:40:1f:a6:e1:e4:83:5f:6e:40:4e
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDQuJ4fmnUeAdntIficuSjep8C6MWXAjdl3JJru2Apb5P5A
+jNDKRwJHI53PnhvCfIWtCoDR+ES+xIW+d+rvYV0OUVFSzR53RgwZm+uWWszqUi6oGkM0eprCGUoZ
+orfoGeprqGFaYd7ObQQmfiFZNLE58rH8UhuBXTLM/BE3INGn9RcJr4j0o/PQF/J8IPiJZpGpIvQg
+EnZvQta3vDjiR3v1Qp7CITMbxHifqefU9esjyRuGNHqxObJDjx+q6+xzlNTAkRPlN9PKUSmkearz
+DeAz/la8xnZe5HyAP03WlefSfm+jjSRiTFQWwAJ7CWNJwcyDz3QzFrSC77M4+I3jPZtyZ8zIJezI
+0Ic5qSPP6nvwtSNdMg1IvICvpF1N6Y7X0kmZy7qF1vcegQSp1YJwXaDtPsUFtMvl9OmtKfQ6leb3
+kVsjIXAzbbG//Q52/oJPyLvMzmz480VPObhfeilrxRm4WPHhslDsz97fNVpultHbzHlLbuHyquII
+BFgo1s4d/GU=
+Fingerprint: 3b:ec:84:12:f1:97:7c:1d:ac:a5:51:c3:26:95:ec:c1
 
 Kex Algorithms:
-	sntrup761x25519-sha512@openssh.com
 	curve25519-sha256
 	curve25519-sha256@libssh.org
 	ecdh-sha2-nistp256
 	ecdh-sha2-nistp384
 	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+HEARTBLEED: 2024/10/06 05:30:55 64.227.170.227:443 - SAFE
+
+------------------
+**1337:**
+```
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Basic realm=""Secure Area""
+Date: Thu, 26 Sep 2024 14:58:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 50
+
+<html><body>Unauthorized XNP access.</body></html>
+```
+------------------
+**8080:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------","50"
+"2024-10-07T23:34:17.113Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883,cloud,self-signed","TLP:CLEAR","198.199.85.230","2024-10-07T23:34:42.720Z","198.199.85.230","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC212MkWnOs0ZgsVyrLJhVmZr8cyAOirASrhr8nEIUGxG26
+iRAU1aYDNcOb2Qqa2Bt9n53MpWIi3o4eAz2f5njxSRZLo+pW5EThIVqeuk4bXSrYXnduBHFP1Pxz
+jQr5EkmTsigsMUAhiLfrAFax8Ss0lFOt+b9Q3aI+GX8qv36RSjKBaolKyoB/73UVY3heH0teZ52D
+YmK/3k0NEflI5T9fzYwi1IP6oR127+ipca6Eh5jWgj9m5459+HaVKAHJ5MVdKFswOtABD9x/ihWE
+R0cBwtalu8cBxwZjA8lxlAnahyQoyoxvmnb+aeDCN2HU7l1qsyzJMPAIekBDVtcquyqXS0oiUkqo
+R8TeMEBevwtMe58AELou1bajLlK/KaZVN7I1DQn0AI8Avp84MEBC14WPqzL1QoRgfjBXNNyTNH8i
+HE1pPjdKRuF2KXkCEZ2yyPP7TdDhedcAu8gUtJbfH27dQhR7OmY/PaI845u+4tyT7xav8ARcEJ8W
+b38ePpKywbU=
+Fingerprint: d6:ae:34:8f:34:31:4e:a6:03:fa:19:2a:36:de:59:1d
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+HEARTBLEED: 2024/09/28 14:56:16 198.199.85.230:443 - SAFE
+
+------------------
+**1337:**
+```
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Basic realm=""Secure Area""
+Date: Thu, 03 Oct 2024 17:22:12 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 50
+
+<html><body>Unauthorized XNP access.</body></html>
+```
+------------------
+**8080:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------","50"
+"2024-10-07T23:34:18.395Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883,cloud,self-signed","TLP:CLEAR","157.230.29.135","2024-10-07T23:34:59.247Z","157.230.29.135","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC9BvtieIP4R2mMmr13Jb065eMh/Yh2zEuX/cYvsrvvgHKK
+R9eEjaFWzP+/XPy3VKXdb9mZyPBz8oi2S0iZNeACCkcwCuLi2+TDhzbZ3jNXLEqoVbeJEbwxryDM
+6z2Oug9hGRGFJJBgm274MNclC1EoSsxBZR+o8LPkEEvhvVqsZA1Y+cLPNrhnY82umiNYU8/Hsjr3
+9etruxbCAp4e/yXGzUcGJko/0XBzjlCIXXiRo4/mzhyxYfbENnsyFI64QtJq9vYs3tzEg5V6HS9/
+EtpkHqMTB4tW7fGm8uu0g6Ij9+D2GrMBpeNrXU4fyjZ/ytbjxm6YVcrfVsKpoAcQqy3XgVTF8ThF
+OtqSirEwu/YQNr7WjVc9pCzhcXL/PB3nC8wukcGTunXyZSGXmgLQDQQaMt44Sld9Osox6T6V46lR
+/zO5vDza6yS7Z6ysuS14hCodXPLzjNpQJkCN0hcxjam1UJOd5Lfh3QzRXY0SRCWdUFJMBM9KRESB
+5mF8A9YXYHk=
+Fingerprint: 73:53:cb:73:29:9e:40:43:eb:48:bc:da:05:ad:6d:5e
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+HEARTBLEED: 2024/10/07 21:17:25 157.230.29.135:443 - SAFE
+
+------------------
+**1337:**
+```
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Basic realm=""Secure Area""
+Date: Mon, 07 Oct 2024 08:40:07 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 50
+
+<html><body>Unauthorized XNP access.</body></html>
+```
+------------------
+**8080:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------","50"
+"2024-10-07T23:34:19.558Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883,self-signed","TLP:CLEAR","51.222.111.116","2024-10-07T23:35:11.464Z","51.222.111.116","**ISP:** OVH SAS
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+HEARTBLEED: 2024/10/04 07:14:29 51.222.111.116:443 - SAFE
+
+------------------
+**1337:**
+```
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Basic realm=""Secure Area""
+Date: Tue, 01 Oct 2024 10:15:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 50
+
+<html><body>Unauthorized XNP access.</body></html>
+```
+------------------
+**8080:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 19
+```
+------------------","50"
+"2024-10-07T23:34:21.085Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883","TLP:CLEAR","77.221.149.212","2024-10-07T23:35:27.564Z","77.221.149.212","**ISP:** AEZA INTERNATIONAL LTD
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDxTQiwUK7LuWbzJWKYNQxxH1Mx9MVo5Y/um16M/w2KJecR
+iMscvExfSemghNw1zNhmIisoH8cRMVshsS3WZ4bLeolPvtbm7HcoKNuoO7JKgJ0UXqJkevvmfJ0V
+mZdQ4WraMiLyrQMgXFG25FxwFB/q2mZL2whilVD8Pbb5r1sZWHvWsi3F9bWNOnrch+6BRYUjtSe/
+fXMnzfQPY6L+4E1y9ZbRYKQt3cQOOAHA4iDj+ee5X7KygLA0KP9dVz4zL0/Yht7yQUA45N7wo94L
+PU4SYA8weVRh/yThdPpLm0PkIwsxAviYRbyjc00z6h7iFwcqHluK5VbeYRqVEtrxw/lX
+Fingerprint: 0b:69:80:65:e8:68:c3:73:88:97:42:57:0c:ff:a7:e6
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+:irc.bashgo.pw NOTICE AUTH :*** Looking up your hostname...
+:irc.bashgo.pw NOTICE AUTH :*** Found your hostname (cached)
+```
+------------------
+**443:**
+```
+:irc.bashgo.pw NOTICE AUTH :*** Looking up your hostname...
+:irc.bashgo.pw NOTICE AUTH :*** Found your hostname (cached)
+```
+------------------
+**8080:**
+```
+:irc.bashgo.pw NOTICE AUTH :*** Looking up your hostname...
+:irc.bashgo.pw NOTICE AUTH :*** Couldn't resolve your hostname; using your IP address instead
+```
+------------------","50"
+"2024-10-07T23:34:21.756Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883","TLP:CLEAR","77.221.151.174","2024-10-07T23:34:22.104Z","77.221.151.174","","50"
+"2024-10-07T23:34:22.142Z","IPv4-Addr","botnet,cryptomining,tsunami,brazil,china,pwnrig,k4spreader,weblogic,hadooken,cve-2017-10271,cve-2020-14883","TLP:CLEAR","80.78.24.30","2024-10-07T23:36:04.178Z","80.78.24.30","**ISP:** ab stract ltd
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOy3FxeHx67r/1VEKeSAHwMV
+X6sfnWcpcReXeqo3dgdvCAAjs+RWBO2TEDwkxdjXHJ77DwwchiG5+aor/hd9Mfc=
+Fingerprint: 80:f0:af:71:cc:7a:ea:83:d8:36:bf:65:c9:ed:d9:0c
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
 	diffie-hellman-group-exchange-sha256
 	diffie-hellman-group16-sha512
 	diffie-hellman-group18-sha512
@@ -280,463 +572,83 @@ Compression Algorithms:
 	zlib@openssh.com
 ```
 ------------------
-**53:**
-```
-Resolver ID: txtvers=1
-```
-------------------
-**7443:**
-```
-HTTP/1.1 200 OK
-Server: nginx/1.23.4
-Date: Mon, 07 Oct 2024 14:45:16 GMT
-Content-Type: text/html
-Content-Length: 585
-Connection: keep-alive
-Last-Modified: Thu, 11 Jan 2024 13:09:11 GMT
-ETag: ""659fe877-249""
-Accept-Ranges: bytes
-```
-HEARTBLEED: 2024/10/07 14:45:22 64.23.155.109:7443 - SAFE
-
-------------------","50"
-"2024-10-07T22:57:45.227Z","IPv4-Addr","osint,mythic,c2,linux,india,poseidon,apt36,desktop entry,digitalocean,jarm,cloud,eol-product","TLP:CLEAR","165.232.118.207","2024-10-07T22:58:03.437Z","165.232.118.207","**ISP:** DigitalOcean, LLC
-
-**OS:** Linux
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCBPh/zvkyTvK5Fwj87ytz7s
-x3kXKeTeFErDheebD7ZEo7OKEu4T3Q4J0YHWvUq9NhqpL/VRwp8Y6CLlcgmpzSA=
-Fingerprint: 5e:67:fe:1f:68:d9:77:3e:e9:97:ce:26:a8:b2:fd:12
-
-Kex Algorithms:
-	sntrup761x25519-sha512@openssh.com
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	ext-info-s
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
 **80:**
 ```
-HTTP/1.1 404 Not Found
-Cache-Control: max-age=0, no-cache
-Connection: keep-alive
-Content-Length: 0
-Content-Type: application/javascript; charset=utf-8
-Date: Mon, 23 Sep 2024 08:15:09 GMT
-Pragma: no-cache
-Server: NetDNA-cache/2.2
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 06 Oct 2024 03:08:19 GMT
+Content-Length: 88
 ```
 ------------------
-**443:**
-```
-HTTP/1.1 404 Not Found
-Cache-Control: max-age=0, no-cache
-Connection: keep-alive
-Content-Length: 0
-Content-Type: application/javascript; charset=utf-8
-Date: Sat, 05 Oct 2024 02:09:29 GMT
-Pragma: no-cache
-Server: NetDNA-cache/2.2
-```
-HEARTBLEED: 2024/10/05 02:09:48 165.232.118.207:443 - SAFE
-
-------------------
-**7443:**
+**8080:**
 ```
 HTTP/1.1 200 OK
-Server: nginx/1.25.5
-Date: Sun, 06 Oct 2024 19:46:07 GMT
-Content-Type: text/html
-Content-Length: 585
-Connection: keep-alive
-Last-Modified: Tue, 06 Aug 2024 18:50:21 GMT
-ETag: ""66b2706d-249""
-Accept-Ranges: bytes
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 02 Oct 2024 09:17:21 GMT
+Content-Length: 88
 ```
-HEARTBLEED: 2024/10/06 19:46:24 165.232.118.207:7443 - SAFE
-
 ------------------
 **8081:**
 ```
 HTTP/1.1 200 OK
-Accept-Ranges: bytes
-Content-Length: 152
-Content-Type: text/html; charset=utf-8
-Last-Modified: Mon, 25 Mar 2024 16:40:03 GMT
-Date: Sun, 06 Oct 2024 15:06:08 GMT
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 23 Sep 2024 21:35:56 GMT
+Content-Length: 88
 
-<!DOCTYPE>
-<html>
-<head>
-<title>Under Construction</title>
-</head>
-<body>
-<p>This page is under construction. Please come back soon!</p>
-</body>
-</html>
-```
-------------------","50"
-"2024-10-07T22:57:47.981Z","IPv4-Addr","osint,mythic,c2,linux,india,poseidon,apt36,desktop entry,digitalocean,jarm,cloud,eol-product","TLP:CLEAR","137.184.211.26","2024-10-07T22:58:21.159Z","137.184.211.26","**ISP:** DigitalOcean, LLC
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPi8xGomKRgDwTLHtaBjADqy
-lIX4Z81xh8KnpIQK7Ry9E+5vMfIFwxbDIEKq1Ce2nepCdrLHYDogF9+rnrYj7qA=
-Fingerprint: 28:fd:c0:4e:f9:98:b1:d8:bf:08:34:df:f5:38:f1:2d
-
-Kex Algorithms:
-	sntrup761x25519-sha512@openssh.com
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	ext-info-s
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
+this is a sinkhole. X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 ```
 ------------------
-**7443:**
+**8083:**
 ```
 HTTP/1.1 200 OK
-Server: nginx/1.25.5
-Date: Sat, 28 Sep 2024 21:12:27 GMT
-Content-Type: text/html
-Content-Length: 585
-Connection: keep-alive
-Last-Modified: Tue, 03 Sep 2024 13:48:07 GMT
-ETag: ""66d71397-249""
-Accept-Ranges: bytes
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 07 Oct 2024 04:33:32 GMT
+Content-Length: 88
+
+this is a sinkhole. X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 ```
-HEARTBLEED: 2024/09/28 21:12:34 137.184.211.26:7443 - SAFE
-
-------------------","50"
-"2024-10-07T22:57:52.723Z","IPv4-Addr","osint,mythic,c2,linux,india,poseidon,apt36,desktop entry,digitalocean,jarm,cloud","TLP:CLEAR","157.245.139.146","2024-10-07T22:58:29.879Z","157.245.139.146","**ISP:** DigitalOcean, LLC
-
-**OS:** -
-
---------------------------
-Services:
-
-**80:**
+------------------
+**8085:**
 ```
 HTTP/1.1 200 OK
-Date: Wed, 11 Sep 2024 08:23:49 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Last-Modified: Thu, 07 Sep 2023 22:28:51 GMT
-ETag: ""1c06-604cc626d2843""
-Accept-Ranges: bytes
-Content-Length: 7174
-Vary: Accept-Encoding
-Content-Type: text/html
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 21 Sep 2024 11:59:01 GMT
+Content-Length: 88
+
+this is a sinkhole. X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 ```
 ------------------
-**123:**
-```
-NTP
-protocolversion: 3
-stratum: 2
-leap: 0
-precision: -24
-rootdelay: 0.0399169921875
-rootdisp: 0.0243072509766
-refid: 1163513699
-reftime: 3936871893.05
-poll: 3
-```
-------------------
-**5001:**
-```
-HTTP/1.1 400 Bad Request
-Server: squid/4.14
-Mime-Version: 1.0
-Date: Fri, 04 Oct 2024 12:37:52 GMT
-Content-Type: text/html;charset=utf-8
-Content-Length: 3532
-X-Squid-Error: ERR_INVALID_URL 0
-Vary: Accept-Language
-Content-Language: en
-X-Cache: MISS from mirageid.com
-X-Cache-Lookup: NONE from mirageid.com:5000
-Connection: close
-
-<!DOCTYPE html PUBLIC ""-//W3C//DTD HTML 4.01//EN"" ""http://www.w3.org/TR/html4/strict.dtd"">
-<html><head>
-<meta type=""copyright"" content=""Copyright (C) 1996-2021 The Squid Software Foundation and contributors"">
-<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
-<title>ERROR: The requested URL could not be retrieved</title>
-<style type=""text/css""><!-- 
- /*
- * Copyright (C) 1996-2021 The Squid Software Foundation and contributors
- *
- * Squid software is distributed under GPLv2+ license and includes
- * contributions from numerous individuals and organizations.
- * Please see the COPYING and CONTRIBUTORS files for details.
- */
-
-/*
- Stylesheet for Squid Error pages
- Adapted from design by Free CSS Templates
- http://www.freecsstemplates.org
- Released for free under a Creative Commons Attribution 2.5 License
-*/
-
-/* Page basics */
-* {
-	font-family: verdana, sans-serif;
-}
-
-html body {
-	margin: 0;
-	padding: 0;
-	background: #efefef;
-	font-size: 12px;
-	color: #1e1e1e;
-}
-
-/* Page displayed title area */
-#titles {
-	margin-left: 15px;
-	padding: 10px;
-	padding-left: 100px;
-	background: url('/squid-internal-static/icons/SN.png') no-repeat left;
-}
-
-/* initial title */
-#titles h1 {
-	color: #000000;
-}
-#titles h2 {
-	color: #000000;
-}
-
-/* special event: FTP success page titles */
-#titles ftpsuccess {
-	background-color:#00ff00;
-	width:100%;
-}
-
-/* Page displayed body content area */
-#content {
-	padding: 10px;
-	background: #ffffff;
-}
-
-/* General text */
-p {
-}
-
-/* error brief description */
-#error p {
-}
-
-/* some data which may have caused the problem */
-#data {
-}
-
-/* the error message received from the system or other software */
-#sysmsg {
-}
-
-pre {
-}
-
-/* special event: FTP / Gopher directory listing */
-#dirmsg {
-    font-family: courier, monospace;
-    color: black;
-    font-size: 10pt;
-}
-#dirlisting {
-    margin-left: 2%;
-    margin-right: 2%;
-}
-#dirlisting tr.entry td.icon,td.filename,td.size,td.date {
-    border-bottom: groove;
-}
-#dirlisting td.size {
-    width: 50px;
-    text-align: right;
-    padding-right: 5px;
-}
-
-/* horizontal lines */
-hr {
-	margin: 0;
-}
-
-/* page displayed footer area */
-#footer {
-	font-size: 9px;
-	padding-left: 10px;
-}
-
-
-body
-:lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
-:lang(he) { direction: rtl; }
- --></style>
-</head><body id=ERR_INVALID_URL>
-<div id=""titles"">
-<h1>ERROR</h1>
-<h2>The requested URL could not be retrieved</h2>
-</div>
-<hr>
-
-<div id=""content"">
-<p>The following error was encountered while trying to retrieve the URL: <a href=""/"">/</a></p>
-
-<blockquote id=""error"">
-<p><b>Invalid URL</b></p>
-</blockquote>
-
-<p>Some aspect of the requested URL is incorrect.</p>
-
-<p>Some possible problems are:</p>
-<ul>
-<li><p>Missing or incorrect access protocol (should be <q>http://</q> or similar)</p></li>
-<li><p>Missing hostname</p></li>
-<li><p>Illegal double-escape in the URL-Path</p></li>
-<li><p>Illegal character in hostname; underscores are not allowed.</p></li>
-</ul>
-
-<p>Your cache administrator is <a href=""mailto:support@mirageid.com?subject=CacheErrorInfo%20-%20ERR_INVALID_URL&amp;body=CacheHost%3A%20mirageid.com%0D%0AErrPage%3A%20ERR_INVALID_URL%0D%0AErr%3A%20%5Bnone%5D%0D%0ATimeStamp%3A%20Fri,%2004%20Oct%202024%2012%3A37%3A52%20GMT%0D%0A%0D%0AClientIP%3A%20224.189.71.250%0D%0A%0D%0AHTTP%20Request%3A%0D%0A%0D%0A%0D%0A"">support@mirageid.com</a>.</p>
-<br>
-</div>
-
-<hr>
-<div id=""footer"">
-<p>Generated Fri, 04 Oct 2024 12:37:52 GMT by mirageid.com (squid/4.14)</p>
-<!-- ERR_INVALID_URL -->
-</div>
-</body></html>
-```
-------------------","50"
-"2024-10-07T22:57:59.005Z","IPv4-Addr","osint,mythic,c2,linux,india,poseidon,apt36,desktop entry,digitalocean,jarm,cloud,eol-product","TLP:CLEAR","64.23.213.61","2024-10-07T23:00:09.881Z","64.23.213.61","**ISP:** DigitalOcean, LLC
-
-**OS:** -
-
---------------------------
-Services:
-
-**53:**
-```
-
-```
-------------------
-**80:**
-```
-HTTP/1.1 404 Not Found
-Date: Wed, 02 Oct 2024 09:16:41 GMT
-Content-Length: 0
-```
-------------------
-**443:**
-```
-HTTP/1.1 404 Not Found
-Date: Wed, 25 Sep 2024 20:04:23 GMT
-Content-Length: 0
-```
-HEARTBLEED: 2024/09/25 20:04:28 64.23.213.61:443 - SAFE
-
-------------------
-**7443:**
+**8086:**
 ```
 HTTP/1.1 200 OK
-Server: nginx/1.25.5
-Date: Mon, 30 Sep 2024 18:41:53 GMT
-Content-Type: text/html
-Content-Length: 585
-Connection: keep-alive
-Last-Modified: Thu, 05 Sep 2024 15:07:19 GMT
-ETag: ""66d9c927-249""
-Accept-Ranges: bytes
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 27 Sep 2024 16:35:44 GMT
+Content-Length: 88
 ```
-HEARTBLEED: 2024/09/30 18:42:07 64.23.213.61:7443 - SAFE
+------------------
+**8087:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 26 Sep 2024 17:45:27 GMT
+Content-Length: 88
+```
+------------------
+**8089:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 28 Sep 2024 01:42:04 GMT
+Content-Length: 88
 
+this is a sinkhole. X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+```
+------------------
+**8101:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 25 Sep 2024 23:46:36 GMT
+Content-Length: 88
+```
 ------------------","50"
