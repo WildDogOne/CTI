@@ -1,62 +1,104 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-10-15T20:18:17.543Z","IPv4-Addr","","TLP:CLEAR","186.169.49.3","2024-10-15T20:18:24.800Z","186.169.49.3","**ISP:** COLOMBIA TELECOMUNICACIONES S.A. ESP
+"2024-10-15T21:18:52.065Z","IPv4-Addr","emergingthreat,eol-product,devops","TLP:CLEAR","103.82.24.154","2024-10-15T21:18:57.866Z","103.82.24.154","**ISP:** VIETNAM POSTS AND TELECOMMUNICATIONS GROUP
 
-**OS:** -
-
---------------------------
-Services:
-
-**1024:**
-```
-HTTP/1.1 404 Not Found
-Content-Type: text/html
-Transfer-Encoding: chunked
-Server: RomPager/4.37
-Connection: close
-```
-------------------","50"
-"2024-10-15T20:18:18.616Z","IPv4-Addr","","TLP:CLEAR","168.119.148.218","2024-10-15T20:18:18.928Z","168.119.148.218","Anyrun Malware Trends",""
-"2024-10-15T20:18:19.153Z","IPv4-Addr","","TLP:CLEAR","188.126.90.5","2024-10-15T20:18:33.787Z","188.126.90.5","**ISP:** GleSYS AB
-
-**OS:** -
-
---------------------------
-Services:
-
-**9091:**
-```
-HTTP/1.1 301 Moved Permanently
-Server: Transmission
-Access-Control-Allow-Origin: *
-Location: /transmission/web/
-Date: Tue, 08 Oct 2024 09:50:51 GMT
-Content-Length: 31
-Content-Type: text/html; charset=ISO-8859-1
-
-<h1>301: Moved Permanently</h1>
-```
-------------------","50"
-"2024-10-15T20:18:50.686Z","IPv4-Addr","","TLP:CLEAR","103.212.81.160","2024-10-15T20:18:51.089Z","103.212.81.160","Anyrun Malware Trends",""
-"2024-10-15T20:20:00.504Z","IPv4-Addr","","TLP:CLEAR","178.20.41.173","2024-10-15T20:20:05.754Z","178.20.41.173","**ISP:** Hosting technology LTD
-
-**OS:** Linux
+**OS:** Linux 5.15.0-76-generic
 
 --------------------------
 Services:
 
 **22:**
 ```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.9
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIrl5ClCRcIza3dCRrlulQoW
+3QtPyuNYubbn7x37KcUVJHSuj9RaUCdDhTtpMrLeP0fFZNTmnafUEnSgtdieWyY=
+Fingerprint: a8:95:7c:51:e9:f5:a0:b0:d8:70:11:fa:6e:cf:47:ca
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**2375:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+Date: Thu, 10 Oct 2024 21:07:51 GMT
+Content-Length: 29
+
+
+Docker:
+  Version: 24.0.5
+  API Version: 1.43
+  Go Version: go1.20.14
+  OS: Linux 5.15.0-76-generic
+  Container #1:
+    Image: ubuntu:18.04
+    Command: /bin/bash
+    Names:
+      /fd8odg6zsl8f
+```
+------------------","50"
+"2024-10-15T21:18:52.066Z","IPv4-Addr","emergingthreat","TLP:CLEAR","116.105.212.156","2024-10-15T21:18:52.123Z","116.105.212.156","Proofpoint Emerging Threat IP",""
+"2024-10-15T21:18:52.650Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","139.59.57.120","2024-10-15T21:19:05.551Z","139.59.57.120","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
 Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCrlB8qgLFDiTNI5cupArMflzzFmZrriqk6KClCnAzOnLAa
-8qK2BtLn+ryuuRxHxawTCZS5lvRhIzzEd3XIRATdB+M+csTwqNO8As2y4AIAPgbWYic0nHbQgTSR
-v4vVHNj56+4TOlFIBpM37zMN5vpNHYGw0djbVmQ+XiwnXydfXpKkkq1aSbklD00USvHVZW6wRlq1
-GK6MRPgW69PBHdR3JW8rI/mN8qeXDYQbVhMQcVp/hbPh0vs8FG6LKm1te11BZ1VEN0hhOrt3sOaW
-hzZenJMpDXYO2zWG9w5G6hQY4D3KcvfE9mGN7+CEnGetXTbIurx9pOArRvEIELOutNzyw0ZmwGV+
-9MxPS4o+aMv9NDUMyl3cwAHE2Rw9iuCqMUnVjZO+Dpy5Yla4nHL7sXAvdigwzEoe+VbSMHAKJZoV
-EsZItoQAhXi4qZXMayxNzn73d+yQCmwbiwnAkPsYizl/lwJiw9OYWzFUhSVM3zqVvFInKzP1nPBn
-jSvQBR7apQ8=
-Fingerprint: 1f:43:3d:89:28:3b:5b:fb:68:6c:92:4e:6b:9c:ab:03
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCqQ+smS6W6nA7/9WEqTkh0+WH+eaUSQx3KDCuHwN0s9oXC
+SrCh5WkspightFpR+lBC8+EnsJU3ElCAr1dyjP8mIOxBg1JbO7jxPL4x9JdfRkXyLuTeO0IHFskJ
+2CyMNo7ckV0Q3U9M7CGEKhadiSD5B0SRGD46mh9M1Flthib7jBl8wZlMb4RcAnRzHSubOTACvPe5
+AHdo4auAQMtX6F+WenClE9uogY1vbdTV4WwHb2sGq5S6l+Mv3uMmQUR/iYI32O/+kMw1rhoTkpj9
+T5XxJa2eGPuP2Ubk0PqT7nXnlqkM/T/McK7+HstN99An6BqKFEch2gz0d0bnaZ83p3utkK4Zf2RE
+dikzf/8hH6kVS5rPBWEsI61B3nC4dkyVlH4DK6rD1jHfqJxJt6WHllzdlNBPUQfpKeOmw22xBv5h
+TJ5d6UwJ2GPDltCLrDXqmN0sBAs1vu4GWttNLJOonqinVjConY6hsp/GMWydRLkgRa/jci69zT8x
+hE6Uy09HVTU=
+Fingerprint: 64:ca:a3:ca:1d:09:66:d8:1c:c6:83:7a:35:81:3a:47
 
 Kex Algorithms:
 	curve25519-sha256
@@ -68,6 +110,695 @@ Kex Algorithms:
 	diffie-hellman-group16-sha512
 	diffie-hellman-group18-sha512
 	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 302 Found
+Server: nginx
+Date: Mon, 14 Oct 2024 02:31:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Location: https://transport.delhi.gov.in/home/transport-department
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Vary: Origin
+```
+------------------
+**443:**
+```
+
+```
+HEARTBLEED: 2024/10/12 21:31:19 139.59.57.120:443 - SAFE
+
+------------------","50"
+"2024-10-15T21:18:54.179Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","159.203.112.37","2024-10-15T21:20:00.483Z","159.203.112.37","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNsnK5cVNf9i63rQQCdd0Mno
+0Gz/9ukl2WWrhO7gK3zzxaWUNJs/Rim16vafMfRxAhD6K0RSqen4Ax05AQvs7FI=
+Fingerprint: 7d:42:95:ea:4c:ef:f9:0a:83:f5:92:d3:ec:19:d7:c7
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-15T21:18:54.180Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","139.59.59.37","2024-10-15T21:19:15.080Z","139.59.59.37","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNtKEPYdvFpPHP7bI5o/Kim4
+s5F9pfmdjyn5gH5iJuBRdtud4G+QoGK2TjeOWfeTHzN5iYHZNtbdYmwy63oJwVs=
+Fingerprint: dd:e6:78:59:13:cf:cc:bc:25:ef:0b:1d:30:95:68:a5
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 07 Oct 2024 11:49:27 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Location: https://opsflow.live/
+Content-Length: 307
+Content-Type: text/html; charset=iso-8859-1
+```
+------------------
+**443:**
+```
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 23 Sep 2024 05:59:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Redirect-By: WordPress
+Location: https://opsflow.live/
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/09/23 05:59:34 139.59.59.37:443 - SAFE
+
+------------------","50"
+"2024-10-15T21:18:54.253Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","159.203.117.199","2024-10-15T21:20:06.606Z","159.203.117.199","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQD1e+F5RueRh3rZMQVBw6d5Xsa6IeNAItppTiMDx+tjuS+I
+rRnHo7/OLHYT555WQdbLVICGLfkgibLpD/UH1SjkStCu6nZxJdeQT++e32GvcLgBnzymTVvUHlLV
+VTnEVUyFyXxbJBviJdnS8jeK2uC6NZdA7PHwCu2kk9WfvvYzR9uQkTU7QyYhHymH1bHyP7ZQVDaX
+cbS31Jz98pnk3jE7mLQPKGadvlmFJskl+TRatUofWTvzmu4BGHyHLvs3wfFBOymrSk+hNPB9Elk8
+4pW0+C3kwFNOo3Zi2VDJWGpXyo4Urc0PLu5ZlqJXgABkqxoEPyvulVWDifM+6oGMC7FT
+Fingerprint: 3f:d5:e6:04:71:55:66:a9:f9:fd:c2:32:bd:56:e5:67
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group-exchange-sha256
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes256-gcm@openssh.com
+	aes128-gcm@openssh.com
+	aes256-ctr
+	aes192-ctr
+	aes128-ctr
+
+MAC Algorithms:
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-512
+	hmac-sha2-256
+	umac-128@openssh.com
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**443:**
+```
+HTTP/1.0 404 Not Found
+Server: BaseHTTP/0.3 Python/2.7.16
+Date: Sat, 12 Oct 2024 09:50:09 GMT
+Connection: close
+Content-Type: text/html
+```
+HEARTBLEED: 2024/10/12 09:50:16 159.203.117.199:443 - SAFE
+
+------------------","50"
+"2024-10-15T21:18:55.654Z","IPv4-Addr","emergingthreat","TLP:CLEAR","159.203.119.59","2024-10-15T21:18:55.802Z","159.203.119.59","Proofpoint Emerging Threat IP",""
+"2024-10-15T21:18:55.671Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","159.203.121.6","2024-10-15T21:20:16.832Z","159.203.121.6","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+
+```
+------------------
+**104:**
+```
+
+```
+------------------
+**111:**
+```
+
+```
+------------------
+**135:**
+```
+
+```
+------------------
+**631:**
+```
+
+```
+------------------
+**1311:**
+```
+
+```
+------------------
+**1741:**
+```
+
+```
+------------------
+**1800:**
+```
+
+```
+------------------
+**2000:**
+```
+
+```
+------------------
+**3128:**
+```
+
+```
+------------------
+**3542:**
+```
+
+```
+------------------
+**5025:**
+```
+
+```
+------------------
+**5435:**
+```
+
+```
+------------------
+**5901:**
+```
+
+```
+------------------
+**6000:**
+```
+
+```
+------------------
+**7415:**
+```
+
+```
+------------------
+**8008:**
+```
+
+```
+------------------
+**8080:**
+```
+
+```
+------------------
+**8126:**
+```
+
+```
+------------------
+**8800:**
+```
+
+```
+------------------
+**9000:**
+```
+
+```
+------------------
+**9042:**
+```
+
+```
+------------------
+**9200:**
+```
+
+```
+------------------
+**9418:**
+```
+
+```
+------------------
+**9633:**
+```
+
+```
+------------------
+**9800:**
+```
+
+```
+------------------","50"
+"2024-10-15T21:18:55.802Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","159.203.125.229","2024-10-15T21:20:23.129Z","159.203.125.229","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDgzfHDJ/0cs+TMCS6gk07WgmzKvnEDSNW7OhV+bw2WokMu
+R0Omc+qlDFfFDxszcV9HOJhW8i3aDX9uKRa0vcztXEEiegZwIzH5zjohP9npnXL9PNIe+AI+5VSZ
+lTlDIemaAKBfaeRNsmnvqfc5u7swuGeL7QPIOX5JiOuUse6Bw9BdrHUXM7sciK9jxHnV0+CNxEP5
+4cd7S00qYiWkiSTYPU36uioVDyRkxK90iMBt2KlnG4d71lMrsXtxDQpQvRL1NybadMme5QoQNiFh
+ekqq33r2DSfAqSjNg2yips/3fnFGlxSY7ML7/STqskv+xHMU/fOsnoWMCmgLNqiz54EII8jlAGxQ
+b3Xyzv+/gga/jZsbkv5WdGof7NIFlP/PuEf0L+PvQ3C6Nd55Q0OQlxyCgI1rLBKBnZIcVnspP+nG
+TJGC4+t2TY4YOOCbNCShKVI72EFlhFo8OnkTHCNW5y3vaGxCMVLYp61DYBHqxx2kxe4L3bMrVL2R
++UuOCL7olgk=
+Fingerprint: 7b:1c:17:cc:2b:d4:16:08:24:9a:3d:37:6f:cf:50:46
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**135:**
+```
+
+```
+------------------
+**1800:**
+```
+
+```
+------------------
+**2404:**
+```
+
+```
+------------------
+**5025:**
+```
+
+```
+------------------
+**5900:**
+```
+
+```
+------------------
+**8008:**
+```
+
+```
+------------------","50"
+"2024-10-15T21:18:57.251Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","159.65.225.226","2024-10-15T21:20:55.244Z","159.65.225.226","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC5qy50XADQkjkpvkcW5ySOF
+3/WRMNfpp8l9qz3JiBwmVPzMcQ22HGJ9FO5dT5l+FrYVGbNk4XXFE/Wj7Cf/6tk=
+Fingerprint: 23:44:4a:e3:28:78:4b:f0:5e:42:d9:f3:aa:da:99:0d
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Thu, 26 Sep 2024 05:45:28 GMT
+Server: Apache/2.4.62 (Debian)
+Last-Modified: Mon, 16 Sep 2024 17:37:13 GMT
+ETag: ""29cd-6224005f55b91""
+Accept-Ranges: bytes
+Content-Length: 10701
+Vary: Accept-Encoding
+Content-Type: text/html
+```
+------------------","50"
+"2024-10-15T21:18:57.252Z","IPv4-Addr","emergingthreat","TLP:CLEAR","159.223.135.249","2024-10-15T21:18:57.424Z","159.223.135.249","Proofpoint Emerging Threat IP",""
+"2024-10-15T21:18:57.729Z","IPv4-Addr","emergingthreat","TLP:CLEAR","162.241.124.60","2024-10-15T21:21:11.467Z","162.241.124.60","**ISP:** Network Solutions, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDKYDTR0tcZm83p7Qm7zaD6nQBRzWZ5cGdl/mhs5dWocBQW
+i3jsOGf6Ke9GWuP4vy2d35zfBjiriDQapQp2YcKQyvQRUSo02XBRU7HHw1dnMz8pVIo4SG9EZamU
+OK/ePY+g6PB2AOgn9SyPTXDvL8up6UYXu0NBBUojVEcCRIpn6GrRFqzZgCXSovMvRIRCNUTXB02k
+43uBj4Uf10J+6oh7ggLVWMm1H8keCiE3SNOCX78xIgDJ1aoxNmzSPTRlAqZOqg3clMniiLsRT1rd
+pXgfdisSc8FxPqwbmSB/lPwScUMNf9Yq/ZRFxGIhVHs7Gy100ZxNtFO4DVFQuWbhbN4Bw+0+JvG5
+IzgVdR7M155mwkLMaWxQIPd0d+KeibkWUpxe+qaIWlS/PjMDR8nlfaHPtE3V0Z/28V8XZOAt2Q+N
+6W3aXRARh1nG9FfRoZsqxCO8hEj7TBxvViSJImCT/bWZ3mgOIbFQsCi/0vuAuzQnFgQI1fOScXJF
+rEhRRMc9njE=
+Fingerprint: e7:23:34:62:37:08:66:f8:35:dc:94:03:28:3c:15:9e
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=02B19A80583A8F8BF8BD381EF0B9A1CF; Path=/; HttpOnly
+X-Cocoon-Version: 2.2.0
+Content-Type: text/html;charset=utf-8
+Content-Language: en-US
+Content-Length: 25722
+Date: Mon, 30 Sep 2024 08:36:18 GMT
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=A99129B7985A70CB7DDE6C093AF6CEEB; Path=/; Secure; HttpOnly
+X-Cocoon-Version: 2.2.0
+Content-Type: text/html;charset=utf-8
+Content-Language: en-US
+Content-Length: 25724
+Date: Mon, 07 Oct 2024 20:02:33 GMT
+```
+HEARTBLEED: 2024/10/07 20:02:43 162.241.124.60:443 - SAFE
+
+------------------","50"
+"2024-10-15T21:18:58.913Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","164.90.227.211","2024-10-15T21:21:20.622Z","164.90.227.211","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQD5B6sCWsjfhUfVFT+Q5wNDHlTpw98GWOkxqZgBxFRw6Kfo
+et/eNeuZN/uO8rLfvG9bKzn8szreCn8clBVpjyRywO8y7+hacRIBFm+r7P5DPiRK6RErKoY9EaO2
++hyMPbDlV5AKnv2+Cup7kwJhN6QrZXgW3gUyFr3UmJ+UpzoYIV3J97PQaA29WgmX3N/AhPwy1p/C
+fco4B4ysQukr3gEAVKimMbDhCvT6oQv8Rhn/N1MmqqeY7fy8TxrqSO/b/5xxnEtszb/CUXiz4Wpq
+l3Wz6FgpMoUkXHcp/o2mQF7T30dCulq2Ud0ki/f6bckmbe7eMCuLVApB+wRzBnyg2YHxowRJD9/B
+6WevHicvXjGwhxjO1N4++w8KlXdAkceCm9l+e6ew7zeSg9/0kcgCHsulZ/HTFyGcAg9SURgfFosc
+WVCrS24uxtMipUbKhGUHSQ/IX5ceX73skjvjZhx/FVnZT5w8731OUIXry33Etgv0M5BrY0PthZd1
+0HtHaHt2b68=
+Fingerprint: 95:f2:b7:7b:c5:43:25:1b:4d:70:73:19:30:7d:f2:e2
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
 
 Server Host Key Algorithms:
 	rsa-sha2-512
@@ -101,3 +832,552 @@ Compression Algorithms:
 	zlib@openssh.com
 ```
 ------------------","50"
+"2024-10-15T21:18:59.571Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","164.90.239.137","2024-10-15T21:21:25.840Z","164.90.239.137","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**3478:**
+```
+\x01\x01\x00\x14!\x12\xa4B0wUp2q2xqqjj\x00 \x00\x08\x00\x01E\xf9c\xe2\x7f\xd0\x80(\x00\x04\x1ei\xf0\xae
+```
+------------------","50"
+"2024-10-15T21:18:59.582Z","IPv4-Addr","emergingthreat,cloud,eol-product","TLP:CLEAR","164.90.232.49","2024-10-15T21:21:31.022Z","164.90.232.49","**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ1Ks5m9a3wzYgE1J6kxF4tD
+WKk30CIXATSCLs4j1CRqb73kcS3w0U4ofH7/eDbge5eg9wPv7LJANAYjESSQMLE=
+Fingerprint: 5f:58:00:c1:2a:72:46:81:a9:df:23:6f:c9:df:96:59
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx/1.24.0 (Ubuntu)
+Date: Sat, 21 Sep 2024 08:08:48 GMT
+Content-Type: text/html
+Content-Length: 564
+Connection: keep-alive
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 30 Sep 2024 23:58:01 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-store
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+```
+HEARTBLEED: 2024/09/30 23:58:21 164.90.232.49:443 - SAFE
+
+------------------
+**9090:**
+```
+HTTP/1.1 200 OK
+Date: Thu, 26 Sep 2024 21:42:23 GMT
+Content-Length: 734
+Content-Type: text/html; charset=utf-8
+```
+------------------","50"
+"2024-10-15T21:18:59.936Z","IPv4-Addr","emergingthreat,cloud,self-signed","TLP:CLEAR","170.64.199.239","2024-10-15T21:21:39.520Z","170.64.199.239","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**53:**
+```
+dnsmasq-2.90
+Recursion: enabled
+```
+------------------
+**80:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Thu, 03 Oct 2024 11:29:13 GMT
+Content-Type: text/html
+Content-Length: 548
+Connection: keep-alive
+```
+------------------
+**443:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Sat, 28 Sep 2024 06:07:09 GMT
+Content-Type: text/html
+Content-Length: 548
+Connection: keep-alive
+```
+HEARTBLEED: 2024/09/28 06:07:41 170.64.199.239:443 - SAFE
+
+------------------","50"
+"2024-10-15T21:19:01.808Z","IPv4-Addr","emergingthreat","TLP:CLEAR","171.241.48.230","2024-10-15T21:21:46.627Z","171.241.48.230","**ISP:** Viettel Group
+
+**OS:** -
+
+--------------------------
+Services:
+
+**53:**
+```
+Recursion: enabled
+```
+------------------
+**53:**
+```
+Recursion: enabled
+```
+------------------
+**2000:**
+```
+\x01\x00\x00\x00
+```
+------------------
+**8291:**
+```
+MikroTik Winbox:
+  index:
+    advtool.dll: 6.49.10
+    dhcp.dll: 6.49.10
+    hotspot.dll: 6.49.10
+    mpls.dll: 6.49.10
+    ppp.dll: 6.49.10
+    roteros.dll: 6.49.10
+    roting4.dll: 6.49.10
+    secure.dll: 6.49.10
+    system.dll: 6.49.10
+    wlan6.dll: 6.49.10
+  list:
+    advtool.jg: 6.49.10
+    dhcp.jg: 6.49.10
+    hotspot.jg: 6.49.10
+    icons.png: 6.49.10
+    icons24.png: 
+    icons32.png: 
+    mpls.jg: 6.49.10
+    ppp.jg: 6.49.10
+    roteros.jg: 6.49.10
+    roting4.jg: 6.49.10
+    secure.jg: 6.49.10
+    wlan6.jg: 6.49.10
+```
+------------------","50"
+"2024-10-15T21:19:01.974Z","IPv4-Addr","emergingthreat","TLP:CLEAR","185.253.218.8","2024-10-15T21:21:55.236Z","185.253.218.8","**ISP:** NETH LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDJe0Hdfr03DyAidIWKDlHWpm5ZhA7lgUtEPUSAOg+9LbCV
+pvEb4bMiYcTeE7vrA/O4vzSBeKq1afM/GcIgNSTnkQuWkD5lfep5NToQs1KzsERrePCXKtTdEZrr
+wOspDJt45CBiiIE+huU9H2y6G0cYa4tL1+InpCPPWBBx5nkufjRH7sQpqahUzPnE8sy7HBp99Iz2
+LK4iZtP/NHVSzUvdA/18p6tSAsAd8CEJrN2Y30PX1Amlf+ST5asK+evcgx+GbinYz2a5uKlSDtHy
+rvqn/nnhnzINaskN6xZ0VRtWfSdWOHTQQr8iSRvM+dRB+2YEpVUGrWYlCOfV7Wz+3I8ezq9NFpae
+qS0LTCzH2h0wsMFxgqxmzAy8d5dHRFJANoLOGrtsHCwk5/3XVbIbu/wykQbn4lVQwuf0qCywkItV
+DbWcliB2/AxxlstgMmzV53D7lDhBWMWZka7ZoMwlIUo+7R5Hllf35dKWI9TunqAhZ2Ry12HHWB0C
+DQximMUqX7U=
+Fingerprint: 1b:18:e6:dd:f0:d5:6b:65:0d:83:ae:d4:fd:0a:4c:77
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-15T21:19:03.364Z","IPv4-Addr","emergingthreat,self-signed","TLP:CLEAR","37.131.74.43","2024-10-15T21:22:02.227Z","37.131.74.43","**ISP:** STC BAHRAIN B.S.C CLOSED
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-dropbear
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQClF5xM9tI/cJwbXBcB/SqPPVSOyXlCTD/Crxap9zOIJg7D
+EAymnpNAwttk3Ool8kfID0zt853feN6PL9qV+oKrLaPvJQnGfSVRkKs8UvtBn3YMcpOOjTcYgNcw
+apTtle7AXDuBaiiHL+oAhp3i5Hzbj0ARwAFJi5oDthERy+1EjTUjlk7zYnbRKsEP/Gngq4aanESf
+YHoI/y416Z7qfnv+/2fSK43h/Z11v3JLSRJlKaTEKziT6IbapPZH+5KVYMP7bFOcaGJFyaj/knJA
+F5RlrxqkidNmYjcJIVRP9yRcn9WuUXo0qfTsICw/pSW19qEeD1y19ZroVni5cQDxlJ9F
+Fingerprint: 06:1a:72:52:2a:79:5e:01:fd:c3:19:ee:a6:7d:59:4c
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp521
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+	kexguess2@matt.ucc.asn.au
+
+Server Host Key Algorithms:
+	ssh-rsa
+
+Encryption Algorithms:
+	aes128-ctr
+	aes256-ctr
+	aes128-cbc
+	aes256-cbc
+
+MAC Algorithms:
+	hmac-sha1
+	hmac-sha2-256
+	hmac-sha2-512
+
+Compression Algorithms:
+	none
+```
+------------------
+**25:**
+```
+421 No SMTP service here
+```
+------------------
+**80:**
+```
+HTTP/1.1 301 Moved Permanently
+Server: Check Point SVN foundation
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 15 Oct 2024 15:13:14 GMT
+Last-Modified: Tue, 28 May 2024 16:27:46 GMT
+Accept-Ranges: bytes
+Connection: close
+Cache-Control: no-cache,no-store
+Location: https://37.131.74.43:4434
+```
+------------------
+**264:**
+```
+Check Point Firewall:
+  Firewall Host: secondary_cluster_member
+  SmartCenter Host: 00:1C:7F:78:EC:AD
+```
+------------------
+**4433:**
+```
+HTTP/1.0 200 OK
+Date: Thu, 10 Oct 2024 04:02:14 GMT
+Server: Check Point SVN foundation
+Content-Type: text/html
+X-UA-Compatible: IE=EmulateIE7
+Connection: close
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: host=37.131.74.43
+Content-Length: 12745
+```
+HEARTBLEED: 2024/10/10 04:11:54 37.131.74.43:4433 - SAFE
+
+------------------
+**4434:**
+```
+HTTP/1.0 200 OK
+```
+HEARTBLEED: 2024/10/11 01:11:07 37.131.74.43:4434 - SAFE
+
+------------------","50"
+"2024-10-15T21:19:03.440Z","IPv4-Addr","emergingthreat","TLP:CLEAR","43.131.62.185","2024-10-15T21:22:09.200Z","43.131.62.185","**ISP:** Tencent Building, Kejizhongyi Avenue
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCYsz0pCTZSoHVcH/yqlez9kLkcilIbZgEXzvEV/WDcCTe5
+5+v5eBIuNgLnQoaAmDg7yp9rczmb1ULusM9kO08mAJ35HyCHY7dF9yvzfU7ZQ9Sf3ngOMA6pmIq/
+cY6qX/gtddYs9mXUtDxvMXBot9CfIbfpBcz+HxOjec0c9w3UeHs4XACv91JJygIWImJyoIeRvo4i
+w4YO0dmDZusTF8x1HVvvywUsXawVNeig9VSU6Ols1emWm8oMVGUXBrSUpy6M2VgQBFVBBkXbhMGd
+VCxiiN6lXqX5OwsWRkMsflJtoNgPUxtyChCLYqT82prN8KnKI3br81q8lIvyukNasRgP
+Fingerprint: 27:41:74:7d:52:e5:09:4f:6f:67:ce:0d:b3:2a:a0:25
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-15T21:19:05.116Z","IPv4-Addr","emergingthreat","TLP:CLEAR","94.156.104.86","2024-10-15T21:22:33.062Z","94.156.104.86","**ISP:** cheapy.host LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDBqgQlBUs8gjtlWWPXxnvq2/BO6WnafERs5Z2wUlovsls+
+5ocKWsnpd2f/UWnWuAt8XZQjSoGv5xsn5vTve73tfslacuiH6zCq992tPk/3x73ZlAANGz8o3RQg
+zhzQ7S71F60MzZfgX2vbHTD7t3HIlvWecczEAHToU4RanI61vUzz4MF5Oi9nOyOh31NP+OYBwDIE
+P26ZmEFZH7n49BPFds5dsYMJNE8u3gfvBzh6WJsnqJKKFjxd2fNvT9grh0NmmXB4ALfjwU+bhaqS
+mGhJBS60TmwPusx5Mf0/CXp0QXRbaEBeb1SaBwnyBq0ondhgWZjLPHjHryRPQ6qrLlIyk6NO0zuZ
+wLRGLAPdr39P98GqybsiEFeuorTlIlU68O2qKA+n1Y9MrsMMG5Nv+NYF7lZdET6E3SS6VcAu/CdQ
+XZmVelBxIJZoyBpVExK3S9q0HBN47H/9gb0As7YAlOlhOfDthXwSXed2mop2biNe1M4LJVZ3hVEr
+EqXtdu0Ljv0=
+Fingerprint: fb:00:48:45:5f:5b:e7:23:4e:e3:56:e9:75:37:ef:36
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Tue, 08 Oct 2024 03:01:13 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 07 Oct 2024 05:26:02 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+```
+HEARTBLEED: 2024/10/07 05:26:13 94.156.104.86:443 - SAFE
+
+------------------","50"
+"2024-10-15T21:19:05.116Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","54.252.90.107","2024-10-15T21:23:48.265Z","54.252.90.107","**ISP:** Amazon.com, Inc.
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Thu, 03 Oct 2024 16:42:19 GMT
+Server: Apache/2.4.58 (Ubuntu)
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: PHPSESSID=m0l08nqovi93qm16qgul9f4eg3oog01n; expires=Thu, 03 Oct 2024 17:42:19 GMT; Max-Age=3600; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+status	1	udp	55108
+status	1	tcp	41077
+mountd	1	udp	55594
+mountd	1	tcp	46289
+mountd	2	udp	37007
+mountd	2	tcp	55385
+mountd	3	udp	58125
+mountd	3	tcp	36435
+nfs	3	tcp	2049
+nfs	4	tcp	2049
+100227	3	tcp	2049
+nlockmgr	1	udp	47439
+nlockmgr	3	udp	47439
+nlockmgr	4	udp	47439
+nlockmgr	1	tcp	45423
+nlockmgr	3	tcp	45423
+nlockmgr	4	tcp	45423
+```
+------------------","50"
+"2024-10-15T21:23:02.849Z","IPv4-Addr","","TLP:CLEAR","204.10.160.167","2024-10-15T21:23:02.933Z","204.10.160.167","Anyrun Malware Trends",""
+"2024-10-15T21:23:29.712Z","IPv4-Addr","","TLP:CLEAR","87.120.127.223","2024-10-15T21:23:29.889Z","87.120.127.223","Anyrun Malware Trends",""
