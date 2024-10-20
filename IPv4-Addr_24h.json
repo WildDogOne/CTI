@@ -4002,5 +4002,42 @@
         "x_opencti_description": "Anyrun Malware Trends",
         "x_opencti_score": null,
         "value": "193.233.49.83"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-10-20T15:43:08.136Z",
+        "updated_at": "2024-10-20T15:43:12.523Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
+        "observable_value": "89.31.122.114",
+        "x_opencti_description": "**ISP:** Cogent Communications\n\n**OS:** -\n\n--------------------------\nServices:\n\n**443:**\n```\nHTTP/1.1 404 Not Found\r\nServer: nginx\r\nDate: Tue, 15 Oct 2024 19:57:08 GMT\r\nContent-Type: text/html\r\nContent-Length: 548\r\nConnection: keep-alive\n```\nHEARTBLEED: 2024/10/15 19:57:27 89.31.122.114:443 - SAFE\n\n------------------\n**500:**\n```\nVPN (IKE)\n\nInitiator SPI: 6d616d626f636c6f\nResponder SPI: 6465666c306e6e79\nNext Payload: RESERVED\nVersion: 2.0\nExchange Type: DOI Specific Use\nFlags:\n    Encryption:     False\n    Commit:         False\n    Authentication: False\nMessage ID: 00000000\nLength: 36\n```\n------------------\n**1701:**\n```\n\\xc8\\x02\\x00L\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x80\\x08\\x00\\x00\\x00\\x00\\x00\\x02\\x80\\x08\\x00\\x00\\x00\\x02\\x01\\x00\\x80\\x0f\\x00\\x00\\x00\\x07hideme.ru\\x80\\n\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x80\\x08\\x00\\x00\\x00\\t\\x00\\x0b\\x00\\x0f\\x00\\x00\\x00\\x08accel-ppp\n```\n------------------\n**1723:**\n```\nPPTP:\n  Firmware: 1\n  Hostname: local\n  Vendor: cananian\n```\n------------------",
+        "x_opencti_score": 50,
+        "value": "89.31.122.114"
     }
 ]
