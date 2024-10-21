@@ -12229,5 +12229,29 @@
         "x_opencti_description": "**ISP:** CGI GLOBAL LIMITED\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 ProFTPD Server (Debian) [::ffff:193.242.145.138]\r\n530 Login incorrect.\r\n214-The following commands are recognized (* =>'s unimplemented):\n CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    \n EPRT    EPSV    ALLO    RNFR    RNTO    DELE    MDTM    RMD     \n XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    \n NOOP    FEAT    OPTS    HOST    CLNT    AUTH*   CCC*    CONF*   \n ENC*    MIC*    PBSZ*   PROT*   TYPE    STRU    MODE    RETR    \n STOR    STOU    APPE    REST    ABOR    RANG    USER    PASS    \n ACCT*   REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    \n214 Direct comments to root@s1.novalocal\r\n211-Features:\n CLNT\n EPRT\n EPSV\n HOST\n LANG en-US.UTF-8*;en-US\n MDTM\n MFF modify;UNIX.group;UNIX.mode;\n MFMT\n MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;\n RANG STREAM\n REST STREAM\n SITE COPY\n SITE MKDIR\n SITE RMDIR\n SITE SYMLINK\n SITE UTIME\n SIZE\n TVFS\n UTF8\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFmMzeQwkftk1xq+t8WT2IGc\nHpqcnBX1BN6v1Bmnia9uP7nip/pnq0Wc3EX8FK03WdU7Goc3oJr4RIss49TcJQ0=\nFingerprint: b3:fb:35:50:8a:5d:91:87:31:94:8c:cc:f4:81:47:ea\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 26 Sep 2024 10:05:46 GMT\r\nServer: Apache/2.4.52 (Ubuntu)\r\nLast-Modified: Thu, 29 Aug 2024 06:32:06 GMT\r\nETag: \"29af-620cca22a79c1\"\r\nAccept-Ranges: bytes\r\nContent-Length: 10671\r\nVary: Accept-Encoding\r\nContent-Type: text/html\n```\n------------------\n**5000:**\n```\nHTTP/1.1 200 OK\r\nServer: Werkzeug/3.0.3 Python/3.10.12\r\nDate: Mon, 30 Sep 2024 11:53:17 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 3592\r\nConnection: close\n```\n------------------",
         "x_opencti_score": 50,
         "value": "193.242.145.138"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-10-21T14:15:03.489Z",
+        "updated_at": "2024-10-21T14:15:03.575Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "185.106.92.226",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "185.106.92.226"
     }
 ]
