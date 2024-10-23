@@ -1,1127 +1,4 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-10-22T21:32:01.080Z","IPv4-Addr","self-signed,vpn","TLP:CLEAR","192.121.112.67","2024-10-22T21:32:05.828Z","192.121.112.67","**ISP:** HighSpeed Office Limited
-
-**OS:** -
-
---------------------------
-Services:
-
-**443:**
-```
-HTTP/1.1 404 Not Found
-Server: nginx
-Date: Sun, 20 Oct 2024 22:24:09 GMT
-Content-Type: text/html
-Content-Length: 548
-Connection: keep-alive
-```
-HEARTBLEED: 2024/10/20 22:24:19 192.121.112.67:443 - SAFE
-
-------------------
-**500:**
-```
-VPN (IKE)
-
-Initiator SPI: 653572396f386174
-Responder SPI: 64786c73316a7436
-Next Payload: RESERVED
-Version: 2.0
-Exchange Type: DOI Specific Use
-Flags:
-    Encryption:     False
-    Commit:         False
-    Authentication: False
-Message ID: 00000000
-Length: 36
-```
-------------------
-**1701:**
-```
-\xc8\x02\x00L\x00\x00\x00\x00\x00\x00\x00\x01\x80\x08\x00\x00\x00\x00\x00\x02\x80\x08\x00\x00\x00\x02\x01\x00\x80\x0f\x00\x00\x00\x07hideme.ru\x80\n\x00\x00\x00\x03\x00\x00\x00\x03\x80\x08\x00\x00\x00\t\x00\x0c\x00\x0f\x00\x00\x00\x08accel-ppp
-```
-------------------
-**1723:**
-```
-PPTP:
-  Firmware: 1
-  Hostname: local
-  Vendor: cananian
-```
-------------------","50"
-"2024-10-22T21:32:28.213Z","IPv4-Addr","self-signed,eol-os","TLP:CLEAR","176.113.115.146","2024-10-22T21:32:36.545Z","176.113.115.146","**ISP:** Cat Technologies Co. Limited
-
-**OS:** -
-
---------------------------
-Services:
-
-**135:**
-```
-Microsoft RPC Endpoint Mapper
-
-51a227ae-825b-41f2-b4a9-1ac9557a1018
-  version: v1.0
-  annotation: Ngc Pop Key Service
-  ncacn_ip_tcp: 176.113.115.146:49664
-  ncalrpc: samss lpc
-  ncalrpc: SidKey Local End Point
-  ncalrpc: protected_storage
-  ncalrpc: lsasspirpc
-  ncalrpc: lsapolicylookup
-  ncalrpc: LSA_EAS_ENDPOINT
-  ncalrpc: LSA_IDPEXT_ENDPOINT
-  ncalrpc: lsacap
-  ncalrpc: LSARPC_ENDPOINT
-  ncalrpc: securityevent
-  ncalrpc: audit
-  ncacn_np: \\DESKTOP-BKJ9ELJ\pipe\lsass
-
-8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
-  version: v1.0
-  annotation: Ngc Pop Key Service
-  ncacn_ip_tcp: 176.113.115.146:49664
-  ncalrpc: samss lpc
-  ncalrpc: SidKey Local End Point
-  ncalrpc: protected_storage
-  ncalrpc: lsasspirpc
-  ncalrpc: lsapolicylookup
-  ncalrpc: LSA_EAS_ENDPOINT
-  ncalrpc: LSA_IDPEXT_ENDPOINT
-  ncalrpc: lsacap
-  ncalrpc: LSARPC_ENDPOINT
-  ncalrpc: securityevent
-  ncalrpc: audit
-  ncacn_np: \\DESKTOP-BKJ9ELJ\pipe\lsass
-
-b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
-  version: v2.0
-  annotation: KeyIso
-  ncacn_ip_tcp: 176.113.115.146:49664
-  ncalrpc: samss lpc
-  ncalrpc: SidKey Local End Point
-  ncalrpc: protected_storage
-  ncalrpc: lsasspirpc
-  ncalrpc: lsapolicylookup
-  ncalrpc: LSA_EAS_ENDPOINT
-  ncalrpc: LSA_IDPEXT_ENDPOINT
-  ncalrpc: lsacap
-  ncalrpc: LSARPC_ENDPOINT
-  ncalrpc: securityevent
-  ncalrpc: audit
-  ncacn_np: \\DESKTOP-BKJ9ELJ\pipe\lsass
-
-12345778-1234-abcd-ef00-0123456789ac
-  version: v1.0
-  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol
-  provider: samsrv.dll
-  ncacn_ip_tcp: 176.113.115.146:49664
-  ncalrpc: samss lpc
-  ncalrpc: SidKey Local End Point
-  ncalrpc: protected_storage
-  ncalrpc: lsasspirpc
-  ncalrpc: lsapolicylookup
-  ncalrpc: LSA_EAS_ENDPOINT
-  ncalrpc: LSA_IDPEXT_ENDPOINT
-  ncalrpc: lsacap
-  ncalrpc: LSARPC_ENDPOINT
-  ncalrpc: securityevent
-  ncalrpc: audit
-  ncacn_np: \\DESKTOP-BKJ9ELJ\pipe\lsass
-
-d95afe70-a6d5-4259-822e-2c84da1ddb0d
-  version: v1.0
-  protocol: [MS-RSP]: Remote Shutdown Protocol
-  provider: wininit.exe
-  ncacn_ip_tcp: 176.113.115.146:49665
-  ncalrpc: WindowsShutdown
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\InitShutdown
-  ncalrpc: WMsgKRpc010ED10
-
-76f226c3-ec14-4325-8a99-6a46348418af
-  version: v1.0
-  provider: winlogon.exe
-  ncalrpc: WindowsShutdown
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\InitShutdown
-  ncalrpc: WMsgKRpc010ED10
-  ncalrpc: WMsgKRpc01715C1
-
-c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
-  version: v1.0
-  annotation: Impl friendly name
-  provider: sysntfy.dll
-  ncalrpc: LRPC-3a2510431c3820b990
-  ncalrpc: IUserProfile2
-  ncalrpc: LRPC-31be9ee87d961c2235
-  ncalrpc: senssvc
-  ncalrpc: LRPC-c29c90f5876ae4e863
-
-0d47017b-b33b-46ad-9e18-fe96456c5078
-  version: v1.0
-  ncalrpc: umpo
-
-95406f0b-b239-4318-91bb-cea3a46ff0dc
-  version: v1.0
-  ncalrpc: umpo
-
-4ed8abcc-f1e2-438b-981f-bb0e8abc010c
-  version: v1.0
-  ncalrpc: umpo
-
-0ff1f646-13bb-400a-ab50-9a78f2b7a85a
-  version: v1.0
-  ncalrpc: umpo
-
-6982a06e-5fe2-46b1-b39c-a2c545bfa069
-  version: v1.0
-  ncalrpc: umpo
-
-082a3471-31b6-422a-b931-a54401960c62
-  version: v1.0
-  ncalrpc: umpo
-
-fae436b0-b864-4a87-9eda-298547cd82f2
-  version: v1.0
-  ncalrpc: umpo
-
-e53d94ca-7464-4839-b044-09a2fb8b3ae5
-  version: v1.0
-  ncalrpc: umpo
-
-178d84be-9291-4994-82c6-3f909aca5a03
-  version: v1.0
-  ncalrpc: umpo
-
-4dace966-a243-4450-ae3f-9b7bcb5315b8
-  version: v2.0
-  ncalrpc: umpo
-
-1832bcf6-cab8-41d4-85d2-c9410764f75a
-  version: v1.0
-  ncalrpc: umpo
-
-c521facf-09a9-42c5-b155-72388595cbf0
-  version: v0.0
-  ncalrpc: umpo
-
-2c7fd9ce-e706-4b40-b412-953107ef9bb0
-  version: v0.0
-  ncalrpc: umpo
-
-88abcbc3-34ea-76ae-8215-767520655a23
-  version: v0.0
-  ncalrpc: LRPC-321754c65e9391e791
-  ncalrpc: OLE0294767A31920F6D8A6A335FD2EC
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-76c217bc-c8b4-4201-a745-373ad9032b1a
-  version: v1.0
-  ncalrpc: LRPC-321754c65e9391e791
-  ncalrpc: OLE0294767A31920F6D8A6A335FD2EC
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-55e6b932-1979-45d6-90c5-7f6270724112
-  version: v1.0
-  ncalrpc: LRPC-321754c65e9391e791
-  ncalrpc: OLE0294767A31920F6D8A6A335FD2EC
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
-  version: v1.0
-  ncalrpc: OLE0294767A31920F6D8A6A335FD2EC
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-20c40295-8dba-48e6-aebf-3e78ef3bb144
-  version: v2.0
-  ncalrpc: OLE0294767A31920F6D8A6A335FD2EC
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-2513bcbe-6cd4-4348-855e-7efb3c336dd3
-  version: v2.0
-  ncalrpc: OLE0294767A31920F6D8A6A335FD2EC
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
-  version: v1.0
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
-  version: v1.0
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
-  version: v1.0
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
-  version: v1.0
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-2d98a740-581d-41b9-aa0d-a88b9d5ce938
-  version: v1.0
-  ncalrpc: LRPC-eb75a07b9723215ccb
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-dd59071b-3215-4c59-8481-972edadc0f6a
-  version: v1.0
-  ncalrpc: dabrpc
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-0361ae94-0316-4c6c-8ad8-c594375800e2
-  version: v1.0
-  ncalrpc: umpo
-
-5824833b-3c1a-4ad2-bdfd-c31d19e23ed2
-  version: v1.0
-  ncalrpc: umpo
-
-bdaa0970-413b-4a3e-9e5d-f6dc9d7e0760
-  version: v1.0
-  ncalrpc: umpo
-
-3b338d89-6cfa-44b8-847e-531531bc9992
-  version: v1.0
-  ncalrpc: umpo
-
-8782d3b9-ebbd-4644-a3d8-e8725381919b
-  version: v1.0
-  ncalrpc: umpo
-
-085b0334-e454-4d91-9b8c-4134f9e793f3
-  version: v1.0
-  ncalrpc: umpo
-
-4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9
-  version: v1.0
-  ncalrpc: umpo
-
-d09bdeb5-6171-4a34-bfe2-06fa82652568
-  version: v1.0
-  ncalrpc: csebpub
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-  ncalrpc: LRPC-e9b9664984d95b8073
-  ncalrpc: LRPC-a62d31c0edbffba47a
-
-697dcda9-3ba9-4eb2-9247-e11f1901b0d2
-  version: v1.0
-  ncalrpc: LRPC-6a0c8681ba8088c456
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-9b008953-f195-4bf9-bde0-4471971e58ed
-  version: v1.0
-  ncalrpc: LRPC-a0775f91bbfe97beb5
-  ncalrpc: LRPC-abf976d6e216ce45f6
-  ncalrpc: actkernel
-  ncalrpc: umpo
-
-5c9a4cd7-ba75-45d2-9898-1773b3d1e5f1
-  version: v1.0
-  annotation: Device Install Service RPC Interface
-  ncalrpc: LRPC-3eb8d2dba6c9388b29
-
-509bc7ae-77be-4ee8-b07c-0d096bb44345
-  version: v1.0
-  ncalrpc: LRPC-e52c8bf4f8d4a06ce4
-  ncalrpc: OLE55F12297CA1B9286EC4206367B13
-
-a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
-  version: v1.0
-  ncalrpc: LRPC-09fa1e984e4eda0908
-  ncalrpc: LRPC-e9b9664984d95b8073
-
-f6beaff7-1e19-4fbb-9f8f-b89e2018337c
-  version: v1.0
-  annotation: Event log TCPIP
-  protocol: [MS-EVEN6]: EventLog Remoting Protocol
-  provider: wevtsvc.dll
-  ncacn_ip_tcp: 176.113.115.146:49666
-  ncacn_np: \\DESKTOP-BKJ9ELJ\pipe\eventlog
-  ncalrpc: eventlog
-
-7ea70bcf-48af-4f6a-8968-6a440754d5fa
-  version: v1.0
-  annotation: NSI server endpoint
-  provider: nsisvc.dll
-  ncalrpc: LRPC-f700891d6b523142f6
-
-3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
-  version: v1.0
-  annotation: DHCP Client LRPC Endpoint
-  provider: dhcpcsvc.dll
-  ncalrpc: dhcpcsvc
-  ncalrpc: dhcpcsvc6
-
-3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
-  version: v1.0
-  annotation: DHCPv6 Client LRPC Endpoint
-  provider: dhcpcsvc6.dll
-  ncalrpc: dhcpcsvc6
-
-b58aa02e-2884-4e97-8176-4ee06d794184
-  version: v1.0
-  provider: sysmain.dll
-  ncalrpc: LRPC-5159555a079509c975
-
-4c8d0bef-d7f1-49f0-9102-caa05f58d114
-  version: v1.0
-  ncalrpc: nlaapi
-  ncalrpc: nlaplg
-
-30adc50c-5cbc-46ce-9a0e-91914789e23c
-  version: v1.0
-  annotation: NRP server endpoint
-  provider: nrpsrv.dll
-  ncalrpc: LRPC-06074322385b6b12a0
-  ncalrpc: DNSResolver
-
-c2d1b5dd-fa81-4460-9dd6-e7658b85454b
-  version: v1.0
-  ncalrpc: LRPC-5879a4db7c238da156
-  ncalrpc: OLE8E988E38876699CB02133A3DD90A
-
-f44e62af-dab1-44c2-8013-049a9de417d6
-  version: v1.0
-  ncalrpc: LRPC-5879a4db7c238da156
-  ncalrpc: OLE8E988E38876699CB02133A3DD90A
-
-7aeb6705-3ae6-471a-882d-f39c109edc12
-  version: v1.0
-  ncalrpc: LRPC-5879a4db7c238da156
-  ncalrpc: OLE8E988E38876699CB02133A3DD90A
-
-e7f76134-9ef5-4949-a2d6-3368cc0988f3
-  version: v1.0
-  ncalrpc: LRPC-5879a4db7c238da156
-  ncalrpc: OLE8E988E38876699CB02133A3DD90A
-
-b37f900a-eae4-4304-a2ab-12bb668c0188
-  version: v1.0
-  ncalrpc: LRPC-5879a4db7c238da156
-  ncalrpc: OLE8E988E38876699CB02133A3DD90A
-
-abfb6ca3-0c5e-4734-9285-0aee72fe8d1c
-  version: v1.0
-  ncalrpc: LRPC-5879a4db7c238da156
-  ncalrpc: OLE8E988E38876699CB02133A3DD90A
-
-76f03f96-cdfd-44fc-a22c-64950a001209
-  version: v1.0
-  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol
-  provider: spoolsv.exe
-  ncacn_ip_tcp: 176.113.115.146:49667
-  ncalrpc: LRPC-a2543b2e5a164bcc18
-
-4a452661-8290-4b36-8fbe-7f4093a94978
-  version: v1.0
-  provider: spoolsv.exe
-  ncacn_ip_tcp: 176.113.115.146:49667
-  ncalrpc: LRPC-a2543b2e5a164bcc18
-
-ae33069b-a2a8-46ee-a235-ddfd339be281
-  version: v1.0
-  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol
-  provider: spoolsv.exe
-  ncacn_ip_tcp: 176.113.115.146:49667
-  ncalrpc: LRPC-a2543b2e5a164bcc18
-
-0b6edbfa-4a24-4fc6-8a23-942b1eca65d1
-  version: v1.0
-  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol
-  provider: spoolsv.exe
-  ncacn_ip_tcp: 176.113.115.146:49667
-  ncalrpc: LRPC-a2543b2e5a164bcc18
-
-12345678-1234-abcd-ef00-0123456789ab
-  version: v1.0
-  protocol: [MS-RPRN]: Print System Remote Protocol
-  provider: spoolsv.exe
-  ncacn_ip_tcp: 176.113.115.146:49667
-  ncalrpc: LRPC-a2543b2e5a164bcc18
-
-1a0d010f-1c33-432c-b0f5-8cf4e8053099
-  version: v1.0
-  annotation: IdSegSrv service
-  ncalrpc: LRPC-d9a8c3ce95369e5e98
-
-98716d03-89ac-44c7-bb8c-285824e51c4a
-  version: v1.0
-  annotation: XactSrv service
-  provider: srvsvc.dll
-  ncalrpc: LRPC-d9a8c3ce95369e5e98
-
-2fb92682-6599-42dc-ae13-bd2ca89bd11c
-  version: v1.0
-  annotation: Fw APIs
-  provider: MPSSVC.dll
-  ncalrpc: LRPC-23b438830f8da8968b
-  ncalrpc: LRPC-cef7a0328629e3ba30
-  ncalrpc: LRPC-8a813b91d9f062b174
-  ncalrpc: LRPC-58ebfcd302ab0fc8df
-
-f47433c3-3e9d-4157-aad4-83aa1f5c2d4c
-  version: v1.0
-  annotation: Fw APIs
-  ncalrpc: LRPC-cef7a0328629e3ba30
-  ncalrpc: LRPC-8a813b91d9f062b174
-  ncalrpc: LRPC-58ebfcd302ab0fc8df
-
-7f9d11bf-7fb9-436b-a812-b2d50c5d4c03
-  version: v1.0
-  annotation: Fw APIs
-  provider: MPSSVC.dll
-  ncalrpc: LRPC-8a813b91d9f062b174
-  ncalrpc: LRPC-58ebfcd302ab0fc8df
-
-dd490425-5325-4565-b774-7e27d6c09c24
-  version: v1.0
-  annotation: Base Firewall Engine API
-  provider: BFE.DLL
-  ncalrpc: LRPC-58ebfcd302ab0fc8df
-
-a398e520-d59a-4bdd-aa7a-3c1e0303a511
-  version: v1.0
-  annotation: IKE/Authip API
-  provider: IKEEXT.DLL
-  ncalrpc: LRPC-9a794f49b50ac8787b
-
-367abb81-9844-35f1-ad32-98f038001003
-  version: v2.0
-  protocol: [MS-SCMR]: Service Control Manager Remote Protocol
-  provider: services.exe
-  ncacn_ip_tcp: 176.113.115.146:49668
-
-c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
-  version: v1.0
-  annotation: Adh APIs
-  ncalrpc: OLE63812217228FBBA8226BDF97BB3F
-  ncalrpc: TeredoControl
-  ncalrpc: TeredoDiagnostics
-  ncalrpc: LRPC-0e1a1dfeacecdfc5ac
-
-c36be077-e14b-4fe9-8abc-e856ef4f048b
-  version: v1.0
-  annotation: Proxy Manager client server endpoint
-  ncalrpc: TeredoControl
-  ncalrpc: TeredoDiagnostics
-  ncalrpc: LRPC-0e1a1dfeacecdfc5ac
-
-2e6035b2-e8f1-41a7-a044-656b439c4c34
-  version: v1.0
-  annotation: Proxy Manager provider server endpoint
-  ncalrpc: TeredoControl
-  ncalrpc: TeredoDiagnostics
-  ncalrpc: LRPC-0e1a1dfeacecdfc5ac
-
-552d076a-cb29-4e44-8b6a-d15e59e2c0af
-  version: v1.0
-  annotation: IP Transition Configuration endpoint
-  provider: iphlpsvc.dll
-  ncalrpc: LRPC-0e1a1dfeacecdfc5ac
-
-0d3c7f20-1c8d-4654-a1b3-51563b298bda
-  version: v1.0
-  annotation: UserMgrCli
-  ncalrpc: LRPC-fd3bd46ea207fa5366
-  ncalrpc: OLEE4AC2B671376193BD291C581D580
-
-b18fbab6-56f8-4702-84e0-41053293a869
-  version: v1.0
-  annotation: UserMgrCli
-  ncalrpc: LRPC-fd3bd46ea207fa5366
-  ncalrpc: OLEE4AC2B671376193BD291C581D580
-
-6b5bdd1e-528c-422c-af8c-a4079be4fe48
-  version: v1.0
-  annotation: Remote Fw APIs
-  protocol: [MS-FASP]: Firewall and Advanced Security Protocol
-  provider: FwRemoteSvr.dll
-  ncacn_ip_tcp: 176.113.115.146:49670
-  ncalrpc: ipsec
-
-c27f3c08-92ba-478c-b446-b419c4cef0e2
-  version: v1.0
-  ncalrpc: LRPC-f194434f29df998c3a
-
-e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
-  version: v1.0
-  ncalrpc: LRPC-84d28842655834c213
-
-880fd55e-43b9-11e0-b1a8-cf4edfd72085
-  version: v1.0
-  annotation: KAPI Service endpoint
-  ncalrpc: LRPC-fa6fa710453c6ced69
-  ncalrpc: OLEA3D8326FB37E87C7CE128E56CF30
-  ncalrpc: LRPC-a62d31c0edbffba47a
-
-5222821f-d5e2-4885-84f1-5f6185a0ec41
-  version: v1.0
-  ncalrpc: LRPC-00e115f1ec39781d89
-
-3a9ef155-691d-4449-8d05-09ad57031823
-  version: v1.0
-  ncacn_ip_tcp: 176.113.115.146:49675
-  ncalrpc: LRPC-e50a6097fc9fcbe89a
-  ncalrpc: ubpmtaskhostchannel
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\atsvc
-  ncalrpc: LRPC-f2f2870050d42cb5ba
-
-86d35949-83c9-4044-b424-db363231fd0c
-  version: v1.0
-  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
-  provider: schedsvc.dll
-  ncacn_ip_tcp: 176.113.115.146:49675
-  ncalrpc: LRPC-e50a6097fc9fcbe89a
-  ncalrpc: ubpmtaskhostchannel
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\atsvc
-  ncalrpc: LRPC-f2f2870050d42cb5ba
-
-33d84484-3626-47ee-8c6f-e7e98b113be1
-  version: v2.0
-  ncalrpc: LRPC-e50a6097fc9fcbe89a
-  ncalrpc: ubpmtaskhostchannel
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\atsvc
-  ncalrpc: LRPC-f2f2870050d42cb5ba
-
-378e52b0-c0a9-11cf-822d-00aa0051e40f
-  version: v1.0
-  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
-  provider: taskcomp.dll
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\atsvc
-  ncalrpc: LRPC-f2f2870050d42cb5ba
-
-1ff70682-0a51-30e8-076d-740be8cee98b
-  version: v1.0
-  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol
-  provider: taskcomp.dll
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\atsvc
-  ncalrpc: LRPC-f2f2870050d42cb5ba
-
-0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
-  version: v1.0
-  provider: schedsvc.dll
-  ncalrpc: LRPC-f2f2870050d42cb5ba
-
-7f1343fe-50a9-4927-a778-0c5859517bac
-  version: v1.0
-  annotation: DfsDs service
-  ncacn_np: \\DESKTOP-BKJ9ELJ\PIPE\wkssvc
-  ncalrpc: LRPC-7330fcd1b86e74e0f1
-
-eb081a0d-10ee-478a-a1dd-50995283e7a8
-  version: v3.0
-  annotation: Witness Client Test Interface
-  ncalrpc: LRPC-7330fcd1b86e74e0f1
-
-f2c9b409-c1c9-4100-8639-d8ab1486694a
-  version: v1.0
-  annotation: Witness Client Upcall Server
-  ncalrpc: LRPC-7330fcd1b86e74e0f1
-
-06bba54a-be05-49f9-b0a0-30f790261023
-  version: v1.0
-  annotation: Security Center
-  provider: wscsvc.dll
-  ncalrpc: LRPC-0f253eacf1a6ad448c
-  ncalrpc: OLE6BE35FCBA4C4A272E9F69E048EDA
-
-f3f09ffd-fbcf-4291-944d-70ad6e0e73bb
-  version: v1.0
-  ncalrpc: LRPC-245841039b34dad80f
-
-98cd761e-e77d-41c8-a3c0-0fb756d90ec2
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-d22895ef-aff4-42c5-a5b2-b14466d34ab4
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-e38f5360-8572-473e-b696-1b46873beeab
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-95095ec8-32ea-4eb0-a3e2-041f97b36168
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-fd8be72b-a9cd-4b2c-a9ca-4ded242fbe4d
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-4c9dbf19-d39e-4bb9-90ee-8f7179b20283
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-d4051bde-9cdd-4910-b393-4aa85ec3c482
-  version: v1.0
-  ncalrpc: LRPC-0ed2fc9f446bd3be7d
-
-30b044a5-a225-43f0-b3a4-e060df91f9c1
-  version: v1.0
-  provider: certprop.dll
-  ncalrpc: LRPC-e2b6e984ca517536b5
-
-29770a8f-829b-4158-90a2-78cd488501f7
-  version: v1.0
-  ncacn_ip_tcp: 176.113.115.146:49678
-  ncacn_np: \\DESKTOP-BKJ9ELJ\pipe\SessEnvPublicRpc
-  ncalrpc: SessEnvPrivateRpc
-  ncalrpc: LRPC-c29c90f5876ae4e863
-
-0767a036-0d22-48aa-ba69-b619480f38cb
-  version: v1.0
-  annotation: PcaSvc
-  provider: pcasvc.dll
-  ncalrpc: LRPC-38a9fb00bdda6e244b
-
-4b112204-0e19-11d3-b42b-0000f81feb9f
-  version: v1.0
-  provider: ssdpsrv.dll
-  ncalrpc: LRPC-37ec36c1388e8acddd
-
-7a20fcec-dec4-4c59-be57-212e8f65d3de
-  version: v1.0
-  ncalrpc: LRPC-63fe5aa0d89a9475f9
-
-54b4c689-969a-476f-8dc2-990885e9f562
-  version: v0.0
-  ncalrpc: LRPC-f95fb61a7ca4e2d1d5
-
-be6293d3-2827-4dda-8057-8588240124c9
-  version: v0.0
-  ncalrpc: LRPC-f95fb61a7ca4e2d1d5
-
-a4b8d482-80ce-40d6-934d-b22a01a44fe7
-  version: v1.0
-  annotation: LicenseManager
-  ncalrpc: LicenseServiceEndpoint
-
-bf4dc912-e52f-4904-8ebe-9317c1bdd497
-  version: v1.0
-  ncalrpc: LRPC-392def1922e8fe6a20
-  ncalrpc: OLEA63489D796D2C7E43FD5CCE5661E
-
-4be96a0f-9f52-4729-a51d-c70610f118b0
-  version: v1.0
-  annotation: wbiosrvc
-  provider: wbiosrvc.dll
-  ncalrpc: LRPC-73f8c0b6d0be2bd51e
-
-c0e9671e-33c6-4438-9464-56b2e1b1c7b4
-  version: v1.0
-  annotation: wbiosrvc
-  provider: wbiosrvc.dll
-  ncalrpc: LRPC-73f8c0b6d0be2bd51e
-
-58e604e8-9adb-4d2e-a464-3b0683fb1480
-  version: v1.0
-  annotation: AppInfo
-  provider: appinfo.dll
-  ncalrpc: LRPC-f1a415d6239f0db044
-
-fd7a0523-dc70-43dd-9b2e-9c5ed48225b1
-  version: v1.0
-  annotation: AppInfo
-  provider: appinfo.dll
-  ncalrpc: LRPC-f1a415d6239f0db044
-
-5f54ce7d-5b79-4175-8584-cb65313a0e98
-  version: v1.0
-  annotation: AppInfo
-  provider: appinfo.dll
-  ncalrpc: LRPC-f1a415d6239f0db044
-
-201ef99a-7fa0-444c-9399-19ba84f12a1a
-  version: v1.0
-  annotation: AppInfo
-  provider: appinfo.dll
-  ncalrpc: LRPC-f1a415d6239f0db044
-
-0497b57d-2e66-424f-a0c6-157cd5d41700
-  version: v1.0
-  annotation: AppInfo
-  ncalrpc: LRPC-f1a415d6239f0db044
-
-3473dd4d-2e88-4006-9cba-22570909dd10
-  version: v5.256
-  annotation: WinHttp Auto-Proxy Service
-  ncalrpc: 40c33f7e-ad78-401d-ac08-00fb3184dae2
-  ncalrpc: LRPC-c8a79c45fd32d5208a
-```
-------------------
-**137:**
-```
-NetBIOS Response:
-  Server Name: DESKTOP-BKJ9ELJ
-  MAC Address: 0C:C4:7A:0E:87:58
-  Names:
-    DESKTOP-BKJ9ELJ <0x20>
-    DESKTOP-BKJ9ELJ <0x0>
-    WORKGROUP <0x0>
-    WORKGROUP <0x1e>
-    WORKGROUP <0x1d>
-    \x01\x02__MSBROWSE__\x02 <0x1>
-```
-------------------
-**139:**
-```
-\x83\x00\x00\x01\x8f
-```
-------------------
-**445:**
-```
-SMB Status:
-  Authentication: enabled
-  SMB Version: 1
-  OS: Windows 10 Pro 19042
-  Software: Windows 10 Pro 6.3
-  Capabilities: extended-security, infolevel-passthru, large-files, large-readx, large-writex, level2-oplocks, lock-and-read, lwio, nt-find, nt-smb, nt-status, rpc-remote-api, unicode
-```
-------------------
-**3389:**
-```
-Remote Desktop Protocol
-\x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
-Remote Desktop Protocol NTLM Info:
-  OS: Windows 10 (version 2004)/Windows Server (version 2004)
-  OS Build: 10.0.19041
-  Target Name: DESKTOP-BKJ9ELJ
-  NetBIOS Domain Name: DESKTOP-BKJ9ELJ
-  NetBIOS Computer Name: DESKTOP-BKJ9ELJ
-  DNS Domain Name: DESKTOP-BKJ9ELJ
-  FQDN: DESKTOP-BKJ9ELJ
-```
-------------------","50"
-"2024-10-22T21:32:28.245Z","IPv4-Addr","self-signed","TLP:CLEAR","195.54.170.157","2024-10-22T21:32:47.083Z","195.54.170.157","**ISP:** M247 Europe SRL
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDnbiwHu/oCyq2EzLu72uyV8IA5lEldMD4ejisy9ADqt/aq
-TKXlyh/qE0QvrH9Cx5f7JaBzHnLm1H4TmI+S/gEANfI80RfE0H3Fm1Wpg4AyU2fuUNzD+lAatOqD
-KtwxoPrb+Ikgzrl+qFc+NfqqRxHLMICUEy2OSFY61yP/sEK+TFRJZjQm88QdTEcWAah7sy1yppFc
-iw0VCtF0XGFFAsOmDJxJtuHE3HFj2ovfr/jlrO3YW6gN/p11bnsqzHNhZjUPOKO6A/E419KhqGwr
-g8luVlew0bV0271ebZURN3o9hbH93sGf7DtlPMl6i2efVSy7YvWrGSmMsoMqXBtHhmC/OaqRDM5W
-VScjNtjkXPRj3W6GakaQ3MqgMs1H4sW7/rk40bvRISrAz+V/Mr8usTS2yQiaAmq/WehhlIXNKuZh
-CljfX4q4satUVLeDaiGyHl+mw2PyAfM0mTwnJFrW3IBkNFxWCzsNh5XTiWWBOKqv/EBCeSyHBMv0
-xQYtOHUSth8=
-Fingerprint: cc:71:7b:f5:1f:95:ad:f5:fd:2d:c6:53:0a:c6:28:51
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**80:**
-```
-HTTP/1.1 200 OK
-Server: openresty
-Date: Mon, 14 Oct 2024 07:23:12 GMT
-Content-Type: text/html
-Content-Length: 1033
-Last-Modified: Mon, 01 Jul 2024 11:38:08 GMT
-Connection: keep-alive
-ETag: ""66829520-409""
-Accept-Ranges: bytes
-```
-------------------
-**81:**
-```
-HTTP/1.1 200 OK
-Server: openresty
-Date: Sun, 13 Oct 2024 00:31:50 GMT
-Content-Type: text/html
-Content-Length: 1693
-Last-Modified: Mon, 01 Jul 2024 11:39:06 GMT
-Connection: keep-alive
-ETag: ""6682955a-69d""
-Accept-Ranges: bytes
-```
-------------------
-**443:**
-```
-HTTP/1.1 200 OK
-Server: nginx
-Date: Sun, 20 Oct 2024 22:33:20 GMT
-Content-Type: text/html; charset=utf-8
-Content-Length: 11509
-Connection: keep-alive
-Vary: Accept-Encoding
-Cache-Control: max-age=0, private, must-revalidate
-Content-Security-Policy: 
-Etag: W/""9c31b203a28d851430a6f6669c8276b9""
-Permissions-Policy: interest-cohort=()
-Set-Cookie: preferred_language=en; path=/; Secure; SameSite=None
-Set-Cookie: _gitlab_session=fa73ccd285f9f184aa023b612ed00d28; path=/; expires=Mon, 21 Oct 2024 00:33:20 GMT; secure; HttpOnly; SameSite=None
-X-Content-Type-Options: nosniff
-X-Download-Options: noopen
-X-Frame-Options: SAMEORIGIN
-X-Gitlab-Meta: {""correlation_id"":""01JAP10H9TW79G0B6TRKE23EMV"",""version"":""1""}
-X-Permitted-Cross-Domain-Policies: none
-X-Request-Id: 01JAP10H9TW79G0B6TRKE23EMV
-X-Runtime: 0.163305
-X-Ua-Compatible: IE=edge
-X-Xss-Protection: 1; mode=block
-Strict-Transport-Security: max-age=63072000
-Referrer-Policy: strict-origin-when-cross-origin
-```
-HEARTBLEED: 2024/10/20 22:33:40 195.54.170.157:443 - SAFE
-
-------------------
-**1443:**
-```
-HTTP/1.1 400 Bad Request
-Server: openresty
-Date: Sun, 29 Sep 2024 06:57:56 GMT
-Content-Type: text/html
-Content-Length: 654
-Connection: close
-```
-------------------
-**2083:**
-```
-HTTP/1.1 400 Bad Request
-Content-Type: text/plain; charset=utf-8
-Sec-Websocket-Version: 13
-X-Content-Type-Options: nosniff
-Date: Tue, 22 Oct 2024 03:08:24 GMT
-Content-Length: 12
-```
-HEARTBLEED: 2024/10/22 03:08:43 195.54.170.157:2083 - SAFE
-
-------------------
-**4443:**
-```
-SSL Error: TLSV1_UNRECOGNIZED_NAME
-```
-------------------
-**8080:**
-```
-HTTP/1.1 404 Not Found
-Date: Wed, 16 Oct 2024 10:10:54 GMT
-Content-Length: 0
-```
-------------------
-**9443:**
-```
-HTTP/1.1 200 OK
-Accept-Ranges: bytes
-Cache-Control: no-cache, no-store, must-revalidate
-Content-Length: 19300
-Content-Type: text/html; charset=utf-8
-Last-Modified: Mon, 09 Sep 2024 21:30:30 GMT
-Vary: Accept-Encoding
-X-Content-Type-Options: nosniff
-X-Csrf-Token: 
-X-Xss-Protection: 1; mode=block
-Date: Mon, 14 Oct 2024 07:49:33 GMT
-```
-HEARTBLEED: 2024/10/14 07:49:46 195.54.170.157:9443 - SAFE
-
-------------------","50"
-"2024-10-22T21:32:28.511Z","IPv4-Addr","","TLP:CLEAR","103.89.90.61","2024-10-22T21:33:19.197Z","103.89.90.61","**ISP:** VIETNAM POSTS AND TELECOMMUNICATIONS GROUP
-
-**OS:** Ubuntu
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDMY0S93s4hLFJMu4UlfTUGLKO0OK+Whly7ukqiK8LkZJ3J
-BEJNFkiD51A65C1RHF8El8ZuNLN2iA7NQv4WvHr2/UxxsqKDnSnsjMZNYlI8MzmHu531hv3GVIaG
-M8/jgS3Cry3rJUdh4RkbzayIHtC//4hylei8/7yxQAfsfVbf/jmAw2vkkwZqobO66ru7Hnb970HF
-WEQktbdGyrELa0rhY/r4huT49T62pl83sC9VVU0u8KKNkXMeaoNwg59tg1dxSd8Wb49OwEEKSVh7
-EN8tpRdyn67mU0E6wVSeVQxT8ahfHdEUI8QxfxfMag9d6tl9iKIvpfcKjbal0E+MaGeEyew86mRC
-zaoFUE3VzUKhQL3cTobgu+rlxcSOzblO3WyZZrlQK7ffE7EYpdJ7o1/Ras99tkI1Nf2g+vrXQLm+
-WLDKs+fvkROwMkj0V35hD7FgIGD+yb3QLZOX1DqYbOLT9cdp2VR/BOlojjuUOJMtHKYtGzJldXbR
-yChsopAwugc=
-Fingerprint: 2d:e4:2d:fc:9f:9d:86:ea:1b:b8:ab:1a:a1:a4:94:30
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------","50"
 "2024-10-22T22:37:40.864Z","IPv4-Addr","","TLP:CLEAR","45.15.157.116","2024-10-22T22:37:45.183Z","45.15.157.116","**ISP:** AEZA INTERNATIONAL LTD
 
 **OS:** Linux
@@ -5768,81 +4645,7 @@ MariaDB:
   Error Code: 1130
 ```
 ------------------","50"
-"2024-10-23T10:13:38.383Z","IPv4-Addr","botnet_cc,rat,asyncrat","TLP:CLEAR","93.123.39.76","2024-10-23T10:18:00.868Z","93.123.39.76","**ISP:** cheapy.host LLC
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_7.4
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDRTJLPuh/iFLup/f2toVe5FQEYQLoce1f6HEfup8udXqSE
-81NpgiUIFxYHF0DWl+PgytIdrsxAtGNaZmFyU34bmRDy5Nz/kB3wtenzK6zEjJbhr51Zy29Tvlvq
-6cutQK8XgvzwIB0f0G2j8Y6cNEtmTKyFsKBJAzDqRUQQczoE3srCDqFwET8zM3sXu/kxNUpjGOSp
-ebQnSogTv9yCrr8Rad60EVMeS9kmy5136d77gsTsV739lLJM0yYIpxwBNmC+mnsm/kbXasIsoWUj
-1C5OOlhOxaTOWayvMulgZsx01pZI2pK1SzDF4hU/nzRS6jV9GAUh8K6cY+T7tUin1hBX
-Fingerprint: 0b:62:19:b3:8e:f2:46:2d:9c:35:b6:f1:5e:a9:69:db
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group-exchange-sha1
-	diffie-hellman-group14-sha256
-	diffie-hellman-group14-sha1
-	diffie-hellman-group1-sha1
-
-Server Host Key Algorithms:
-	ssh-rsa
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-	aes128-cbc
-	aes192-cbc
-	aes256-cbc
-	blowfish-cbc
-	cast128-cbc
-	3des-cbc
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**4444:**
-```
-[Invalid Conncection!]
-```
-------------------","50"
+"2024-10-23T10:13:38.383Z","IPv4-Addr","botnet_cc,rat,asyncrat,osint,ssl-blacklist","TLP:CLEAR","93.123.39.76","2024-10-23T22:11:25.294Z","93.123.39.76","Malicious SSL connections","50"
 "2024-10-23T10:13:41.281Z","IPv4-Addr","botnet_cc,havoc,c2,censys,as20857,transip-as","TLP:CLEAR","136.144.220.174","2024-10-23T10:18:28.865Z","136.144.220.174","**ISP:** Signet B.V.
 
 **OS:** -
@@ -6861,116 +5664,7 @@ Set-Cookie:  sl-session=jqC4Geu0DmfoIPvSTzglJg==; Path=/; Max-Age=86400; HttpOnl
 ```
 ------------------","50"
 "2024-10-23T10:14:27.219Z","IPv4-Addr","botnet_cc,cobaltstrike,cs-watermark-987654321,c2,censys,alibaba-cn-net,as45102","TLP:CLEAR","47.83.6.131","2024-10-23T10:14:27.432Z","47.83.6.131","Traffic seen on port 80",""
-"2024-10-23T10:15:25.084Z","IPv4-Addr","botnet_cc,vidar,self-signed,devops","TLP:CLEAR","95.217.220.103","2024-10-23T10:21:10.645Z","95.217.220.103","**ISP:** Hetzner Online GmbH
-
-**OS:** Linux
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3
-Key type: ecdsa-sha2-nistp256
-Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCy9E3PxmpA15ArVAbB8pZqC
-cWAtr7Vfw9i2Wt81KsgaCvDKsxHfeSZ65VgW1BskghwAd5wXp+Ys2XTNN5G2GUA=
-Fingerprint: b4:77:63:60:6a:48:2c:7e:7a:5f:c5:5e:a0:0d:6e:a6
-
-Kex Algorithms:
-	sntrup761x25519-sha512@openssh.com
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------
-**53:**
-```
-
-```
-------------------
-**80:**
-```
-HTTP/1.1 302 Moved Temporarily
-Server: nginx
-Date: Mon, 21 Oct 2024 17:14:14 GMT
-Content-Type: text/html
-Content-Length: 138
-Connection: keep-alive
-Location: https://aliexpress.fr
-```
-------------------
-**443:**
-```
-HTTP/1.1 200 OK
-Server: nginx
-Date: Fri, 27 Sep 2024 14:48:00 GMT
-Content-Type: text/html
-Content-Length: 1112
-Last-Modified: Sun, 25 Aug 2024 11:25:17 GMT
-Connection: keep-alive
-Content-Security-Policy: upgrade-insecure-requests; default-src 'self'; connect-src 'self' https://paste.yunohost.org wss://95.217.220.103; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval'; object-src 'none'; img-src 'self' data:;
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-X-Download-Options: noopen
-X-Permitted-Cross-Domain-Policies: none
-X-Frame-Options: SAMEORIGIN
-Permissions-Policy: interest-cohort=()
-Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-Referrer-Policy: 'same-origin'
-Cache-Control: no-store, no-cache, must-revalidate
-Accept-Ranges: bytes
-```
-HEARTBLEED: 2024/09/27 14:48:14 95.217.220.103:443 - SAFE
-
-------------------
-**10250:**
-```
-HTTP/1.1 404 Not Found
-Content-Type: text/plain; charset=utf-8
-X-Content-Type-Options: nosniff
-Date: Wed, 16 Oct 2024 13:37:50 GMT
-Content-Length: 19
-```
-HEARTBLEED: 2024/10/16 13:37:56 95.217.220.103:10250 - SAFE
-
-------------------","50"
+"2024-10-23T10:15:25.084Z","IPv4-Addr","botnet_cc,vidar,self-signed,devops,osint,ssl-blacklist","TLP:CLEAR","95.217.220.103","2024-10-23T22:11:25.142Z","95.217.220.103","Malicious SSL connections","50"
 "2024-10-23T10:15:26.293Z","IPv4-Addr","botnet_cc,vidar,self-signed","TLP:CLEAR","107.191.36.218","2024-10-23T10:21:27.270Z","107.191.36.218","**ISP:** The Constant Company, LLC
 
 **OS:** -
@@ -20941,5 +19635,753 @@ WinRM NTLM Info:
   NetBIOS Computer Name: WIN-4TTI4DH7SGH
   DNS Domain Name: WIN-4TTI4DH7SGH
   FQDN: WIN-4TTI4DH7SGH
+```
+------------------","50"
+"2024-10-23T21:22:41.012Z","IPv4-Addr","emergingthreat","TLP:CLEAR","112.186.229.163","2024-10-23T21:22:45.751Z","112.186.229.163","**ISP:** Korea Telecom
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.2p1
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCSMIABRJXZaK0RYVBBOA/r8
+srxK+XKSBsXyyRKm+mp2PdArxlaj8l5j4a+0sHdzWmJkfldiy5EGCAIdru7YQ1Q=
+Fingerprint: 03:8a:b5:de:de:96:1e:ac:ef:bd:45:38:72:19:15:66
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 0
+leap: 3
+precision: -23
+rootdelay: 1.0
+rootdisp: 1.0
+refid: 0
+reftime: 0.0
+poll: 0
+```
+------------------","50"
+"2024-10-23T21:22:41.018Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","104.248.63.189","2024-10-23T21:22:51.862Z","104.248.63.189","**ISP:** DigitalOcean, LLC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**631:**
+```
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Language: en
+Content-Length: 371
+Content-Type: text/html; charset=utf-8
+Date: Fri, 18 Oct 2024 23:17:59 GMT
+Accept-Encoding: gzip, deflate, identity
+Server: CUPS/2.4 IPP/2.1
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none'
+```
+------------------","50"
+"2024-10-23T21:22:41.684Z","IPv4-Addr","emergingthreat","TLP:CLEAR","116.110.86.244","2024-10-23T21:22:41.708Z","116.110.86.244","Proofpoint Emerging Threat IP",""
+"2024-10-23T21:22:42.709Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","128.199.17.112","2024-10-23T21:23:01.457Z","128.199.17.112","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIIcbo7wHcQlRcEO8QeF609W
+fMhZvA4xqXbRhwSEAZCBi9HlwMsOP9cPx059Mwwy6HePCrq4CGkcrWYIr1TwTU8=
+Fingerprint: a1:36:fe:fe:a9:58:2e:c1:f9:6e:c5:aa:9b:2f:e6:32
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-23T21:22:43.027Z","IPv4-Addr","emergingthreat","TLP:CLEAR","128.199.31.18","2024-10-23T21:22:43.122Z","128.199.31.18","Proofpoint Emerging Threat IP",""
+"2024-10-23T21:22:44.785Z","IPv4-Addr","emergingthreat,scanner","TLP:CLEAR","141.98.10.12","2024-10-23T21:23:07.450Z","141.98.10.12","**ISP:** UAB Host Baltic
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDYgvqPHJaXW8//qXdZznSrslC7aj9tuzt7xB6CiJfrTy9I
+30kmvVCNfbAfRTgzYD9yFPEcaD8+zn5+O8uAdARuml4y4ElPunYsWaKfJiRcxm7Q1snayp81nRNd
+dqJFTMCCMwP+yk50Ry7HIec6V9rmfkPeyRjIjxV+3GzvsqtC1DGIpcwpvaLsfH39UuZQ+TJ3wFh1
+m4ki8flGJvKAJLj/R16dCFo5IkfhS2zl/ljR9J4PYOWEfV2nQHL/6Gi0z3eSWPFiue8VmgqXQADm
+4AmoBWj1PJKQRE+lSV+F8gO/vEbTwFdVWmvqQuqF2Q32lDEiagly5tTyexAihPpwCWey9lNZakkj
+uuwKhAIcg8FPaVBpIYC/+ffdSA9x0pR5UERDfDVykbUR0i9B5jNWNKQPNG2GkbqNGS1tmB2CDmI8
+eFHbbTEJ/tZYV4tZ08jL45u5klBXNevI60+Jdze2wpsP8SvD9WOHpetXX/5llchbQ005iYOJU+Uy
+7hh+gRwMeiE=
+Fingerprint: 83:69:b6:c5:ff:08:a3:66:96:14:fc:2d:e0:da:6f:1e
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Tue, 01 Oct 2024 00:19:37 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Last-Modified: Sat, 28 Sep 2024 18:03:04 GMT
+ETag: ""2aa6-62331c888047e""
+Accept-Ranges: bytes
+Content-Length: 10918
+Vary: Accept-Encoding
+Content-Type: text/html
+```
+------------------","50"
+"2024-10-23T21:22:45.472Z","IPv4-Addr","emergingthreat","TLP:CLEAR","143.198.143.158","2024-10-23T21:22:46.018Z","143.198.143.158","Proofpoint Emerging Threat IP",""
+"2024-10-23T21:22:46.226Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","143.244.174.106","2024-10-23T21:24:08.844Z","143.244.174.106","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDDKD2Bi3SItnOBLC6p9Hk+YXx9cOYsJjYkDIsmdQtiz0qI
+xfsE6RiG9y8yib8oIV+tY0hAz3wdC5YR0IrnHATPCwbyJHWctyHSDCjoxt5QF6f+y9dDeTKSWmmu
+BBtkv2TKxmi3+D6AIULH/MFnDd/kePAXlzEz3tbU6qh2qdwsKusqW0xnqavh/2TEKoQTlgXx5HvX
+uDMenFUkzg9GZaKtCqJlgc6P+o3gX57LrmV5IxOtMwl0c0EISSsYU8keZBU8w2lm/FBct7dZZl8s
+euF9yndvyME+hsHPl3gRS/a/cii8Tfb9RBc9FJ1bEmDA22OXgk9fLWfLBNRRjn7kS/Jy6unGkjIw
+6gMoBsgypWS/ql6qfQp3jekmj14gUsH7QKVQht2qlLtyh5RAzeLa4H3EwYcjSYfMFuOuyIyd+Fet
+sx7ldIL10GyxmqZpgwphMPkqY/J9AwyklqwH/aclYrd5A+zswQms02kcVTL8CynFadmkgvUH/mxu
+Q8EiDp83NxM=
+Fingerprint: 62:df:d8:3e:23:c2:e6:6e:fe:4e:d5:ae:ec:92:cf:19
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-23T21:22:46.257Z","IPv4-Addr","emergingthreat","TLP:CLEAR","150.241.71.228","2024-10-23T21:24:13.969Z","150.241.71.228","**ISP:** Ace Data Centers, Inc.
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.3
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPv9672OmwFCMdW9Zv7ubF3o
+8m0VQr+I+NUMl63vB8LhaBOgYSDIa97+7iBdBxGsIjjocbFUYksD1KqpKccWV94=
+Fingerprint: d4:a0:49:ae:a2:1f:f1:64:15:33:93:ca:70:66:f5:22
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-23T21:22:47.726Z","IPv4-Addr","emergingthreat","TLP:CLEAR","150.241.88.28","2024-10-23T21:22:47.890Z","150.241.88.28","Proofpoint Emerging Threat IP",""
+"2024-10-23T21:22:48.034Z","IPv4-Addr","emergingthreat","TLP:CLEAR","164.92.211.126","2024-10-23T21:22:48.086Z","164.92.211.126","Proofpoint Emerging Threat IP",""
+"2024-10-23T21:22:48.105Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","165.232.35.159","2024-10-23T21:24:20.353Z","165.232.35.159","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCvnZDsNWFPnAuWMoYee8Bzxcztp6wMnNbm6aE2oxz5j+V3
+d/KgBlTJ5RyJ/QuGONAtLIF9baLkINUmGL7RuixL4zMXaPDI1/SGkHFog3Vi0s8DC7KbZ0BkX+yI
+u2zOG5if/jN3rO29Rtji5bFJu370rTEvPoD9vBRGLN13xoZocKQJA2fKGFciRXpNqohgXVUucL5f
+pTv70468UE6HabNYvoojE+WaukbjQ3ZFkNUIVALcpEXJyDTRAXDXuJLB5OdvN2LOkOpIbQ1uwVHm
+jGply/0olX01lwpUvIZNktOePaN+aMMFWWIiHuEEsm/K5bY0xofUfDf0WnFYvdiLubdeeuYouTUy
+UdZAfARWjhgPYlF8SpDwLD1tByya5Z0R2epMWT6cCPKyYqDQhB3XXzKtin3zIfeUES6sJvAolz0V
+Mr1+0uIeG7wkLOQgycukV/9Cympbav7TxTrX5lTy8HohVODpT2S38XlczOzOdmCftjRrR4vyglrl
+VFylrfvSUkE=
+Fingerprint: 1b:c6:8b:f3:86:dc:3c:db:fa:12:d7:76:84:e0:37:a3
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-23T21:22:50.192Z","IPv4-Addr","emergingthreat","TLP:CLEAR","171.22.120.142","2024-10-23T21:24:25.341Z","171.22.120.142","**ISP:** STARK INDUSTRIES SOLUTIONS LTD
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-Go
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJrdNXz2BfiUmZRTLyFQ3y+1
+S7rZd0uo/vu4OlUoK2x2p0J/Nzic1lyntF9vYQfCKHwB/6Oir3iC3KWdHnnZy0g=
+Fingerprint: 5d:7e:ff:9e:b7:5c:ca:1e:76:7a:e2:41:ca:5b:33:a1
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ecdsa-sha2-nistp256
+
+Encryption Algorithms:
+	aes128-gcm@openssh.com
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-256
+	hmac-sha1
+	hmac-sha1-96
+
+Compression Algorithms:
+	none
+```
+------------------","50"
+"2024-10-23T21:22:52.296Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","188.166.112.109","2024-10-23T21:24:31.536Z","188.166.112.109","**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDwy5swo4TgaWdtI+82byJot6D9PhPXeyGZ8piiO8P3ymy/
+eMQQZ0FW4zNmPel588/+Me8lplo1VTpgeM8MNsYrlWLFhxUVPgwwN0TPzlhQNiuVdPUWHzOqQf//
+umssdFQfBiuUpvXoz2it4zyKRAPstln4Ym+SNWbviZPj9PJgbvABKeoX11nVP2nxPZnfwXR5DwHp
+fdgRLsxv1UDpGK7P2Zfc5LzzFq6LZ1TZVYQE0dbyCMr6toRjRXTxxdopwJm7HiO7LrmlbnphIkKw
+HqsyCcw8n6+++Dx0tLTIiqGWO5fqcvESUCjAzqNFBqcEePDXY6D4sdJ0rCBOrE5lYuiARilLZ5GS
+GjGDKkA6XCd7Pw0mNcmDa1xuCT752DiC/oVgkGHkq419xcN3omXG7td6B5FlwOZi0zKrBjhYj/N9
+j8dYE861u5BHymjzhXVh5Z8JpjsO4cgOCySE/vLE2wD5bCLvOFONeG0kC/JZhMDrGePuYbz5hX2U
+EwMUnBJqji0=
+Fingerprint: 4c:4c:12:77:a4:33:bd:aa:2a:e7:6d:02:8b:41:1a:17
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-23T21:22:52.300Z","IPv4-Addr","emergingthreat","TLP:CLEAR","213.194.78.150","2024-10-23T21:25:38.121Z","213.194.78.150","**ISP:** Vodafone Net Iletisim Hizmetler AS
+
+**OS:** -
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:54:02 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Content-Length: 7877
+Content-Type: text/html
+```
+------------------","50"
+"2024-10-23T21:22:52.300Z","IPv4-Addr","emergingthreat","TLP:CLEAR","45.140.192.46","2024-10-23T21:24:36.991Z","45.140.192.46","**ISP:** QNAX LTDA
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-Go
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBG93k8oXH0XTNEz2t+MS1YO
+dE79Sim+kMfw7XHkaEJDgTX+ZnGlnpnAOvuDoQnvepjrgLzqKC93iW+gONoMgbw=
+Fingerprint: 55:35:e7:9b:4f:b4:af:46:96:31:d8:ae:3c:4b:92:33
+
+Kex Algorithms:
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ecdsa-sha2-nistp256
+
+Encryption Algorithms:
+	aes128-gcm@openssh.com
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-256
+	hmac-sha1
+	hmac-sha1-96
+
+Compression Algorithms:
+	none
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Fri, 18 Oct 2024 21:20:35 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Last-Modified: Mon, 13 May 2024 23:14:53 GMT
+ETag: ""0-6185e0d83d540""
+Accept-Ranges: bytes
+Content-Length: 0
+Content-Type: text/html
+```
+------------------","50"
+"2024-10-23T21:22:54.208Z","IPv4-Addr","emergingthreat","TLP:CLEAR","45.148.10.4","2024-10-23T21:31:06.534Z","45.148.10.4","**ISP:** PPTECHNOLOGY LIMITED
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMf9T2e/Gz0VptwIX+v0L+RT
+aWfaFB6peNOyFrxnRSZ4ko4YeNXGXfS+sCu63p2pxiG5P0ke4dZRwg+DZN5AMQ8=
+Fingerprint: 96:10:91:81:55:f3:5f:0a:03:89:f4:35:82:55:0f:09
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-10-23T21:22:54.215Z","IPv4-Addr","emergingthreat,eol-product","TLP:CLEAR","45.207.201.135","2024-10-23T21:30:59.717Z","45.207.201.135","**ISP:** FASTNET DATA INC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**80:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 22 Oct 2024 09:48:45 GMT
+Content-Type: text/html
+Content-Length: 186
+Last-Modified: Fri, 11 Oct 2024 09:25:53 GMT
+Connection: keep-alive
+ETag: ""6708ef21-ba""
+Accept-Ranges: bytes
+```
+------------------","50"
+"2024-10-23T21:22:56.065Z","IPv4-Addr","emergingthreat","TLP:CLEAR","64.227.140.222","2024-10-23T21:22:56.239Z","64.227.140.222","Proofpoint Emerging Threat IP",""
+"2024-10-23T21:22:57.244Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","64.227.35.185","2024-10-23T21:31:11.176Z","64.227.35.185","**ISP:** DigitalOcean, LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDA5DizF+O7WghPa7yIe8MeBseXuRR2K9MlDvx1lJ6lUVVr
+QrFrf0lR77UuCC/3v8WE0hnjFW9L3hFOjQ5PCdiag3T8cDNW0f5LxX2ywVSzPH1RjP6zCIAqD53S
+9aoIAW8weh+q1EJZCEn4kI81I3+g55hFFGKV+dbWAscTHXl6v9KEoaH4Hiur+2+MqWwPQpHEG9cb
+nMlbpYfBAXwoEUf8r5uQeJZ13hU3DwGfXIOU8lRsx/Ni1XI2S9cKcOY070nad+EcUHvu0PgiyZyN
+Wjh58rPE4brs7ITB11QgAUzRZ/sj854Lq6000Hu0EcHB+bxFGbHhV/Fk3qgPYXstld3a0cSVao6Z
+u3J2rm2PXtystuyzquDp1TWX55O+Y9A6HS6qijSoK+eyE+S2lFOMGyhgJxMexX1MhyXEHuF6hvYq
+YR3buU2U0qAj5GdXSdlmuyDLVUC/btmrPmsbjmp/2Izxs4fcwMEy3onvhDAf3ipxCYQhNrrO9hqk
+YJBgpulexTs=
+Fingerprint: 07:9b:f2:89:9a:8c:59:a7:f1:4a:bc:37:78:92:56:db
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
 ```
 ------------------","50"
