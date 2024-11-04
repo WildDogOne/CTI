@@ -1,9 +1,7 @@
 "created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
-"2024-11-04T01:32:41.204Z","IPv4-Addr","","TLP:CLEAR","152.201.184.235","2024-11-04T01:32:41.418Z","152.201.184.235","Anyrun Malware Trends",""
-"2024-11-04T01:32:41.205Z","IPv4-Addr","","TLP:CLEAR","141.255.145.130","2024-11-04T01:32:41.533Z","141.255.145.130","Anyrun Malware Trends",""
-"2024-11-04T01:33:25.687Z","IPv4-Addr","self-signed","TLP:CLEAR","193.124.205.71","2024-11-04T01:33:30.935Z","193.124.205.71","**ISP:** Blockchain Creek B.V.
+"2024-11-04T02:36:59.219Z","IPv4-Addr","self-signed","TLP:CLEAR","185.249.197.248","2024-11-04T02:37:05.088Z","185.249.197.248","**ISP:** aurologic GmbH
 
-**OS:** Windows Server 2022 (build 10.0.20348)
+**OS:** Windows (build 10.0.17763)
 
 --------------------------
 Services:
@@ -13,274 +11,101 @@ Services:
 Remote Desktop Protocol
 \x03\x00\x00\x13\x0e\xd0\x00\x00\x124\x00\x02\x1f\x08\x00\x02\x00\x00\x00
 Remote Desktop Protocol NTLM Info:
-  OS: Windows Server 2022
-  OS Build: 10.0.20348
-  Target Name: WIN-DI0LFNP2GV7
-  NetBIOS Domain Name: WIN-DI0LFNP2GV7
-  NetBIOS Computer Name: WIN-DI0LFNP2GV7
-  DNS Domain Name: WIN-DI0LFNP2GV7
-  FQDN: WIN-DI0LFNP2GV7
+  OS: Windows 10 (version 1809)/Windows Server 2019 (version 1809)
+  OS Build: 10.0.17763
+  Target Name: VPS-ZAP65083-7
+  NetBIOS Domain Name: VPS-ZAP65083-7
+  NetBIOS Computer Name: VPS-ZAP65083-7
+  DNS Domain Name: vps-zap65083-7
+  FQDN: vps-zap65083-7
 ```
 ------------------","50"
-"2024-11-04T01:34:43.712Z","IPv4-Addr","","TLP:CLEAR","94.156.67.244","2024-11-04T01:34:44.008Z","94.156.67.244","Anyrun Malware Trends",""
-"2024-11-04T01:34:45.426Z","IPv4-Addr","","TLP:CLEAR","87.242.107.224","2024-11-04T01:34:46.135Z","87.242.107.224","Anyrun Malware Trends",""
-"2024-11-04T01:34:45.426Z","IPv4-Addr","cloud,self-signed","TLP:CLEAR","81.69.242.185","2024-11-04T01:34:56.355Z","81.69.242.185","**ISP:** Shenzhen Tencent Computer Systems Company Limited
+"2024-11-04T02:36:59.225Z","IPv4-Addr","","TLP:CLEAR","46.246.82.9","2024-11-04T02:37:15.275Z","46.246.82.9","**ISP:** GleSYS AB
 
 **OS:** -
 
 --------------------------
 Services:
 
-**443:**
+**21:**
 ```
-HTTP/1.1 404 Not Found
-Date: Sun, 3 Nov 2024 11:59:08 GMT
-Content-Type: text/plain
-Content-Length: 0
-
-
-Cobalt Strike Beacon:
-  x86:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 81.69.242.185,/ca
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 2cf55b894db8fd4457b8f4bc95a004a8
-    sleeptime: 60000
-    useragent_header: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0)
-    uses_cookies: 1
-    watermark: 987654321
-  x64:
-    beacon_type: HTTPS
-    dns-beacon.strategy_fail_seconds: -1
-    dns-beacon.strategy_fail_x: -1
-    dns-beacon.strategy_rotate_seconds: -1
-    http-get.client:
-      Cookie
-    http-get.uri: 81.69.242.185,/pixel.gif
-    http-get.verb: GET
-    http-post.client:
-      Content-Type: application/octet-stream
-      id
-    http-post.uri: /submit.php
-    http-post.verb: POST
-    maxgetsize: 1048576
-    port: 443
-    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
-    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
-    process-inject.execute:
-      CreateThread
-      SetThreadContext
-      CreateRemoteThread
-      RtlCreateUserThread
-    process-inject.startrwx: 64
-    process-inject.stub: e43a1b63f09794f74d90a9889f7acb77
-    process-inject.userwx: 64
-    proxy.behavior: 2 (Use IE settings)
-    server.publickey_md5: 2cf55b894db8fd4457b8f4bc95a004a8
-    sleeptime: 60000
-    useragent_header: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; MASP)
-    uses_cookies: 1
-    watermark: 987654321
-```
-HEARTBLEED: 2024/11/03 11:59:27 81.69.242.185:443 - SAFE
-
-------------------","50"
-"2024-11-04T01:35:38.525Z","IPv4-Addr","","TLP:CLEAR","212.113.118.178","2024-11-04T01:35:43.814Z","212.113.118.178","**ISP:** TimeWeb Ltd.
-
-**OS:** -
-
---------------------------
-Services:
-
-**3306:**
-```
-M\x00\x00\x00\n8.0.22-13\x00\x98\x0e\x06\x00\x15\tH:Wz1\x11\x00\xff\xff\xff\x02\x00\xff\xc7\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00=D\x04xoH=D+Z\x0es\x00caching_sha2_password\x00
-```
-------------------","50"
-"2024-11-04T01:35:38.549Z","IPv4-Addr","","TLP:CLEAR","64.190.113.154","2024-11-04T01:35:49.734Z","64.190.113.154","**ISP:** BL Networks
-
-**OS:** Linux
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC5ywIB346uWevClnPMXFmgNpfktjZv6nNcOn5YJEJ5E1yF
-yKEsu4UO4x3uXcX0qSOYD6zmE1eiyE5rX+EbIyiff9ReLJLqn4r45Ce1QEIXPrJ28e5kEN27xjS1
-8p1srvjm+9O9r8RecaoCHMtH/KIfy7Q3BUY0H0kAKuhZB7eURxNqqCaMzaWXPSzvQhvl3qjPrg9x
-f7oln6yi4e4DYyzPmx7ZJHcmogtuQCXuklW13S5LnWwwPIVwIpYiRx1TATVxiB8rU03LB0PY8kaQ
-8eZiGlLG0ftfLoY5ntjh0R9uJ7SbYiy+wnhOZZU5FKTS536PriWZ6jVCepbnkUPCCuVvGp2RprK2
-oZIUOm6JdvB7BHgaqb0o8G3uRHNrti4fZm+X5A2heIYLNEwF4/BOxGNHchBVamLqafc7gofAmN5p
-65B6cjPx/XpZAMi+V08eBWkj3KJeSZHThcI7nMhJecNxzamoqSJj4odonDbsKzvjFnRT7HdyzP+W
-4zNXYmwpnzs=
-Fingerprint: 47:a4:0f:23:e5:62:ab:5d:b3:c1:06:1a:ad:bd:9f:58
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
-```
-------------------","50"
-"2024-11-04T01:35:39.670Z","IPv4-Addr","","TLP:CLEAR","185.130.227.202","2024-11-04T01:35:39.717Z","185.130.227.202","Anyrun Malware Trends",""
-"2024-11-04T01:35:40.558Z","IPv4-Addr","","TLP:CLEAR","195.211.98.105","2024-11-04T01:35:58.947Z","195.211.98.105","**ISP:** GREEN FLOID LLC
-
-**OS:** -
-
---------------------------
-Services:
-
-**22:**
-```
-SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11
-Key type: ssh-rsa
-Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDYgOWgishIWnY+JXMLJl0Rqd2NTD+AFCr/sc59WttOEmhR
-QhaUOJkeXiDgWlU3/fVAiddQux7QWRKi6LirP4Yj28jaa31pDVlQknQxZujUSxQFzB9Rd64e47Ps
-OQ84Uv0UB2JxeY9+Bn+Oaz2FMmvpekN0j2jkiaEHXyyCy3uNSp6yDk5R7IH2XaNzFKhID2Q8lAbh
-joCRysf3rtPb/T2putndAunRFMBe09bQEhmHcjvNFkDMvMeFwSYhk1NrY1S4xZEhiDctBcJXOus5
-Kgw3rLyoUhIxAtNXNrpAdZTwQInXSFYgNL/X2tdTK8ESp/2JcWupSiw+qiLU8gtxtJUWHdjE3E8H
-mIEqWJgP4fIQhs1htzESaB5EBx/jT28wGQXTIdAyo52LvyBqyE3YJTAp9NaQhlNaWBxk8Ebrfg/Y
-/nuy6OFZXxrV8R6HRm4xoSkHvH1DqQVr50vOl2nfSwEuLBXtJHJkUHUC42ka6B3kFZB9mbcfqwpQ
-eRUZ+iWjvZk=
-Fingerprint: 78:8f:15:f6:21:b3:16:db:ec:e7:29:1a:5a:54:68:56
-
-Kex Algorithms:
-	curve25519-sha256
-	curve25519-sha256@libssh.org
-	ecdh-sha2-nistp256
-	ecdh-sha2-nistp384
-	ecdh-sha2-nistp521
-	diffie-hellman-group-exchange-sha256
-	diffie-hellman-group16-sha512
-	diffie-hellman-group18-sha512
-	diffie-hellman-group14-sha256
-	kex-strict-s-v00@openssh.com
-
-Server Host Key Algorithms:
-	rsa-sha2-512
-	rsa-sha2-256
-	ssh-rsa
-	ecdsa-sha2-nistp256
-	ssh-ed25519
-
-Encryption Algorithms:
-	chacha20-poly1305@openssh.com
-	aes128-ctr
-	aes192-ctr
-	aes256-ctr
-	aes128-gcm@openssh.com
-	aes256-gcm@openssh.com
-
-MAC Algorithms:
-	umac-64-etm@openssh.com
-	umac-128-etm@openssh.com
-	hmac-sha2-256-etm@openssh.com
-	hmac-sha2-512-etm@openssh.com
-	hmac-sha1-etm@openssh.com
-	umac-64@openssh.com
-	umac-128@openssh.com
-	hmac-sha2-256
-	hmac-sha2-512
-	hmac-sha1
-
-Compression Algorithms:
-	none
-	zlib@openssh.com
+220 ProFTPD 1.3.5 Server (Debian) [::ffff:46.246.82.9]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+214-EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+214-NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+214-PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+214-APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+214-NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@CapnAhab
+211-Features:
+ EPRT
+ SITE SYMLINK
+ EPSV
+ SITE UTIME
+ MDTM
+ SITE RMDIR
+ TVFS
+ SITE COPY
+ MFMT
+ LANG en-US.UTF-8*;en-US
+ SIZE
+ SITE MKDIR
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+211 End
 ```
 ------------------
-**80:**
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 2
+leap: 0
+precision: -22
+rootdelay: 0.00881958007812
+rootdisp: 0.0397338867188
+refid: 3258634004
+reftime: 3937623193.64
+poll: 3
+```
+------------------
+**4040:**
+```
+HTTP/1.1 503 Service Unavailable
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 1307
+Server: Jetty(6.1.x)
+```
+------------------
+**9091:**
 ```
 HTTP/1.1 403 Forbidden
-Date: Fri, 01 Nov 2024 07:51:20 GMT
-Server: Apache/2.4.37 (Rocky Linux) OpenSSL/1.1.1k
-X-Powered-By: PHP/8.2.25
-Cache-Control: no-cache, private
-Set-Cookie: XSRF-TOKEN=eyJpdiI6IlUxRWpGek1FQUN5Q0NJdGFLSVVSMWc9PSIsInZhbHVlIjoiQXl2TlZZUFdVbmx1SU5SZWVaaklkZCtCc3lielRCc25GSUFnR3RQWHRod2RWeFJMMk1LcUJXV3VtOWVNUnpRRDdVaVBsUDdYNXJXdnV6ZU9kL1RPWjJOVDIyMmxwd2VZSVdES0RabXpmMmVEN0dyWlJpNGs3YkNVQUxBQWFDY0EiLCJtYWMiOiJlYjUyZTRjYjIyN2Y0MzVmZGMwNjk3Y2NlMmI4ODM5ZjE3OTJiNDNlMDQ2ZTQyMGZjZmEwNjc0ZjNlNmM0NDQ2IiwidGFnIjoiIn0%3D; expires=Fri, 01 Nov 2024 09:51:20 GMT; Max-Age=7200; path=/; samesite=lax
-Set-Cookie: laravel_session=eyJpdiI6IlhjVXF1cGo3TG9xM25jZkt6ZUJkOXc9PSIsInZhbHVlIjoiNFdZN2h6UmQ2Q1FzMEJaUTZVWnUrbUpkcisxYkR6VHFjelpaelppWTE1d0p2S1FtWDV6WCtjMnNCeFAvdk0zSTNwTWhUOEhVZEx0S2U4TEVHYjZZYjJjL1k1cGt5RGd1R0RYcVdtaUZNTGE5VHJPNXhuUXZueTdDS3Robkw1NXoiLCJtYWMiOiJkY2MzYTVlYjM4MDBhYWE0MjhmMGQyNGEwYmI3Njg2YmQzOWFiOWE0ZWE3OTM0YmUzZTU2N2NmNTRiNjJkOTQ0IiwidGFnIjoiIn0%3D; expires=Fri, 01 Nov 2024 09:51:20 GMT; Max-Age=7200; path=/; httponly; samesite=lax
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=UTF-8
+Server: Transmission
+Date: Thu, 24 Oct 2024 01:21:00 GMT
+Content-Length: 335
+Content-Type: text/html; charset=ISO-8859-1
+
+<h1>403: Forbidden</h1><p>Unauthorized IP Address.</p><p>Either disable the IP address whitelist or add your address to it.</p><p>If you're editing settings.json, see the 'rpc-whitelist' and 'rpc-whitelist-enabled' entries.</p><p>If you're still using ACLs, use a whitelist instead. See the transmission-daemon manpage for details.</p>
 ```
 ------------------
-**443:**
+**32400:**
 ```
-HTTP/1.1 421 Misdirected Request
-Connection: keep-alive
-Content-Length: 297
-content-type: text/plain; charset=utf-8
-x-served-by: cache-chi-klot8100087
-```
-HEARTBLEED: 2024/10/21 03:36:23 195.211.98.105:443 - SAFE
+HTTP/1.1 401 Unauthorized
+Content-Length: 91
+Content-Type: text/html
+Connection: Keep-Alive
+Keep-Alive: timeout=20
+X-Plex-Protocol: 1.0
+Cache-Control: no-cache
 
+
+Plex Media Server:
+  Version: 0.9.15.2.1663-7efd046
+  Machine Identifier: 74462ec01ccf75c6590ce3a155a8a3c70211aa43
+```
 ------------------","50"
-"2024-11-04T01:35:41.709Z","IPv4-Addr","","TLP:CLEAR","148.113.1.180","2024-11-04T01:35:41.882Z","148.113.1.180","Anyrun Malware Trends",""
-"2024-11-04T01:35:41.710Z","IPv4-Addr","","TLP:CLEAR","162.33.179.65","2024-11-04T01:35:41.950Z","162.33.179.65","Anyrun Malware Trends",""
-"2024-11-04T01:35:42.712Z","IPv4-Addr","","TLP:CLEAR","79.110.62.96","2024-11-04T01:35:42.756Z","79.110.62.96","Anyrun Malware Trends",""
-"2024-11-04T01:35:43.488Z","IPv4-Addr","","TLP:CLEAR","65.20.75.41","2024-11-04T01:35:43.894Z","65.20.75.41","Anyrun Malware Trends",""
-"2024-11-04T01:35:43.507Z","IPv4-Addr","","TLP:CLEAR","111.90.143.221","2024-11-04T01:35:43.688Z","111.90.143.221","Anyrun Malware Trends",""
-"2024-11-04T01:35:44.421Z","IPv4-Addr","","TLP:CLEAR","5.252.177.243","2024-11-04T01:35:44.527Z","5.252.177.243","Anyrun Malware Trends",""
-"2024-11-04T01:35:46.432Z","IPv4-Addr","","TLP:CLEAR","5.2.68.89","2024-11-04T01:35:46.502Z","5.2.68.89","Anyrun Malware Trends",""
-"2024-11-04T01:35:46.432Z","IPv4-Addr","","TLP:CLEAR","94.130.49.223","2024-11-04T01:35:46.525Z","94.130.49.223","Anyrun Malware Trends",""
-"2024-11-04T01:35:46.432Z","IPv4-Addr","","TLP:CLEAR","81.19.135.139","2024-11-04T01:35:46.550Z","81.19.135.139","Anyrun Malware Trends",""
