@@ -15443,5 +15443,72 @@
         "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**443:**\n```\nHTTP/1.1 403 Forbidden\r\nServer: nginx\r\nDate: Wed, 30 Oct 2024 15:00:58 GMT\r\nContent-Type: text/html\r\nContent-Length: 342\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"66d702b6-156\"\n```\n------------------",
         "x_opencti_score": 50,
         "value": "165.22.108.237"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-11-06T20:15:32.697Z",
+        "updated_at": "2024-11-06T20:15:40.018Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
+        "observable_value": "94.103.9.153",
+        "x_opencti_description": "**ISP:** FOXCLOUD LLP\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**21:**\n```\n220 ProFTPD Server (Debian) [::ffff:94.103.9.153]\r\n530 Login incorrect.\r\n214-The following commands are recognized (* =>'s unimplemented):\n214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    \n214-EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     \n214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    \n214-NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   \n214-ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    \n214-STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   \n214-REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    \n214 Direct comments to root@fox-server-vps01.net\r\n211-Features:\n211-AUTH TLS\n211-CCC\n211-CLNT\n211-EPRT\n211-EPSV\n211-HOST\n211-LANG en-US.UTF-8;en-US\n211-MDTM\n211-MFF modify;UNIX.group;UNIX.mode;\n211-MFMT\n211-MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;\n211-PBSZ\n211-PROT\n211-REST STREAM\n211-SITE COPY\n211-SITE MKDIR\n211-SITE RMDIR\n211-SITE SYMLINK\n211-SITE UTIME\n211-SIZE\n211-SSCN\n211-TVFS\n211-UTF8\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQC8niwnOXB+D3Sos93KrDNoGwhScFbNcyihj4MrFbiNAsd9\n0q3oK8mmUC3GoebQnMcPH+SR9XnUWDCK0RVH41H8peWhh2kgPMPIxf2nTMEviD+uahfJf0W2RFoN\nzTZcrMz91T5ERJN1qTnN4VvIKZZRR37dxseWlyQTbYz1nZq7wtMIRPleKAst5St3f6DfYd5ol1jr\n/SEWXBYumaW+sXMg60arjh1/xNt/Dr2rjxDHBg/P7SXvRZWeCByEczvMo/kwFLjK4LokLsCqPzdQ\nN7drUxcmXWe2GjRWsD+CKooP+2J9MZm/oVe05z4PVibTxG0eTZLp6ACK1cDOwnRC8+gp/1af6R50\nv/Wv2v7M5VC4U9ziGhTmWn/3W2IfUZxWKghDXopWJvTjEGjnp4R9heZcjDtRco4+NcQUmz5Nh98v\nU9KsL2PrQSlVs47G8PSBM29Ds7w985B41MmeirmvX5KDcL7ityku5ddPoPEOBHa13/wVi9iezxPv\ncdw74cA53QM=\nFingerprint: 91:60:b0:6b:ac:f8:88:14:bf:79:3e:69:03:8e:e6:b1\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**25:**\n```\n220 mail.gourpt.ru ESMTP Exim 4.93 Ubuntu Wed, 23 Oct 2024 09:48:04 +0300\r\n250-mail.gourpt.ru Hello hxlb0beyxs9oph.net [224.27.52.141]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-AUTH PLAIN LOGIN CRAM-MD5\r\n250-CHUNKING\r\n250-STARTTLS\r\n250-SMTPUTF8\r\n250 HELP\n```\n------------------\n**53:**\n```\nPowerDNS Authoritative Server 4.2.1\nResolver ID: mail.gourpt.ru\n```\n------------------\n**53:**\n```\nPowerDNS Authoritative Server 4.2.1\nResolver ID: mail.gourpt.ru\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Sun, 27 Oct 2024 19:20:04 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nVary: Accept-Encoding\n```\n------------------\n**110:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nSTLS\r\nUSER\r\nSASL PLAIN LOGIN CRAM-MD5\r\n.\n```\n------------------\n**143:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=CRAM-MD5] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=CRAM-MD5\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Wed, 06 Nov 2024 09:22:51 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nSet-Cookie: wordpress_google_apps_login=cc859e76097ded29dfc67adcc38dd7bd; path=/; secure; HttpOnly\r\nLink: <https://gourpt.ru/wp-json/>; rel=\"https://api.w.org/\"\r\nLink: <https://gourpt.ru/wp-json/wp/v2/pages/1817>; rel=\"alternate\"; type=\"application/json\"\r\nLink: <https://wp.me/P47sFC-tj>; rel=shortlink\r\nVary: Accept-Encoding\n```\nHEARTBLEED: 2024/11/06 09:23:04 94.103.9.153:443 - SAFE\n\n------------------\n**465:**\n```\n220 mail.gourpt.ru ESMTP Exim 4.93 Ubuntu Mon, 04 Nov 2024 13:10:44 +0200\r\n250-mail.gourpt.ru Hello 4vxj6nw7epoeb0b.net [224.160.46.133]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-AUTH PLAIN LOGIN CRAM-MD5\r\n250-CHUNKING\r\n250-SMTPUTF8\r\n250 HELP\n```\nHEARTBLEED: 2024/11/04 11:10:52 94.103.9.153:465 - SAFE\n\n------------------\n**587:**\n```\n220 mail.gourpt.ru ESMTP Exim 4.93 Ubuntu Sun, 03 Nov 2024 00:32:44 +0200\r\n250-mail.gourpt.ru Hello xum7fqr1btive.com [224.60.56.230]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-AUTH PLAIN LOGIN CRAM-MD5\r\n250-CHUNKING\r\n250-STARTTLS\r\n250-SMTPUTF8\r\n250 HELP\n```\n------------------\n**993:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN AUTH=CRAM-MD5] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN AUTH=CRAM-MD5\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\nHEARTBLEED: 2024/11/01 01:44:02 94.103.9.153:993 - SAFE\n\n------------------\n**995:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN LOGIN CRAM-MD5\r\n.\n```\nHEARTBLEED: 2024/10/21 06:24:58 94.103.9.153:995 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
+        "value": "94.103.9.153"
+    },
+    {
+        "entity_type": "IPv4-Addr",
+        "created_at": "2024-11-06T20:15:32.698Z",
+        "updated_at": "2024-11-06T20:15:32.745Z",
+        "objectMarking": [
+            {
+                "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
+                "standard_id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+                "entity_type": "Marking-Definition",
+                "definition_type": "TLP",
+                "definition": "TLP:CLEAR",
+                "created": "2024-05-02T14:47:14.079Z",
+                "modified": "2024-05-02T14:53:28.555Z",
+                "x_opencti_order": 1,
+                "x_opencti_color": "#ffffff",
+                "createdById": null
+            }
+        ],
+        "objectLabel": [],
+        "observable_value": "193.233.20.28",
+        "x_opencti_description": "Anyrun Malware Trends",
+        "x_opencti_score": null,
+        "value": "193.233.20.28"
     }
 ]
