@@ -1,1 +1,944 @@
+"created_at","entity_type","objectLabel","objectMarking","observable_value","updated_at","value","x_opencti_description","x_opencti_score"
+"2024-11-29T22:42:01.271Z","IPv4-Addr","emergingthreat,self-signed","TLP:CLEAR","111.160.133.62","2024-11-29T22:42:06.494Z","111.160.133.62","**ISP:** CHINA UNICOM China169 Backbone
 
+**OS:** -
+
+--------------------------
+Services:
+
+**5222:**
+```
+<?xml version='1.0' encoding='UTF-8'?><stream:stream xmlns:stream=""http://etherx.jabber.org/streams"" xmlns=""jabber:client"" from=""weaver"" id=""74knov0cy8"" xml:lang=""en-US"" version=""1.0""><stream:features><mechanisms xmlns=""urn:ietf:params:xml:ns:xmpp-sasl""><mechanism>SCRAM-SHA-1</mechanism><mechanism>CRAM-MD5</mechanism><mechanism>DIGEST-MD5</mechanism></mechanisms><compression xmlns=""http://jabber.org/features/compress""><method>zlib</method></compression><ver xmlns=""urn:xmpp:features:rosterver""/><auth xmlns=""http://jabber.org/features/iq-auth""/><register xmlns=""http://jabber.org/features/iq-register""/></stream:features>
+```
+------------------
+**7070:**
+```
+HTTP/1.1 200 OK
+Date: Tue, 26 Nov 2024 16:43:50 GMT
+X-Frame-Options: samedomain
+X-XSS-Protection: 1;mode=block
+X-Content-Type-Options: nosiff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: default-src 'self'  'unsafe-inline';script-src 'self'  'unsafe-inline';style-src  'self'  'unsafe-inline';img-src 'self'  'unsafe-inline';media-src 'self' 'unsafe-inline';font-src 'self'  data: 'unsafe-inline'
+Referrer-Policy: no-referrer-when-downgrade
+X-Permitted-Cross-Domain-Policies: *
+X-Download-Options: noopen
+Last-Modified: Fri, 10 Jun 2022 09:18:04 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Content-Length: 162
+```
+------------------
+**8081:**
+```
+HTTP/1.1 200 OK
+Server: WVS
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1
+X-UA-Compatible: IE=8
+Cache-Control: private,max-age=86400000
+ETag: ""HCPGHF5c4V7""
+Last-Modified: Thu, 06 May 2021 01:48:18 GMT
+Set-Cookie: ecology_JSessionid=aaavqhXgspNjtcmqiESnz; path=/
+Content-Type: text/html; charset=utf-8
+Content-Length: 3235
+Date: Thu, 28 Nov 2024 07:30:43 GMT
+
+<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"">
+<script type=""text/javascript"" src=""/js/jquery/jquery_wev8.js""></script>
+<script type=""text/javascript"" src=""/js/jquery/plugins/client/jquery.client_wev8.js""></script>
+<script type=""text/javascript"" src=""/system/index_wev8.js""></script>
+</head>
+
+<script language=""javascript1.1"">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.onload=function()
+{
+  var now = new Date().getTime();
+  var redirectUrl = ""/wui/index.html#/?logintype=1&time=""+ now;
+  window.location.href=redirectUrl
+  
+}
+
+function checkPopupBlocked(poppedWindow) {
+	 setTimeout(function(){ 
+		 var flag= false
+		 if(jQuery.client.browser==""Chrome""){
+			 flag = doCheckPopupBlocked(poppedWindow);
+		 }else{
+			if(poppedWindow!=null){
+               flag =  false;
+			}else{
+               flag = true;
+			}
+		 }
+		 
+		
+		 if(flag){
+		      var now = new Date().getTime();
+			  var redirectUrl = ""/wui/index.html#/?logintype=1&time=""+now ;
+			  
+			  var helpurl=getHelpUrl();
+				  if(helpurl!=""""){
+					  var yn = confirm(msg);
+					  if(!yn) location.href = redirectUrl;
+					  if(yn) location.href = helpurl;
+				  }else{
+					  location.href = redirectUrl;
+			      }
+				 
+			}else{
+				
+			   	 window.open('','_self');
+			   	 window.close();
+			}
+		 },500);
+}
+
+function doCheckPopupBlocked(poppedWindow) {
+
+	    var result = false;
+		//alert(poppedWindow.closed)
+	    try {
+	        if (typeof poppedWindow == 'undefined') {
+	            // Safari with popup blocker... leaves the popup window handle undefined
+	            result = true;
+	            //alert(1)
+	        }
+	        else if (poppedWindow && poppedWindow.closed) {
+	            // This happens if the user opens and closes the client window...
+	            // Confusing because the handle is still available, but it's in a ""closed"" state.
+	            // We're not saying that the window is not being blocked, we're just saying
+	            // that the window has been closed before the test could be run.
+	            result = false;
+	            //alert(2)
+	        }
+	        else if (poppedWindow && poppedWindow.outerWidth == 0) {
+	            // This is usually Chrome's doing. The outerWidth (and most other size/location info)
+	         // will be left at 0, EVEN THOUGH the contents of the popup will exist (including the
+	         // test function we check for next). The outerWidth starts as 0, so a sufficient delay
+	         // after attempting to pop is needed.
+	            result = true;
+	            //alert(3)
+	        }
+	        else if (poppedWindow && poppedWindow.test) {
+	            // This is the actual test. The client window should be fine.
+	            result = false;
+	            //alert(4)
+	        }
+	        else {
+	            // Else we'll assume the window is not OK
+	            result = false;
+	            //alert(5)
+	        }
+
+	    } catch (err) {
+	        //if (console) {
+	        //    console.warn(""Could not access popup window"", err);
+	        //}
+	    }
+
+	    return result
+}
+
+function getHelpUrl()  
+{  
+	 
+	return ""/help/sys/help.html""
+    
+} 
+
+
+</script>	
+</html>
+```
+------------------
+**8443:**
+```
+HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2024 10:37:04 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 1720
+Last-Modified: Tue, 11 Jun 2024 08:47:07 GMT
+Connection: close
+Server: Nginx
+Expires: 0
+Pragma: no-cache
+Cache-Control: no-cache
+X-LANG: 1
+X-Timezone: 0800
+X-Timestamp: 1731926224
+X-Arch: arm
+X-Sysbit: x64
+X-Enterprise: 0
+X-Support-i18n: 1
+X-Support-wifi: 0
+X-Default-IP: 0
+ETag: ""66680f0b-6b8""
+Accept-Ranges: bytes
+```
+HEARTBLEED: 2024/11/18 10:37:26 111.160.133.62:8443 - SAFE
+
+------------------
+**9443:**
+```
+HTTP/1.1 200 OK
+Date: Sat, 16 Nov 2024 08:09:12 GMT
+Connection: Keep-Alive
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: text/html
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1
+Content-Length: 4116
+```
+HEARTBLEED: 2024/11/16 08:09:16 111.160.133.62:9443 - SAFE
+
+------------------","50"
+"2024-11-29T22:42:01.274Z","IPv4-Addr","emergingthreat","TLP:CLEAR","114.96.104.77","2024-11-29T22:42:01.475Z","114.96.104.77","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:01.590Z","IPv4-Addr","emergingthreat","TLP:CLEAR","116.105.218.52","2024-11-29T22:42:15.451Z","116.105.218.52","**ISP:** Viettel Corporation
+
+**OS:** -
+
+--------------------------
+Services:
+
+**8291:**
+```
+MikroTik Winbox:
+  list:
+    advtool.jg: 7.15.3
+    container.jg: 7.15.3
+    dhcp.jg: 7.15.3
+    hotspot.jg: 7.15.3
+    icons.png: 7.15.3
+    icons24.png: 
+    icons32.png: 
+    ipv6.jg: 7.15.3
+    ppp.jg: 7.15.3
+    roteros.jg: 7.15.3
+    secure.jg: 7.15.3
+    ups.jg: 7.15.3
+    wave2.jg: 7.15.3
+```
+------------------
+**8728:**
+```
+\x05!done%=ret=f3605e653b4bb99c4b2f5ca7de2a00f2\x00
+```
+------------------
+**8880:**
+```
+
+```
+------------------","50"
+"2024-11-29T22:42:03.127Z","IPv4-Addr","emergingthreat","TLP:CLEAR","116.110.31.156","2024-11-29T22:42:03.344Z","116.110.31.156","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:03.127Z","IPv4-Addr","emergingthreat","TLP:CLEAR","116.110.9.133","2024-11-29T22:42:03.278Z","116.110.9.133","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:04.311Z","IPv4-Addr","emergingthreat","TLP:CLEAR","116.98.168.178","2024-11-29T22:42:04.362Z","116.98.168.178","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:04.328Z","IPv4-Addr","emergingthreat,cloud,eol-product","TLP:CLEAR","139.59.127.12","2024-11-29T22:42:21.741Z","139.59.127.12","**ISP:** DigitalOcean, LLC
+
+**OS:** Ubuntu
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFPhitBVYFTAVO13elRQl33S
++Si9mB0eD0JYwqkUY7uZOnWgLx0ST0po6kVwW8m4VjY0g6mPHEl+90NyQqXHgUw=
+Fingerprint: 95:60:bc:2f:c0:a6:8f:43:af:12:3b:90:0b:37:9c:31
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 Nov 2024 18:21:52 GMT
+Content-Type: text/html
+Content-Length: 615
+Last-Modified: Mon, 11 Nov 2024 05:31:28 GMT
+Connection: keep-alive
+ETag: ""673196b0-267""
+Accept-Ranges: bytes
+```
+------------------
+**443:**
+```
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Fri, 29 Nov 2024 05:15:04 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 5029
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+Set-Cookie: session_id=-lxkLspTIvDRSKhJ2NUp6dghvcVxMMYUUlvwm2VtsujE3wtbuqBivRIt9CvZ5lUcHKdwVV1nhvmJ1WnFZtnM; Expires=Sat, 29 Nov 2025 05:15:04 GMT; Max-Age=604800; HttpOnly; Path=/
+X-Content-Type-Options: nosniff
+```
+HEARTBLEED: 2024/11/29 05:15:17 139.59.127.12:443 - SAFE
+
+------------------
+**8069:**
+```
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.1 Python/3.12.3
+Date: Thu, 28 Nov 2024 18:45:40 GMT
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+Set-Cookie: session_id=VylxRdd5YMHQA9eau4Md2MKjycmnxVJHZjOsBnwOvnOZ4v7Cm7znHHO5w4FAs8mqpwSZlitugLtaznmew8qC; Expires=Fri, 28 Nov 2025 18:45:40 GMT; Max-Age=604800; HttpOnly; Path=/
+X-Content-Type-Options: nosniff
+Content-Length: 5029
+Connection: close
+```
+------------------","50"
+"2024-11-29T22:42:04.937Z","IPv4-Addr","emergingthreat","TLP:CLEAR","189.91.172.62","2024-11-29T22:42:28.854Z","189.91.172.62","**ISP:** LOGIN PROVEDOR DE INTERNET LTDA
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+
+```
+------------------","50"
+"2024-11-29T22:42:05.612Z","IPv4-Addr","emergingthreat","TLP:CLEAR","193.233.115.212","2024-11-29T22:42:38.366Z","193.233.115.212","**ISP:** AEZA INTERNATIONAL LTD
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFlqSmOfIp/XdSR8wBIf8h97
+vvxNJ2UFx/bHoEtTywdS4Hj8/T6PgjL5821A/by8L7gvxb4UMTR7vwzTI8pNDuE=
+Fingerprint: 90:59:3d:04:ef:52:7a:ef:84:a5:92:af:b7:54:5a:e5
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-11-29T22:42:05.612Z","IPv4-Addr","emergingthreat","TLP:CLEAR","193.188.20.246","2024-11-29T22:42:32.828Z","193.188.20.246","**ISP:** AEZA INTERNATIONAL LTD
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBWQQ3FIqfrblekJi1CeCQwB
+kTRUTRI0ky30gEIETHHYAYAau3BYwLbbyCufmVpcDOaIf+dtQQGlNNDBX/8ZZqU=
+Fingerprint: d5:52:d7:28:71:b7:c6:ac:11:fb:29:9a:97:2e:20:9f
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-11-29T22:42:05.970Z","IPv4-Addr","emergingthreat","TLP:CLEAR","193.233.253.217","2024-11-29T22:42:06.156Z","193.233.253.217","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:06.364Z","IPv4-Addr","emergingthreat","TLP:CLEAR","2.188.213.198","2024-11-29T22:42:45.135Z","2.188.213.198","**ISP:** Respina Networks & Beyond PJSC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDc94CiSboaePM1VBKEaZ42+fcYcSMcypYPsBFGbj1Gdx8X
+hElrPzdY5PYpmK7RbwgO3N3mq0wseEAibCafJTgBbD7Gfh031+VNKans5MaySdk/JgjAl/xzYbPi
+chdLAuh9jxImzBPiWiMgq9razFpYcbE9+/c1JmNNlbIk8z4IOp9TbI/v8yaR1QWfZppxuCV8QoBe
+MsWn8qQu4Y7Yct0QqTO4NgmHKmi76BKBVlOqaIY02zvFfrs9pjf3BtgYVjxULGKmiqvfYk//oXES
+F82q9VuGiDSLXaUJhcfMhL8xRED6e82ifGPPZRQDPfH2d/SVNLq8dS3pix/7dMGmuaeYrBw2pKxD
+R1SYvmHKLcYMqY0+f4VL0c6BGRZI8YAZid9n9DljXyLwsU9/tabnnaG+q1HhPrW2YpGKTukZal2p
+47sZ6s9Zcvzwoa/88jZ/h4sLQA6rAkVL5W/6N7ybySmksTrDwRiNk7+6KDomNeUiElv3JlF5CHMt
+eLzbZFMfLpc=
+Fingerprint: 0e:e6:bb:83:a6:f0:64:4d:02:55:de:07:96:f7:38:b9
+
+Kex Algorithms:
+	sntrup761x25519-sha512@openssh.com
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	ext-info-s
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Cache-Control: max-age=31536000
+Connection: Keep-Alive
+Content-Length: 1290
+Content-Type: text/html
+Date: Sat, 02 Nov 2024 10:46:48 GMT
+Expires: Sun, 02 Nov 2025 10:46:48 GMT
+X-Frame-Options: sameorigin
+```
+------------------","50"
+"2024-11-29T22:42:07.000Z","IPv4-Addr","emergingthreat","TLP:CLEAR","218.91.114.192","2024-11-29T22:42:07.033Z","218.91.114.192","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:07.041Z","IPv4-Addr","emergingthreat","TLP:CLEAR","34.171.131.12","2024-11-29T22:42:07.107Z","34.171.131.12","Proofpoint Emerging Threat IP",""
+"2024-11-29T22:42:07.659Z","IPv4-Addr","emergingthreat,cloud","TLP:CLEAR","35.236.92.234","2024-11-29T22:42:49.383Z","35.236.92.234","**ISP:** Google LLC
+
+**OS:** Linux
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQC2tvihYPl38w5NyEjUF/7MYh7myRCoPgHHRR4zIFjT37ZB
+dyAcqpb5WCsWwv2ORCLoJ21ilsPM7Ta+XAYiEkH6/Y3k5cX+G9i1I8jsiXxpjEO8OGzGn0s2f3En
+LJI03tEcRS+c076Xr1EbGZRt+NSDadRHE+nlqGZpmMPVmmXbjhHRmTJNnVDyZVFxWUs+6zVsfgbF
+WJfoJErvR1EF8RDg5mLSMC2SXBPFF/QWSJ6GuARWQe8ySc8AVJqdx8MAvwWFQ1Y1y9iwxquAENcH
+BWEDJ922hgBnJi5liL2nLD/vuzeiYQPyo2o4s934lxc/LFB0iFI4vuPSimuMtpE1whGxL/0fn7vc
+FXKqTzFHEKGR5HS0itjltuFNzXKg86rncWIIttR6yRWT7o72/JGSdJKTiacsAtvmO6IBmzZyVoda
+iQhXZ5jQ18kTr7xsG+7QCwIC8l11ri4OxP9y1jblkLCdUNYHoVlVoEv22ut2eMeofwyfWQ8D/wU9
+7QcaC6F2qqM=
+Fingerprint: 4d:b2:d6:60:1b:01:b4:f9:fb:1c:9c:1d:56:fb:57:a2
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------","50"
+"2024-11-29T22:42:08.082Z","IPv4-Addr","emergingthreat,vpn","TLP:CLEAR","43.228.38.94","2024-11-29T22:42:55.895Z","43.228.38.94","**ISP:** China Unicom Beijing Province Network
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDXTKW0XHtxsFXG03PgJNo48yELJISnAiJH3xZiZIVLfpSa
+3gWRHezFWIniPd9D0f1LJ1ScohPyLm7D6fgf81ZuaSBFxMYW6pEzKPqPYxeJRXxBLmsFqXGX7XSO
++ZdOfzB85jFl0lNKVkdMpOmEbhFVSBk3WQAKXnsB0D7emi+33pccSPKCkzL8u+xXIzMfu+iBik+/
+IkCY4gv9FEwEdF/yWq4z7iqCnAkG2JbB/NjT4ZGfzN4Vef519QQpCgyZ+Gn3y/pE5QZ2RTXZmN34
+8n7VpV5to6qYGaAFlCfAiPSt6suvH1z6UAhjBTU3P/EhKWHd7Pc4TAOJdKxPIEMXuVgn
+Fingerprint: 5a:17:60:f9:5a:9b:08:4d:53:46:44:a1:33:6d:d0:77
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+	aes128-cbc
+	aes192-cbc
+	aes256-cbc
+	blowfish-cbc
+	cast128-cbc
+	3des-cbc
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 403 Forbidden
+Content-Type: text/html; charset=utf-8
+Server: ADM/2.1.1
+Connection: close
+Content-Length: 361
+```
+------------------
+**443:**
+```
+HTTP/1.1 500 Internal Server Error
+Server: Tengine
+Date: Wed, 20 Nov 2024 20:47:43 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 298
+Connection: keep-alive
+Content-Language: zh-CN
+```
+HEARTBLEED: 2024/11/20 20:48:10 43.228.38.94:443 - SAFE
+
+------------------
+**1701:**
+```
+\xc8\x02\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x01
+```
+------------------
+**1723:**
+```
+PPTP:
+  Firmware: 1
+  Hostname: local
+  Vendor: linux
+```
+------------------
+**3310:**
+```
+J\x00\x00\x00\n8.0.31\x00.\x9e\x13\x00\x012v%\x1fC\rK\x00\xff\xff\xff\x02\x00\xff\xdf\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0fR\\\x18\x04kP.;]jD\x00caching_sha2_password\x00!\x00\x00\x01\xff\x84\x04#08S01Got packets out of order
+```
+------------------","50"
+"2024-11-29T22:42:08.086Z","IPv4-Addr","emergingthreat","TLP:CLEAR","45.118.145.72","2024-11-29T22:43:17.747Z","45.118.145.72","**ISP:** Long Van Soft Solution JSC
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHJvRCnJXsZwmoaCu/MkaKyD
+l3IiuL+tdHk3fBt42inwgZ+rhA8M35jcbLJKwoOVq/7tTzDx22olKlFCv/bEmiA=
+Fingerprint: 66:44:7e:3b:16:2d:32:8f:4e:ac:d3:53:30:f3:cc:14
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	sntrup761x25519-sha512@openssh.com
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 200 OK
+Date: Sun, 17 Nov 2024 15:43:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Last-Modified: Thu, 14 Nov 2024 07:05:57 GMT
+ETag: ""29af-626da1506a64d""
+Accept-Ranges: bytes
+Content-Length: 10671
+Vary: Accept-Encoding
+Content-Type: text/html
+```
+------------------","50"
+"2024-11-29T22:42:09.083Z","IPv4-Addr","emergingthreat,self-signed,scanner","TLP:CLEAR","60.221.228.127","2024-11-29T22:43:50.232Z","60.221.228.127","**ISP:** CHINA UNICOM China169 Backbone
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDNGzb1fCTptYdIs5uiDeiNPJDZX+N8ff5YpS9jGyYsAiNC
+vtz1Rc6MVr+iwprmhXBcYjxH8W10cQcg8hA+ngtv7E5zg1RZK8OYVf0ORu4nLf5eqLjfRdO6I9Vk
+fh4Yw7wDl0oWvGkDjjZMRbMSu2S4gnpdv7bfBqktD/2jhMhvFOs1x9K+qlyqTMSmk4NFLm62n0jK
+9w+Btbwbx7CNmLeFMGqdqvNISQoLH35C/n/xYLXWuyRdPjasyvOK1rtUIM42A2KVLU+lbiDNBupR
+CbJgi8NrryqW+Ra4ADIhyO5q6tWj09pwvK2XPleaMpeni+F79yu0uslHZP9AFvH0TNMZ
+Fingerprint: 27:13:4a:8b:74:e4:fb:ac:ed:6d:c7:2e:fb:ef:02:d5
+
+Kex Algorithms:
+	diffie-hellman-group1-sha1
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes128-cbc
+	aes256-cbc
+
+MAC Algorithms:
+	hmac-sha1
+	umac-64@openssh.com
+	hmac-ripemd160
+	hmac-sha2-256
+	hmac-sha2-512
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**123:**
+```
+NTP
+protocolversion: 3
+stratum: 11
+leap: 0
+precision: -24
+rootdelay: 0.0
+rootdisp: 0.0112915039062
+refid: 2139029760
+reftime: 3941743302.92
+poll: 3
+```
+------------------
+**5060:**
+```
+SIP/2.0 400 Bad Request
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=224.182.202.158
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=459899310
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: InterVideo UAS/3.0
+Content-Length: 0
+```
+------------------
+**5672:**
+```
+
+```
+------------------
+**8009:**
+```
+HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+Location: /admin/
+Transfer-Encoding: chunked
+Date: Fri, 29 Nov 2024 07:37:21 GMT
+```
+------------------
+**8443:**
+```
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=9545E5436A0A096143E4C92AF7CE3B23; Path=/admin; Secure; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 467
+Date: Tue, 19 Nov 2024 22:46:54 GMT
+```
+HEARTBLEED: 2024/11/19 23:20:20 60.221.228.127:8443 - SAFE
+
+------------------
+**9000:**
+```
+HTTP/1.1 570 Unknown Protocol Request
+Content-Length: 0
+CFL_Asynch:operation=invalidOperation&session=0&sequence=0&unit=BLS&id=1000
+```
+------------------
+**9095:**
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/plain; charset=utf-8
+X-Content-Type-Options: nosniff
+Date: Wed, 27 Nov 2024 12:14:20 GMT
+Content-Length: 19
+
+404 page not found
+```
+------------------
+**9100:**
+```
+
+```
+------------------
+**9500:**
+```
+
+```
+------------------
+**61616:**
+```
+\x00\x00\x00\xf0\x01ActiveMQ\x00\x00\x00\t\x01\x00\x00\x00\xde\x00\x00\x00\t\x00\x0cMaxFrameSize\x06\x7f\xff\xff\xff\xff\xff\xff\xff\x00\tCacheSize\x05\x00\x00\x04\x00\x00\x0cCacheEnabled\x01\x01\x00\x12SizePrefixDisabled\x01\x00\x00 MaxInactivityDurationInitalDelay\x06\x00\x00\x00\x00\x00\x00\'\x10\x00\x11TcpNoDelayEnabled\x01\x01\x00\x15MaxInactivityDuration\x06\x00\x00\x00\x00\x00\x00u0\x00\x14TightEncodingEnabled\x01\x01\x00\x11StackTraceEnabled\x01\x01
+```
+------------------","50"
