@@ -2244,7 +2244,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:49.729Z",
-        "updated_at": "2024-12-02T17:44:49.882Z",
+        "updated_at": "2024-12-02T17:47:25.134Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2261,14 +2261,14 @@
         ],
         "objectLabel": [],
         "observable_value": "79.137.206.241",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** AEZA INTERNATIONAL LTD\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDGqMo4Rq5f+BPjXYDtsHsIJ5FK3k2/Jh0D2ZFW58074JP9\nDW2I4SD+3BOIRcdjyw92L4g+ajk9r1uVFy5JgXQS/6NlPdWGUd1HF6XtX3ZDiaxTXY82nlcmPZJ2\nFus/l21o4VxH7qyU05+DwhilvTYsTO1euRu6BburlFdoseA6K8NQKZe32YDu/U4Z6Yc7d/fj9Yqz\n7eUXc/aETK+QAZ4zZpCkQQm+BTbawcIn52MBzWrgM7ltO0tobUUDVTVqI116fCDMyyfl8SgbvoYn\nQknbpuLeY2MOoDyKCIfMPPau6XLEisR3mpi8wGrJn7uwdPAUB2480fBmWorIPNNwVaW5\nFingerprint: 4c:a4:32:ef:16:7d:9e:61:2c:95:de:b1:6c:c4:3d:23\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "79.137.206.241"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:51.330Z",
-        "updated_at": "2024-12-02T17:44:51.387Z",
+        "updated_at": "2024-12-02T17:47:39.422Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2283,16 +2283,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
         "observable_value": "84.247.140.191",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Contabo GmbH\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAACAQD5acL63GC/I0tsV2ZSux7smzZ68e7/dyrAFMb6E4eaD7dc\n2jheDNtn19x4iqxG2TGAc2Aa2Ctc6IyvSXCKMmS1/g+3HwqWpzahJiS6fDaZPdxs9rR3ZdXk3s14\nM1gq+/XgmgfSKIJSwl7aTHUAtwt0PnR95/U5iymHVTLt/4uiM2iZxMkZ4/BFIZ5wcl3ZCwm+mMJH\nEBumFeenLEM9WoSTKCABSICaoT5uHGPj38hNYhrdev6EcLpZqxTBzKOq0aD7zU5gwSz9WCufP/wn\ncNkxN20LoxIBf0GKrCxGX56ZFboNC6voEKpuRMAF2C2Yf6FDieRODHtSJgoAinE1lWxXFTPuanZ3\n/lCiY9TMyBeejRYNBoc9ApsumblfygTAmzUakLjxz5U/zOAmUcBK8iGVwgIsILzqb4HLSLD/hl7z\niqbogpednKMiYSX7hesrgjJwOOV5zV1iBgvLkI70J/smiRHXnnEs+tYltFcJVdaf4AyQVeNn2uhl\n/cWvzQOAUFrJioYgy1GOF+NyIDsU38GEjQnZOW/8TvdWnVFPYLzMIMYw6338X2/03pQXee7Uohts\nWwmyJgB9oYG2CI90PNBdoXXKn9XY0rRGJC0GbNZLv3wfHtS+itbh7o1mt79Bf3V307yLXsaPSe+B\nJGzlZgDLqubFG6IHgDB/jfVBTpK50Q==\nFingerprint: 39:2a:eb:dc:0c:29:73:c0:59:78:51:9e:5d:42:57:a0\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Sat, 30 Nov 2024 08:15:31 GMT\r\nContent-Type: text/html\r\nContent-Length: 612\r\nLast-Modified: Mon, 22 Jul 2024 14:21:18 GMT\r\nConnection: keep-alive\r\nETag: \"669e6ade-264\"\r\nAccept-Ranges: bytes\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Sat, 23 Nov 2024 11:23:50 GMT\r\nContent-Type: text/html\r\nContent-Length: 4164\r\nLast-Modified: Fri, 22 Nov 2024 11:45:26 GMT\r\nConnection: keep-alive\r\nETag: \"67406ed6-1044\"\r\nAccept-Ranges: bytes\n```\nHEARTBLEED: 2024/11/23 11:24:00 84.247.140.191:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
         "value": "84.247.140.191"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:51.331Z",
-        "updated_at": "2024-12-02T17:44:51.387Z",
+        "updated_at": "2024-12-02T17:47:34.366Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2307,16 +2314,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "83.217.209.191",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Partner Hosting LTD\n\n**OS:** Windows Server 2016 (version 1607) (build 10.0.14393)\n\n--------------------------\nServices:\n\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 10 (version 1607)/Windows Server 2016 (version 1607)\n  OS Build: 10.0.14393\n  Target Name: WIN-J9D866ESIJ2\n  NetBIOS Domain Name: WIN-J9D866ESIJ2\n  NetBIOS Computer Name: WIN-J9D866ESIJ2\n  DNS Domain Name: WIN-J9D866ESIJ2\n  FQDN: WIN-J9D866ESIJ2\n\n; Administrator\nSES\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sat, 30 Nov 2024 01:15:54 GMT\r\nConnection: close\r\nContent-Length: 315\r\n\r\n\nWinRM NTLM Info:\n  OS: Windows Server 2016 (version 1607)\n  OS Build: 10.0.14393\n  Target Name: WIN-J9D866ESIJ2\n  NetBIOS Domain Name: WIN-J9D866ESIJ2\n  NetBIOS Computer Name: WIN-J9D866ESIJ2\n  DNS Domain Name: WIN-J9D866ESIJ2\n  FQDN: WIN-J9D866ESIJ2\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "83.217.209.191"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:51.336Z",
-        "updated_at": "2024-12-02T17:44:51.507Z",
+        "updated_at": "2024-12-02T17:47:50.821Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2331,16 +2345,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
         "observable_value": "91.211.6.100",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** INDIKOM LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**1723:**\n```\nPPTP:\n  Firmware: 3790\n  Hostname: \n  Vendor: Microsoft\n```\n------------------\n**3050:**\n```\n\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "91.211.6.100"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:52.496Z",
-        "updated_at": "2024-12-02T17:44:52.522Z",
+        "updated_at": "2024-12-02T17:47:55.228Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2355,16 +2376,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "93.127.124.182",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** PrJSC VF UKRAINE\n\n**OS:** Windows 11 (version 22H2) (build 10.0.22621)\n\n--------------------------\nServices:\n\n**3388:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x1f\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 11 (version 22H2)\n  OS Build: 10.0.22621\n  Target Name: C\n  NetBIOS Domain Name: C\n  NetBIOS Computer Name: DESIGNER\n  DNS Domain Name: c.local\n  DNS Tree Name: c.local\n  FQDN: DESIGNER.c.local\n\nprint\npyro nonb3osar...\n```\n------------------\n**5001:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 26 Nov 2024 17:21:02 GMT\r\nContent-Type: text/html; charset=\"UTF-8\"\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nCache-control: no-store\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Frame-Options: SAMEORIGIN\r\nP3P: CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"\r\nContent-Security-Policy: base-uri 'self';  connect-src data: ws: wss: http: https:; default-src 'self' 'unsafe-eval' data: blob: https://*.synology.com https://www.synology.cn/ https://help.synology.cn/; font-src 'self' data: https://*.googleapis.com https://*.gstatic.com; form-action 'self'; frame-ancestors 'self'; frame-src 'self' data: blob: https://*.synology.com https://*.synology.cn http://*.synology.com http://*.synology.cn http://global.synologydownload.com https://global.synologydownload.com; img-src 'self' data: blob: https://*.google.com https://*.googleapis.com http://*.googlecode.com https://*.gstatic.com https://global.download.synology.com; media-src 'self' data: about: https://*.synology.com https://help.synology.cn;  script-src 'self' 'unsafe-eval' data: blob: https://maps.google.com https://maps.googleapis.com https://ajax.googleapis.com https://help.synology.com https://help.synology.cn; style-src 'self' 'unsafe-inline' https://*.googleapis.com;\r\n\r\n\nSynology DiskStation Manager (DSM):\n  Version: 7.2.2-72806\n  Hostname: NAS\n```\nHEARTBLEED: 2024/11/26 17:21:13 93.127.124.182:5001 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
         "value": "93.127.124.182"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:52.792Z",
-        "updated_at": "2024-12-02T17:44:53.096Z",
+        "updated_at": "2024-12-02T17:48:03.082Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2379,10 +2407,17 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "94.20.183.125",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** SELNET LLC\n\n**OS:** Windows\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Mon, 23 Sep 2024 22:32:23 GMT\r\nAccept-Ranges: bytes\r\nETag: \"77398e758edb1:0\"\r\nServer: Microsoft-IIS/8.5\r\nX-Powered-By: ASP.NET\r\nDate: Mon, 18 Nov 2024 07:01:31 GMT\r\nContent-Length: 701\n```\n------------------\n**137:**\n```\nNetBIOS Response:\n  Server Name: SERVER\n  MAC Address: EC:B1:D7:F4:2C:ED\n  Names:\n    SERVER <0x0>\n    WORKGROUP <0x0>\n    SERVER <0x20>\n  Additional Interfaces:\n    192.168.1.20\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Mon, 23 Sep 2024 22:32:23 GMT\r\nAccept-Ranges: bytes\r\nETag: \"77398e758edb1:0\"\r\nServer: Microsoft-IIS/8.5\r\nX-Powered-By: ASP.NET\r\nDate: Mon, 25 Nov 2024 05:52:51 GMT\r\nContent-Length: 701\n```\nHEARTBLEED: 2024/11/25 05:52:29 94.20.183.125:443 - ERROR: write tcp 94.20.183.125:443: broken pipe\n\n------------------\n**593:**\n```\nncacn_http/1.0\n\nMicrosoft RPC Endpoint Mapper over HTTP\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 192.168.1.20:49152\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\SERVER\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc06FD50\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\SERVER\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc06FD50\n  ncalrpc: WMsgKRpc078BF1\n  ncalrpc: WMsgKRpc080EEE2\n  ncalrpc: WMsgKRpc098F623\n  ncalrpc: WMsgKRpc01C1B294\n\n9b008953-f195-4bf9-bde0-4471971e58ed\n  version: v1.0\n  ncalrpc: LRPC-bf42d2ad1594d26eed\n  ncacn_np: \\\\SERVER\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-acae85cb9d88b6bcf1\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n697dcda9-3ba9-4eb2-9247-e11f1901b0d2\n  version: v1.0\n  ncalrpc: LRPC-bf42d2ad1594d26eed\n  ncacn_np: \\\\SERVER\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-acae85cb9d88b6bcf1\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-acae85cb9d88b6bcf1\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n  ncalrpc: IUserProfile2\n\n0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc605f9fb-f0a3-4e2a-a073-73560f8d9e3e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8bfc3be1-6def-4e2d-af74-7c47cd0ade4a\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2d98a740-581d-41b9-aa0d-a88b9d5ce938\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nbdaa0970-413b-4a3e-9e5d-f6dc9d7e0760\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3b338d89-6cfa-44b8-847e-531531bc9992\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8782d3b9-ebbd-4644-a3d8-e8725381919b\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n085b0334-e454-4d91-9b8c-4134f9e793f3\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc078BF1\n  ncalrpc: WMsgKRpc080EEE2\n  ncalrpc: WMsgKRpc098F623\n  ncalrpc: WMsgKRpc01C1B294\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-1ab31feeef8cc80937\n  ncacn_ip_tcp: 192.168.1.20:49153\n  ncacn_np: \\\\SERVER\\pipe\\eventlog\n  ncalrpc: eventlog\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-1ab31feeef8cc80937\n  ncacn_ip_tcp: 192.168.1.20:49153\n  ncacn_np: \\\\SERVER\\pipe\\eventlog\n  ncalrpc: eventlog\n\nabfb6ca3-0c5e-4734-9285-0aee72fe8d1c\n  version: v1.0\n  annotation: Wcm Service\n  ncalrpc: LRPC-1ab31feeef8cc80937\n  ncacn_ip_tcp: 192.168.1.20:49153\n  ncacn_np: \\\\SERVER\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncalrpc: LRPC-1ab31feeef8cc80937\n  ncacn_ip_tcp: 192.168.1.20:49153\n  ncacn_np: \\\\SERVER\\pipe\\eventlog\n  ncalrpc: eventlog\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Event log TCPIP\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 192.168.1.20:49153\n  ncacn_np: \\\\SERVER\\pipe\\eventlog\n  ncalrpc: eventlog\n\n58e604e8-9adb-4d2e-a464-3b0683fb1480\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-6cd5a79ff8f18548de\n  ncacn_np: \\\\SERVER\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\nfd7a0523-dc70-43dd-9b2e-9c5ed48225b1\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-6cd5a79ff8f18548de\n  ncacn_np: \\\\SERVER\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n5f54ce7d-5b79-4175-8584-cb65313a0e98\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-6cd5a79ff8f18548de\n  ncacn_np: \\\\SERVER\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n201ef99a-7fa0-444c-9399-19ba84f12a1a\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-6cd5a79ff8f18548de\n  ncacn_np: \\\\SERVER\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n7d814569-35b3-4850-bb32-83035fcebf6e\n  version: v1.0\n  annotation: IAS RPC server\n  provider: ias.dll\n  ncalrpc: LRPC-6cd5a79ff8f18548de\n  ncacn_np: \\\\SERVER\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncalrpc: LRPC-6cd5a79ff8f18548de\n  ncacn_np: \\\\SERVER\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\SERVER\\PIPE\\srvsvc\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n1a0d010f-1c33-432c-b0f5-8cf4e8053099\n  version: v1.0\n  annotation: IdSegSrv service\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\nc36be077-e14b-4fe9-8abc-e856ef4f048b\n  version: v1.0\n  annotation: Proxy Manager client server endpoint\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n2e6035b2-e8f1-41a7-a044-656b439c4c34\n  version: v1.0\n  annotation: Proxy Manager provider server endpoint\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\nc49a5a70-8a7f-4e70-ba16-1e8f1f193ef1\n  version: v1.0\n  annotation: Adh APIs\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\na398e520-d59a-4bdd-aa7a-3c1e0303a511\n  version: v1.0\n  annotation: IKE/Authip API\n  provider: IKEEXT.DLL\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n3a9ef155-691d-4449-8d05-09ad57031823\n  version: v1.0\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 192.168.1.20:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\SERVER\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: senssvc\n  ncalrpc: OLE6C6111403D68E9DF216137B87028\n  ncalrpc: IUserProfile2\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  annotation: Group Policy RPC Interface\n  provider: gpsvc.dll\n  ncalrpc: LRPC-24c5907155c65c13ed\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncalrpc: LRPC-7c44b675902537203c\n  ncalrpc: OLE259AF78C02F62B9AEED080247599\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-7c44b675902537203c\n  ncalrpc: OLE259AF78C02F62B9AEED080247599\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-85a49266eb7de01c6f\n  ncalrpc: LRPC-7c278ca36d2c199cc8\n\nf47433c3-3e9d-4157-aad4-83aa1f5c2d4c\n  version: v1.0\n  annotation: Fw APIs\n  ncalrpc: LRPC-85a49266eb7de01c6f\n  ncalrpc: LRPC-7c278ca36d2c199cc8\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-85a49266eb7de01c6f\n  ncalrpc: LRPC-7c278ca36d2c199cc8\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-7c278ca36d2c199cc8\n\n7f1343fe-50a9-4927-a778-0c5859517bac\n  version: v1.0\n  annotation: DfsDs service\n  ncacn_np: \\\\SERVER\\PIPE\\wkssvc\n  ncalrpc: LRPC-4d5f85fccd3226749b\n  ncalrpc: DNSResolver\n\neb081a0d-10ee-478a-a1dd-50995283e7a8\n  version: v3.0\n  annotation: Witness Client Test Interface\n  ncalrpc: LRPC-4d5f85fccd3226749b\n  ncalrpc: DNSResolver\n\nf2c9b409-c1c9-4100-8639-d8ab1486694a\n  version: v1.0\n  annotation: Witness Client Upcall Server\n  ncalrpc: LRPC-4d5f85fccd3226749b\n  ncalrpc: DNSResolver\n\n76f03f96-cdfd-44fc-a22c-64950a001209\n  version: v1.0\n  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.1.20:49155\n  ncalrpc: LRPC-13a8445c59037b7008\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.1.20:49155\n  ncalrpc: LRPC-13a8445c59037b7008\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.1.20:49155\n  ncalrpc: LRPC-13a8445c59037b7008\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.1.20:49155\n  ncalrpc: LRPC-13a8445c59037b7008\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.1.20:49155\n  ncalrpc: LRPC-13a8445c59037b7008\n\n6b5bdd1e-528c-422c-af8c-a4079be4fe48\n  version: v1.0\n  annotation: Remote Fw APIs\n  protocol: [MS-FASP]: Firewall and Advanced Security Protocol\n  provider: FwRemoteSvr.dll\n  ncacn_ip_tcp: 192.168.1.20:49159\n\n12d4b7c8-77d5-11d1-8c24-00c04fa3080d\n  version: v1.0\n  provider: lserver.dll\n  ncacn_ip_tcp: 192.168.1.20:49161\n  ncacn_np: \\\\SERVER\\pipe\\HydraLsPipe\n  ncalrpc: LRPC-85cf24dcee65fe1641\n\n3d267954-eeb7-11d1-b94e-00c04fa3080d\n  version: v1.0\n  provider: lserver.dll\n  ncacn_ip_tcp: 192.168.1.20:49161\n  ncacn_np: \\\\SERVER\\pipe\\HydraLsPipe\n  ncalrpc: LRPC-85cf24dcee65fe1641\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-e89fd705ca01890e29\n  ncalrpc: LRPC-67c9027c7bef9c550b\n  ncalrpc: LRPC-67c9027c7bef9c550b\n  ncalrpc: LRPC-67c9027c7bef9c550b\n\nb25a52bf-e5dd-4f4a-aea6-8ca7272a0e86\n  version: v2.0\n  annotation: KeyIso\n  ncacn_ip_tcp: 192.168.1.20:49163\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\SERVER\\pipe\\lsass\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 192.168.1.20:49163\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\SERVER\\pipe\\lsass\n\ne0c98683-720d-4139-b106-a4b13a290d6f\n  version: v1.0\n  ncalrpc: LRPC-a640d572542464893c\n  ncacn_ip_tcp: 192.168.1.20:49166\n  ncalrpc: OLE4C8E88018F979ABA2EAE695229A6\n\n1a71d6b4-89ff-40cb-ae84-0244ab866151\n  version: v1.0\n  ncalrpc: LRPC-a640d572542464893c\n  ncacn_ip_tcp: 192.168.1.20:49166\n  ncalrpc: OLE4C8E88018F979ABA2EAE695229A6\n\ned96b012-c8ce-4f60-a682-35535b12ff75\n  version: v2.0\n  ncacn_ip_tcp: 192.168.1.20:5504\n  ncalrpc: OLE87FC69524AFD247B4CDF9029092A\n\n32e36e84-4ba2-496c-ba85-fb450f325107\n  version: v2.0\n  ncalrpc: TSSessionDirectoryQueryApi\n  ncacn_ip_tcp: 192.168.1.20:49169\n  ncalrpc: OLEE6566653AB20119980A55C440A14\n\naa177641-fc9b-41bd-80ff-f964a701596f\n  version: v1.0\n  provider: tssdis.exe\n  ncacn_ip_tcp: 192.168.1.20:49169\n  ncalrpc: OLEE6566653AB20119980A55C440A14\n\nb58aa02e-2884-4e97-8176-4ee06d794184\n  version: v1.0\n  provider: sysmain.dll\n  ncalrpc: trkwks\n  ncacn_np: \\\\SERVER\\pipe\\trkwks\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 192.168.1.20:49197\n\n89759fce-5a25-4086-8967-de12f39a60b5\n  version: v1.0\n  provider: tssdjet.dll\n  ncacn_ip_tcp: 192.168.1.20:49198\n  ncalrpc: LcRpc\n  ncalrpc: OLE1F4A64C363FD7A027D06C800373D\n\n9b3195fe-d603-43d1-a0d5-9072d7cde122\n  version: v1.0\n  provider: tssdjet.dll\n  ncacn_ip_tcp: 192.168.1.20:49198\n  ncalrpc: LcRpc\n  ncalrpc: OLE1F4A64C363FD7A027D06C800373D\n\n3357951c-a1d1-47db-a278-ab945d063d03\n  version: v1.0\n  provider: LBService.dll\n  ncacn_ip_tcp: 192.168.1.20:49699\n\n958f92d8-da20-467a-bbe3-65e7e9b4edcf\n  version: v1.0\n  annotation: TsProxyMgmt\n  protocol: [MS-TSGU]: Terminal Services Gateway Server Management Interface\n  ncalrpc: AAGMgmt\n  ncacn_ip_http: 192.168.1.20:3388\n\n44e265dd-7daf-42cd-8560-3cdb6e7a2729\n  version: v1.768\n  annotation: TsProxy\n  protocol: [MS-TSGU]: Terminal Services Gateway Server Protocol\n  ncalrpc: AAGMgmt\n  ncacn_ip_http: 192.168.1.20:3388\n```\n------------------\n**3388:**\n```\nncacn_http/1.0\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "94.20.183.125"
     },
     {
@@ -2412,7 +2447,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:53.822Z",
-        "updated_at": "2024-12-02T17:44:53.887Z",
+        "updated_at": "2024-12-02T17:48:08.432Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2427,16 +2462,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
         "observable_value": "94.102.56.8",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** IP Volume inc\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDMG8E6jAmNd8jutpMjcCYreWGf17CrG1gFOXXfnONtepj+\n/yp+FCT3/PgWP4nNmKhjRWfE5229Xmx9YksLO2Uwa3Qj1kZ00ByM++VovpdsfZZqveUb72BuuzBW\nX8m7YSobaMghDh1k+4IIL3xLkEAxrKX/4DjWhQAUQUgC9gtCr9wID1agjL1tIPYQbg+JaaIBJtOV\n6W+775IxydcxKRh2GVUbjNglwWMPxyOjPbifK4JyCUjWRfEt+1uu96NTegS7plZ+Ipw1x25GIcDk\nuwOsDt/KwoDdQ0C9r9yTsIIJasikAcoTYt5JbTf1K04YNBQFl7fxQ6u4ZjlZ9fezCzSl\nFingerprint: ab:e0:bf:c4:8b:25:cd:d2:0b:02:92:4b:27:ab:83:22\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group14-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.14.0 (Ubuntu)\r\nDate: Sat, 30 Nov 2024 18:19:41 GMT\r\nContent-Type: text/html\r\nContent-Length: 1487\r\nLast-Modified: Wed, 02 Nov 2022 18:13:48 GMT\r\nConnection: keep-alive\r\nETag: \"6362b35c-5cf\"\r\nAccept-Ranges: bytes\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "94.102.56.8"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:54.482Z",
-        "updated_at": "2024-12-02T17:44:54.581Z",
+        "updated_at": "2024-12-02T17:48:22.677Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2451,10 +2493,17 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "5cd53f9a-a47e-49e9-9bd0-bfe6aec5ab91",
+                "value": "vpn",
+                "color": "#f4c801",
+                "createdById": null
+            }
+        ],
         "observable_value": "101.53.36.69",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Netnam Company\n\n**OS:** -\n\n--------------------------\nServices:\n\n**1723:**\n```\nPPTP:\n  Firmware: 0\n  Hostname: \n  Vendor: Microsoft\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "101.53.36.69"
     },
     {
@@ -2556,7 +2605,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:56.622Z",
-        "updated_at": "2024-12-02T17:44:56.680Z",
+        "updated_at": "2024-12-02T17:48:30.756Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2573,14 +2622,14 @@
         ],
         "objectLabel": [],
         "observable_value": "111.170.22.200",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** CHINANET-BACKBONE\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Sun, 03 Nov 2024 03:17:05 GMT\r\nAccept-Ranges: bytes\r\nETag: \"d43230dc9e2ddb1:0\"\r\nServer: Microsoft-IIS/8.5\r\nDate: Tue, 12 Nov 2024 22:09:34 GMT\r\nContent-Length: 701\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sat, 09 Nov 2024 16:01:46 GMT\r\nConnection: close\r\nContent-Length: 315\r\n\r\n\nWinRM NTLM Info:\n  OS: Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: M214600929-D\n  NetBIOS Domain Name: M214600929-D\n  NetBIOS Computer Name: M214600929-D\n  DNS Domain Name: m214600929-D\n  FQDN: m214600929-D\n```\n------------------\n**9000:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "111.170.22.200"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:57.292Z",
-        "updated_at": "2024-12-02T17:44:57.316Z",
+        "updated_at": "2024-12-02T17:48:39.650Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2597,14 +2646,14 @@
         ],
         "objectLabel": [],
         "observable_value": "114.33.80.105",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Data Communication Business Group\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Fri, 22 Nov 2024 06:25:22 GMT\r\nServer: Boa/0.94.14rc21\r\nAccept-Ranges: bytes\r\nConnection: Keep-Alive\r\nKeep-Alive: timeout=10, max=1000\r\nContent-Length: 963\r\nLast-Modified: Fri, 22 Nov 2024 06:25:22 GMT\r\nContent-Type: text/html\n```\n------------------\n**554:**\n```\nRTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, Nov 06 2024 12:09:30 GMT\r\nPublic: OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "114.33.80.105"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:44:57.292Z",
-        "updated_at": "2024-12-02T17:44:57.317Z",
+        "updated_at": "2024-12-02T17:48:47.683Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2621,8 +2670,8 @@
         ],
         "objectLabel": [],
         "observable_value": "113.160.241.82",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** VNPT Corp\n\n**OS:** -\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Mon, 03 Feb 2020 02:51:55 GMT\r\nAccept-Ranges: bytes\r\nETag: \"233f10e53cdad51:0\"\r\nServer: Microsoft-IIS/10.0\r\nX-Powered-By: ASP.NET\r\nDate: Thu, 28 Nov 2024 11:17:47 GMT\r\nContent-Length: 703\n```\n------------------\n**1515:**\n```\nHTTP/1.1 400 Bad Request\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sat, 30 Nov 2024 05:24:28 GMT\r\nConnection: close\r\nContent-Length: 326\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Bad Request</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Bad Request - Invalid Verb</h2>\r\n<hr><p>HTTP Error 400. The request verb is invalid.</p>\r\n</BODY></HTML>\n```\n------------------\n**1521:**\n```\nOracle TNS Listener:\n  VSNNUM: 202375680\n  Error Code: 1189\n```\n------------------\n**2000:**\n```\n\\x01\\x00\\x00\\x00\n```\n------------------\n**8000:**\n```\nHTTP/1.1 200 OK\r\nContent-Type: text/html\r\nLast-Modified: Mon, 24 Sep 2018 09:27:32 GMT\r\nAccept-Ranges: bytes\r\nETag: \"deb058d2e853d41:0\"\r\nServer: Microsoft-IIS/10.0\r\nX-Powered-By: ASP.NET\r\nDate: Mon, 11 Nov 2024 20:04:25 GMT\r\nContent-Length: 703\n```\n------------------\n**8291:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "113.160.241.82"
     },
     {
@@ -2724,7 +2773,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:00.364Z",
-        "updated_at": "2024-12-02T17:45:00.684Z",
+        "updated_at": "2024-12-02T17:49:30.451Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2739,16 +2788,29 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            },
+            {
+                "id": "93405f37-1740-4912-bdab-a6c6c07e6bf6",
+                "value": "database",
+                "color": "#7b11a9",
+                "createdById": null
+            }
+        ],
         "observable_value": "123.231.8.235",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Dialog Axiata PLC.\n\n**OS:** Windows\n\n--------------------------\nServices:\n\n**80:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Tue, 26 Nov 2024 07:32:08 GMT\r\nConnection: close\r\nContent-Length: 315\n```\n------------------\n**135:**\n```\nMicrosoft RPC Endpoint Mapper\n\n51a227ae-825b-41f2-b4a9-1ac9557a1018\n  version: v1.0\n  annotation: Ngc Pop Key Service\n  ncacn_ip_tcp: 192.168.18.5:49664\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\OGF_CAFE_SVR\\pipe\\lsass\n  ncalrpc: imsfk\n  ncalrpc: clipsfk\n\n8fb74744-b2ff-4c00-be0d-9ef9a191fe1b\n  version: v1.0\n  annotation: Ngc Pop Key Service\n  ncacn_ip_tcp: 192.168.18.5:49664\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\OGF_CAFE_SVR\\pipe\\lsass\n  ncalrpc: imsfk\n  ncalrpc: clipsfk\n\nb25a52bf-e5dd-4f4a-aea6-8ca7272a0e86\n  version: v2.0\n  annotation: KeyIso\n  ncacn_ip_tcp: 192.168.18.5:49664\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\OGF_CAFE_SVR\\pipe\\lsass\n  ncalrpc: imsfk\n  ncalrpc: clipsfk\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 192.168.18.5:49664\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: LSA_IDPEXT_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\OGF_CAFE_SVR\\pipe\\lsass\n  ncalrpc: imsfk\n  ncalrpc: clipsfk\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 192.168.18.5:49665\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc0C3C90\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc0C3C90\n  ncalrpc: WMsgKRpc04EA87CB5\n\nfc48cd89-98d6-4628-9839-86f7a3e4161a\n  version: v1.0\n  ncalrpc: dabrpc\n  ncalrpc: csebpub\n  ncalrpc: LRPC-5d0607548b28ffee84\n  ncalrpc: LRPC-3424a387ca4bcf1f46\n  ncalrpc: LRPC-dc32fe56430717f8fb\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nd09bdeb5-6171-4a34-bfe2-06fa82652568\n  version: v1.0\n  ncalrpc: csebpub\n  ncalrpc: LRPC-5d0607548b28ffee84\n  ncalrpc: LRPC-3424a387ca4bcf1f46\n  ncalrpc: LRPC-dc32fe56430717f8fb\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncalrpc: LRPC-3424a387ca4bcf1f46\n  ncalrpc: LRPC-dc32fe56430717f8fb\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncalrpc: LRPC-dc32fe56430717f8fb\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncalrpc: LRPC-2b3cbf4d5f345e765b\n  ncalrpc: LRPC-5bab9029122037a095\n  ncalrpc: LRPC-bcc3ef7a973ad3d6b8\n  ncalrpc: OLE710C73E1A0E84A200FD228E32FEF\n  ncalrpc: LRPC-bcc3ef7a973ad3d6b8\n  ncalrpc: OLE710C73E1A0E84A200FD228E32FEF\n  ncalrpc: LRPC-7d6a91902b48120457\n\n697dcda9-3ba9-4eb2-9247-e11f1901b0d2\n  version: v1.0\n  ncalrpc: LRPC-5d0607548b28ffee84\n  ncalrpc: LRPC-3424a387ca4bcf1f46\n  ncalrpc: LRPC-dc32fe56430717f8fb\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n9b008953-f195-4bf9-bde0-4471971e58ed\n  version: v1.0\n  ncalrpc: LRPC-3424a387ca4bcf1f46\n  ncalrpc: LRPC-dc32fe56430717f8fb\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n0d47017b-b33b-46ad-9e18-fe96456c5078\n  version: v1.0\n  ncalrpc: umpo\n\n95406f0b-b239-4318-91bb-cea3a46ff0dc\n  version: v1.0\n  ncalrpc: umpo\n\n4ed8abcc-f1e2-438b-981f-bb0e8abc010c\n  version: v1.0\n  ncalrpc: umpo\n\n0ff1f646-13bb-400a-ab50-9a78f2b7a85a\n  version: v1.0\n  ncalrpc: umpo\n\n6982a06e-5fe2-46b1-b39c-a2c545bfa069\n  version: v1.0\n  ncalrpc: umpo\n\n082a3471-31b6-422a-b931-a54401960c62\n  version: v1.0\n  ncalrpc: umpo\n\nfae436b0-b864-4a87-9eda-298547cd82f2\n  version: v1.0\n  ncalrpc: umpo\n\ne53d94ca-7464-4839-b044-09a2fb8b3ae5\n  version: v1.0\n  ncalrpc: umpo\n\n178d84be-9291-4994-82c6-3f909aca5a03\n  version: v1.0\n  ncalrpc: umpo\n\n4dace966-a243-4450-ae3f-9b7bcb5315b8\n  version: v2.0\n  ncalrpc: umpo\n\n2c7fd9ce-e706-4b40-b412-953107ef9bb0\n  version: v0.0\n  ncalrpc: umpo\n\n88abcbc3-34ea-76ae-8215-767520655a23\n  version: v0.0\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n76c217bc-c8b4-4201-a745-373ad9032b1a\n  version: v1.0\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n55e6b932-1979-45d6-90c5-7f6270724112\n  version: v1.0\n  ncalrpc: LRPC-dbc6b4163c263b3316\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n857fb1be-084f-4fb5-b59c-4b2c4be5f0cf\n  version: v1.0\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n20c40295-8dba-48e6-aebf-3e78ef3bb144\n  version: v2.0\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2513bcbe-6cd4-4348-855e-7efb3c336dd3\n  version: v2.0\n  ncalrpc: OLE6160D756E5BA9C6411703D6AAFA2\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e\n  version: v1.0\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc605f9fb-f0a3-4e2a-a073-73560f8d9e3e\n  version: v1.0\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0\n  version: v1.0\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8bfc3be1-6def-4e2d-af74-7c47cd0ade4a\n  version: v1.0\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2d98a740-581d-41b9-aa0d-a88b9d5ce938\n  version: v1.0\n  ncalrpc: LRPC-cd1ae892d912d0500e\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\ndd59071b-3215-4c59-8481-972edadc0f6a\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n0361ae94-0316-4c6c-8ad8-c594375800e2\n  version: v1.0\n  ncalrpc: umpo\n\n5824833b-3c1a-4ad2-bdfd-c31d19e23ed2\n  version: v1.0\n  ncalrpc: umpo\n\nbdaa0970-413b-4a3e-9e5d-f6dc9d7e0760\n  version: v1.0\n  ncalrpc: umpo\n\n3b338d89-6cfa-44b8-847e-531531bc9992\n  version: v1.0\n  ncalrpc: umpo\n\n8782d3b9-ebbd-4644-a3d8-e8725381919b\n  version: v1.0\n  ncalrpc: umpo\n\n085b0334-e454-4d91-9b8c-4134f9e793f3\n  version: v1.0\n  ncalrpc: umpo\n\n4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9\n  version: v1.0\n  ncalrpc: umpo\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-cb9c908a4339180c78\n  ncalrpc: IUserProfile2\n  ncalrpc: LRPC-ad94fe9408ff3ff84c\n  ncalrpc: senssvc\n  ncalrpc: LRPC-6c09e9f352dcb52724\n  ncalrpc: LRPC-540ec6450828d34232\n  ncalrpc: LRPC-d52cf7bb633d3403b5\n\ne40f7b57-7a25-4cd3-a135-7f7d3df9d16b\n  version: v1.0\n  ncalrpc: LRPC-3aae66d4f1c0f56c77\n\n880fd55e-43b9-11e0-b1a8-cf4edfd72085\n  version: v1.0\n  annotation: KAPI Service endpoint\n  ncalrpc: LRPC-2a54d9905893872f17\n  ncalrpc: OLE0546D71EF73F809A04B1FDD6273C\n  ncalrpc: LRPC-2b3cbf4d5f345e765b\n\n5222821f-d5e2-4885-84f1-5f6185a0ec41\n  version: v1.0\n  ncalrpc: LRPC-7d9dde222ba0e001d5\n\na500d4c6-0dd1-4543-bc0c-d5f93486eaf8\n  version: v1.0\n  ncalrpc: LRPC-267d3ab42778b4288e\n  ncalrpc: LRPC-5bab9029122037a095\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-f568d073c20dd413c7\n\nb54e9aa3-cf29-4f21-a8ea-98c5850ce296\n  version: v1.0\n  ncalrpc: LRPC-4c9c805362f2de776d\n  ncalrpc: LRPC-7674f280b71f6dbccd\n\na69816f5-83b6-4d48-8633-067f99f5f2d3\n  version: v1.0\n  ncalrpc: LRPC-7674f280b71f6dbccd\n\n4c8d0bef-d7f1-49f0-9102-caa05f58d114\n  version: v1.0\n  ncalrpc: INlmDiagnosticsApi\n  ncalrpc: LRPC-0ca258ab4238ca1ef2\n  ncalrpc: OLE50166CDC179BA7C59B8AC4D44C6A\n\nbd6ca954-842e-468f-8b07-89cbfa9522dc\n  version: v1.0\n  annotation: NetworkProfiles Telemetry RPC Interface\n  ncalrpc: INlmDiagnosticsApi\n  ncalrpc: LRPC-0ca258ab4238ca1ef2\n  ncalrpc: OLE50166CDC179BA7C59B8AC4D44C6A\n\n3f787932-3452-4363-8651-6ea97bb373bb\n  version: v1.0\n  annotation: NSP Rpc Interface\n  ncalrpc: LRPC-0ca258ab4238ca1ef2\n  ncalrpc: OLE50166CDC179BA7C59B8AC4D44C6A\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Windows Event Log\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 192.168.18.5:49666\n  ncacn_np: \\\\OGF_CAFE_SVR\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncalrpc: LRPC-592ba385cbf1db6417\n\n3a9ef155-691d-4449-8d05-09ad57031823\n  version: v1.0\n  ncacn_ip_tcp: 192.168.18.5:49667\n  ncalrpc: LRPC-a285997dc35e56b3f8\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\atsvc\n  ncalrpc: LRPC-b66b65440001e7c4a7\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 192.168.18.5:49667\n  ncalrpc: LRPC-a285997dc35e56b3f8\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\atsvc\n  ncalrpc: LRPC-b66b65440001e7c4a7\n\n33d84484-3626-47ee-8c6f-e7e98b113be1\n  version: v2.0\n  ncalrpc: LRPC-a285997dc35e56b3f8\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\atsvc\n  ncalrpc: LRPC-b66b65440001e7c4a7\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\atsvc\n  ncalrpc: LRPC-b66b65440001e7c4a7\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\atsvc\n  ncalrpc: LRPC-b66b65440001e7c4a7\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: LRPC-b66b65440001e7c4a7\n\n7f1343fe-50a9-4927-a778-0c5859517bac\n  version: v1.0\n  annotation: DfsDs service\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\wkssvc\n  ncalrpc: LRPC-60b8cbe422d3db1c95\n\neb081a0d-10ee-478a-a1dd-50995283e7a8\n  version: v3.0\n  annotation: Witness Client Test Interface\n  ncalrpc: LRPC-60b8cbe422d3db1c95\n\nf2c9b409-c1c9-4100-8639-d8ab1486694a\n  version: v1.0\n  annotation: Witness Client Upcall Server\n  ncalrpc: LRPC-60b8cbe422d3db1c95\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncalrpc: LRPC-ea8c4a990d6f36d77f\n  ncalrpc: DNSResolver\n\n29770a8f-829b-4158-90a2-78cd488501f7\n  version: v1.0\n  ncacn_ip_tcp: 192.168.18.5:49668\n  ncacn_np: \\\\OGF_CAFE_SVR\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncalrpc: LRPC-6c09e9f352dcb52724\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncalrpc: dhcpcsvc\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncalrpc: 0037ed71-7ad3-45cb-b0b3-291df3b35a37\n  ncalrpc: LRPC-ac13d4a342d8ff5268\n\n0d3c7f20-1c8d-4654-a1b3-51563b298bda\n  version: v1.0\n  annotation: UserMgrCli\n  ncalrpc: LRPC-0410350107710e7119\n  ncalrpc: OLE4B30FE600F9298CDCC9F9596E1A4\n\nb18fbab6-56f8-4702-84e0-41053293a869\n  version: v1.0\n  annotation: UserMgrCli\n  ncalrpc: LRPC-0410350107710e7119\n  ncalrpc: OLE4B30FE600F9298CDCC9F9596E1A4\n\n13560fa9-8c09-4b56-a1fd-04d083b9b2a1\n  version: v1.0\n  ncalrpc: LRPC-b1958a69792dd336f0\n  ncalrpc: OLE38F1BC2AD08204371A39CA16C7A1\n\nc2d1b5dd-fa81-4460-9dd6-e7658b85454b\n  version: v1.0\n  ncalrpc: LRPC-b1958a69792dd336f0\n  ncalrpc: OLE38F1BC2AD08204371A39CA16C7A1\n\nf44e62af-dab1-44c2-8013-049a9de417d6\n  version: v1.0\n  ncalrpc: LRPC-b1958a69792dd336f0\n  ncalrpc: OLE38F1BC2AD08204371A39CA16C7A1\n\nb37f900a-eae4-4304-a2ab-12bb668c0188\n  version: v1.0\n  ncalrpc: LRPC-b1958a69792dd336f0\n  ncalrpc: OLE38F1BC2AD08204371A39CA16C7A1\n\nabfb6ca3-0c5e-4734-9285-0aee72fe8d1c\n  version: v1.0\n  ncalrpc: LRPC-b1958a69792dd336f0\n  ncalrpc: OLE38F1BC2AD08204371A39CA16C7A1\n\nb58aa02e-2884-4e97-8176-4ee06d794184\n  version: v1.0\n  provider: sysmain.dll\n  ncalrpc: LRPC-85d247af65411148f0\n\n76f03f96-cdfd-44fc-a22c-64950a001209\n  version: v1.0\n  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.18.5:49670\n  ncalrpc: LRPC-465731997dde0d7d55\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.18.5:49670\n  ncalrpc: LRPC-465731997dde0d7d55\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.18.5:49670\n  ncalrpc: LRPC-465731997dde0d7d55\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.18.5:49670\n  ncalrpc: LRPC-465731997dde0d7d55\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 192.168.18.5:49670\n  ncalrpc: LRPC-465731997dde0d7d55\n\n5b665b9a-a086-4e26-ae24-96ab050b0ec3\n  version: v1.0\n  annotation: Device Association Framework AEP Store Access RPC Interface\n  ncalrpc: LRPC-9fffc2934ca1666e4e\n\nbd84cd86-9825-4376-813d-334c543f89b1\n  version: v1.0\n  annotation: Device Association Framework Query RPC Interface\n  ncalrpc: LRPC-9fffc2934ca1666e4e\n\n2e7d4935-59d2-4312-a2c8-41900aa5495f\n  version: v1.0\n  annotation: Device Association Framework Challenge RPC Interface\n  ncalrpc: LRPC-9fffc2934ca1666e4e\n\na1d4eae7-39f8-4bca-8e72-832767f5082a\n  version: v1.0\n  annotation: Device Association Framework Inbound RPC Interface\n  ncalrpc: LRPC-9fffc2934ca1666e4e\n\n850cee52-3038-4277-b9b4-e05db8b2c35c\n  version: v1.0\n  annotation: Device Association Framework Association RPC Interface\n  ncalrpc: LRPC-9fffc2934ca1666e4e\n\naf7fead8-c34a-461f-8894-6d6f0e5eddcd\n  version: v1.0\n  ncalrpc: LRPC-58a1bc44e737aaa817\n  ncalrpc: OLE558413E873D2D2F36A34CEB95D17\n  ncalrpc: LRPC-ab27831feaec54c581\n  ncalrpc: LRPC-540ec6450828d34232\n\n266f33b4-c7c1-4bd1-8f52-ddb8f2214eb0\n  version: v1.0\n  annotation: Wlan Service LowPriv\n  ncalrpc: LRPC-ab27831feaec54c581\n  ncalrpc: LRPC-540ec6450828d34232\n\n266f33b4-c7c1-4bd1-8f52-ddb8f2214ea9\n  version: v1.0\n  annotation: Wlan Service\n  provider: wlansvc.dll\n  ncalrpc: LRPC-ab27831feaec54c581\n  ncalrpc: LRPC-540ec6450828d34232\n\n25952c5d-7976-4aa1-a3cb-c35f7ae79d1b\n  version: v1.256\n  annotation: Wireless Diagnostics\n  ncalrpc: LRPC-540ec6450828d34232\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-3c834383028b331397\n  ncalrpc: LRPC-57856964a2203c8011\n  ncalrpc: LRPC-2e3926c5d259c8c2dc\n  ncalrpc: LRPC-2bc2e7ae0cbcd3d62a\n\nf47433c3-3e9d-4157-aad4-83aa1f5c2d4c\n  version: v1.0\n  annotation: Fw APIs\n  ncalrpc: LRPC-57856964a2203c8011\n  ncalrpc: LRPC-2e3926c5d259c8c2dc\n  ncalrpc: LRPC-2bc2e7ae0cbcd3d62a\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-2e3926c5d259c8c2dc\n  ncalrpc: LRPC-2bc2e7ae0cbcd3d62a\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-2bc2e7ae0cbcd3d62a\n\n1a0d010f-1c33-432c-b0f5-8cf4e8053099\n  version: v1.0\n  annotation: IdSegSrv service\n  ncalrpc: LRPC-f905dba9b54f0df25a\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncalrpc: LRPC-f905dba9b54f0df25a\n\nc49a5a70-8a7f-4e70-ba16-1e8f1f193ef1\n  version: v1.0\n  annotation: Adh APIs\n  ncalrpc: OLE807E1637C9A28EE3B6C926F1F9DF\n  ncalrpc: TeredoControl\n  ncalrpc: TeredoDiagnostics\n  ncalrpc: LRPC-02fa3a66adb2e6a57e\n\nc36be077-e14b-4fe9-8abc-e856ef4f048b\n  version: v1.0\n  annotation: Proxy Manager client server endpoint\n  ncalrpc: TeredoControl\n  ncalrpc: TeredoDiagnostics\n  ncalrpc: LRPC-02fa3a66adb2e6a57e\n\n2e6035b2-e8f1-41a7-a044-656b439c4c34\n  version: v1.0\n  annotation: Proxy Manager provider server endpoint\n  ncalrpc: TeredoControl\n  ncalrpc: TeredoDiagnostics\n  ncalrpc: LRPC-02fa3a66adb2e6a57e\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncalrpc: LRPC-02fa3a66adb2e6a57e\n\na398e520-d59a-4bdd-aa7a-3c1e0303a511\n  version: v1.0\n  annotation: IKE/Authip API\n  provider: IKEEXT.DLL\n  ncalrpc: LRPC-3652e354f2a6292665\n\nc27f3c08-92ba-478c-b446-b419c4cef0e2\n  version: v1.0\n  ncalrpc: LRPC-22f4e55908de26ebeb\n\n714dc5c4-c5f6-466a-b037-a573c958031e\n  version: v1.0\n  annotation: ProcessTag Server Endpoint\n  ncalrpc: LRPC-2aca987d9bfd524756\n  ncalrpc: OLE2625A0CF1801F09D6BCFB1D4CFAF\n\n650a7e26-eab8-5533-ce43-9c1dfce11511\n  version: v1.0\n  annotation: Vpn APIs\n  ncalrpc: LRPC-bfc636ff92266cf60a\n  ncalrpc: VpnikeRpc\n  ncalrpc: RasmanLrpc\n  ncacn_np: \\\\OGF_CAFE_SVR\\PIPE\\ROUTER\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-d4f7ca576c55105aa2\n\n78dcce84-7f13-4139-b8cd-ef222aa0408b\n  version: v1.0\n  annotation: StateRepository\n  ncalrpc: LRPC-962632a5765ad1c907\n  ncalrpc: OLE0CADC4E9A3F43C8634C8ECE041D7\n\n1d45e083-478f-437c-9618-3594ced8c235\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\n98cd761e-e77d-41c8-a3c0-0fb756d90ec2\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\nd22895ef-aff4-42c5-a5b2-b14466d34ab4\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\ne38f5360-8572-473e-b696-1b46873beeab\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\n95095ec8-32ea-4eb0-a3e2-041f97b36168\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\nfd8be72b-a9cd-4b2c-a9ca-4ded242fbe4d\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\n4c9dbf19-d39e-4bb9-90ee-8f7179b20283\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\nd4051bde-9cdd-4910-b393-4aa85ec3c482\n  version: v1.0\n  ncalrpc: LRPC-5a26b7894b87ecbc5b\n  ncalrpc: OLEA834E5CDBDF9895FBDB700B439A1\n\n7df1ceae-de4e-4e6f-ab14-49636e7c2052\n  version: v1.0\n  ncalrpc: LRPC-ebdcbfc323bb651f3c\n\n6b5bdd1e-528c-422c-af8c-a4079be4fe48\n  version: v1.0\n  annotation: Remote Fw APIs\n  protocol: [MS-FASP]: Firewall and Advanced Security Protocol\n  provider: FwRemoteSvr.dll\n  ncacn_ip_tcp: 192.168.18.5:49683\n  ncalrpc: ipsec\n\n4b112204-0e19-11d3-b42b-0000f81feb9f\n  version: v1.0\n  provider: ssdpsrv.dll\n  ncalrpc: LRPC-2e4cdc89226609c886\n\n0f738e20-73c0-4ca8-aa6a-8dfef545fea8\n  version: v1.0\n  annotation: AppInfo\n  ncalrpc: LRPC-1c2825c0ec3771c03b\n\n58e604e8-9adb-4d2e-a464-3b0683fb1480\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1c2825c0ec3771c03b\n\nfd7a0523-dc70-43dd-9b2e-9c5ed48225b1\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1c2825c0ec3771c03b\n\n5f54ce7d-5b79-4175-8584-cb65313a0e98\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1c2825c0ec3771c03b\n\n201ef99a-7fa0-444c-9399-19ba84f12a1a\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: LRPC-1c2825c0ec3771c03b\n\n0497b57d-2e66-424f-a0c6-157cd5d41700\n  version: v1.0\n  annotation: AppInfo\n  ncalrpc: LRPC-1c2825c0ec3771c03b\n\n10d20e7a-2530-494a-ac01-b8dd04480ad2\n  version: v1.0\n  annotation: camsvc\n  ncalrpc: LRPC-c8fb27fcafc0c3083d\n  ncalrpc: OLEDE9BC6FA4B47332E5D9D8CEDFB27\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 192.168.18.5:49691\n\nf5663d1c-7cd6-4109-9d01-2c187b75c38f\n  version: v0.0\n  ncalrpc: LRPC-d155679614b7cd4584\n\n44d1520b-6133-41f0-8a66-d37305ecc357\n  version: v0.0\n  ncalrpc: LRPC-d155679614b7cd4584\n\nc503f532-443a-4c69-8300-ccd1fbdb3839\n  version: v2.0\n  ncalrpc: LRPC-3d9cff1aeffb170735\n  ncalrpc: OLE200D8C62A0FC9BE946D8B3614712\n\n0767a036-0d22-48aa-ba69-b619480f38cb\n  version: v1.0\n  annotation: PcaSvc\n  provider: pcasvc.dll\n  ncalrpc: LRPC-1469219ebf5b18ed1e\n\n06bba54a-be05-49f9-b0a0-30f790261023\n  version: v1.0\n  annotation: Security Center\n  provider: wscsvc.dll\n  ncalrpc: LRPC-2f1520eb2c0c9f7be7\n  ncalrpc: OLE1E619473E84E377772E5E234ABA1\n\nb04d3c44-f014-4530-88f3-ee7daa3e69b9\n  version: v1.0\n  ncalrpc: LRPC-c813c30a006d55007f\n\na4b8d482-80ce-40d6-934d-b22a01a44fe7\n  version: v1.0\n  annotation: LicenseManager\n  ncalrpc: LicenseServiceEndpoint\n\nbf4dc912-e52f-4904-8ebe-9317c1bdd497\n  version: v1.0\n  ncalrpc: LRPC-7799d3a52478fa8a36\n  ncalrpc: OLE1AD4A9A88E47B1AB591062932682\n\n76209fe5-9049-4336-ba84-632d907cb154\n  version: v1.0\n  annotation: Interprocess Logon Service\n  ncalrpc: ReportingServices$MSRS10_50.MSSQLSERVER\n  ncalrpc: OLE11971582BEFC26F546493A8BC85D\n\nba4aa15a-be94-47fb-9bfb-fef110e7efad\n  version: v1.0\n  annotation: DevQueryBroker client query RPC interface\n  ncalrpc: LRPC-2c625f47cd26f8081c\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc04EA87CB5\n\n509bc7ae-77be-4ee8-b07c-0d096bb44345\n  version: v1.0\n  ncalrpc: LRPC-19a6194106e3cac844\n  ncalrpc: OLEC6E6CC1875FD4D68135CD799C5FD\n\nb1ef227e-dfa5-421e-82bb-67a6a129c496\n  version: v0.0\n  ncalrpc: LRPC-65515c0fb85d7ea413\n  ncalrpc: OLEF4163E862388EE8B2C4BBD18D5D4\n\n0fc77b1a-95d8-4a2e-a0c0-cff54237462b\n  version: v0.0\n  ncalrpc: LRPC-65515c0fb85d7ea413\n  ncalrpc: OLEF4163E862388EE8B2C4BBD18D5D4\n\n8ec21e98-b5ce-4916-a3d6-449fa428a007\n  version: v0.0\n  ncalrpc: LRPC-65515c0fb85d7ea413\n  ncalrpc: OLEF4163E862388EE8B2C4BBD18D5D4\n\n43890c94-bfd7-4655-ad6a-b4a68397cdcb\n  version: v0.0\n  ncalrpc: LRPC-be2e2c5aa1ad12c6bc\n  ncalrpc: OLEFDFF93929752646B66D48DFAE80F\n\nc8ba73d2-3d55-429c-8e9a-c44f006f69fc\n  version: v0.0\n  ncalrpc: LRPC-be2e2c5aa1ad12c6bc\n  ncalrpc: OLEFDFF93929752646B66D48DFAE80F\n\ne8748f69-a2a4-40df-9366-62dbeb696e26\n  version: v0.0\n  ncalrpc: LRPC-be2e2c5aa1ad12c6bc\n  ncalrpc: OLEFDFF93929752646B66D48DFAE80F\n\n923c9623-db7f-4b34-9e6d-e86580f8ca2a\n  version: v1.0\n  ncalrpc: LRPC-be2e2c5aa1ad12c6bc\n  ncalrpc: OLEFDFF93929752646B66D48DFAE80F\n\n0c53aa2e-fb1c-49c5-bfb6-c54f8e5857cd\n  version: v1.0\n  ncalrpc: LRPC-be2e2c5aa1ad12c6bc\n  ncalrpc: OLEFDFF93929752646B66D48DFAE80F\n\nd2716e94-25cb-4820-bc15-537866578562\n  version: v1.0\n  ncalrpc: LRPC-be2e2c5aa1ad12c6bc\n  ncalrpc: OLEFDFF93929752646B66D48DFAE80F\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  annotation: Group Policy RPC Interface\n  provider: gpsvc.dll\n  ncalrpc: LRPC-3aff53011915ce69a5\n```\n------------------\n**139:**\n```\n\\x83\\x00\\x00\\x01\\x8f\n```\n------------------\n**1433:**\n```\nMS-SQL NTLM Info:\n  OS: Windows 11 (version 22H2)\n  OS Build: 10.0.22621\n  Target Name: OGF_CAFE_SVR\n  NetBIOS Domain Name: OGF_CAFE_SVR\n  NetBIOS Computer Name: OGF_CAFE_SVR\n  DNS Domain Name: OGF_CAFE_SVR\n  FQDN: OGF_CAFE_SVR\n```\n------------------\n**1434:**\n```\nSQL Server Browser Service:\n  Instance #1:\n    Server Name: OGF_CAFE_SVR\n    Instance Name: SQLEXPRESS\n    Is Clustered: False\n    Version: 10.50.1600.1\n    TCP Port: 49707\n    Named Pipe: \\\\OGF_CAFE_SVR\\pipe\\MSSQL$SQLEXPRESS\\sql\\query\n    Version Name: MS-SQL Server 2008 R2 RTM\n  Instance #2:\n    Server Name: OGF_CAFE_SVR\n    Instance Name: SQL2000\n    Is Clustered: False\n    Version: 8.00.194\n    Named Pipe: \\\\OGF_CAFE_SVR\\pipe\\MSSQL$SQL2000\\sql\\query\n    Version Name: MS-SQL Server 2000 RTM\n  Instance #3:\n    Server Name: OGF_CAFE_SVR\n    Instance Name: MSSQLSERVER\n    Is Clustered: False\n    Version: 10.50.1600.1\n    TCP Port: 1433\n    Named Pipe: \\\\OGF_CAFE_SVR\\pipe\\sql\\query\n    Version Name: MS-SQL Server 2008 R2 RTM\n```\n------------------\n**5357:**\n```\nHTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Mon, 25 Nov 2024 06:01:17 GMT\r\nConnection: close\r\nContent-Length: 326\n```\n------------------\n**49707:**\n```\nMS-SQL NTLM Info:\n  OS: Windows 11 (version 22H2)\n  OS Build: 10.0.22621\n  Target Name: OGF_CAFE_SVR\n  NetBIOS Domain Name: OGF_CAFE_SVR\n  NetBIOS Computer Name: OGF_CAFE_SVR\n  DNS Domain Name: OGF_CAFE_SVR\n  FQDN: OGF_CAFE_SVR\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "123.231.8.235"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:00.369Z",
-        "updated_at": "2024-12-02T17:45:00.768Z",
+        "updated_at": "2024-12-02T17:48:53.780Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2765,8 +2827,8 @@
         ],
         "objectLabel": [],
         "observable_value": "121.52.146.244",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** PERN AS Content Servie Provider, Islamabad, Pakistan\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 FTP service ready.\r\n530 Logged fail.\n```\n------------------\n**80:**\n```\nHTTP/1.1 301 Moved Permanently\r\nDate: SUN, 30 Nov 2024 17:08:51\r\nConnection: \r\nLocation: https://121.52.146.244:8443\r\nServer: HTTP Server 1.0\r\nContent-Length: 0\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nContent-Type: text/html; charset=utf-8\n```\n------------------\n**161:**\n```\nSNMP:\n  Versions:\n    3\n  Engineid Format: mac\n  Engine Boots: 129\n  Engineid Data: 40:ee:dd:da:1f:e5\n  Enterprise: 2011\n  Engine Time: 162 days, 22:18:04\n```\n------------------\n**8001:**\n```\nSSH-2.0-Sun_SSH_1.1.5\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAABIwAAAIEA7zSAaIz3WjztcIHcHChXC+o9aqtP32wQ2zPXzYe1WXApbQ1l\nlsjV0b4ivfLF/CRdKeJNDiz2WDl0etEzqv2/fc8cGWUKR9CRmJatT3LckewWuHurzZFKM0Tw3Iy7\nvGrB55U4l8X5/vvAxO9n2JalSUiCHjVMzmTqmTF48htXvfk=\nFingerprint: c0:0d:d3:7f:cb:ab:94:8e:c1:e9:53:7f:e1:56:4b:d6\n\nKex Algorithms:\n\tgss-group1-sha1-toWM5Slw5Ew8Mqkay+al2g==\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\tssh-dss\n\nEncryption Algorithms:\n\taes128-ctr\n\taes128-cbc\n\tarcfour\n\t3des-cbc\n\tblowfish-cbc\n\taes192-ctr\n\taes192-cbc\n\taes256-ctr\n\taes256-cbc\n\nMAC Algorithms:\n\thmac-md5\n\thmac-sha1\n\thmac-sha1-96\n\thmac-md5-96\n\nCompression Algorithms:\n\tnone\n\tzlib\n```\n------------------\n**8019:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 14 Nov 2024 11:12:19 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nLast-Modified: Sat, 02 Jul 2022 19:43:40 GMT\r\nETag: \"2aa6-5e2d7b83f7b1b\"\r\nAccept-Ranges: bytes\r\nContent-Length: 10918\r\nVary: Accept-Encoding\r\nContent-Type: text/html\n```\n------------------\n**8081:**\n```\nHTTP/1.1 302 Found\r\nDate: Tue, 12 Nov 2024 15:44:17 GMT\r\nServer: Apache/2.4.52 (Win64) mod_wsgi/4.7.1 Python/3.7\r\nX-Frame-Options: SAMEORIGIN\r\nLocation: /login/?next=/\r\nVary: Accept-Language,Cookie\r\nPragma: no-cache\r\nCache-Control: no-store\r\nContent-Language: en\r\nContent-Length: 0\r\nContent-Type: text/html; charset=utf-8\r\nConnection: close\n```\n------------------\n**8087:**\n```\nHTTP/1.1 400 Bad Request\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Thu, 21 Nov 2024 06:00:42 GMT\r\nConnection: close\r\nContent-Length: 326\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Bad Request</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Bad Request - Invalid Verb</h2>\r\n<hr><p>HTTP Error 400. The request verb is invalid.</p>\r\n</BODY></HTML>\n```\n------------------\n**8443:**\n```\n\n```\n------------------\n**37777:**\n```\nDahua DH-NVR7864\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "121.52.146.244"
     },
     {
@@ -2796,7 +2858,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:02.995Z",
-        "updated_at": "2024-12-02T17:45:03.119Z",
+        "updated_at": "2024-12-02T17:49:46.100Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2811,16 +2873,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
         "observable_value": "137.184.154.44",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI8vGkp+yAFdq/lae2oE0No4\nmLSe2ggrgcwPA4vV9ATpyln5tSywhJzchtvgoZkvgJeSqloJQ7kiWzcHODrIIF0=\nFingerprint: ea:ca:f2:c2:50:4d:31:13:06:cf:6e:42:e1:d6:32:1c\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\text-info-s\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**5001:**\n```\nHTTP/1.1 404 NOT FOUND\r\nServer: Werkzeug/3.0.3 Python/3.12.3\r\nDate: Sun, 24 Nov 2024 14:58:56 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 207\r\nAccess-Control-Allow-Origin: *\r\nConnection: close\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "137.184.154.44"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:02.995Z",
-        "updated_at": "2024-12-02T17:45:03.119Z",
+        "updated_at": "2024-12-02T17:49:36.063Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2835,16 +2904,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
         "observable_value": "150.138.92.42",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Zaozhuang,Shandong Province, P.R.China.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**82:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.15.11\r\nDate: Sun, 17 Nov 2024 15:47:49 GMT\r\nContent-Type: text/html\r\nContent-Length: 2307\r\nLast-Modified: Tue, 03 Sep 2019 06:30:48 GMT\r\nConnection: keep-alive\r\nETag: \"5d6e0898-903\"\r\nAccept-Ranges: bytes\n```\n------------------\n**3389:**\n```\n\\x0b\\x12\\x7f\\x15\\x00@\\x10\\x053\\x04PH\\x04\\xd0\\x04\\xd0\\x00\\x01\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\n```\n------------------\n**5985:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Thu, 14 Nov 2024 20:18:02 GMT\r\nConnection: close\r\nContent-Length: 315\r\n\r\n\nWinRM NTLM Info:\n  OS: Windows Server 2012 R2\n  OS Build: 6.3.9600\n  Target Name: WIN-GT4R79O3DSH\n  NetBIOS Domain Name: WIN-GT4R79O3DSH\n  NetBIOS Computer Name: WIN-GT4R79O3DSH\n  DNS Domain Name: WIN-GT4R79O3DSH\n  FQDN: WIN-GT4R79O3DSH\n```\n------------------\n**8809:**\n```\n\n```\n------------------\n**9001:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "150.138.92.42"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:03.843Z",
-        "updated_at": "2024-12-02T17:45:04.463Z",
+        "updated_at": "2024-12-02T17:49:52.102Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2859,16 +2935,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "152.169.4.196",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Telecom Argentina S.A.\n\n**OS:** -\n\n--------------------------\nServices:\n\n**444:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 26 Nov 2024 06:15:11 GMT\r\nServer: Apache\r\nLast-Modified: Sat, 10 Sep 2016 16:49:39 GMT\r\nETag: \"479-53c2a0c776ec0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 1145\r\nContent-Type: text/html\n```\nHEARTBLEED: 2024/11/26 04:13:03 152.169.4.196:444 - SAFE\n\n------------------\n**7547:**\n```\nHTTP/1.1 401 Unauthorized\r\nContent-Type: text/html;charset=iso-8859-1\r\nConnection: Keep-Alive\r\nSet-Cookie: MGCN=\"2124942659/723632\"; Version=\"1\"; Path=\"/\"\r\nWWW-Authenticate: Digest realm=\"Cisco_CCSP_CWMP_TCPCR\", nonce=\"5d4fbeb6a916f29af370e08f8bf0edfb\", algorithm=\"MD5\", domain=\"/\", qop=\"auth\", stale=\"true\"\r\nServer: Cisco-CcspCwmpTcpCR/1.0\r\nContent-Length: 387\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "152.169.4.196"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:03.904Z",
-        "updated_at": "2024-12-02T17:45:04.464Z",
+        "updated_at": "2024-12-02T17:49:59.598Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2885,14 +2968,14 @@
         ],
         "objectLabel": [],
         "observable_value": "154.92.16.161",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** YISU CLOUD LTD\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDa7lVyeZtWeTnvuM4GHr7p00pFms405DFYCa1OzDl3Kv2x\n7Ya9a+Jbfc/oVnmJYkkPwRCf4RPlChtHmfZADZIn+5ghatkKf/doHdqqUoncKnQWvetrS3bJlRhh\nBLAQxxbQFaiLnqPtMuamJi6nlrDEYe0ITXbRAl5c7JfZandEZhnYe7nylEffBD3ob5KUvJXFAAtr\nQeUU+zYhohtmhguOBnU99HFv+7qDWZyFWCPyOf2I9LQhdtSQH3IikTdWpwb6wTSGFmP5JRGMgakk\nuFBlN1CQJ41I/yAZJhrSif+YQEYPocBY3VmktvsPGDux8+qhyUHsfQcISropdDTeQ5uvem5gSHCq\nJHco5BaZr6xLkX2Xmj31NM5+X9yvwb/bsorr//936JxPlQjfHdmdQU8678Ucv4FuvwtVTqRUKU8n\neBiP1l9RUup9qhU8UCJ4nzoUdzi4ITyOrDpegv0YgSDWkQQ5bhy4hiyiPO0IWoTIYzhvgYA7o7+9\nvU4NV379j4U=\nFingerprint: 22:10:17:8d:9c:0c:37:3d:45:f4:8f:c8:07:fd:56:9b\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Sat, 23 Nov 2024 05:43:37 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nLast-Modified: Tue, 05 Nov 2024 07:26:21 GMT\r\nETag: \"305e-62625515e0b47\"\r\nAccept-Ranges: bytes\r\nContent-Length: 12382\r\nVary: Accept-Encoding\r\nContent-Type: text/html\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "154.92.16.161"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:05.234Z",
-        "updated_at": "2024-12-02T17:45:05.354Z",
+        "updated_at": "2024-12-02T17:50:54.031Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2907,16 +2990,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "93405f37-1740-4912-bdab-a6c6c07e6bf6",
+                "value": "database",
+                "color": "#7b11a9",
+                "createdById": null
+            }
+        ],
         "observable_value": "154.213.187.182",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Pfcloud UG\n\n**OS:** -\n\n--------------------------\nServices:\n\n**3306:**\n```\nMariaDB:\n  Protocol Version: 10\n  Version: 10.6.18-MariaDB-0ubuntu0.22.04.1\n  Capabilities: 63486\n  Server Language: 45\n  Server Status: 2\n  Extended Server Capabilities: 33279\n  Authentication Plugin: mysql_native_password\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "154.213.187.182"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:05.916Z",
-        "updated_at": "2024-12-02T17:45:06.156Z",
+        "updated_at": "2024-12-02T17:50:58.948Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2933,14 +3023,14 @@
         ],
         "objectLabel": [],
         "observable_value": "154.213.192.51",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Pfcloud UG\n\n**OS:** Ubuntu\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQCswF1cKCdaiYCKylqObLtw6FM57PMvvWfEhoVk2zwpbuxt\n7ATKhXieNR+XYopUYSuAc9XoBkweZmKPiGnpl452Y8JGNPi8MniiGMxLJBJNZ9h1xCYwib0Nb6io\ndkwQ+SXnPamlidQZO6WK6srxLXhgIry0EEGLRo3+gtinK+Z85Vf8xjZPeVdPeCVN7xMUkFnKy5Tw\npGbu8to5szBlfUj5jE8bSexXgsq2IXDSrEzPrWavbXyub7J9U1yKsZzqp2jdDxjqCeFSSyOLao2y\nPnG75JcVUwZoKKCddqNhm/hmFz57MzuyhEv7VfmgiN/Pftp30QYwRiWlgcuqdNHQWTHV4tSnvKv2\neg0RYcJ49++VenbCQiKheA3Y94AoX5eSGzX4RqwKYv4mu9Dd+38RWy2x+SvSqGe4p5ppt+DPGGr3\nk9PKLmf2tMO251tyxi39rvVzVt8z8asHtwHercwFH7TGQY2hCQZtVoRxbjIPlf5D6MGwFkK755iP\njrzXScarIRM=\nFingerprint: 9f:11:6d:58:d8:79:ea:4d:25:54:e2:d8:86:c5:dd:88\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "154.213.192.51"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:06.557Z",
-        "updated_at": "2024-12-02T17:45:06.654Z",
+        "updated_at": "2024-12-02T17:51:03.229Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2955,16 +3045,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "157.10.45.48",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** VPSTTT COMPUTER COMPANY LIMITED\n\n**OS:** -\n\n--------------------------\nServices:\n\n**135:**\n```\nMicrosoft RPC Endpoint Mapper\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 157.10.45.48:49152\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc0540F0\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc0540F0\n  ncalrpc: WMsgKRpc0217262\n  ncalrpc: WMsgKRpc0410D3323\n  ncalrpc: WMsgKRpc0A3F263C1\n  ncalrpc: WMsgKRpc012011A5F4\n  ncalrpc: WMsgKRpc01658AC2D5\n\n9b008953-f195-4bf9-bde0-4471971e58ed\n  version: v1.0\n  ncalrpc: dabrpc\n  ncalrpc: LRPC-01e921d0d9100261e6\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-8f59d879054f50b940\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n697dcda9-3ba9-4eb2-9247-e11f1901b0d2\n  version: v1.0\n  ncalrpc: LRPC-01e921d0d9100261e6\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\LSM_API_service\n  ncalrpc: LSMApi\n  ncalrpc: LRPC-8f59d879054f50b940\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-8f59d879054f50b940\n  ncalrpc: actkernel\n  ncalrpc: umpo\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\srvsvc\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n  ncalrpc: IUserProfile2\n\n0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nc605f9fb-f0a3-4e2a-a073-73560f8d9e3e\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8bfc3be1-6def-4e2d-af74-7c47cd0ade4a\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n2d98a740-581d-41b9-aa0d-a88b9d5ce938\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\nbdaa0970-413b-4a3e-9e5d-f6dc9d7e0760\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3b338d89-6cfa-44b8-847e-531531bc9992\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n8782d3b9-ebbd-4644-a3d8-e8725381919b\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n085b0334-e454-4d91-9b8c-4134f9e793f3\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9\n  version: v1.0\n  ncalrpc: actkernel\n  ncalrpc: umpo\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-c982d3efa9f5a8f67d\n  ncacn_ip_tcp: 157.10.45.48:49153\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\eventlog\n  ncalrpc: eventlog\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncalrpc: LRPC-c982d3efa9f5a8f67d\n  ncacn_ip_tcp: 157.10.45.48:49153\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\eventlog\n  ncalrpc: eventlog\n\nabfb6ca3-0c5e-4734-9285-0aee72fe8d1c\n  version: v1.0\n  annotation: Wcm Service\n  ncalrpc: LRPC-c982d3efa9f5a8f67d\n  ncacn_ip_tcp: 157.10.45.48:49153\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncalrpc: LRPC-c982d3efa9f5a8f67d\n  ncacn_ip_tcp: 157.10.45.48:49153\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\eventlog\n  ncalrpc: eventlog\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Event log TCPIP\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 157.10.45.48:49153\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\eventlog\n  ncalrpc: eventlog\n\n58e604e8-9adb-4d2e-a464-3b0683fb1480\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncalrpc: LRPC-a09dc700279fc0ccbc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\srvsvc\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\nfd7a0523-dc70-43dd-9b2e-9c5ed48225b1\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncalrpc: LRPC-a09dc700279fc0ccbc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\srvsvc\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n5f54ce7d-5b79-4175-8584-cb65313a0e98\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncalrpc: LRPC-a09dc700279fc0ccbc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\srvsvc\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n201ef99a-7fa0-444c-9399-19ba84f12a1a\n  version: v1.0\n  annotation: AppInfo\n  provider: appinfo.dll\n  ncalrpc: DeviceSetupManager\n  ncalrpc: LRPC-a09dc700279fc0ccbc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\srvsvc\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncalrpc: LRPC-a09dc700279fc0ccbc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\SessEnvPublicRpc\n  ncalrpc: SessEnvPrivateRpc\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\srvsvc\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n1a0d010f-1c33-432c-b0f5-8cf4e8053099\n  version: v1.0\n  annotation: IdSegSrv service\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\nc49a5a70-8a7f-4e70-ba16-1e8f1f193ef1\n  version: v1.0\n  annotation: Adh APIs\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\nc36be077-e14b-4fe9-8abc-e856ef4f048b\n  version: v1.0\n  annotation: Proxy Manager client server endpoint\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n2e6035b2-e8f1-41a7-a044-656b439c4c34\n  version: v1.0\n  annotation: Proxy Manager provider server endpoint\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n3a9ef155-691d-4449-8d05-09ad57031823\n  version: v1.0\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 157.10.45.48:49154\n  ncalrpc: ubpmtaskhostchannel\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: senssvc\n  ncalrpc: OLE62D5D419ADECB7C917B657DE257F\n  ncalrpc: IUserProfile2\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  annotation: Group Policy RPC Interface\n  provider: gpsvc.dll\n  ncalrpc: LRPC-fcf40012b750e93636\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\W32TIME_ALT\n  ncalrpc: W32TIME_ALT\n  ncalrpc: LRPC-e89a0eddd13bde5e8b\n  ncalrpc: OLE5A5250A2D85EB43F179CDF557BA6\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-e89a0eddd13bde5e8b\n  ncalrpc: OLE5A5250A2D85EB43F179CDF557BA6\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-bd683bad44a408fee9\n  ncalrpc: LRPC-c27fe3cd7f08fdb8a5\n\nf47433c3-3e9d-4157-aad4-83aa1f5c2d4c\n  version: v1.0\n  annotation: Fw APIs\n  ncalrpc: LRPC-bd683bad44a408fee9\n  ncalrpc: LRPC-c27fe3cd7f08fdb8a5\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-bd683bad44a408fee9\n  ncalrpc: LRPC-c27fe3cd7f08fdb8a5\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-c27fe3cd7f08fdb8a5\n\n7f1343fe-50a9-4927-a778-0c5859517bac\n  version: v1.0\n  annotation: DfsDs service\n  ncacn_np: \\\\WIN-C98VJUNJT16\\PIPE\\wkssvc\n  ncalrpc: LRPC-5b952b40f0c79e239e\n  ncalrpc: DNSResolver\n\neb081a0d-10ee-478a-a1dd-50995283e7a8\n  version: v3.0\n  annotation: Witness Client Test Interface\n  ncalrpc: LRPC-5b952b40f0c79e239e\n  ncalrpc: DNSResolver\n\nf2c9b409-c1c9-4100-8639-d8ab1486694a\n  version: v1.0\n  annotation: Witness Client Upcall Server\n  ncalrpc: LRPC-5b952b40f0c79e239e\n  ncalrpc: DNSResolver\n\n76f03f96-cdfd-44fc-a22c-64950a001209\n  version: v1.0\n  protocol: [MS-PAR]: Print System Asynchronous Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 157.10.45.48:49155\n  ncalrpc: LRPC-cbf948a9f8984ac187\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 157.10.45.48:49155\n  ncalrpc: LRPC-cbf948a9f8984ac187\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 157.10.45.48:49155\n  ncalrpc: LRPC-cbf948a9f8984ac187\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 157.10.45.48:49155\n  ncalrpc: LRPC-cbf948a9f8984ac187\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncacn_ip_tcp: 157.10.45.48:49155\n  ncalrpc: LRPC-cbf948a9f8984ac187\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 157.10.45.48:49156\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 157.10.45.48:49158\n  ncalrpc: samss lpc\n  ncalrpc: SidKey Local End Point\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSA_EAS_ENDPOINT\n  ncalrpc: lsacap\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncacn_np: \\\\WIN-C98VJUNJT16\\pipe\\lsass\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-c68db025b9b5023f64\n  ncalrpc: LRPC-c68db025b9b5023f64\n  ncalrpc: LRPC-c68db025b9b5023f64\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc0217262\n  ncalrpc: WMsgKRpc0A3F263C1\n  ncalrpc: WMsgKRpc012011A5F4\n  ncalrpc: WMsgKRpc01658AC2D5\n\nb2507c30-b126-494a-92ac-ee32b6eeb039\n  version: v1.0\n  ncalrpc: LRPC-1ad9062a1852ac07f5\n```\n------------------\n**137:**\n```\nNetBIOS Response:\n  Server Name: WIN-C98VJUNJT16\n  MAC Address: 00:16:3E:EA:5F:1B\n  Names:\n    WIN-C98VJUNJT16 <0x20>\n    WIN-C98VJUNJT16 <0x0>\n  Additional Interfaces:\n    157.32.45.48\n```\n------------------\n**445:**\n```\nSMB Status:\n  Authentication: enabled\n  SMB Version: 1\n  OS: Windows Server 2012 R2 Datacenter Evaluation 9600\n  Software: Windows Server 2012 R2 Datacenter Evaluation 6.3\n  Capabilities: extended-security, infolevel-passthru, large-files, large-readx, large-writex, level2-oplocks, lock-and-read, lwio, nt-find, nt-smb, nt-status, rpc-remote-api, unicode\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\x0f\\x08\\x00\\x02\\x00\\x00\\x00\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "157.10.45.48"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:06.630Z",
-        "updated_at": "2024-12-02T17:45:06.932Z",
+        "updated_at": "2024-12-02T17:51:08.894Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -2979,16 +3076,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "157.15.202.227",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** WEBYNE DATA CENTRE PRIVATE LIMITED\n\n**OS:** -\n\n--------------------------\nServices:\n\n**50022:**\n```\nSSL Error: TLSV1_ALERT_INTERNAL_ERROR\n```\nHEARTBLEED: 2024/11/23 11:50:44 157.15.202.227:50022 - SAFE\n\n------------------\n**50122:**\n```\nSSL Error: TLSV1_ALERT_INTERNAL_ERROR\n```\nHEARTBLEED: 2024/11/23 09:47:26 157.15.202.227:50122 - SAFE\n\n------------------\n**50222:**\n```\nSSL Error: TLSV1_ALERT_INTERNAL_ERROR\n```\nHEARTBLEED: 2024/11/23 07:53:20 157.15.202.227:50222 - SAFE\n\n------------------\n**51122:**\n```\nSSL Error: TLSV1_ALERT_INTERNAL_ERROR\n```\nHEARTBLEED: 2024/11/22 14:01:25 157.15.202.227:51122 - SAFE\n\n------------------\n**51222:**\n```\nSSL Error: TLSV1_ALERT_INTERNAL_ERROR\n```\nHEARTBLEED: 2024/11/22 12:04:57 157.15.202.227:51222 - SAFE\n\n------------------\n**60010:**\n```\nHTTP/1.1 200 OK\r\nContent-Length: 25404\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nX-XSS-Protection: 1; mode=block\r\nDate: Thu, 14 Nov 2024 13:51:03 GMT\r\nExpires: 0\r\nCache-Control: no-cache, no-store, must-revalidate, private, max-age=0\r\nLast-Modified: Wed, 07 Aug 2024 10:50:19 GMT\r\nPragma: no-cache\n```\n------------------\n**60022:**\n```\nHTTP/1.1 200 OK\r\nContent-Length: 29301\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nX-XSS-Protection: 1; mode=block\r\nDate: Thu, 14 Nov 2024 04:22:05 GMT\r\nExpires: 0\r\nCache-Control: no-cache, no-store, must-revalidate, private, max-age=0\r\nLast-Modified: Mon, 03 Jun 2024 12:42:59 GMT\r\nPragma: no-cache\n```\nHEARTBLEED: 2024/11/14 04:22:22 157.15.202.227:60022 - SAFE\n\n------------------\n**60030:**\n```\nHTTP/1.1 200 OK\r\nContent-Length: 29301\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nX-XSS-Protection: 1; mode=block\r\nDate: Fri, 15 Nov 2024 05:47:54 GMT\r\nExpires: 0\r\nCache-Control: no-cache, no-store, must-revalidate, private, max-age=0\r\nLast-Modified: Wed, 05 Jun 2024 05:06:22 GMT\r\nPragma: no-cache\n```\n------------------\n**60122:**\n```\nHTTP/1.1 200 OK\r\nContent-Length: 25378\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nX-XSS-Protection: 1; mode=block\r\nDate: Fri, 15 Nov 2024 05:31:28 GMT\r\nExpires: 0\r\nCache-Control: no-cache, no-store, must-revalidate, private, max-age=0\r\nLast-Modified: Fri, 04 Oct 2024 11:31:53 GMT\r\nPragma: no-cache\n```\nHEARTBLEED: 2024/11/15 05:31:45 157.15.202.227:60122 - SAFE\n\n------------------\n**60129:**\n```\n\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "157.15.202.227"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:07.856Z",
-        "updated_at": "2024-12-02T17:45:07.961Z",
+        "updated_at": "2024-12-02T17:51:19.531Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3003,10 +3107,29 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "165.227.86.201",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEq9Q1FoAUh8y4TFFgU7AoKQ\naD2SndULf9JC0Y/kL+ofrMKDvyqmxTmN0Q3SGiykbia7byU1B8NKpJ2+fWgxZJk=\nFingerprint: d4:5c:38:e3:a1:f9:a1:ec:a3:f0:99:05:c9:67:3c:19\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tsntrup761x25519-sha512@openssh.com\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**25:**\n```\n220 server.scopidea.com ESMTP Postfix (Ubuntu)\r\n250-server.scopidea.com\r\n250-PIPELINING\r\n250-SIZE 10240000\r\n250-VRFY\r\n250-ETRN\r\n250-STARTTLS\r\n250-AUTH PLAIN LOGIN\r\n250-AUTH=PLAIN LOGIN\r\n250-ENHANCEDSTATUSCODES\r\n250-8BITMIME\r\n250-DSN\r\n250 SMTPUTF8\n```\n------------------\n**53:**\n```\n9.11.3-1ubuntu1.18-Ubuntu\nResolver name: server.scopidea.net\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nDate: Thu, 21 Nov 2024 09:04:34 GMT\r\nServer: Apache/2.4.55\r\nVary: Accept-Encoding\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=UTF-8\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nDate: Tue, 19 Nov 2024 04:35:04 GMT\r\nServer: Apache/2.4.55\r\nVary: Accept-Encoding\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=UTF-8\n```\nHEARTBLEED: 2024/11/19 04:35:10 165.227.86.201:443 - SAFE\n\n------------------\n**465:**\n```\n220 server.scopidea.com ESMTP Postfix (Ubuntu)\r\n250-server.scopidea.com\r\n250-PIPELINING\r\n250-SIZE 10240000\r\n250-VRFY\r\n250-ETRN\r\n250-AUTH PLAIN LOGIN\r\n250-AUTH=PLAIN LOGIN\r\n250-ENHANCEDSTATUSCODES\r\n250-8BITMIME\r\n250-DSN\r\n250 SMTPUTF8\n```\nHEARTBLEED: 2024/11/20 20:38:09 165.227.86.201:465 - SAFE\n\n------------------\n**587:**\n```\n220 server.scopidea.com ESMTP Postfix (Ubuntu)\r\n250-server.scopidea.com\r\n250-PIPELINING\r\n250-SIZE 10240000\r\n250-VRFY\r\n250-ETRN\r\n250-STARTTLS\r\n250-AUTH PLAIN LOGIN\r\n250-AUTH=PLAIN LOGIN\r\n250-ENHANCEDSTATUSCODES\r\n250-8BITMIME\r\n250-DSN\r\n250 SMTPUTF8\n```\n------------------\n**2222:**\n```\nSSH-2.0-mod_sftp/0.9.9\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQChbyDKlYu/T9SymZOkJZreq1QnQrSNAVcrNbziJosgUF9w\nLWOWVIBSoOHp59ZFEmR6LD1bpXT8uZco9mfLvRv5HgR1MT/9cWUOWiXGShrQsClwmSobC5fC3m+L\nrzL0pMr9dVIppF68teuiRizws6ZqsZe691esBEKATUJecYqKCWxXphLUeiNx/T143LLpoq+i682J\nlC00fTkRKDitiCThBLgS9v1XPSVnQI4IN0YLwfpDWJgE/Gp87aaf2wo7A2lm9b3yYBqJCeEPebFI\nKLx4fG256tWSR2D2n9CbOtpEizngYOIPBQKLDRnXc3i0ZxUUnSZnwWUgI2zoaC0vo/yB\nFingerprint: ed:8b:4f:8b:66:24:a1:03:ce:3b:98:87:41:0c:f1:20\n\nKex Algorithms:\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\trsa1024-sha1\n\nServer Host Key Algorithms:\n\tecdsa-sha2-nistp256\n\tssh-rsa\n\nEncryption Algorithms:\n\taes256-ctr\n\taes192-ctr\n\taes128-ctr\n\taes256-cbc\n\taes192-cbc\n\taes128-cbc\n\tblowfish-ctr\n\tblowfish-cbc\n\tcast128-cbc\n\tarcfour256\n\tarcfour128\n\t3des-ctr\n\t3des-cbc\n\nMAC Algorithms:\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\thmac-sha1-96\n\thmac-md5\n\thmac-md5-96\n\thmac-ripemd160\n\tumac-64@openssh.com\n\nCompression Algorithms:\n\tzlib@openssh.com\n\tzlib\n\tnone\n```\n------------------\n**10000:**\n```\nHTTP/1.0 200 Document follows\r\nDate: Sun, 17 Nov 2024 14:18:20 GMT\r\nServer: MiniServ/2.013\r\nConnection: close\r\nAuth-type: auth-required=1\r\nSet-Cookie: redirect=1; path=/; secure; httpOnly\r\nSet-Cookie: testing=1; path=/; secure; httpOnly\r\nX-Frame-Options: SAMEORIGIN\r\nContent-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src 'self'; child-src 'self'\r\nX-Content-Type-Options: nosniff\r\nX-no-links: 1\r\nContent-type: text/html; Charset=UTF-8\n```\nHEARTBLEED: 2024/11/17 14:18:46 165.227.86.201:10000 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
         "value": "165.227.86.201"
     },
     {
@@ -3060,7 +3183,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:09.490Z",
-        "updated_at": "2024-12-02T17:45:09.735Z",
+        "updated_at": "2024-12-02T17:51:56.457Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3075,16 +3198,29 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "27646f82-faff-486c-9023-914543ceb2d9",
+                "value": "cryptocurrency",
+                "color": "#d28f62",
+                "createdById": null
+            },
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
         "observable_value": "167.99.187.41",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**8333:**\n```\nBitcoin:\n  User-Agent: /Satoshi:0.20.1/\n  Version: 70015\n  Lastblock: 869155\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "167.99.187.41"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:09.883Z",
-        "updated_at": "2024-12-02T17:45:09.973Z",
+        "updated_at": "2024-12-02T17:52:01.419Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3099,16 +3235,29 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            },
+            {
+                "id": "ff66825f-f034-4e05-88c4-c48bc00d2d14",
+                "value": "scanner",
+                "color": "#fef5e6",
+                "createdById": null
+            }
+        ],
         "observable_value": "167.172.143.189",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** DigitalOcean, LLC\n\n**OS:** Linux\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.7p1 Ubuntu-7ubuntu4\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGbXLqeAA4ZeGWrT0SudZq0E\nfxmL9mLbNXNaOC7psCXBXYAFJh99fDJnPe89PlnfmWXSmTboUvvRgMkdlJgqnVo=\nFingerprint: c9:cd:37:38:35:e8:cc:f2:d4:df:a5:bc:7f:f6:47:ce\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\text-info-s\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**4000:**\n```\nHTTP/1.1 400 Bad Request\r\nConnection: close\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "167.172.143.189"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:10.483Z",
-        "updated_at": "2024-12-02T17:45:10.577Z",
+        "updated_at": "2024-12-02T17:52:06.712Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3123,10 +3272,17 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "e3d0a1c5-2094-4293-84a7-1029bb486407",
+                "value": "cloud",
+                "color": "#35dea5",
+                "createdById": null
+            }
+        ],
         "observable_value": "168.75.106.197",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Oracle Corporation\n\n**OS:** -\n\n--------------------------\nServices:\n\n**8181:**\n```\nHTTP/1.1 200 OK\r\nETag: 1716942927355\r\nContent-Type: text/html\r\nContent-Length: 4072\r\nServer: Jetty(9.3.21.v20170918)\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n        \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <title>WTA</title>\n    <link href=\"res/welcome.css\" rel=\"stylesheet\">\n    <link href=\"res/style.css\" rel=\"stylesheet\">\n    <script src=\"res/jquery-2.1.1.js\"></script>\n    <script src=\"res/jquery.ajax-retry.min.js\"></script>\n</head>\n<body>\n<script type=\"text/javascript\">\n    function setCookie(name,value,days) {\n        var expires = \"\";\n        if (days) {\n            var date = new Date();\n            date.setTime(date.getTime() + (days*24*60*60*1000));\n            expires = \"; expires=\" + date.toUTCString();\n        }\n        document.cookie = name + \"=\" + (value || \"\")  + expires + \"; path=/\";\n    }\n\n    function getUrlParameter(sParam) {\n        var sPageURL = window.location.search.substring(1),\n            sURLVariables = sPageURL.split('&'),\n            sParameterName,\n            i;\n\n        for (i = 0; i < sURLVariables.length; i++) {\n            sParameterName = sURLVariables[i].split('=');\n\n            if (sParameterName[0] === sParam) {\n                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);\n            }\n        }\n    }\n\n    function setLauncherCookie() {\n        var launcherPort = getUrlParameter(\"portaLauncher\");\n        if(launcherPort !== undefined) {\n            setCookie(\"portaLauncher\", launcherPort, 365);\n        }\n      }\n\n    function tryOpen() {\n        $.ajax({\n            url: '/portal',\n            type: 'GET',\n            async: false,\n            retryTimes: 1,\n            error: function (xhr, textStatus, errorThrown) {\n                if (this.retryTimes == 12) {\n                    $(\"#loader\").css('display', 'none');\n                    $(\"#installer\").css('display', 'block');\n                } else {\n                    $(\"#header\").css('display', 'block');\n                    $(\"#wrapper\").css('display', 'block');\n                    this.retryTimes++\n                }\n            }\n        }).retry({times: 12, timeout: 10000}).then(function () {\n            document.location.href = \"/portal\"\n        });\n    }\n\n    function checkInstall() {\n        $.ajax({\n            url: '/winthor/ferramenta/servidor/v1/funcionalidade/maven/winthor/disponiveis',\n            type: 'GET',\n            success: function (result) {\n                console.log(result);\n                if(result) {\n                    document.location.href = \"/instalador\"\n                }\n                tryOpen();\n            },\n            error: function (xhr, textStatus, errorThrown) {\n                $(\"#header\").css('display', 'block');\n                $(\"#wrapper\").css('display', 'block');\n                tryOpen();\n            }\n        })\n    }\n    setLauncherCookie();\n    checkInstall();\n</script>\n<div id=\"header\" class=\"nav navbar navbar-fixed-top\" role=\"navigation\" style=\"display: none\">\n    <img class=\"logo-home\" src=\"res/logo-winthor.png\">\n</div>\n<div id=\"wrapper\" style=\"display: none\">\n    <div class='container' id=\"loader\">\n        <div class='loader'>\n            <div class='loader--dot'></div>\n            <div class='loader--dot'></div>\n            <div class='loader--dot'></div>\n            <div class='loader--dot'></div>\n            <div class='loader--dot'></div>\n            <div class='loader--dot'></div>\n            <div class='loader--text'></div>\n        </div>\n    </div>\n    <div id=\"installer\" style=\"display: none;\">\n        <img src=\"res/question.jpg\" class=\"center\">\n        <h1>N\u00e3o foi poss\u00edvel inicializar o sistema.</h1>\n        <h2>Poss\u00edveis causas:</h2>\n        <ul>\n            <li>O servidor est\u00e1 demorando mais que o esperado para inicializar.</li>\n            <li>A instala\u00e7\u00e3o do Winthor Anywhere n\u00e3o foi realizada com sucesso.</li>\n            <li>Aconteceu algum erro inesperado.</li>\n        </ul>\n    </div>\n</div>\n</body>\n</html>\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "168.75.106.197"
     },
     {
@@ -3300,7 +3456,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:16.062Z",
-        "updated_at": "2024-12-02T17:45:16.142Z",
+        "updated_at": "2024-12-02T17:52:47.198Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3315,16 +3471,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            }
+        ],
         "observable_value": "183.177.132.157",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** ARTERIA Networks Corporation\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 (vsFTPd 2.2.2)\r\n530 Login incorrect.\r\n530 Please login with USER and PASS.\r\n211-Features:\n EPRT\n EPSV\n MDTM\n PASV\n REST STREAM\n SIZE\n TVFS\n UTF8\n211 End\n```\n------------------\n**22:**\n```\nSSH-2.0-OpenSSH_5.3\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAABIwAAAQEA8gGtEgGBKC8FgVEk5XLaO//MtcZxvU/p8DXMO+hFCr4PKEtD\nfQrnmf/ezN0BDNdlGMipSpA1vEx16rEx6dDorCdAm3XIZUfHuAby1UCJ6Ua2TIfOHpBnNd+qHxoA\naqMls6IgSFxHfEJ19gZNTRUDu6TaMZZQHIPADbCX3BWDYwgNuNidcAgRbvNq5VE5Q2Y61bZpl5bf\nsemfWGLlarHC5lqhNN9adQJZDgSxxRCs+ttlA1RaqmRzuCoJCtY5wcH0vWKt8quHTovEUAbDtD2P\nA3bZAxfwSweCJg5ctjBPVbQLzQmbtpW8W5Ka0w3yPIRKlY9bFKwYoWY13cOW7NeFKw==\nFingerprint: 0e:48:32:48:c9:f0:ed:7d:1d:c9:3a:8a:02:1c:e6:59\n\nKex Algorithms:\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group-exchange-sha1\n\tdiffie-hellman-group14-sha1\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\tssh-dss\n\nEncryption Algorithms:\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\tarcfour256\n\tarcfour128\n\taes128-cbc\n\t3des-cbc\n\tblowfish-cbc\n\tcast128-cbc\n\taes192-cbc\n\taes256-cbc\n\tarcfour\n\trijndael-cbc@lysator.liu.se\n\nMAC Algorithms:\n\thmac-md5\n\thmac-sha1\n\tumac-64@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-ripemd160\n\thmac-ripemd160@openssh.com\n\thmac-sha1-96\n\thmac-md5-96\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.8.0\r\nDate: Sat, 30 Nov 2024 04:27:59 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nX-Powered-By: PHP/5.5.29\r\nSet-Cookie: csrf_test_name=dd49b17d70ae34ab1c4cd3fdd553fe0cf205e220910aa994f4c5192890da6e8905b0db74cc844dce99227e25836c03550a948b002adf8259eea4800f113f0577; path=/\r\nSet-Cookie: fueldid=H3mExbmMn7JKdzaXS0cxbtOp1kUzsp18fUKDZPxWMxKMMG0Up7845x4tCMY1joQDdSlpjRrma9wDgr-AwdztlXBFQmxNTTkxTXdlV2d5OE9fb3otZWpVMXpYYS1zZTdpTEVuaDIwdE1TOGM; expires=Sat, 30-Nov-2024 06:27:59 GMT; Max-Age=7200; path=/; domain=183.177.132.157\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "183.177.132.157"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:16.062Z",
-        "updated_at": "2024-12-02T17:45:16.085Z",
+        "updated_at": "2024-12-02T17:52:12.123Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3339,16 +3502,35 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "93405f37-1740-4912-bdab-a6c6c07e6bf6",
+                "value": "database",
+                "color": "#7b11a9",
+                "createdById": null
+            }
+        ],
         "observable_value": "185.39.31.43",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Latitude.sh\n\n**OS:** -\n\n--------------------------\nServices:\n\n**21:**\n```\n220 ProFTPD Server (Debian) [::ffff:185.39.31.43]\r\n530 Login incorrect.\r\n214-The following commands are recognized (* =>'s unimplemented):\n214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    \n214-EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     \n214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    \n214-NOOP    FEAT    OPTS    HOST    CLNT    AUTH*   CCC*    CONF*   \n214-ENC*    MIC*    PBSZ*   PROT*   TYPE    STRU    MODE    RETR    \n214-STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   \n214-REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    \n214 Direct comments to root@0.0.0.0\r\n211-Features:\n211-CLNT\n211-EPRT\n211-EPSV\n211-HOST\n211-LANG en-US.UTF-8;en-US\n211-MDTM\n211-MFF modify;UNIX.group;UNIX.mode;\n211-MFMT\n211-MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;\n211-REST STREAM\n211-SITE COPY\n211-SITE MKDIR\n211-SITE RMDIR\n211-SITE SYMLINK\n211-SITE UTIME\n211-SIZE\n211-TVFS\n211-UTF8\n211 End\n```\n------------------\n**25:**\n```\n220 votev160772.vds ESMTP Exim 4.93 Ubuntu Wed, 20 Nov 2024 15:46:12 +0000\r\n250-votev160772.vds Hello 224.238.147.3 [224.238.147.3]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-AUTH LOGIN PLAIN\r\n250-CHUNKING\r\n250-STARTTLS\r\n250-SMTPUTF8\r\n250 HELP\n```\n------------------\n**80:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx/1.26.2\r\nDate: Sat, 23 Nov 2024 10:44:14 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: keep-alive\r\nLocation: https://185.39.31.43:8888/\n```\n------------------\n**143:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx/1.26.2\r\nDate: Wed, 27 Nov 2024 06:51:11 GMT\r\nContent-Type: text/html\r\nContent-Length: 38218\r\nLast-Modified: Tue, 05 Nov 2024 14:21:32 GMT\r\nConnection: keep-alive\r\nETag: \"672a29ec-954a\"\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-XSS-Protection: 1; mode=block\r\nAccept-Ranges: bytes\n```\nHEARTBLEED: 2024/11/27 06:51:21 185.39.31.43:443 - SAFE\n\n------------------\n**587:**\n```\n220 votev160772.vds ESMTP Exim 4.93 Ubuntu Tue, 12 Nov 2024 13:49:03 +0000\r\n250-votev160772.vds Hello 224.252.196.98 [224.252.196.98]\r\n250-SIZE 52428800\r\n250-8BITMIME\r\n250-PIPELINING\r\n250-AUTH LOGIN PLAIN\r\n250-CHUNKING\r\n250-STARTTLS\r\n250-SMTPUTF8\r\n250 HELP\n```\n------------------\n**993:**\n```\n\n```\n------------------\n**995:**\n```\n+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN LOGIN\r\n.\n```\nHEARTBLEED: 2024/11/30 08:52:48 185.39.31.43:995 - SAFE\n\n------------------\n**2222:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDZQfNhdpcaYOC7Qor3IzTgY2MmmAiiayphNkXgFvgS/o1T\n5X6qFS1ZUl9wZxs0X/hfhkgOwxK+f10LCrhT/Oik0Z4QlvmujoeOaD3aqE4Xm8BqQltxXttS7R4i\nqT7ImOtcIEt+PcFriNSkG33zW4uUqcCmads00rh3FNRdtWH0cVPETwizLkmVpK3xXR1e762HIqdI\nl9T0XneUq7TtCFojOjoiAfbj0++ca+eTaSViAxa73O3k2qAy3O5R6XJqXNibjnvmM+gUJ0EGE4/6\nR177REuUuN8IMqY7shxjp/AI1E/q/9hHsjr/zsR8eCE2DWXVKVv1QxoXtoJMyZ2QGAess+5+6q9L\nYJ4ZImLvht61s/zW8qh53Rd8Sf1cM88hc5z0Eb4lt/AWAN/ZdhTtkBNNsvDfKvGkyLd+tI7N3rO9\nUtZPu9dA9QziXIYa9fEM7WJYPeiUl+h4S8jRrbhpBD3PDW7XMm4K2+TORkAwWbDIj6lTh70GOM78\n2bBoe9RAilM=\nFingerprint: 11:05:f5:f4:81:5a:4f:dc:c0:9f:2a:a4:a6:39:8d:c9\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**3306:**\n```\nMySQL:\n  Protocol Version: 10\n  Version: 8.0.39\n  Capabilities: 65535\n  Server Language: 255\n  Server Status: 2\n  Extended Server Capabilities: 57343\n  Authentication Plugin: mysql_native_password\n```\n------------------\n**7777:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Sat, 23 Nov 2024 10:10:01 GMT\r\nContent-Type: text/html\r\nContent-Length: 612\r\nLast-Modified: Mon, 24 Jun 2024 08:42:21 GMT\r\nConnection: keep-alive\r\nETag: \"6679316d-264\"\r\nAccept-Ranges: bytes\n```\n------------------\n**8888:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nServer: nginx\r\nDate: Sat, 23 Nov 2024 11:23:59 GMT\r\nContent-Type: text/html\r\nContent-Length: 138\r\nConnection: close\r\nLocation: https://185.39.31.43:8888/\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "185.39.31.43"
     },
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:16.719Z",
-        "updated_at": "2024-12-02T17:45:16.825Z",
+        "updated_at": "2024-12-02T17:55:37.576Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3363,10 +3545,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "d8fc44bc-08d4-4800-bbba-f21a1eada8c3",
+                "value": "eol-os",
+                "color": "#8f76a7",
+                "createdById": null
+            }
+        ],
         "observable_value": "185.255.212.170",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** ET VESELIN JELQZKOV\n\n**OS:** Windows (build 6.1.7601)\n\n--------------------------\nServices:\n\n**83:**\n```\nHTTP/1.1 200 OK\r\nServer:Cross Web Server\r\nContent-length: 3233\r\nContent-type: text/html\n```\n------------------\n**2000:**\n```\n\\x01\\x00\\x00\\x00\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\t\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 7/Windows Server 2008 R2\n  OS Build: 6.1.7601\n  Target Name: SERVER08\n  NetBIOS Domain Name: SERVER08\n  NetBIOS Computer Name: SERVER08\n  DNS Domain Name: Server08\n  FQDN: Server08\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "185.255.212.170"
     },
     {
@@ -3396,7 +3591,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:18.141Z",
-        "updated_at": "2024-12-02T17:45:18.246Z",
+        "updated_at": "2024-12-02T17:55:42.955Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3413,8 +3608,8 @@
         ],
         "objectLabel": [],
         "observable_value": "186.93.1.248",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** CANTV Servicios, Venezuela\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-dropbear_0.50\\r\\n\n```\n------------------\n**80:**\n```\nHTTP/1.1 200 OK\r\nServer: Mini web server 1.0 ZTE corp 2005.\r\nContent-Type: text/html; charset=gb2312\r\nAccept-Ranges: bytes\r\nConnection: close\r\nCache-Control: no-cache,no-store\r\nContent-Length: 14728\n```\n------------------\n**443:**\n```\nHTTP/1.1 200 OK\r\nServer: Mini web server 1.0 ZTE corp 2005.\r\nContent-Type: text/html; charset=gb2312\r\nAccept-Ranges: bytes\r\nConnection: close\r\nCache-Control: no-cache,no-store\r\nContent-Length: 14728\n```\nHEARTBLEED: 2024/11/28 19:23:46 186.93.1.248:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
         "value": "186.93.1.248"
     },
     {
@@ -3468,7 +3663,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:19.579Z",
-        "updated_at": "2024-12-02T17:45:19.633Z",
+        "updated_at": "2024-12-02T17:55:50.712Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3483,10 +3678,23 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "b366ed23-491d-49b6-b364-31e94578692f",
+                "value": "starttls",
+                "color": "#59097d",
+                "createdById": null
+            },
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            }
+        ],
         "observable_value": "193.31.28.20",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Dominic Scholz trading as ITP-Solutions GmbH & Co. KG\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBExfKfraj6GEmfABAu140qzY\nMAi5vWrHLV2r0EqzJW1sXjFT0XWzjm+rxqeF4a46VReq4NctjjdPRrh8hDTSXjQ=\nFingerprint: 28:bd:d5:68:83:5d:34:b2:e4:33:d7:22:ca:79:ce:17\n\nKex Algorithms:\n\tsntrup761x25519-sha512@openssh.com\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 301 Moved Permanently\r\nDate: Sat, 30 Nov 2024 19:52:39 GMT\r\nServer: Apache\r\nLocation: https://easy-wi.dsa-roleplay.de/\r\nContent-Length: 240\r\nContent-Type: text/html; charset=iso-8859-1\n```\n------------------\n**110:**\n```\n+OK Dovecot (Debian) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nSTLS\r\nSASL\r\n.\n```\n------------------\n**443:**\n```\nSSL Error: TLSV1_UNRECOGNIZED_NAME\n```\n------------------\n**465:**\n```\n220 panel.dsa-roleplay.de ESMTP Postfix (Debian/GNU)\r\n250-panel.dsa-roleplay.de\r\n250-PIPELINING\r\n250-SIZE 10240000\r\n250-ETRN\r\n250-AUTH DIGEST-MD5 CRAM-MD5 PLAIN LOGIN\r\n250-ENHANCEDSTATUSCODES\r\n250-8BITMIME\r\n250-DSN\r\n250 CHUNKING\n```\nHEARTBLEED: 2024/11/26 22:39:19 193.31.28.20:465 - SAFE\n\n------------------\n**993:**\n```\n* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot (Debian) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\n```\nHEARTBLEED: 2024/11/26 13:20:31 193.31.28.20:993 - SAFE\n\n------------------\n**8443:**\n```\nHTTP/1.1 200 OK\r\nServer: nginx\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nCache-Control: max-age=0, must-revalidate, private\r\nDate: Wed, 13 Nov 2024 04:00:51 GMT\r\nExpires: Wed, 13 Nov 2024 04:00:51 GMT\r\nSet-Cookie: locale=en; path=/; secure; httponly; samesite=lax\r\nSet-Cookie: cloudpanel=3ulabkvvdme3052v3c9s214cm9; path=/; secure; httponly; samesite=lax\n```\nHEARTBLEED: 2024/11/13 04:01:05 193.31.28.20:8443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
         "value": "193.31.28.20"
     },
     {
@@ -3516,7 +3724,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:20.853Z",
-        "updated_at": "2024-12-02T17:45:20.943Z",
+        "updated_at": "2024-12-02T17:55:59.126Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3533,8 +3741,8 @@
         ],
         "objectLabel": [],
         "observable_value": "198.235.24.6",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** Google LLC\n\n**OS:** -\n\n--------------------------\nServices:\n\n**123:**\n```\nNTP\nprotocolversion: 3\nstratum: 3\nleap: 0\nprecision: -23\nrootdelay: 0.000106811523438\nrootdisp: 0.0429840087891\nrefid: 2852039166\nreftime: 3941973090.62\npoll: 3\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "198.235.24.6"
     },
     {
@@ -3588,7 +3796,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:22.806Z",
-        "updated_at": "2024-12-02T17:45:22.855Z",
+        "updated_at": "2024-12-02T17:55:59.980Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3603,10 +3811,35 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "82072352-7dbe-4d17-af74-1b0ced596e4a",
+                "value": "self-signed",
+                "color": "#bd7cfa",
+                "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
+            },
+            {
+                "id": "93405f37-1740-4912-bdab-a6c6c07e6bf6",
+                "value": "database",
+                "color": "#7b11a9",
+                "createdById": null
+            },
+            {
+                "id": "d8fc44bc-08d4-4800-bbba-f21a1eada8c3",
+                "value": "eol-os",
+                "color": "#8f76a7",
+                "createdById": null
+            }
+        ],
         "observable_value": "201.49.20.99",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** SECRELNET INFORMATICA LTDA\n\n**OS:** Windows\n\n--------------------------\nServices:\n\n**21:**\n```\n220 Microsoft FTP Service\r\n530 User cannot log in.\r\n214-The following commands are recognized (* ==>'s unimplemented).\n    ABOR \n    ACCT \n    ADAT *\n    ALLO \n    APPE \n    AUTH \n    CCC \n    CDUP \n    CWD \n    DELE \n    ENC *\n    EPRT \n    EPSV \n    FEAT \n    HELP \n    HOST \n    LANG \n    LIST \n    MDTM \n    MIC *\n    MKD \n    MODE \n    NLST \n    NOOP \n    OPTS \n    PASS \n    PASV \n    PBSZ \n    PORT \n    PROT \n    PWD \n    QUIT \n    REIN \n    REST \n    RETR \n    RMD \n    RNFR \n    RNTO \n    SITE \n    SIZE \n    SMNT \n    STAT \n    STOR \n    STOU \n    STRU \n    SYST \n    TYPE \n    USER \n    XCUP \n    XCWD \n    XMKD \n    XPWD \n    XRMD \n214 HELP command successful.\r\n211-Extended features supported:\n LANG EN*\n UTF8\n AUTH TLS;TLS-C;SSL;TLS-P;\n PBSZ\n PROT C;P;\n CCC\n HOST\n SIZE\n MDTM\n REST STREAM\n211 END\n```\n------------------\n**80:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nContent-Type: text/html; charset=UTF-8\r\nLocation: http://www.bgmsistemas.com.br\r\nServer: Microsoft-IIS/7.5\r\nX-Powered-By: PHP/5.3.19\r\nX-Powered-By: ASP.NET\r\nDate: Fri, 29 Nov 2024 16:00:18 GMT\r\nContent-Length: 152\n```\n------------------\n**135:**\n```\nMicrosoft RPC Endpoint Mapper\n\nd95afe70-a6d5-4259-822e-2c84da1ddb0d\n  version: v1.0\n  protocol: [MS-RSP]: Remote Shutdown Protocol\n  provider: wininit.exe\n  ncacn_ip_tcp: 201.49.20.99:49152\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\CLI99\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc073970\n\n76f226c3-ec14-4325-8a99-6a46348418af\n  version: v1.0\n  provider: winlogon.exe\n  ncalrpc: WindowsShutdown\n  ncacn_np: \\\\CLI99\\PIPE\\InitShutdown\n  ncalrpc: WMsgKRpc073970\n  ncalrpc: WMsgKRpc074881\n  ncalrpc: WMsgKRpc02830482\n  ncalrpc: WMsgKRpc0C818943\n\nc9ac6db5-82b7-4e55-ae8a-e464ed7b4277\n  version: v1.0\n  annotation: Impl friendly name\n  provider: sysntfy.dll\n  ncalrpc: LRPC-8e41f14c8a559479ca\n  ncacn_np: \\\\CLI99\\PIPE\\srvsvc\n  ncacn_ip_tcp: 201.49.20.99:49154\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n  ncalrpc: IUserProfile2\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5\n  version: v1.0\n  annotation: DHCP Client LRPC Endpoint\n  provider: dhcpcsvc.dll\n  ncalrpc: dhcpcsvc\n  ncalrpc: dhcpcsvc6\n  ncacn_ip_tcp: 201.49.20.99:49153\n  ncacn_np: \\\\CLI99\\pipe\\eventlog\n  ncalrpc: eventlog\n\n3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6\n  version: v1.0\n  annotation: DHCPv6 Client LRPC Endpoint\n  provider: dhcpcsvc6.dll\n  ncalrpc: dhcpcsvc6\n  ncacn_ip_tcp: 201.49.20.99:49153\n  ncacn_np: \\\\CLI99\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30adc50c-5cbc-46ce-9a0e-91914789e23c\n  version: v1.0\n  annotation: NRP server endpoint\n  provider: nrpsrv.dll\n  ncacn_ip_tcp: 201.49.20.99:49153\n  ncacn_np: \\\\CLI99\\pipe\\eventlog\n  ncalrpc: eventlog\n\nf6beaff7-1e19-4fbb-9f8f-b89e2018337c\n  version: v1.0\n  annotation: Event log TCPIP\n  protocol: [MS-EVEN6]: EventLog Remoting Protocol\n  provider: wevtsvc.dll\n  ncacn_ip_tcp: 201.49.20.99:49153\n  ncacn_np: \\\\CLI99\\pipe\\eventlog\n  ncalrpc: eventlog\n\n30b044a5-a225-43f0-b3a4-e060df91f9c1\n  version: v1.0\n  provider: certprop.dll\n  ncacn_np: \\\\CLI99\\PIPE\\srvsvc\n  ncacn_ip_tcp: 201.49.20.99:49154\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n98716d03-89ac-44c7-bb8c-285824e51c4a\n  version: v1.0\n  annotation: XactSrv service\n  provider: srvsvc.dll\n  ncacn_ip_tcp: 201.49.20.99:49154\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n552d076a-cb29-4e44-8b6a-d15e59e2c0af\n  version: v1.0\n  annotation: IP Transition Configuration endpoint\n  provider: iphlpsvc.dll\n  ncacn_ip_tcp: 201.49.20.99:49154\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\na398e520-d59a-4bdd-aa7a-3c1e0303a511\n  version: v1.0\n  annotation: IKE/Authip API\n  provider: IKEEXT.DLL\n  ncacn_ip_tcp: 201.49.20.99:49154\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n86d35949-83c9-4044-b424-db363231fd0c\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: schedsvc.dll\n  ncacn_ip_tcp: 201.49.20.99:49154\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n378e52b0-c0a9-11cf-822d-00aa0051e40f\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n1ff70682-0a51-30e8-076d-740be8cee98b\n  version: v1.0\n  protocol: [MS-TSCH]: Task Scheduler Service Remoting Protocol\n  provider: taskcomp.dll\n  ncacn_np: \\\\CLI99\\PIPE\\atsvc\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53\n  version: v1.0\n  provider: schedsvc.dll\n  ncalrpc: senssvc\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n2eb08e3e-639f-4fba-97b1-14f878961076\n  version: v1.0\n  provider: gpsvc.dll\n  ncalrpc: OLEFE9E816006C7437BAF1391F907D9\n  ncalrpc: IUserProfile2\n\n3473dd4d-2e88-4006-9cba-22570909dd10\n  version: v5.256\n  annotation: WinHttp Auto-Proxy Service\n  ncacn_np: \\\\CLI99\\PIPE\\W32TIME_ALT\n  ncalrpc: W32TIME_ALT\n  ncalrpc: LRPC-686e633a9f5a79b9b5\n  ncalrpc: OLE519E88C3AB7F448D88940E89AA6B\n\n7ea70bcf-48af-4f6a-8968-6a440754d5fa\n  version: v1.0\n  annotation: NSI server endpoint\n  provider: nsisvc.dll\n  ncalrpc: LRPC-686e633a9f5a79b9b5\n  ncalrpc: OLE519E88C3AB7F448D88940E89AA6B\n\n24019106-a203-4642-b88d-82dae9158929\n  version: v1.0\n  provider: authui.dll\n  ncalrpc: LRPC-b2fe630c35512fa603\n\n2fb92682-6599-42dc-ae13-bd2ca89bd11c\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-6b4fe104ee31cbd6c0\n\n7f9d11bf-7fb9-436b-a812-b2d50c5d4c03\n  version: v1.0\n  annotation: Fw APIs\n  provider: MPSSVC.dll\n  ncalrpc: LRPC-6b4fe104ee31cbd6c0\n\ndd490425-5325-4565-b774-7e27d6c09c24\n  version: v1.0\n  annotation: Base Firewall Engine API\n  provider: BFE.DLL\n  ncalrpc: LRPC-6b4fe104ee31cbd6c0\n\n4a452661-8290-4b36-8fbe-7f4093a94978\n  version: v1.0\n  annotation: Spooler function endpoint\n  provider: spoolsv.exe\n  ncalrpc: spoolss\n\nae33069b-a2a8-46ee-a235-ddfd339be281\n  version: v1.0\n  annotation: Spooler base remote object endpoint\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncalrpc: spoolss\n\n0b6edbfa-4a24-4fc6-8a23-942b1eca65d1\n  version: v1.0\n  annotation: Spooler function endpoint\n  protocol: [MS-PAN]: Print System Asynchronous Notification Protocol\n  provider: spoolsv.exe\n  ncalrpc: spoolss\n\nf763c91c-2ab1-47fa-868f-7de7efd42194\n  version: v1.0\n  annotation: VM Allow-List Provider RPC\n  ncalrpc: RdvVmAllowListRpc\n  ncalrpc: OLE421D4AEFCD4946C6AB92E87A32AE\n\nb25a52bf-e5dd-4f4a-aea6-8ca7272a0e86\n  version: v1.0\n  annotation: KeyIso\n  provider: keyiso.dll\n  ncacn_ip_tcp: 201.49.20.99:49163\n  ncalrpc: efslrpc\n  ncacn_np: \\\\CLI99\\pipe\\efsrpc\n  ncalrpc: samss lpc\n  ncalrpc: dsrole\n  ncacn_np: \\\\CLI99\\PIPE\\protected_storage\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncalrpc: LRPC-8f79b51a592ed4b456\n  ncacn_np: \\\\CLI99\\pipe\\lsass\n\n12345778-1234-abcd-ef00-0123456789ac\n  version: v1.0\n  protocol: [MS-SAMR]: Security Account Manager (SAM) Remote Protocol\n  provider: samsrv.dll\n  ncacn_ip_tcp: 201.49.20.99:49163\n  ncalrpc: efslrpc\n  ncacn_np: \\\\CLI99\\pipe\\efsrpc\n  ncalrpc: samss lpc\n  ncalrpc: dsrole\n  ncacn_np: \\\\CLI99\\PIPE\\protected_storage\n  ncalrpc: protected_storage\n  ncalrpc: lsasspirpc\n  ncalrpc: lsapolicylookup\n  ncalrpc: LSARPC_ENDPOINT\n  ncalrpc: securityevent\n  ncalrpc: audit\n  ncalrpc: LRPC-8f79b51a592ed4b456\n  ncacn_np: \\\\CLI99\\pipe\\lsass\n\n367abb81-9844-35f1-ad32-98f038001003\n  version: v2.0\n  protocol: [MS-SCMR]: Service Control Manager Remote Protocol\n  provider: services.exe\n  ncacn_ip_tcp: 201.49.20.99:63825\n\n12345678-1234-abcd-ef00-0123456789ab\n  version: v1.0\n  annotation: IPSec Policy agent endpoint\n  protocol: [MS-RPRN]: Print System Remote Protocol\n  provider: spoolsv.exe\n  ncalrpc: LRPC-bbe5d20a0c3311440d\n  ncacn_ip_tcp: 201.49.20.99:64322\n\n6b5bdd1e-528c-422c-af8c-a4079be4fe48\n  version: v1.0\n  annotation: Remote Fw APIs\n  protocol: [MS-FASP]: Firewall and Advanced Security Protocol\n  provider: FwRemoteSvr.dll\n  ncacn_ip_tcp: 201.49.20.99:64322\n\n906b0ce0-c70b-1067-b317-00dd010662da\n  version: v1.0\n  protocol: [MS-CMPO]: MSDTC Connection Manager:\n  provider: msdtcprx.dll\n  ncalrpc: LRPC-39314aa0b97f05d94f\n  ncalrpc: LRPC-39314aa0b97f05d94f\n  ncalrpc: LRPC-39314aa0b97f05d94f\n  ncalrpc: LRPC-39314aa0b97f05d94f\n\n12e65dd8-887f-41ef-91bf-8d816c42c2e7\n  version: v1.0\n  annotation: Secure Desktop LRPC interface\n  provider: winlogon.exe\n  ncalrpc: WMsgKRpc02830482\n  ncalrpc: WMsgKRpc0C818943\n```\n------------------\n**443:**\n```\nHTTP/1.1 302 Moved Temporarily\r\nContent-Type: text/html; charset=UTF-8\r\nLocation: http://www.bgmsistemas.com.br\r\nServer: Microsoft-IIS/7.5\r\nX-Powered-By: PHP/5.3.19\r\nX-Powered-By: ASP.NET\r\nDate: Sat, 30 Nov 2024 11:26:50 GMT\r\nContent-Length: 152\n```\nHEARTBLEED: 2024/11/30 11:27:35 201.49.20.99:443 - ERROR: write tcp 201.49.20.99:443: broken pipe\n\n------------------\n**1024:**\n```\nHTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: text/html\r\nContent-Length: 11999\r\nServer: Indy/9.00.10\n```\n------------------\n**3306:**\n```\nMySQL:\n  Error Message: Host '224.240.126.237' is not allowed to connect to this MySQL server\n  Error Code: 1130\n```\n------------------\n**3389:**\n```\nRemote Desktop Protocol\n\\x03\\x00\\x00\\x13\\x0e\\xd0\\x00\\x00\\x124\\x00\\x02\\t\\x08\\x00\\x02\\x00\\x00\\x00\nRemote Desktop Protocol NTLM Info:\n  OS: Windows 7/Windows Server 2008 R2\n  OS Build: 6.1.7601\n  Target Name: CLI99\n  NetBIOS Domain Name: CLI99\n  NetBIOS Computer Name: CLI99\n  DNS Domain Name: CLI99\n  FQDN: CLI99\n```\n------------------\n**5432:**\n```\nPostgreSQL\nfe_sendauth: no password supplied\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "201.49.20.99"
     },
     {
@@ -3636,7 +3869,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-02T17:45:22.827Z",
-        "updated_at": "2024-12-02T17:45:23.079Z",
+        "updated_at": "2024-12-02T17:58:43.336Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -3651,10 +3884,17 @@
                 "createdById": null
             }
         ],
-        "objectLabel": [],
+        "objectLabel": [
+            {
+                "id": "ff66825f-f034-4e05-88c4-c48bc00d2d14",
+                "value": "scanner",
+                "color": "#fef5e6",
+                "createdById": null
+            }
+        ],
         "observable_value": "202.112.238.240",
-        "x_opencti_description": "binarydefense IP",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** China Education and Research Network Center\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQCiToi3UU+Spl8CHfAcEa/vmZDtrCnAA85JqL1CTdBZUHfU\n05BHgFRnfGP2rLAFbvv829TIcofyotUH/zdv01/UczDLOOJbcou0kV2lVbUH46ZFkMpRJC7Fpf5G\nIpAYmYMWB5D+nvwoz9+cvkJQDguXv+6G6WeiDBqCVwPolcSS+ubh6Z78+9D+m0PdJaY2eS6JcLl2\nYdTbDhm++mXUC5Hhj5EYEXFM6Mr9JtzSj2guPK+jhoK6So/0j1ErFClYTiFJqXhHWYIH4IPNqRyo\n2C5iRY+tEVIqebTEzK/2atsybvYwP6Y58vdXu4pewcTbscrQPuoKu0pNt0FQEsvmBpgCrapaEOJA\nE2FC2Lhkwcf9swGZXVU8fYLLFjT1IlHS4jdbG2Cv8KS3cJAzJqeP6K5ugpEH6O0Y6HLU1RwKbo42\nBiCg/b9IqBdErCymvj8oHobGhiLC0xitPYWcUeBY8+QEN6fs1XEGhOZnftUyrih25FIRjkbb/wPQ\nGd5bkQwV6ic=\nFingerprint: a9:44:69:f7:e3:32:df:05:46:a2:b4:9e:98:db:84:94\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tdiffie-hellman-group14-sha256\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tssh-rsa\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\tchacha20-poly1305@openssh.com\n\taes128-ctr\n\taes192-ctr\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes256-gcm@openssh.com\n\nMAC Algorithms:\n\tumac-64-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-64@openssh.com\n\tumac-128@openssh.com\n\thmac-sha2-256\n\thmac-sha2-512\n\thmac-sha1\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**631:**\n```\nHTTP/1.1 403 Forbidden\r\nConnection: close\r\nContent-Language: en\r\nContent-Length: 371\r\nContent-Type: text/html; charset=utf-8\r\nDate: Mon, 25 Nov 2024 15:38:42 GMT\r\nAccept-Encoding: gzip, deflate, identity\r\nServer: CUPS/2.4 IPP/2.1\r\nX-Frame-Options: DENY\r\nContent-Security-Policy: frame-ancestors 'none'\n```\n------------------\n**8080:**\n```\nHTTP/1.1 404 Not Found\r\nContent-Type: text/plain; charset=utf-8\r\nX-Content-Type-Options: nosniff\r\nDate: Mon, 25 Nov 2024 09:22:50 GMT\r\nContent-Length: 19\n```\n------------------",
+        "x_opencti_score": 50,
         "value": "202.112.238.240"
     },
     {
