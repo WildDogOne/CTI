@@ -8286,4 +8286,106 @@ SES
 ```
 ------------------","50"
 "2024-12-04T19:38:09.181Z","IPv4-Addr","osint,ssl-blacklist","TLP:CLEAR","188.119.66.185","2024-12-04T19:38:09.455Z","188.119.66.185","Malicious SSL connections",""
-"2024-12-04T19:38:10.174Z","IPv4-Addr","osint,ssl-blacklist","TLP:CLEAR","45.155.249.212","2024-12-04T19:38:10.396Z","45.155.249.212","Malicious SSL connections",""
+"2024-12-04T19:38:10.174Z","IPv4-Addr","osint,ssl-blacklist,eol-product","TLP:CLEAR","45.155.249.212","2024-12-04T19:38:45.128Z","45.155.249.212","**ISP:** servinga GmbH
+
+**OS:** -
+
+--------------------------
+Services:
+
+**22:**
+```
+SSH-2.0-OpenSSH_8.7
+Key type: ecdsa-sha2-nistp256
+Key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLxrH01o+7OQM5R1wYEs0jmE
+OoG/Wrzur3E6bVUE8+qc/yTDASHGWlrB/Odrw+y+atsa8/BLNFootAaZKYJG2EI=
+Fingerprint: ed:74:d3:73:7f:45:69:35:11:b0:99:82:5a:12:08:4e
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group14-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	kex-strict-s-v00@openssh.com
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes256-gcm@openssh.com
+	chacha20-poly1305@openssh.com
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes128-ctr
+
+MAC Algorithms:
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha2-256
+	hmac-sha1
+	umac-128@openssh.com
+	hmac-sha2-512
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+```
+------------------
+**80:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx/1.20.1
+Date: Tue, 19 Nov 2024 07:20:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.33
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------
+**111:**
+```
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111
+```
+------------------
+**443:**
+```
+HTTP/1.1 404 Not Found
+Server: nginx/1.20.1
+Date: Sat, 30 Nov 2024 05:50:02 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.33
+```
+HEARTBLEED: 2024/11/30 05:50:12 45.155.249.212:443 - SAFE
+
+------------------","50"

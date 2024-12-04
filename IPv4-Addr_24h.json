@@ -5207,7 +5207,7 @@
     {
         "entity_type": "IPv4-Addr",
         "created_at": "2024-12-04T19:38:10.174Z",
-        "updated_at": "2024-12-04T19:38:10.396Z",
+        "updated_at": "2024-12-04T19:38:45.128Z",
         "objectMarking": [
             {
                 "id": "5099de8b-f185-46c7-a4cc-32585f0d3363",
@@ -5234,11 +5234,17 @@
                 "value": "ssl-blacklist",
                 "color": "#9caa81",
                 "createdById": null
+            },
+            {
+                "id": "35272944-2281-491b-aaf0-833292d41929",
+                "value": "eol-product",
+                "color": "#241714",
+                "createdById": null
             }
         ],
         "observable_value": "45.155.249.212",
-        "x_opencti_description": "Malicious SSL connections",
-        "x_opencti_score": null,
+        "x_opencti_description": "**ISP:** servinga GmbH\n\n**OS:** -\n\n--------------------------\nServices:\n\n**22:**\n```\nSSH-2.0-OpenSSH_8.7\nKey type: ecdsa-sha2-nistp256\nKey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLxrH01o+7OQM5R1wYEs0jmE\nOoG/Wrzur3E6bVUE8+qc/yTDASHGWlrB/Odrw+y+atsa8/BLNFootAaZKYJG2EI=\nFingerprint: ed:74:d3:73:7f:45:69:35:11:b0:99:82:5a:12:08:4e\n\nKex Algorithms:\n\tcurve25519-sha256\n\tcurve25519-sha256@libssh.org\n\tecdh-sha2-nistp256\n\tecdh-sha2-nistp384\n\tecdh-sha2-nistp521\n\tdiffie-hellman-group-exchange-sha256\n\tdiffie-hellman-group14-sha256\n\tdiffie-hellman-group16-sha512\n\tdiffie-hellman-group18-sha512\n\tkex-strict-s-v00@openssh.com\n\nServer Host Key Algorithms:\n\trsa-sha2-512\n\trsa-sha2-256\n\tecdsa-sha2-nistp256\n\tssh-ed25519\n\nEncryption Algorithms:\n\taes256-gcm@openssh.com\n\tchacha20-poly1305@openssh.com\n\taes256-ctr\n\taes128-gcm@openssh.com\n\taes128-ctr\n\nMAC Algorithms:\n\thmac-sha2-256-etm@openssh.com\n\thmac-sha1-etm@openssh.com\n\tumac-128-etm@openssh.com\n\thmac-sha2-512-etm@openssh.com\n\thmac-sha2-256\n\thmac-sha1\n\tumac-128@openssh.com\n\thmac-sha2-512\n\nCompression Algorithms:\n\tnone\n\tzlib@openssh.com\n```\n------------------\n**80:**\n```\nHTTP/1.1 404 Not Found\r\nServer: nginx/1.20.1\r\nDate: Tue, 19 Nov 2024 07:20:08 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nX-Powered-By: PHP/7.4.33\n```\n------------------\n**111:**\n```\nPortmap\nProgram\tVersion\tProtocol\tPort\nportmapper\t4\ttcp\t111\nportmapper\t3\ttcp\t111\nportmapper\t2\ttcp\t111\nportmapper\t4\tudp\t111\nportmapper\t3\tudp\t111\nportmapper\t2\tudp\t111\n```\n------------------\n**111:**\n```\nPortmap\nProgram\tVersion\tProtocol\tPort\nportmapper\t4\ttcp\t111\nportmapper\t3\ttcp\t111\nportmapper\t2\ttcp\t111\nportmapper\t4\tudp\t111\nportmapper\t3\tudp\t111\nportmapper\t2\tudp\t111\n```\n------------------\n**443:**\n```\nHTTP/1.1 404 Not Found\r\nServer: nginx/1.20.1\r\nDate: Sat, 30 Nov 2024 05:50:02 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nX-Powered-By: PHP/7.4.33\n```\nHEARTBLEED: 2024/11/30 05:50:12 45.155.249.212:443 - SAFE\n\n------------------",
+        "x_opencti_score": 50,
         "value": "45.155.249.212"
     }
 ]
